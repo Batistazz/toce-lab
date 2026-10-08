@@ -2010,6 +2010,996 @@
       "correta": 1,
       "comentario": "Manipular a pelve repetidamente pode deslocar o coágulo e piorar o sangramento. Uma palpação suave basta. Com sangue no meato, não se passa sonda uretral antes da uretrografia, e a palpação da próstata não é sinal confiável.",
       "fonte": "ATLS 11, cap. 21"
+    },
+    {
+      "id": "q-queim-31",
+      "resumo": "queimaduras",
+      "sessao": "s08",
+      "enunciado": "Adulto de 75 kg sofreu queimaduras de segundo grau em 24% da SCQ há 2 horas e ainda não recebeu líquidos. Pela Parkland clássica, qual vazão de Ringer lactato repõe a primeira metade no tempo restante?",
+      "alternativas": [
+        "600 mL/h durante as próximas 6 horas",
+        "450 mL/h durante as próximas 8 horas",
+        "300 mL/h durante as próximas 6 horas",
+        "600 mL/h durante as próximas 8 horas"
+      ],
+      "correta": 0,
+      "comentario": "Parkland: 4 × 75 × 24 = 7.200 mL/24 h; a primeira metade é 3.600 mL até 8 horas após a queimadura. Restam 6 horas: 3.600/6 = 600 mL/h. É estimativa inicial, titulada pela resposta clínica.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 9, Thermal Injuries"
+    },
+    {
+      "id": "q-queim-32",
+      "resumo": "queimaduras",
+      "sessao": "s08",
+      "enunciado": "Paciente de 13 anos, 50 kg, tem queimadura térmica de segundo grau em 20% da SCQ. Pela tabela etária do ATLS 11 apresentada na apostila, qual volume estimado de 24 horas e vazão inicial ajustada?",
+      "alternativas": [
+        "3.000 mL e 187,5 mL/h",
+        "2.000 mL e 125 mL/h",
+        "4.000 mL e 250 mL/h",
+        "2.000 mL e 250 mL/h"
+      ],
+      "correta": 1,
+      "comentario": "A partir de 13 anos, a estimativa térmica usa 2 mL × kg × %SCQ: 2 × 50 × 20 = 2.000 mL/24 h. Na apostila, divide-se por 16 para obter 125 mL/h, depois se titula pela diurese.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 9, Thermal Injuries"
+    },
+    {
+      "id": "q-queim-33",
+      "resumo": "queimaduras",
+      "sessao": "s08",
+      "enunciado": "Criança de 10 anos e 25 kg tem queimadura térmica parcial em 24% da SCQ e entra em reposição formal. Qual conjunto segue a estimativa inicial e a meta urinária da apostila?",
+      "alternativas": [
+        "1.200 mL/24 h, sem manutenção, e diurese de 12,5 mL/h",
+        "1.800 mL/24 h, sem manutenção, e diurese de 12,5 mL/h",
+        "1.800 mL/24 h, mais manutenção com glicose, e diurese de 25 mL/h",
+        "2.400 mL/24 h, mais manutenção com glicose, e diurese de 50 mL/h"
+      ],
+      "correta": 2,
+      "comentario": "Em menores de 13 anos, 3 × 25 × 24 = 1.800 mL de RL estimados em 24 h. Até 30 kg, acrescenta-se manutenção com glicose; a meta de diurese é 1 mL/kg/h = 25 mL/h.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 9, Thermal Injuries"
+    },
+    {
+      "id": "q-queim-34",
+      "resumo": "queimaduras",
+      "sessao": "s08",
+      "enunciado": "Após choque elétrico, adulto de 80 kg tem queimaduras profundas em 30% da SCQ e urina escura. Segundo a estimativa da apostila, qual par de volume de 24 horas e diurese horária deve guiar o início da ressuscitação?",
+      "alternativas": [
+        "4.800 mL e 40 mL/h",
+        "9.600 mL e 40 mL/h",
+        "4.800 mL e 80–120 mL/h",
+        "9.600 mL e 80–120 mL/h até a urina clarear"
+      ],
+      "correta": 3,
+      "comentario": "Na lesão elétrica, a estimativa é 4 × 80 × 30 = 9.600 mL/24 h. A meta inicial de diurese é 1–1,5 mL/kg/h, ou 80–120 mL/h, até a urina clarear; o volume deve ser titulado.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 9, Thermal Injuries"
+    },
+    {
+      "id": "q-queim-35",
+      "resumo": "queimaduras",
+      "sessao": "s08",
+      "enunciado": "Adulto normotenso tem escaldadura de espessura parcial em 18% da SCQ, sem lesão elétrica nem outra perda de volume. Qual decisão sobre a fórmula de ressuscitação é adequada?",
+      "alternativas": [
+        "Não iniciar reposição formal baseada em SCQ; manter avaliação e reavaliar a perfusão",
+        "Aplicar Parkland porque qualquer queimadura com bolhas exige fórmula",
+        "Somar áreas eritematosas de primeiro grau até alcançar 20%",
+        "Administrar bolus repetidos até a diurese ultrapassar 1,5 mL/kg/h"
+      ],
+      "correta": 0,
+      "comentario": "Na apostila, a reposição formal pela fórmula é indicada para queimaduras de segundo ou terceiro grau com pelo menos 20% da SCQ. Abaixo disso, a necessidade de líquidos segue o estado clínico, e a área de primeiro grau não entra na SCQ.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 9, Thermal Injuries"
+    },
+    {
+      "id": "q-queim-36",
+      "resumo": "queimaduras",
+      "sessao": "s08",
+      "enunciado": "Adulto de 70 kg em reposição por queimadura térmica mantém diurese de 95 mL/h após ajuste inicial, sem outra indicação de aporte elevado. Qual é a próxima mudança de vazão prevista na apostila?",
+      "alternativas": [
+        "Manter a vazão porque qualquer diurese acima de 30 mL/h é aceitável",
+        "Reduzir a vazão em 10–30% e reavaliar na hora seguinte",
+        "Dar bolus de cristaloide para prevenir lesão renal",
+        "Suspender todo o Ringer lactato imediatamente"
+      ],
+      "correta": 1,
+      "comentario": "A meta adulta é aproximadamente 0,5 mL/kg/h (35 mL/h neste caso; faixa prática 30–50 mL/h). Diurese persistentemente acima da meta pede redução de 10–30% da vazão e reavaliação horária, evitando excesso de líquidos.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 9, Thermal Injuries"
+    },
+    {
+      "id": "q-queim-37",
+      "resumo": "queimaduras",
+      "sessao": "s08",
+      "enunciado": "Paciente apresenta queimadura parcial profunda de 2% da SCQ sobre o joelho, com palidez e pouca dor. Apesar da pequena extensão, qual encaminhamento é adequado?",
+      "alternativas": [
+        "Alta sem contato com especialista porque a área é inferior a 10%",
+        "Aguardar necrose completa antes de considerar referência",
+        "Consultar imediatamente um centro de queimados e considerar transferência",
+        "Aplicar antibiótico sistêmico profilático e observar apenas"
+      ],
+      "correta": 2,
+      "comentario": "Queimaduras profundas sobre articulações exigem contato imediato com centro de queimados, mesmo quando a SCQ é pequena. A profundidade e a localização afetam função e necessidade de reconstrução.",
+      "fonte": "American Burn Association. Guidelines for Burn Patient Referral (2022)"
+    },
+    {
+      "id": "q-queim-38",
+      "resumo": "queimaduras",
+      "sessao": "s08",
+      "enunciado": "Uma pequena queimadura superficial parcial no antebraço está aberta e limpa; não há indicação de transferência urgente. Qual cobertura inicial é coerente com a apostila?",
+      "alternativas": [
+        "Gaze aderente seca diretamente sobre o leito",
+        "Antisséptico concentrado sob curativo oclusivo obrigatório",
+        "Deixar descoberta para formar crosta",
+        "Curativo não aderente ou filme plástico, após cuidado local inicial"
+      ],
+      "correta": 3,
+      "comentario": "Para ferida pequena e aberta, a apostila orienta cobertura não aderente ou filme plástico. Isso protege o leito e reduz dor; antisséptico e ruptura rotineira de bolhas não são passos obrigatórios do primeiro atendimento.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 9, Thermal Injuries"
+    },
+    {
+      "id": "q-queim-39",
+      "resumo": "queimaduras",
+      "sessao": "s08",
+      "enunciado": "Vítima de queimadura na mão ainda usa anéis, e os dedos começam a edemaciar. Qual etapa deve ocorrer antes da progressão do edema?",
+      "alternativas": [
+        "Retirar prontamente os anéis e outros adornos",
+        "Aguardar a demarcação da queimadura para retirar os anéis",
+        "Cobrir os anéis com curativo compressivo",
+        "Usar gelo para reduzir o edema antes de tentar retirar"
+      ],
+      "correta": 0,
+      "comentario": "Anéis e adornos devem ser removidos cedo, antes que o edema da queimadura impeça a retirada e comprometa a circulação distal.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 9, Thermal Injuries"
+    },
+    {
+      "id": "q-queim-40",
+      "resumo": "queimaduras",
+      "sessao": "s08",
+      "enunciado": "Após exposição cutânea a álcali líquido, um colega sugere aplicar ácido fraco para neutralizá-lo. Qual resposta e conduta local são corretas?",
+      "alternativas": [
+        "Neutralizar com ácido, depois irrigar por 5 minutos",
+        "Não neutralizar; remover contaminantes e irrigar abundantemente, por tempo prolongado",
+        "Ocluir a área antes de qualquer lavagem",
+        "Escovar a pele por 30 minutos, sem irrigação"
+      ],
+      "correta": 1,
+      "comentario": "Neutralizantes podem produzir reação exotérmica e não trazem vantagem. Depois de retirar a fonte e roupas contaminadas, a medida é irrigação abundante; álcalis podem exigir lavagem mais longa.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 9, Thermal Injuries"
+    },
+    {
+      "id": "q-queim-41",
+      "resumo": "queimaduras",
+      "sessao": "s08",
+      "enunciado": "Uma queimadura de espessura total de 1% no braço está seca, coriácea e insensível. Qual previsão de cicatrização orienta a avaliação cirúrgica?",
+      "alternativas": [
+        "A pele regenera rapidamente a partir da derme íntegra",
+        "Cura em 2–3 semanas, sem cicatriz",
+        "Não regenera espontaneamente; em geral exige enxerto",
+        "A ausência de dor indica apenas lesão epidérmica"
+      ],
+      "correta": 2,
+      "comentario": "Na espessura total, a derme foi destruída e não há regeneração cutânea adequada a partir do leito; a cobertura costuma exigir enxerto. A falta de dor não significa lesão superficial.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 9, Thermal Injuries"
+    },
+    {
+      "id": "q-queim-42",
+      "resumo": "queimaduras",
+      "sessao": "s08",
+      "enunciado": "Paciente com queimadura profunda circunferencial do tórax precisa de liberação por restrição ventilatória. Qual desenho de incisões consta da apostila?",
+      "alternativas": [
+        "Uma incisão mediana esternal isolada",
+        "Incisões apenas na face posterior do tórax",
+        "Uma incisão circular ao redor do pescoço",
+        "Incisões nas linhas axilares anteriores unidas transversalmente na transição toracoabdominal"
+      ],
+      "correta": 3,
+      "comentario": "A escarotomia torácica libera a escara não distensível com incisões nas linhas axilares anteriores, conectadas por uma incisão transversal na transição toracoabdominal, em contato com o centro de queimados.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 9, Thermal Injuries"
+    },
+    {
+      "id": "q-queim-43",
+      "resumo": "queimaduras",
+      "sessao": "s08",
+      "enunciado": "Adulto tem queimadura de segundo grau em todo o dorso, na metade posterior de uma perna e no períneo; há eritema de primeiro grau no braço. Pela regra dos nove, qual SCQ entra no cálculo?",
+      "alternativas": [
+        "28%",
+        "37%",
+        "46%",
+        "19%"
+      ],
+      "correta": 0,
+      "comentario": "Dorso inteiro = 18%; metade posterior de um membro inferior = 9%; períneo = 1%. Somam 28%. O eritema isolado de primeiro grau do braço não entra na SCQ para reposição.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 9, Thermal Injuries"
+    },
+    {
+      "id": "q-queim-44",
+      "resumo": "queimaduras",
+      "sessao": "s08",
+      "enunciado": "Durante a transferência de um queimado extenso normotenso, um profissional propõe bolus de Ringer lactato a cada hora, além da vazão calculada, sem evidência de hipoperfusão. Qual ajuste é mais coerente?",
+      "alternativas": [
+        "Manter bolus fixos, independentemente da diurese",
+        "Evitar bolus sem hipotensão e titular a vazão pela diurese e pela perfusão",
+        "Suspender a monitorização urinária enquanto houver fórmula",
+        "Trocar todo o cristalóide por glicose a 5% no adulto"
+      ],
+      "correta": 1,
+      "comentario": "A fórmula fornece um ponto de partida. A apostila recomenda reavaliação horária e titulação pela diurese, reservando bolus para hipotensão; bolus indiscriminados favorecem excesso de fluidos.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 9, Thermal Injuries"
+    },
+    {
+      "id": "q-queim-45",
+      "resumo": "queimaduras",
+      "sessao": "s08",
+      "enunciado": "Ao examinar uma queimadura, a equipe vê necrose central e, mais externamente, pele avermelhada bem perfundida. Qual zona de Jackson corresponde à área externa e qual evolução é esperada?",
+      "alternativas": [
+        "Zona de coagulação, de necrose irreversível",
+        "Zona de estase, de necrose obrigatória",
+        "Zona de hiperemia, que em geral se recupera",
+        "Zona de carbonização, que exige fasciotomia"
+      ],
+      "correta": 2,
+      "comentario": "A zona de hiperemia é a região periférica vasodilatada, com recuperação esperada. Ela difere da zona de estase intermediária, potencialmente recuperável, e da coagulação central necrótica.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 9, Thermal Injuries"
+    },
+    {
+      "id": "q-queim-46",
+      "resumo": "queimaduras",
+      "sessao": "s08",
+      "enunciado": "Vítima de queimadura térmica extensa chegou sem hipotensão. Antes de estimar a SCQ, qual vazão inicial por idade está indicada para um adulto de 25 anos na apostila?",
+      "alternativas": [
+        "125 mL/h",
+        "250 mL/h",
+        "1.000 mL/h",
+        "500 mL/h de Ringer lactato, substituída depois pela vazão ajustada"
+      ],
+      "correta": 3,
+      "comentario": "No ATLS 11 apresentado na apostila, a vazão provisória para 13 anos ou mais é 500 mL/h até calcular a extensão e estabelecer a vazão inicial ajustada; depois se titula pela diurese.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 9, Thermal Injuries"
+    },
+    {
+      "id": "q-queim-47",
+      "resumo": "queimaduras",
+      "sessao": "s08",
+      "enunciado": "Adulto estável tem queimadura parcial em 11% da SCQ no tronco, sem acometimento de áreas especiais. Qual decisão de referência segue os critérios da ABA?",
+      "alternativas": [
+        "Contatar um centro de queimados e considerar transferência pela extensão",
+        "Aguardar que ultrapasse 20% para discutir transferência",
+        "Encaminhar apenas se a lesão se tornar de espessura total",
+        "Tratar sempre em casa porque não há área especial"
+      ],
+      "correta": 0,
+      "comentario": "A ABA recomenda consulta imediata e consideração de transferência para queimadura parcial com 10% ou mais da SCQ, mesmo fora das áreas especiais.",
+      "fonte": "American Burn Association. Guidelines for Burn Patient Referral (2022)"
+    },
+    {
+      "id": "q-queim-48",
+      "resumo": "queimaduras",
+      "sessao": "s08",
+      "enunciado": "Uma queimadura extensa está limpa na avaliação inicial, sem sinais de infecção. Qual prescrição NÃO deve ser feita rotineiramente apenas para prevenir infecção da ferida?",
+      "alternativas": [
+        "Atualização da profilaxia antitetânica quando indicada",
+        "Antibiótico sistêmico profilático",
+        "Cobertura limpa e seca durante a transferência",
+        "Reavaliação clínica da ferida"
+      ],
+      "correta": 1,
+      "comentario": "Antibiótico sistêmico profilático não é indicado de rotina no primeiro atendimento da queimadura sem infecção. Deve-se proteger a ferida e atualizar a profilaxia antitetânica conforme o caso.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 9, Thermal Injuries"
+    },
+    {
+      "id": "q-uro-31",
+      "resumo": "afeccoes-urologicas",
+      "sessao": "s09",
+      "enunciado": "Homem afebril tem cálculo de 4 mm no ureter distal, função renal normal e dor controlada. Ele pergunta sobre chance de eliminação espontânea antes de aceitar intervenção. Qual estimativa da EAU melhor orienta a conversa?",
+      "alternativas": [
+        "Cerca de 89%; observação com seguimento é razoável",
+        "Cerca de 10%; ureteroscopia imediata é obrigatória",
+        "Cerca de 49%; nefrostomia de urgência é obrigatória",
+        "Praticamente zero; o tamanho não altera a chance"
+      ],
+      "correta": 0,
+      "comentario": "Para cálculo distal menor que 5 mm, a EAU relata passagem espontânea em cerca de 89%. Na ausência de infecção, dor refratária ou perda de função, pode-se discutir observação com seguimento.",
+      "fonte": "European Association of Urology. EAU Guidelines on Urolithiasis (2026)"
+    },
+    {
+      "id": "q-uro-32",
+      "resumo": "afeccoes-urologicas",
+      "sessao": "s09",
+      "enunciado": "Gestante com cólica renal permanece estável; a ultrassonografia inicial não definiu o nível da obstrução e a dúvida diagnóstica persiste. Qual exame é a segunda linha segundo a EAU?",
+      "alternativas": [
+        "Urografia excretora rotineira",
+        "Ressonância magnética sem gadolínio de rotina",
+        "TC com contraste em dose habitual",
+        "Cintilografia renal antes de qualquer nova avaliação"
+      ],
+      "correta": 1,
+      "comentario": "Na gestação, a ultrassonografia é a primeira linha. Se ela não resolver a dúvida, a ressonância é a segunda linha; a TC de baixa dose fica como última opção, quando claramente necessária.",
+      "fonte": "European Association of Urology. EAU Guidelines on Urolithiasis (2026)"
+    },
+    {
+      "id": "q-uro-33",
+      "resumo": "afeccoes-urologicas",
+      "sessao": "s09",
+      "enunciado": "Adolescente com dor testicular súbita há 3 horas, vômitos e testículo horizontalizado tem fluxo detectável no Doppler. A suspeita clínica de torção continua alta. Qual decisão é correta?",
+      "alternativas": [
+        "Excluir torção pelo fluxo presente e dar alta",
+        "Esperar 24 horas por novo Doppler",
+        "Solicitar exploração cirúrgica urgente sem deixar o Doppler atrasar a conduta",
+        "Tratar como epididimite apenas porque há fluxo"
+      ],
+      "correta": 2,
+      "comentario": "Fluxo preservado pode ocorrer em torção parcial ou inicial; o Doppler não exclui torção diante de forte suspeita clínica. A exploração urgente não deve ser atrasada pelo exame.",
+      "fonte": "European Association of Urology. EAU Guidelines on Paediatric Urology (2026), Acute Scrotum/Hydrocele"
+    },
+    {
+      "id": "q-uro-34",
+      "resumo": "afeccoes-urologicas",
+      "sessao": "s09",
+      "enunciado": "Enquanto se organiza a cirurgia para torção testicular, uma destorção manual alivia a dor e melhora a posição do testículo. Qual conduta definitiva continua indicada?",
+      "alternativas": [
+        "Dar alta porque alívio garante destorção completa",
+        "Apenas repetir Doppler em seis meses",
+        "Antibiótico por sete dias",
+        "Exploração cirúrgica com avaliação da viabilidade e fixação testicular"
+      ],
+      "correta": 3,
+      "comentario": "A melhora após destorção manual não garante resolução completa; pode persistir torção residual. A cirurgia continua necessária para verificar viabilidade e fixar o testículo.",
+      "fonte": "European Association of Urology. EAU Guidelines on Paediatric Urology (2026), Acute Scrotum/Hydrocele"
+    },
+    {
+      "id": "q-uro-35",
+      "resumo": "afeccoes-urologicas",
+      "sessao": "s09",
+      "enunciado": "Na exploração por torção unilateral em adolescente, o testículo acometido foi destorcido e preservado. Qual etapa reduz o risco de evento semelhante no outro lado?",
+      "alternativas": [
+        "Orquidopexia contralateral no mesmo ato",
+        "Retirar o testículo contralateral profilaticamente",
+        "Aguardar sintomas no outro lado antes de qualquer fixação",
+        "Prescrever alfa-bloqueador para prevenir torção"
+      ],
+      "correta": 0,
+      "comentario": "A fixação contralateral é realizada porque a predisposição anatômica pode ser bilateral. A abordagem da torção inclui destorção, avaliação da viabilidade e orquidopexia.",
+      "fonte": "European Association of Urology. EAU Guidelines on Paediatric Urology (2026), Acute Scrotum/Hydrocele"
+    },
+    {
+      "id": "q-uro-36",
+      "resumo": "afeccoes-urologicas",
+      "sessao": "s09",
+      "enunciado": "Menino de 3 anos mantém hidrocele comunicante que varia de volume ao longo do dia, sem sinais de urgência. Qual decisão difere da observação típica no primeiro ano de vida?",
+      "alternativas": [
+        "Repetir punções escrotais em consultório",
+        "Encaminhar para avaliação cirúrgica pela persistência após a fase de maior resolução espontânea",
+        "Tratar com antibiótico por seis semanas",
+        "Ignorar a persistência porque toda hidrocele regride até a puberdade"
+      ],
+      "correta": 1,
+      "comentario": "A maior parte das hidroceles infantis regride no primeiro ano; persistência aos 3 anos reduz a probabilidade de resolução espontânea e justifica avaliação cirúrgica.",
+      "fonte": "European Association of Urology. EAU Guidelines on Paediatric Urology (2026), Acute Scrotum/Hydrocele"
+    },
+    {
+      "id": "q-uro-37",
+      "resumo": "afeccoes-urologicas",
+      "sessao": "s09",
+      "enunciado": "Menino pré-púbere tem epididimite confirmada, febre e urocultura positiva, após exclusão de torção. Qual tratamento etiológico acompanha o suporte clínico?",
+      "alternativas": [
+        "Nenhum, pois antibiótico é sempre contraindicado nessa idade",
+        "Orquidopexia bilateral para tratar a infecção",
+        "Antibiótico orientado pela infecção urinária e pela cultura",
+        "Aspiração cavernosa com fenilefrina"
+      ],
+      "correta": 2,
+      "comentario": "Epididimite pré-púbere sem evidência bacteriana pode receber suporte; febre e urocultura positiva sustentam tratamento antibiótico dirigido à infecção, além da avaliação clínica.",
+      "fonte": "European Association of Urology. EAU Guidelines on Paediatric Urology (2026), Acute Scrotum/Hydrocele"
+    },
+    {
+      "id": "q-uro-38",
+      "resumo": "afeccoes-urologicas",
+      "sessao": "s09",
+      "enunciado": "Homem com priapismo isquêmico mantém rigidez dolorosa apesar de aspiração/irrigação cavernosa e fenilefrina intracavernosa adequadas. Qual é a próxima etapa da diretriz?",
+      "alternativas": [
+        "Apenas observar por mais 24 horas",
+        "Iniciar tansulosina",
+        "Tratar como priapismo de alto fluxo",
+        "Considerar shunt distal cirúrgico"
+      ],
+      "correta": 3,
+      "comentario": "Quando aspiração/irrigação e fenilefrina falham no priapismo isquêmico, a próxima etapa é o shunt distal. A isquemia prolongada eleva o risco de fibrose e disfunção erétil.",
+      "fonte": "American Urological Association/SMSNA. Acute Ischemic Priapism Guideline (2021)"
+    },
+    {
+      "id": "q-uro-39",
+      "resumo": "afeccoes-urologicas",
+      "sessao": "s09",
+      "enunciado": "Durante a aplicação intracavernosa de fenilefrina para priapismo isquêmico, qual monitorização é necessária pelo risco de efeito sistêmico?",
+      "alternativas": [
+        "Pressão arterial e frequência cardíaca",
+        "Apenas temperatura axilar",
+        "Apenas glicemia capilar",
+        "Apenas volume urinário"
+      ],
+      "correta": 0,
+      "comentario": "A fenilefrina pode causar hipertensão e alterações de frequência ou ritmo cardíaco; a AUA/SMSNA recomenda monitorização durante o tratamento.",
+      "fonte": "American Urological Association/SMSNA. Acute Ischemic Priapism Guideline (2021)"
+    },
+    {
+      "id": "q-uro-40",
+      "resumo": "afeccoes-urologicas",
+      "sessao": "s09",
+      "enunciado": "Após trauma perineal, paciente apresenta ereção parcialmente rígida, pouco dolorosa, com gasometria cavernosa semelhante ao sangue arterial. Qual interpretação altera a urgência da conduta?",
+      "alternativas": [
+        "É priapismo isquêmico e exige aspiração imediata",
+        "É priapismo não isquêmico; avaliação urológica é necessária, sem a urgência descompressiva da isquemia",
+        "É torção testicular com indicação de orquidopexia",
+        "A gasometria arterializada prova infecção cavernosa"
+      ],
+      "correta": 1,
+      "comentario": "Trauma com rigidez parcial, pouca dor e sangue cavernoso arterializado aponta para priapismo não isquêmico. Diferente do tipo isquêmico, não requer aspiração emergencial por hipóxia cavernosa.",
+      "fonte": "American Urological Association/SMSNA. Diagnosis and Management of Priapism Guideline (2022)"
+    },
+    {
+      "id": "q-uro-41",
+      "resumo": "afeccoes-urologicas",
+      "sessao": "s09",
+      "enunciado": "Homem com HPB relata noctúria e urgência, além de jato fraco e hesitação. Na classificação dos sintomas, quais pertencem à fase de armazenamento?",
+      "alternativas": [
+        "Jato fraco e hesitação",
+        "Hesitação e sensação de esvaziamento incompleto",
+        "Noctúria e urgência",
+        "Jato fraco e esforço miccional"
+      ],
+      "correta": 2,
+      "comentario": "Noctúria, urgência e polaciúria são sintomas de armazenamento. Jato fraco, hesitação, esforço e esvaziamento incompleto pertencem à fase de esvaziamento; a distinção organiza a avaliação clínica.",
+      "fonte": "European Association of Urology. EAU Guidelines on Management of Non-neurogenic Male LUTS (2026)"
+    },
+    {
+      "id": "q-uro-42",
+      "resumo": "afeccoes-urologicas",
+      "sessao": "s09",
+      "enunciado": "Idoso com sintomas urinários compatíveis com HPB terá avaliação inicial; a equipe cogita PSA. Quando o exame é mais útil segundo a diretriz?",
+      "alternativas": [
+        "Como teste obrigatório antes de qualquer alfa-bloqueador",
+        "Apenas para medir o resíduo pós-miccional",
+        "Somente após retenção urinária aguda",
+        "Quando seu resultado puder modificar o manejo, após discussão clínica"
+      ],
+      "correta": 3,
+      "comentario": "O PSA na avaliação de sintomas urinários masculinos deve ser solicitado quando o resultado pode influenciar a decisão clínica, incluindo estimativa de progressão ou investigação de câncer em paciente apropriado.",
+      "fonte": "European Association of Urology. EAU Guidelines on Management of Non-neurogenic Male LUTS (2026)"
+    },
+    {
+      "id": "q-uro-43",
+      "resumo": "afeccoes-urologicas",
+      "sessao": "s09",
+      "enunciado": "Homem com próstata de 60 mL inicia finasterida e espera melhora marcante do jato em dois dias. Qual orientação corrige essa expectativa?",
+      "alternativas": [
+        "O efeito pleno do inibidor da 5-alfa-redutase leva meses e seu benefício é de longo prazo",
+        "A finasterida relaxa a próstata em horas como um alfa-bloqueador",
+        "A finasterida atua apenas como analgésico da cólica renal",
+        "A resposta deve ser medida apenas pela febre"
+      ],
+      "correta": 0,
+      "comentario": "Inibidores da 5-alfa-redutase reduzem o volume prostático e o risco de progressão em uso prolongado, mas têm início lento; alfa-bloqueadores aliviam os sintomas mais rapidamente.",
+      "fonte": "European Association of Urology. EAU Guidelines on Management of Non-neurogenic Male LUTS (2026)"
+    },
+    {
+      "id": "q-uro-44",
+      "resumo": "afeccoes-urologicas",
+      "sessao": "s09",
+      "enunciado": "Após drenagem por sonda de retenção urinária aguda atribuída à HPB, qual medida medicamentosa pode anteceder a tentativa de retirada da sonda?",
+      "alternativas": [
+        "Fenilefrina intracavernosa",
+        "Iniciar alfa-bloqueador, se não houver contraindicação",
+        "Antibiótico sistêmico em todos os casos, mesmo sem infecção",
+        "Suspender qualquer tratamento até ocorrer nova retenção"
+      ],
+      "correta": 1,
+      "comentario": "Depois de descomprimir a bexiga e tratar fatores precipitantes, pode-se iniciar alfa-bloqueador antes da tentativa de retirada da sonda para aumentar a chance de micção espontânea.",
+      "fonte": "Lucas MG et al. Tamsulosin in acute urinary retention from BPH: randomized placebo-controlled trial. BJU Int. 2005;95:354–357"
+    },
+    {
+      "id": "q-uro-45",
+      "resumo": "afeccoes-urologicas",
+      "sessao": "s09",
+      "enunciado": "Traumatizado pélvico está incapaz de urinar e apresenta equimose escrotal, mas não há sangue visível no meato. Qual é a sequência segura antes de cogitar sonda uretral?",
+      "alternativas": [
+        "Passar Foley porque a ausência de sangue exclui lesão uretral",
+        "Palpar a próstata; se normal, insuflar o balão",
+        "Fazer cistografia com a sonda uretral já instalada",
+        "Suspeitar lesão uretral e realizar uretrografia retrógrada antes da sondagem"
+      ],
+      "correta": 3,
+      "comentario": "Incapacidade de urinar e equimose escrotal após trauma levantam suspeita de lesão uretral mesmo sem sangue no meato. O ATLS orienta uretrografia retrógrada antes da passagem de sonda uretral.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 21, Thoracic, Abdominopelvic and Genitourinary Trauma"
+    },
+    {
+      "id": "q-uro-46",
+      "resumo": "afeccoes-urologicas",
+      "sessao": "s09",
+      "enunciado": "Mulher sem contraindicação precisa de sonda vesical de demora após cirurgia longa. Qual par descreve a fixação e a posição do coletor na técnica da apostila?",
+      "alternativas": [
+        "Fixar na face interna da coxa e manter bolsa abaixo da bexiga",
+        "Fixar no abdome e manter bolsa acima da bexiga",
+        "Fixar na coxa e manter bolsa no leito acima da bexiga",
+        "Não fixar a sonda e abrir o sistema para esvaziar a cada hora"
+      ],
+      "correta": 0,
+      "comentario": "Na técnica feminina, fixa-se a sonda na face interna da coxa e mantém-se a bolsa abaixo do nível vesical em sistema fechado, reduzindo tração e refluxo. Fonte técnica primária: aula prática de sondagem da disciplina.",
+      "fonte": "Aula prática de sondagem vesical, Habilidades Cirúrgicas/TOCE, UniBH, 2026.2"
+    },
+    {
+      "id": "q-uro-47",
+      "resumo": "afeccoes-urologicas",
+      "sessao": "s09",
+      "enunciado": "Adulto com cólica renal típica, sem gestação, fez ultrassonografia inicial inconclusiva. Qual exame confirma melhor localização e tamanho de cálculo ureteral segundo a EAU?",
+      "alternativas": [
+        "Urografia excretora com contraste como primeira escolha",
+        "Radiografia de tórax",
+        "Cistoscopia diagnóstica imediata",
+        "TC sem contraste, quando a confirmação por imagem é necessária"
+      ],
+      "correta": 3,
+      "comentario": "Após avaliação inicial por ultrassom, a TC sem contraste confirma cálculo ureteral com melhor acurácia e define localização e carga litiásica. A necessidade e a urgência dependem do quadro clínico.",
+      "fonte": "European Association of Urology. EAU Guidelines on Urolithiasis (2026)"
+    },
+    {
+      "id": "q-atls-31",
+      "resumo": "politraumatizado",
+      "sessao": "s10",
+      "enunciado": "Traumatizado mantém pressão sistólica de 115 mmHg, mas apresenta pele fria, confusão nova e déficit de base de −8 mmol/L. Qual interpretação é mais adequada?",
+      "alternativas": [
+        "Há hipoperfusão relevante apesar da pressão preservada; buscar e controlar sangramento",
+        "A pressão normal exclui choque e dispensa reavaliação",
+        "Déficit de base isolado indica pneumotórax hipertensivo com certeza",
+        "O déficit de base só tem utilidade após 24 horas"
+      ],
+      "correta": 0,
+      "comentario": "O ATLS 11 trata a hemorragia como um contínuo fisiológico: perfusão, consciência e déficit de base mostram o choque antes da hipotensão franca. Um déficit de −8 está na faixa moderada da tabela (−6 a −10), em que a transfusão é provável; junto com pele fria e confusão, exige procurar e controlar a fonte.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 6, Circulation"
+    },
+    {
+      "id": "q-atls-32",
+      "resumo": "politraumatizado",
+      "sessao": "s10",
+      "enunciado": "Em choque hemorrágico sem TCE significativo, com hemostasia cirúrgica iminente, o paciente está acordado e tem pulso radial palpável. Qual estratégia de pressão pode ser usada até controlar a fonte?",
+      "alternativas": [
+        "Infundir cristaloide até PAS de 160 mmHg",
+        "Interromper qualquer ressuscitação por tempo indeterminado",
+        "Aceitar pressão temporariamente mais baixa com vigilância de perfusão, evitando normalização agressiva",
+        "Aplicar o mesmo alvo em TCE grave"
+      ],
+      "correta": 2,
+      "comentario": "A hipotensão permissiva pode ser usada em paciente selecionado com hemorragia não controlada e hemostasia próxima, acompanhando consciência e pulso radial. Ela não se estende ao TCE significativo.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 6, Circulation"
+    },
+    {
+      "id": "q-atls-33",
+      "resumo": "politraumatizado",
+      "sessao": "s10",
+      "enunciado": "Ferida torácica aspirativa recebeu curativo valvulado e o paciente estabilizou. Qual sequência completa o manejo pleural e do defeito?",
+      "alternativas": [
+        "Retirar o curativo e aguardar fechamento espontâneo",
+        "Passar o dreno pela própria ferida e mantê-la aberta",
+        "Apenas repetir radiografias até a ferida cicatrizar",
+        "Inserir dreno por outra incisão e providenciar fechamento cirúrgico definitivo"
+      ],
+      "correta": 3,
+      "comentario": "O curativo valvulado é medida inicial no pneumotórax aberto. O tratamento inclui drenagem pleural por incisão separada, seguida de reparo cirúrgico da parede torácica.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 21, Thoracic, Abdominopelvic and Genitourinary Trauma"
+    },
+    {
+      "id": "q-atls-34",
+      "resumo": "politraumatizado",
+      "sessao": "s10",
+      "enunciado": "Obeso com sinais clínicos de pneumotórax hipertensivo não melhora após primeira punção, e a parede torácica é espessa. Qual ajuste técnico imediato é coerente com a apostila?",
+      "alternativas": [
+        "Usar cateter de comprimento adequado ou toracostomia digital por equipe treinada, seguida de dreno",
+        "Esperar TC para provar que o primeiro cateter era curto",
+        "Trocar o dreno por pericardiocentese",
+        "Insistir com cateter mais curto no mesmo local"
+      ],
+      "correta": 0,
+      "comentario": "A descompressão por agulha pode falhar por comprimento insuficiente em pacientes obesos. Um cateter longo ou toracostomia digital por equipe treinada pode obter acesso pleural; o dreno é a etapa definitiva.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 21, Thoracic, Abdominopelvic and Genitourinary Trauma"
+    },
+    {
+      "id": "q-atls-35",
+      "resumo": "politraumatizado",
+      "sessao": "s10",
+      "enunciado": "Ao introduzir cateter para descompressão pleural em um espaço intercostal, por qual borda da costela inferior se deve entrar para reduzir lesão do feixe vasculonervoso?",
+      "alternativas": [
+        "Pela borda inferior da costela superior",
+        "Pelo centro da costela superior",
+        "Pela borda superior da costela inferior",
+        "A direção não altera o risco vascular"
+      ],
+      "correta": 2,
+      "comentario": "O feixe intercostal corre no sulco da borda inferior da costela acima. Entra-se logo acima da borda superior da costela inferior do espaço escolhido.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 21, Thoracic, Abdominopelvic and Genitourinary Trauma"
+    },
+    {
+      "id": "q-atls-36",
+      "resumo": "politraumatizado",
+      "sessao": "s10",
+      "enunciado": "Em hemotórax maciço, a equipe escolhe um dreno torácico. Qual calibre a apostila prefere nessa situação, embora drenos menores possam servir para derrames menos volumosos?",
+      "alternativas": [
+        "6 Fr",
+        "8 Fr",
+        "14 Fr obrigatoriamente",
+        "24 Fr ou maior"
+      ],
+      "correta": 3,
+      "comentario": "A apostila descreve boa eficácia de 14 Fr em pneumotórax e hemotórax em geral, mas prefere 24 Fr ou maior no hemotórax maciço, com avaliação contínua do sangramento e da fisiologia.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 21, Thoracic, Abdominopelvic and Genitourinary Trauma"
+    },
+    {
+      "id": "q-atls-37",
+      "resumo": "politraumatizado",
+      "sessao": "s10",
+      "enunciado": "Após posicionar dreno por trauma torácico, qual conjunto confirma que o sistema pleural foi instalado e está funcionando, além da reavaliação clínica?",
+      "alternativas": [
+        "Posição do dreno, oscilação e drenagem no selo d’água",
+        "Apenas ausculta isolada, sem observar o sistema",
+        "Somente volume da primeira bolsa de sangue",
+        "Pressão arterial normal, sem olhar a drenagem"
+      ],
+      "correta": 0,
+      "comentario": "Depois da inserção, a apostila orienta confirmar posição e funcionamento do dreno, observando oscilação e drenagem no selo d’água. A resposta fisiológica continua sendo reavaliada.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 21, Thoracic, Abdominopelvic and Genitourinary Trauma"
+    },
+    {
+      "id": "q-atls-38",
+      "resumo": "politraumatizado",
+      "sessao": "s10",
+      "enunciado": "Traumatizado instável tem hipotensão e eFAST com líquido pericárdico; a cirurgia cardíaca está sendo preparada, mas há deterioração imediata. Qual medida pode ganhar tempo sem substituir o tratamento definitivo?",
+      "alternativas": [
+        "Toracocentese de um hemitórax normal",
+        "Aguardar a tríade de Beck completa",
+        "Pericardiocentese guiada por ultrassom como ponte para controle cirúrgico",
+        "Alta após uma drenagem pericárdica pequena"
+      ],
+      "correta": 2,
+      "comentario": "No tamponamento traumático, o tratamento da lesão cardíaca é cirúrgico. Em deterioração, a pericardiocentese guiada por ultrassom pode servir de ponte temporária, sem encerrar o tratamento.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 21, Thoracic, Abdominopelvic and Genitourinary Trauma"
+    },
+    {
+      "id": "q-atls-39",
+      "resumo": "politraumatizado",
+      "sessao": "s10",
+      "enunciado": "Homem com trauma torácico penetrante está hipotenso, mas não apresenta turgência jugular nem bulhas claramente abafadas. O eFAST sugere derrame pericárdico. Qual conclusão é correta?",
+      "alternativas": [
+        "A ausência da tríade de Beck exclui tamponamento",
+        "É obrigatório esperar radiografia antes de agir",
+        "O eFAST não tem valor no instável",
+        "A tríade de Beck é pouco sensível; o achado e a fisiologia exigem avaliação para controle urgente"
+      ],
+      "correta": 3,
+      "comentario": "A tríade de Beck é clássica, mas pouco sensível no trauma. A ausência de seus componentes não exclui tamponamento; fisiologia e eFAST orientam a ação.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 21, Thoracic, Abdominopelvic and Genitourinary Trauma"
+    },
+    {
+      "id": "q-atls-40",
+      "resumo": "politraumatizado",
+      "sessao": "s10",
+      "enunciado": "Paciente com fraturas costais múltiplas mantém ventilação espontânea, mas reduz as inspirações por dor. Qual plano diminui complicações respiratórias sem indicar intubação apenas pela fratura?",
+      "alternativas": [
+        "Analgesia multimodal e higiene pulmonar com fisioterapia/incentivador",
+        "Sedação profunda sem controle da dor",
+        "Restrição de tosse e de mobilização pulmonar",
+        "Intubação obrigatória em todo tórax instável radiográfico"
+      ],
+      "correta": 0,
+      "comentario": "Analgesia eficaz permite ventilação e tosse; higiene pulmonar e fisioterapia ajudam a prevenir pneumonia. Tórax instável radiográfico, isoladamente, não obriga intubação.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 21, Thoracic, Abdominopelvic and Genitourinary Trauma"
+    },
+    {
+      "id": "q-atls-41",
+      "resumo": "politraumatizado",
+      "sessao": "s10",
+      "enunciado": "Vítima de trauma penetrante chega 90 minutos após a lesão em choque hemorrágico grave. Qual esquema de ácido tranexâmico é uma opção descrita na apostila, sempre junto do controle da fonte?",
+      "alternativas": [
+        "2 g a cada hora por 8 horas",
+        "Iniciar somente após 4 horas do trauma",
+        "1 g em bolus seguido de 1 g em 8 horas",
+        "Substituir cirurgia por 1 g de TXA"
+      ],
+      "correta": 2,
+      "comentario": "Até 3 horas do trauma, uma opção descrita é 1 g de TXA em bolus seguido de 1 g em 8 horas; a apostila também cita 2 g em dose única. O fármaco não substitui hemostasia.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 6, Circulation"
+    },
+    {
+      "id": "q-atls-42",
+      "resumo": "politraumatizado",
+      "sessao": "s10",
+      "enunciado": "Depois de ressuscitação com sangue, o paciente continua frio, confuso e sem melhora do pulso ou da perfusão. Como classificar a resposta e qual consequência prática decorre?",
+      "alternativas": [
+        "Resposta rápida e sustentada; basta observação",
+        "Resposta transitória; retirar o acesso venoso",
+        "Resposta adequada; trocar sangue por cristalóide",
+        "Resposta mínima ou ausente; rever causas e acelerar controle da fonte"
+      ],
+      "correta": 3,
+      "comentario": "Ausência de recuperação fisiológica após ressuscitação sugere hemorragia ativa ou outra ameaça não resolvida. Deve-se reavaliar xABCDE e acelerar controle definitivo da causa.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 6, Circulation"
+    },
+    {
+      "id": "q-atls-43",
+      "resumo": "politraumatizado",
+      "sessao": "s10",
+      "enunciado": "Durante a avaliação neurológica após trauma craniano, surge anisocoria. Qual interpretação deve orientar a equipe enquanto revê oxigenação e perfusão?",
+      "alternativas": [
+        "É sempre efeito normal da analgesia",
+        "Exclui lesão intracraniana se o paciente fala",
+        "Sugere herniação ou lesão focal até prova em contrário, após considerar causa ocular ou farmacológica",
+        "Só tem valor se acompanhada de febre"
+      ],
+      "correta": 2,
+      "comentario": "Anisocoria nova é sinal de alarme para lesão focal ou herniação, embora causas oculares e farmacológicas devam ser excluídas. Deve-se reavaliar imediatamente as ameaças secundárias ao cérebro.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), seção I, avaliação primária xABCDE (D)"
+    },
+    {
+      "id": "q-atls-44",
+      "resumo": "politraumatizado",
+      "sessao": "s10",
+      "enunciado": "Após intubação, há CO₂ expirado sustentado, mas o murmúrio fica audível só à direita e a saturação cai; a pressão arterial permanece estável. Qual verificação e correção imediata são prioritárias?",
+      "alternativas": [
+        "Assumir tamponamento e fazer pericardiocentese",
+        "Desligar a capnografia porque ela já confirmou o tubo",
+        "Dar alta porque a intubação traqueal está confirmada",
+        "Verificar a profundidade do tubo, corrigir possível intubação seletiva e reavaliar"
+      ],
+      "correta": 3,
+      "comentario": "Capnografia sustentada confirma posição traqueal, mas não exclui intubação seletiva. A assimetria ventilatória logo após o procedimento exige checar profundidade e posição do tubo enquanto se reavaliam outras causas.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 4, Airway"
+    },
+    {
+      "id": "q-atls-45",
+      "resumo": "politraumatizado",
+      "sessao": "s10",
+      "enunciado": "Adulto com fraturas costais múltiplas e importante deslocamento mantém prejuízo ventilatório apesar de analgesia e fisioterapia adequadas. Qual intervenção pode ser avaliada em caso selecionado?",
+      "alternativas": [
+        "Antibiótico profilático como tratamento definitivo da instabilidade",
+        "Punção pericárdica de rotina",
+        "Restringir toda mobilização torácica por semanas",
+        "Fixação cirúrgica das costelas, conforme avaliação especializada"
+      ],
+      "correta": 3,
+      "comentario": "A apostila inclui fixação cirúrgica das costelas em casos selecionados. A decisão depende da lesão e da resposta ao suporte, enquanto analgesia e higiene pulmonar continuam essenciais.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 21, Thoracic, Abdominopelvic and Genitourinary Trauma"
+    },
+    {
+      "id": "q-abd-31",
+      "resumo": "choque-hemorragico",
+      "sessao": "s11",
+      "enunciado": "Paciente com lesão hepática inicialmente estável segue em tratamento não operatório, mas horas depois apresenta defesa involuntária e queda sustentada da pressão. Qual mudança de plano é indicada?",
+      "alternativas": [
+        "Abandonar a observação e avaliar laparotomia urgente com ressuscitação",
+        "Apenas repetir a TC no dia seguinte, sem intervenção",
+        "Dar alta porque o grau anatômico não mudou",
+        "Iniciar dieta e mobilização para testar tolerância"
+      ],
+      "correta": 0,
+      "comentario": "O tratamento não operatório exige vigilância ativa. Nova instabilidade e peritonite são sinais de falha ou lesão associada e pedem controle cirúrgico sem atraso por observação passiva.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 21, Thoracic, Abdominopelvic and Genitourinary Trauma"
+    },
+    {
+      "id": "q-abd-32",
+      "resumo": "choque-hemorragico",
+      "sessao": "s11",
+      "enunciado": "No FAST de traumatizado, qual janela usa a bexiga como referência acústica para procurar líquido dependente na pelve?",
+      "alternativas": [
+        "Hepatorrenal",
+        "Esplenorrenal",
+        "Suprapúbica",
+        "Pleural posterior"
+      ],
+      "correta": 2,
+      "comentario": "A janela suprapúbica avalia líquido pélvico acima e ao redor da bexiga, que funciona como janela acústica. Ela complementa as janelas hepatorrenal, esplenorrenal e pericárdica.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 21, Thoracic, Abdominopelvic and Genitourinary Trauma"
+    },
+    {
+      "id": "q-abd-33",
+      "resumo": "choque-hemorragico",
+      "sessao": "s11",
+      "enunciado": "Paciente estabilizado após impacto no flanco tem FAST negativo, mas dor lombar e queda seriada da hemoglobina. Qual limitação do exame direciona o próximo estudo?",
+      "alternativas": [
+        "O FAST mede com precisão o grau de lesão renal",
+        "FAST negativo exclui sangramento em qualquer compartimento",
+        "A ausência de líquido peritoneal prova que a dor é muscular",
+        "O FAST avalia mal retroperitônio; TC contrastada pode localizar lesão em paciente estável"
+      ],
+      "correta": 3,
+      "comentario": "FAST negativo não exclui hemorragia retroperitoneal. Depois da estabilização, a TC com contraste fornece anatomia de rim, vasos e retroperitônio para orientar a conduta.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 21, Thoracic, Abdominopelvic and Genitourinary Trauma"
+    },
+    {
+      "id": "q-abd-34",
+      "resumo": "choque-hemorragico",
+      "sessao": "s11",
+      "enunciado": "Vítima de colisão tem marca do cinto e fratura lombar por flexão-distração (Chance), mas o abdome ainda é pouco doloroso. Qual lesão associada exige vigilância dirigida?",
+      "alternativas": [
+        "Lesão de mesentério e intestino, mesmo com exame inicial discreto",
+        "Ruptura isolada da bexiga como única associação possível",
+        "Fratura de clavícula como explicação da marca abdominal",
+        "Pneumotórax hipertensivo obrigatório"
+      ],
+      "correta": 0,
+      "comentario": "A combinação de cinto abdominal e fratura de Chance se associa a lesões mesentéricas e de alça, que podem ser pouco evidentes no exame inicial. Exames seriados e investigação dirigida são essenciais.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 21, Thoracic, Abdominopelvic and Genitourinary Trauma"
+    },
+    {
+      "id": "q-abd-35",
+      "resumo": "choque-hemorragico",
+      "sessao": "s11",
+      "enunciado": "No lavado peritoneal diagnóstico de paciente instável sem ultrassom, retorna bile pelo cateter. Qual decisão é indicada?",
+      "alternativas": [
+        "Considerar o exame negativo porque não há sangue",
+        "Observar até a bile desaparecer",
+        "Tratar como evidência de lesão visceral e indicar laparotomia",
+        "Solicitar apenas radiografia de pelve"
+      ],
+      "correta": 2,
+      "comentario": "Bile ou conteúdo entérico no LPD demonstra contaminação peritoneal e integra as indicações de laparotomia. O limiar de sangue aspirado não se aplica a esse achado.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 21, Thoracic, Abdominopelvic and Genitourinary Trauma"
+    },
+    {
+      "id": "q-abd-36",
+      "resumo": "choque-hemorragico",
+      "sessao": "s11",
+      "enunciado": "Após trauma abdominal contuso, paciente estável faz TC que mostra ar livre intraperitoneal e suspeita de ruptura intestinal. Qual é o próximo tratamento?",
+      "alternativas": [
+        "Alta com antibiótico oral",
+        "Apenas repetir FAST a cada seis horas",
+        "Aplicar binder pélvico sem avaliar a cavidade",
+        "Avaliação cirúrgica para laparotomia, pois há sinal de perfuração de víscera oca"
+      ],
+      "correta": 3,
+      "comentario": "Ar livre intraperitoneal ou ruptura do trato gastrointestinal na TC favorece perfuração de víscera oca e constitui indicação de exploração cirúrgica, mesmo que a pressão esteja preservada.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 21, Thoracic, Abdominopelvic and Genitourinary Trauma"
+    },
+    {
+      "id": "q-abd-37",
+      "resumo": "choque-hemorragico",
+      "sessao": "s11",
+      "enunciado": "Ferida penetrante no flanco de paciente estável tem exame abdominal sem peritonite. Por que a avaliação não pode terminar no exame superficial?",
+      "alternativas": [
+        "O trajeto pode alcançar retroperitônio, rim ou duodeno; imagem e vigilância devem seguir o mecanismo",
+        "Toda ferida de flanco exige laparotomia imediata mesmo sem outros achados",
+        "FAST negativo exclui lesão retroperitoneal",
+        "A ausência de distensão prova que não houve penetração"
+      ],
+      "correta": 0,
+      "comentario": "Ferimentos em flanco e dorso podem lesar estruturas retroperitoneais, que o FAST e o exame anterior avaliam mal. Em paciente estável, investigação anatômica e vigilância são necessárias.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 21, Thoracic, Abdominopelvic and Genitourinary Trauma"
+    },
+    {
+      "id": "q-abd-38",
+      "resumo": "choque-hemorragico",
+      "sessao": "s11",
+      "enunciado": "Após colisão frontal, a radiografia mostra abertura da sínfise púbica e rotação externa de uma hemipelve; o paciente está hipotenso. Qual mecanismo e consequência hemorrágica são mais coerentes?",
+      "alternativas": [
+        "Compressão lateral com redução do volume pélvico",
+        "Cisalhamento vertical sem lesão ligamentar",
+        "Compressão anteroposterior, que aumenta o volume pélvico e favorece sangramento grave",
+        "Fratura isolada de acetábulo sem risco vascular"
+      ],
+      "correta": 2,
+      "comentario": "O padrão em livro aberto é compressão anteroposterior, com rotação externa, abertura da sínfise e aumento do volume da pelve. Pode haver sangramento venoso posterior e de ramos ilíacos.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 21, Thoracic, Abdominopelvic and Genitourinary Trauma"
+    },
+    {
+      "id": "q-abd-39",
+      "resumo": "choque-hemorragico",
+      "sessao": "s11",
+      "enunciado": "Depois de laparotomia por hemorragia, o abdome fica progressivamente tenso; a pressão intra-abdominal é 23 mmHg sustentada e surge oligúria nova. Qual diagnóstico reúne pressão e disfunção?",
+      "alternativas": [
+        "Pressão normal do pós-operatório",
+        "Hipertensão intra-abdominal sem risco de órgão",
+        "Choque medular",
+        "Síndrome compartimental abdominal"
+      ],
+      "correta": 3,
+      "comentario": "Pela WSACS, síndrome compartimental abdominal exige pressão intra-abdominal sustentada >20 mmHg associada a nova disfunção orgânica. Aqui há 23 mmHg e oligúria nova.",
+      "fonte": "Kirkpatrick AW et al. WSACS consensus definitions and guidelines. Intensive Care Med. 2013;39:1190–1206"
+    },
+    {
+      "id": "q-abd-40",
+      "resumo": "choque-hemorragico",
+      "sessao": "s11",
+      "enunciado": "Na UTI, traumatizado com distensão abdominal tem pressão intra-abdominal repetida de 14 mmHg, sem nova falência orgânica. Qual classificação é correta?",
+      "alternativas": [
+        "Hipertensão intra-abdominal, sem preencher por si só síndrome compartimental",
+        "Síndrome compartimental abdominal obrigatória por superar 12 mmHg",
+        "Pressão normal, pois o limite é 20 mmHg",
+        "Diagnóstico de ruptura vesical intraperitoneal"
+      ],
+      "correta": 0,
+      "comentario": "A WSACS define hipertensão intra-abdominal por pressão sustentada ou repetida ≥12 mmHg. Síndrome compartimental requer >20 mmHg e nova disfunção orgânica.",
+      "fonte": "Kirkpatrick AW et al. WSACS consensus definitions and guidelines. Intensive Care Med. 2013;39:1190–1206"
+    },
+    {
+      "id": "q-abd-41",
+      "resumo": "choque-hemorragico",
+      "sessao": "s11",
+      "enunciado": "Paciente com trauma abdominal e risco de hipertensão intra-abdominal precisa de medida intermitente padronizada. Qual técnica é referência?",
+      "alternativas": [
+        "Estimativa pela palpação abdominal, sem medida",
+        "Manometria pelo dreno pleural",
+        "Medida transvesical após instilar no máximo 25 mL de solução estéril",
+        "Medição pelo oxímetro de pulso"
+      ],
+      "correta": 2,
+      "comentario": "A WSACS usa a via transvesical como referência para medidas intermitentes da pressão intra-abdominal, com instilação máxima de 25 mL no adulto.",
+      "fonte": "Kirkpatrick AW et al. WSACS consensus definitions and guidelines. Intensive Care Med. 2013;39:1190–1206"
+    },
+    {
+      "id": "q-abd-42",
+      "resumo": "choque-hemorragico",
+      "sessao": "s11",
+      "enunciado": "Vítima de hemorragia abdominal chega à operação com 34,5 °C, pH 7,15, coagulopatia e sangramento persistente. Qual estratégia cirúrgica respeita a fisiologia descrita na apostila?",
+      "alternativas": [
+        "Reconstrução definitiva prolongada antes de corrigir a fisiologia",
+        "Cancelar hemostasia até normalizar o pH com cristaloide",
+        "Somente nova TC para graduar o órgão lesado",
+        "Cirurgia abreviada de controle de danos, seguida de correção fisiológica e reavaliação"
+      ],
+      "correta": 3,
+      "comentario": "Hipotermia abaixo de 35 °C, acidose com pH abaixo de 7,2 e coagulopatia sinalizam fisiologia incapaz de tolerar operação longa. O controle de danos prioriza hemostasia e contenção inicial, com ressuscitação e correção subsequentes.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 6, Circulation"
+    },
+    {
+      "id": "q-abd-43",
+      "resumo": "choque-hemorragico",
+      "sessao": "s11",
+      "enunciado": "Após colisão, a FC sobe de 100 para 126/min enquanto a PAS cai de 125 para 90 mmHg. Como evolui o índice de choque e o que a tendência sugere?",
+      "alternativas": [
+        "De 1,25 para 0,71; melhora",
+        "De 0,8 para 0,7; estabilidade",
+        "De 0,8 para 1,4; piora da perfusão e necessidade de buscar hemorragia",
+        "Permanece 1,0, pois só a pressão diastólica importa"
+      ],
+      "correta": 2,
+      "comentario": "Índice de choque = FC/PAS. Inicialmente 100/125 = 0,8; depois 126/90 = 1,4. A subida reforça preocupação com choque, mas deve ser interpretada com perfusão e contexto clínico.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 6, Circulation"
+    },
+    {
+      "id": "q-abd-44",
+      "resumo": "choque-hemorragico",
+      "sessao": "s11",
+      "enunciado": "Após trauma medular, paciente apresenta flacidez e arreflexia abaixo da lesão, mas pressão e frequência cardíaca preservadas. Qual termo descreve o déficit neurológico transitório sem confundi-lo com choque hemodinâmico?",
+      "alternativas": [
+        "Choque cardiogênico",
+        "Choque hemorrágico",
+        "Tamponamento cardíaco",
+        "Choque medular"
+      ],
+      "correta": 3,
+      "comentario": "Choque medular é fenômeno neurológico de perda transitória de reflexos e tônus abaixo da lesão. Choque neurogênico descreve hipotensão e bradicardia por perda de tônus simpático.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 6, Circulation"
+    },
+    {
+      "id": "q-abd-45",
+      "resumo": "choque-hemorragico",
+      "sessao": "s11",
+      "enunciado": "Ferimento abdominal por arma de fogo atravessa o peritônio. Entre os órgãos abdominais listados, qual é o mais frequentemente atingido no padrão citado pelo ATLS 11?",
+      "alternativas": [
+        "Baço",
+        "Pâncreas",
+        "Intestino delgado",
+        "Bexiga"
+      ],
+      "correta": 2,
+      "comentario": "No ferimento por arma de fogo, a apostila reproduz do ATLS 11 o padrão: intestino delgado cerca de 50%, cólon 40%, fígado 30% e vasos abdominais 25%.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 21, Thoracic, Abdominopelvic and Genitourinary Trauma"
+    },
+    {
+      "id": "q-abd-46",
+      "resumo": "choque-hemorragico",
+      "sessao": "s11",
+      "enunciado": "Após queda de altura, paciente intubado e sedado permanece hemodinamicamente estável. O abdome não tem defesa à palpação, mas o mecanismo sugere lesão abdominal. Qual investigação é adequada?",
+      "alternativas": [
+        "Encerrar a avaliação porque a palpação é normal",
+        "Fazer apenas teste de dor à descompressão em paciente sedado",
+        "Aguardar extubação para decidir sobre qualquer imagem",
+        "Usar TC com contraste e reavaliação seriada, pois sedação torna o exame abdominal pouco confiável"
+      ],
+      "correta": 3,
+      "comentario": "Sedação pode mascarar dor, defesa e rigidez. Com estabilidade hemodinâmica, a TC contrastada define a anatomia, e a vigilância seriada acompanha lesões que não se manifestam no exame inicial.",
+      "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 21, Thoracic, Abdominopelvic and Genitourinary Trauma"
     }
   ]
 }
