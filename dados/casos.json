@@ -1,0 +1,161 @@
+{
+  "aviso": "Casos discursivos da monitoria, no formato de estação escrita do OSCE. A correção é por pontos-chave: escreva a sua resposta antes de abrir o gabarito.",
+  "casos": [
+    {
+      "id": "caso-pneumotorax", "resumo": "politraumatizado", "sessao": "s10", "minutos": 5,
+      "titulo": "Facada no tórax, paciente estável",
+      "enunciado": "Homem de 25 anos, ferimento por arma branca no hemitórax esquerdo há 1 hora. Consciente, FC 98, PA 128 × 80 mmHg, FR 24, SpO₂ 93% em ar ambiente. Murmúrio vesicular diminuído à esquerda. Foi feita a radiografia abaixo.",
+      "imagem": "assets/casos/pneumotorax-rx.jpg", "credito": "Clinical Cases · Wikimedia Commons · CC BY-SA 2.5",
+      "perguntas": [
+        { "pergunta": "Descreva o achado da radiografia e o diagnóstico.",
+          "pontos": ["Hemitórax esquerdo hipertransparente, sem trama vascular", "Pulmão colabado junto ao hilo", "Diagnóstico: pneumotórax à esquerda (simples, porque o paciente está estável)"],
+          "resposta": "Hemitórax esquerdo hipertransparente, sem trama vascular periférica, com o pulmão colabado junto ao hilo: pneumotórax à esquerda. Como o paciente está estável, não há fisiologia de tensão." },
+        { "pergunta": "Qual é a conduta? Descreva o procedimento.",
+          "pontos": ["Oxigênio suplementar e reavaliação do ABCDE", "Drenagem torácica (dreno de tórax)", "Local: triângulo de segurança, 5º espaço intercostal entre as linhas axilares anterior e média", "Entrar pela borda superior da costela", "Dreno de 14 Fr é suficiente; selo d'água, conferir oscilação e radiografia de controle", "Se instabilidade surgir: descompressão imediata, sem esperar imagem"],
+          "resposta": "O₂ e reavaliação. O tratamento definitivo é o dreno de tórax no triângulo de segurança (5º EIC entre as axilares anterior e média), entrando pela borda superior da costela. Pelo ATLS 11, 14 Fr é tão eficaz quanto drenos mais calibrosos no pneumotórax. Conectar ao selo d'água, conferir oscilação e drenagem e repetir a radiografia. Se surgirem hipotensão e piora ventilatória, é tensão: descomprimir na hora." }
+      ],
+      "fonte": "ATLS 11, cap. 5; apostila da sessão 10"
+    },
+    {
+      "id": "caso-hemotorax", "resumo": "politraumatizado", "sessao": "s10", "minutos": 6,
+      "titulo": "Colisão com dor torácica e taquicardia",
+      "enunciado": "Mulher de 40 anos, colisão frontal. FC 112, PA 100 × 70 mmHg, SpO₂ 94% com O₂. Macicez e murmúrio diminuído na base esquerda. Radiografia de tórax abaixo.",
+      "imagem": "assets/casos/hemotorax-rx.jpg", "credito": "Mahoozi, Volmerig e Hecker · Wikimedia Commons · CC BY 4.0",
+      "perguntas": [
+        { "pergunta": "Qual é o achado e o diagnóstico?",
+          "pontos": ["Opacidade na base esquerda apagando o seio costofrênico", "Diagnóstico: hemotórax à esquerda"],
+          "resposta": "Opacidade que apaga o seio costofrênico e a base do pulmão esquerdo, compatível com hemotórax, coerente com macicez e murmúrio diminuído." },
+        { "pergunta": "Qual é a conduta inicial?",
+          "pontos": ["Acesso venoso calibroso e ressuscitação com sangue, se houver choque", "Drenagem torácica: hemotórax estimado acima de 300 mL deve ser drenado", "No hemotórax maciço, dreno de 24 Fr ou mais", "Registrar o débito inicial e o débito por hora"],
+          "resposta": "Ressuscitação (acesso calibroso, sangue se houver choque) e dreno de tórax: o ATLS 11 recomenda drenar hemotórax acima de 300 mL, para o sangue não coagular e encarcerar o pulmão. Se for maciço, dreno de 24 Fr ou mais. Registrar o débito inicial e horário." },
+        { "pergunta": "Quando indicar toracotomia?",
+          "pontos": ["Decisão guiada pela fisiologia: choque persistente, sangramento contínuo, necessidade de transfusão", "Critérios clássicos de apoio: cerca de 1.500 mL na drenagem inicial ou 200 mL/h por 2 a 4 horas"],
+          "resposta": "O ATLS 11 decide pela fisiologia: choque que não responde, sangramento contínuo e necessidade crescente de transfusão. Os números clássicos (cerca de 1.500 mL iniciais ou 200 mL/h por 2 a 4 h) ajudam, mas não substituem o contexto." }
+      ],
+      "fonte": "ATLS 11, cap. 5; aula da disciplina"
+    },
+    {
+      "id": "caso-torax-instavel", "resumo": "politraumatizado", "sessao": "s10", "minutos": 5,
+      "titulo": "Idoso com dor torácica após queda",
+      "enunciado": "Homem de 72 anos caiu de uma escada. Dor torácica intensa à direita, movimento paradoxal de um segmento da parede, FR 26, SpO₂ 94% com O₂ por máscara, consciente. Reconstrução 3D da TC abaixo (setas).",
+      "imagem": "assets/casos/torax-instavel-tc.jpg", "credito": "James Heilman, MD · Wikimedia Commons · CC BY-SA 4.0",
+      "perguntas": [
+        { "pergunta": "Interprete a imagem e dê o diagnóstico.",
+          "pontos": ["Fraturas em vários arcos costais consecutivos", "Tórax instável: duas ou mais costelas fraturadas em dois ou mais pontos", "Movimento paradoxal = tórax instável clínico"],
+          "resposta": "Fraturas de vários arcos costais consecutivos. Duas ou mais costelas fraturadas em dois ou mais pontos definem o tórax instável radiográfico; o movimento paradoxal define o clínico." },
+        { "pergunta": "Qual é o tratamento e o que vigiar?",
+          "pontos": ["Analgesia multimodal (paracetamol, AINE, cetamina, lidocaína, bloqueio regional)", "Higiene pulmonar: fisioterapia e incentivador respiratório", "Não intubar só pelo movimento paradoxal", "Intubar se não ventila, se há hipóxia por contusão ou se a sedação exigir", "Vigiar contusão pulmonar, que piora em 24 a 72 horas", "Idoso e frágil: tratar em centro de trauma; fixação cirúrgica em casos selecionados"],
+          "resposta": "Analgesia multimodal e higiene pulmonar, porque a pneumonia é a principal complicação. Não se intuba só pelo paradoxal; intuba-se se o paciente não ventila, se a contusão causa hipóxia ou se a sedação necessária exigir. A contusão pulmonar piora em 24 a 72 h. Idoso com fraturas múltiplas se beneficia de centro de trauma, e a fixação cirúrgica entra em casos selecionados." }
+      ],
+      "fonte": "ATLS 11, cap. 5; aula da disciplina"
+    },
+    {
+      "id": "caso-tamponamento", "resumo": "politraumatizado", "sessao": "s10", "minutos": 4,
+      "titulo": "Facada precordial com hipotensão",
+      "enunciado": "Homem de 22 anos, facada na região paraesternal esquerda. PA 80 × 50 mmHg, FC 130, murmúrio vesicular presente bilateralmente, jugulares pouco visíveis. eFAST, janela cardíaca, abaixo (seta).",
+      "imagem": "assets/casos/derrame-pericardico-us.jpg", "credito": "James Heilman, MD · Wikimedia Commons · CC BY-SA 3.0",
+      "perguntas": [
+        { "pergunta": "Qual é o achado e o diagnóstico?",
+          "pontos": ["Líquido ao redor do coração (derrame pericárdico)", "Diagnóstico: tamponamento cardíaco traumático", "A ausência da tríade de Beck não exclui: ela é pouco sensível no trauma"],
+          "resposta": "Líquido pericárdico no eFAST em paciente chocado após ferimento na área cardíaca: tamponamento. A tríade de Beck é pouco sensível no trauma, e a falta de jugulares túrgidas (possível por hipovolemia) não afasta o diagnóstico." },
+        { "pergunta": "Qual é a conduta?",
+          "pontos": ["Ressuscitação em paralelo", "Controle cirúrgico urgente da lesão cardíaca", "Pericardiocentese guiada por ultrassom apenas como ponte, se houver deterioração"],
+          "resposta": "Ressuscitar e levar ao controle cirúrgico urgente da lesão cardíaca. A pericardiocentese guiada por ultrassom pode ganhar tempo, mas não substitui a cirurgia." }
+      ],
+      "fonte": "ATLS 11, caps. 5 e 6; aula da disciplina"
+    },
+    {
+      "id": "caso-fast", "resumo": "choque-hemorragico", "sessao": "s11", "minutos": 5,
+      "titulo": "Motociclista hipotenso com abdome distendido",
+      "enunciado": "Motociclista de 30 anos, colisão em alta velocidade. PA 78 × 40 mmHg, FC 140, pele fria, abdome distendido. Sem sangramento externo; tórax e radiografia de pelve sem alterações; sem TCE. FAST, janela hepatorrenal, abaixo (seta).",
+      "imagem": "assets/casos/fast-morison.jpg", "credito": "James Heilman, MD · Wikimedia Commons · CC BY-SA 3.0",
+      "perguntas": [
+        { "pergunta": "Interprete o FAST.",
+          "pontos": ["Líquido livre (anecoico) entre o fígado e o rim, no espaço de Morison", "FAST positivo: hemoperitônio"],
+          "resposta": "Faixa anecoica entre fígado e rim no espaço de Morison: líquido livre, FAST positivo. No trauma, é hemoperitônio até prova em contrário." },
+        { "pergunta": "Qual é a conduta?",
+          "pontos": ["Instável + FAST positivo: controle imediato da fonte (laparotomia), sem TC", "Ressuscitação hemostática: hemocomponentes precoces (perto de 1:1:1) e protocolo de transfusão maciça", "Limitar cristaloide", "Ácido tranexâmico se até 3 horas do trauma", "Aquecer o paciente e os fluidos; corrigir cálcio", "Hipotensão permissiva aceitável (sem TCE) até a hemostasia"],
+          "resposta": "Instável com FAST positivo vai direto ao controle da fonte (laparotomia); levar à TC é erro. Em paralelo: ressuscitação hemostática com sangue precoce (próximo de 1:1:1, protocolo de transfusão maciça), pouco cristaloide, TXA até 3 h do trauma, aquecimento e correção do cálcio. Sem TCE, aceita-se pressão mais baixa até a hemostasia." }
+      ],
+      "fonte": "ATLS 11, caps. 6 e 21; aula da disciplina"
+    },
+    {
+      "id": "caso-laceracao-hepatica", "resumo": "choque-hemorragico", "sessao": "s11", "minutos": 5,
+      "titulo": "Colisão com dor no hipocôndrio direito, estável",
+      "enunciado": "Mulher de 30 anos, colisão. PA 124 × 78 mmHg, FC 92, sem peritonite, dor no hipocôndrio direito. FAST com pouca quantidade de líquido. Hospital com cirurgião e UTI. TC de abdome com contraste abaixo (seta).",
+      "imagem": "assets/casos/laceracao-hepatica-tc.jpg", "credito": "James Heilman, MD · Wikimedia Commons · CC BY-SA 4.0",
+      "perguntas": [
+        { "pergunta": "Qual é o achado?",
+          "pontos": ["Laceração hepática (lesão de órgão sólido)"],
+          "resposta": "Área hipodensa irregular no fígado: laceração hepática, uma lesão de órgão sólido." },
+        { "pergunta": "Qual é a conduta e o que faria mudar de plano?",
+          "pontos": ["Tratamento não operatório, porque está hemodinamicamente normal e sem peritonite", "Internação com vigilância ativa: sinais vitais, exame e hemoglobina seriados", "Cirurgião avaliando, com recursos para operar", "Instabilidade ou peritonite = laparotomia", "Extravasamento de contraste (blush) pode indicar angioembolização", "Lembrar lesão de víscera oca associada (menos de 5%)"],
+          "resposta": "Paciente estável sem peritonite: tratamento não operatório com internação e vigilância ativa (exame, sinais vitais e hemoglobina seriados), cirurgião envolvido. Instabilidade ou peritonite indicam laparotomia; blush na TC pode orientar angioembolização. Lesão de víscera oca associada ocorre em menos de 5%, e o exame seriado ajuda a pegá-la." }
+      ],
+      "fonte": "ATLS 11, cap. 21; aula da disciplina"
+    },
+    {
+      "id": "caso-colica-renal", "resumo": "afeccoes-urologicas", "sessao": "rev", "minutos": 5,
+      "titulo": "Dor lombar em cólica",
+      "enunciado": "Homem de 38 anos com dor lombar em cólica há 6 horas, irradiando para a região inguinal e o testículo, náuseas e hematúria microscópica. Afebril, creatinina normal. TC sem contraste abaixo (seta).",
+      "imagem": "assets/casos/calculo-juv-tc.jpg", "credito": "James Heilman, MD · Wikimedia Commons · CC BY-SA 3.0",
+      "perguntas": [
+        { "pergunta": "Interprete a TC.",
+          "pontos": ["Cálculo (imagem hiperdensa) na junção ureterovesical", "Junção ureterovesical: o ponto mais estreito do ureter"],
+          "resposta": "Imagem hiperdensa na junção ureterovesical: cálculo impactado no ponto mais estreito do ureter, coerente com a dor irradiada para a virilha." },
+        { "pergunta": "Qual é o tratamento e quando retirar o cálculo?",
+          "pontos": ["Analgesia: AINE é a primeira escolha; opioide é a segunda", "Cálculo pequeno (menos de 5 mm) no ureter distal elimina sozinho em cerca de 89%", "α-bloqueador (tansulosina) para cálculo do ureter distal maior que 5 mm", "Retirar se: baixa chance de eliminação, dor refratária, obstrução persistente ou insuficiência renal", "Febre com obstrução = descompressão urgente"],
+          "resposta": "AINE como primeira escolha. Cálculo distal menor que 5 mm elimina sozinho em cerca de 89% dos casos; acima de 5 mm, o α-bloqueador é opção de terapia expulsiva. Retira-se o cálculo se houver baixa chance de eliminação, dor refratária, obstrução persistente ou insuficiência renal. Se aparecer febre com obstrução, a conduta passa a ser descomprimir." }
+      ],
+      "fonte": "EAU Guidelines on Urolithiasis, 2026"
+    },
+    {
+      "id": "caso-rim-infectado", "resumo": "afeccoes-urologicas", "sessao": "rev", "minutos": 4,
+      "titulo": "Cólica renal que virou febre",
+      "enunciado": "Mulher de 52 anos com cólica renal há 3 dias por cálculo ureteral conhecido. Agora com febre de 39 °C, calafrios, PA 90 × 60 mmHg, FC 118. Ultrassonografia do rim do lado da dor abaixo.",
+      "imagem": "assets/casos/hidronefrose-us.jpg", "credito": "Cerevisae · Wikimedia Commons · CC BY-SA 4.0",
+      "perguntas": [
+        { "pergunta": "Qual é o achado e o diagnóstico?",
+          "pontos": ["Hidronefrose: cálices dilatados", "Rim obstruído e infectado, com sepse"],
+          "resposta": "Cálices dilatados: hidronefrose. Com febre e hipotensão, é um rim obstruído e infectado, com sepse." },
+        { "pergunta": "Qual é a conduta?",
+          "pontos": ["Descompressão urgente do sistema coletor", "Cateter duplo J ou nefrostomia percutânea (igualmente eficazes)", "Urocultura e antibiótico imediatamente", "Suporte da sepse", "Tratamento definitivo do cálculo só depois que a sepse resolver"],
+          "resposta": "Urgência: descomprimir já com duplo J ou nefrostomia percutânea, que são igualmente eficazes; colher urocultura, iniciar antibiótico e tratar a sepse. O cálculo só é tratado depois que a sepse resolver." }
+      ],
+      "fonte": "EAU Guidelines on Urolithiasis, 2026"
+    },
+    {
+      "id": "caso-torcao", "resumo": "afeccoes-urologicas", "sessao": "rev", "minutos": 4,
+      "titulo": "Adolescente com dor testicular súbita",
+      "enunciado": "Adolescente de 15 anos com dor testicular direita súbita há 3 horas, vômitos, testículo elevado e horizontalizado, reflexo cremastérico ausente. Ultrassonografia com Doppler abaixo.",
+      "imagem": "assets/casos/torcao-doppler.jpg", "credito": "Chee-Wai Mak e Wen-Sheng Tzeng · Wikimedia Commons · CC BY 3.0",
+      "perguntas": [
+        { "pergunta": "Qual é o achado e o diagnóstico?",
+          "pontos": ["Testículo sem sinal de fluxo ao Doppler", "Diagnóstico: torção testicular"],
+          "resposta": "Testículo sem sinal de fluxo ao Doppler; junto com a clínica (dor súbita, vômitos, testículo alto e horizontal, cremastérico ausente), é torção testicular." },
+        { "pergunta": "Qual é a conduta?",
+          "pontos": ["Exploração cirúrgica imediata (janela de cerca de 4 a 6 horas)", "Destorção e fixação do testículo, com fixação do contralateral no mesmo ato", "Destorção manual pode ser tentada enquanto aguarda, girando para fora, sem atrasar a cirurgia", "O Doppler não deve atrasar a cirurgia, e fluxo presente não exclui torção"],
+          "resposta": "Exploração cirúrgica imediata: destorção, avaliação da viabilidade e orquidopexia, com fixação do contralateral. A destorção manual pode ser tentada no pronto-socorro (girando para fora), mas não substitui a cirurgia. O diagnóstico é clínico: o Doppler ajuda, não pode atrasar, e fluxo presente não exclui torção." }
+      ],
+      "fonte": "EAU Guidelines on Paediatric Urology, 2026, cap. 8"
+    },
+    {
+      "id": "caso-queimado", "resumo": "queimaduras", "sessao": "s08", "minutos": 8,
+      "titulo": "Incêndio em casa: calcule e conduza",
+      "enunciado": "Homem de 80 kg resgatado de incêndio dentro de casa. Queimaduras de 2º e 3º graus em todo o tronco anterior e em todo o membro superior direito; eritema sem bolhas na face. Chegou ao hospital 2 horas após a queimadura, sem ter recebido líquidos. Consciente, voz normal, SpO₂ 98%.",
+      "imagem": null, "credito": null,
+      "perguntas": [
+        { "pergunta": "Qual é a SCQ para o cálculo da reposição?",
+          "pontos": ["Tronco anterior 18% + membro superior 9% = 27%", "O eritema da face (1º grau) não entra"],
+          "resposta": "Tronco anterior (18%) + membro superior inteiro (9%) = 27%. O eritema sem bolhas da face é 1º grau e não entra." },
+        { "pergunta": "Calcule a reposição pela Parkland e pelo ATLS 11.",
+          "pontos": ["Parkland: 4 × 80 × 27 = 8.640 mL em 24 h", "Metade (4.320 mL) até 8 h da queimadura: restam 6 h, logo cerca de 720 mL/h", "ATLS 11 (ABA): 2 × 80 × 27 = 4.320 mL; ÷ 16 = 270 mL/h", "Ringer lactato, titulado pela diurese (0,5 mL/kg/h = 40 mL/h)"],
+          "resposta": "Parkland: 4 × 80 × 27 = 8.640 mL/24 h; a primeira metade (4.320 mL) vai até 8 h da queimadura, e como ele chegou com 2 h, restam 6 h: cerca de 720 mL/h. ATLS 11: 2 × 80 × 27 = 4.320 mL, ÷ 16 = 270 mL/h. Em qualquer esquema, Ringer lactato titulado pela diurese, com meta de 0,5 mL/kg/h (40 mL/h)." },
+        { "pergunta": "Que outros cuidados não podem faltar?",
+          "pontos": ["O₂ a 100% e carboxi-hemoglobina na gasometria (ambiente fechado); oxímetro normal não exclui CO", "Reavaliar a via aérea com frequência (edema em 12–24 h)", "Sonda vesical para medir diurese", "Cobrir com lençol limpo e seco, prevenir hipotermia, sem antibiótico profilático; atualizar o tétano", "Analgesia com opioide EV em doses pequenas", "Encaminhar a centro de queimados (3º grau e mais de 10% de SCQ)"],
+          "resposta": "Incêndio em ambiente fechado: O₂ a 100% e carboxi-hemoglobina, porque a oximetria normal não exclui CO; reavaliar a via aérea (o edema pode surgir em 12 a 24 h). Sonda vesical para a diurese, cobertura limpa e seca, prevenção de hipotermia, sem antibiótico profilático, tétano atualizado, analgesia com opioide EV. Tem 3º grau e mais de 10% de SCQ: encaminhar a centro de queimados." }
+      ],
+      "fonte": "ATLS 11, cap. 9; aula da disciplina (Profa. Fernanda Parreiras)"
+    }
+  ]
+}

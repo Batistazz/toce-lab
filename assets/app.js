@@ -2,7 +2,7 @@
 "use strict";
 
 const estado = {
-  sessoes: [], resumos: {}, questoes: [], estacoes: [],
+  sessoes: [], resumos: {}, questoes: [], estacoes: [], casos: [], casoAberto: {},
   timer: null,
   osce: { modo: "treino", fase: "pronto", resta: 0, leitura: 0 },
   sim: null, // { temas, n, pool, idx, respostas, fim, inicio, fimEm }
@@ -61,6 +61,7 @@ function telaInicio() {
     <section class="portas">
       <a class="porta" href="#/resumos"><span class="num">${Object.keys(estado.resumos).length}</span><h3>Resumos</h3><p>Apostila de Estudo e Revisão Flash de cada sessão, para ler ou baixar.</p></a>
       <a class="porta" href="#/treino"><span class="num">${estado.estacoes.length}</span><h3>Treino OSCE</h3><p>Estações com leitura de porta, cronômetro e checklist, em treino aberto, individual ou em dupla.</p></a>
+      <a class="porta" href="#/casos"><span class="num">${estado.casos.length}</span><h3>Casos</h3><p>Estações escritas com radiografia, TC ou ultrassom: escreva a conduta e corrija pelos pontos-chave.</p></a>
       <a class="porta" href="#/questoes"><span class="num">${estado.questoes.length}</span><h3>Questões</h3><p>Estudo com correção na hora ou simulado montado por você, com nota no final.</p></a>
     </section>
     <p style="text-align:center;margin-top:22px"><a href="#/desempenho">Ver meu desempenho →</a></p>`;
@@ -293,6 +294,54 @@ function tickOsce(e) {
   if (visor) visor.textContent = o.fase === "leitura" ? `Leitura ${mmss(o.leitura)}` : mmss(o.resta);
 }
 
+/* ---------- casos discursivos ---------- */
+function telaCasos(filtro) {
+  const notas = ler("toce-casos", {});
+  const lista = filtro ? estado.casos.filter((c) => c.resumo === filtro) : estado.casos;
+  const filtros = [`<button class="${filtro ? "" : "ativo"}" data-filtro-caso="">Todos</button>`]
+    .concat(Object.entries(estado.resumos).map(([id, r]) => `<button class="${filtro === id ? "ativo" : ""}" data-filtro-caso="${esc(id)}">${esc(r.titulo)}</button>`)).join("");
+  const cards = lista.map((c) => {
+    const s = sessaoPorId(c.sessao); const n = (notas[c.id] ?? []).at(-1);
+    return `<a class="estacao-card caso-card" href="#/casos/${esc(c.id)}">
+      ${c.imagem ? `<img src="${esc(c.imagem)}" alt="" loading="lazy">` : `<div class="sem-imagem">cálculo</div>`}
+      <div><span class="rotulo">${s ? esc(rotuloSessao(s)) : ""} · ${c.minutos} min · ${c.perguntas.length} pergunta${c.perguntas.length > 1 ? "s" : ""}</span>
+      <h3>${esc(c.titulo)}</h3>${n !== undefined ? `<small class="fraco">Última correção: ${n}% dos pontos-chave</small>` : ""}</div></a>`;
+  }).join("");
+  return `
+    ${abertura("Casos", "Estações escritas", "Caso clínico com exame de imagem: escreva o que vê e o que faria. Depois compare com os pontos-chave da resposta esperada, como numa correção por rubrica.")}
+    <div class="filtros">${filtros}</div>
+    <section class="casos-lista">${cards || `<p class="fraco" style="text-align:center">Ainda não há casos deste tema.</p>`}</section>`;
+}
+
+function telaCaso(id) {
+  const c = estado.casos.find((x) => x.id === id);
+  if (!c) return telaCasos();
+  const textos = ler("toce-casos-texto", {});
+  const aberto = estado.casoAberto[id];
+  const perguntas = c.perguntas.map((p, i) => {
+    const chave = `${id}:${i}`;
+    const pontos = p.pontos.map((pt, j) => `<li><label><input type="checkbox" data-ponto="${i}-${j}"><span>${esc(pt)}</span></label></li>`).join("");
+    return `<section class="pergunta-caso">
+      <span class="rotulo">Pergunta ${i + 1}</span><p class="enunciado">${esc(p.pergunta)}</p>
+      <textarea data-texto="${esc(chave)}" rows="4" placeholder="Escreva sua resposta antes de ver o gabarito…">${esc(textos[chave] ?? "")}</textarea>
+      ${aberto ? `<div class="caixa gabarito"><span class="rotulo">Pontos-chave · marque os que você escreveu</span><ul class="pontos">${pontos}</ul>
+        <span class="rotulo" style="display:block;margin-top:10px">Resposta esperada</span><p style="margin:2px 0 0">${esc(p.resposta)}</p></div>` : ""}
+    </section>`;
+  }).join("");
+  return `
+    <a class="voltar" href="#/casos">← Todos os casos</a>
+    ${abertura(`Estação escrita · ${c.minutos} minutos`, esc(c.titulo), "")}
+    <div class="caixa"><span class="rotulo">Caso</span><p style="margin:4px 0 0">${esc(c.enunciado)}</p></div>
+    ${c.imagem ? `<figure class="imagem-caso"><img src="${esc(c.imagem)}" alt="Exame do caso"><figcaption>${esc(c.credito ?? "")}</figcaption></figure>` : ""}
+    ${perguntas}
+    <div class="acoes" style="justify-content:center;margin:18px 0">
+      ${aberto ? `<button class="botao" data-nota-caso="${esc(id)}">Salvar minha correção</button><span class="placar" id="nota-caso" style="margin:0"></span>`
+        : `<button class="botao" data-abrir-caso="${esc(id)}">Ver a resposta esperada</button>`}
+    </div>
+    <p class="fraco" style="text-align:center;font-size:15px">Fonte: ${esc(c.fonte)}</p>
+    <div class="acoes" style="justify-content:center">${botoesResumo(c.resumo)}</div>`;
+}
+
 /* ---------- desempenho ---------- */
 function sinal(p) {
   if (p === null) return ["iniciar", "Comece por aqui"];
@@ -305,20 +354,22 @@ function telaDesempenho() {
   const respostas = ler("toce-respostas", {});
   const sims = ler("toce-simulados", []);
   const osce = ler("toce-osce", {});
+  const casos = ler("toce-casos", {});
   const linhas = Object.entries(estado.resumos).map(([id, r]) => {
     const qs = estado.questoes.filter((q) => q.resumo === id);
     let a = 0, n = 0;
     for (const q of qs) if (q.id in respostas) { n++; if (respostas[q.id] === q.correta) a++; }
     for (const s of sims) if (s.porTema?.[id]) { a += s.porTema[id].a; n += s.porTema[id].n; }
     const est = estado.estacoes.filter((e) => e.resumo === id).map((e) => (osce[e.id] ?? []).at(-1)).filter(Boolean);
+    const notasCasos = estado.casos.filter((c) => c.resumo === id).map((c) => (casos[c.id] ?? []).at(-1)).filter((x) => x !== undefined);
     const p = n ? pct(a, n) : null;
     const [cls, txt] = sinal(p);
-    return `<tr><td>${esc(r.titulo)}</td><td class="num">${n ? `${a}/${n} · ${p}%` : "—"}</td><td class="num">${est.length ? est.map((x) => `${x.pct}%`).join(", ") : "—"}</td>
+    return `<tr><td>${esc(r.titulo)}</td><td class="num">${n ? `${a}/${n} · ${p}%` : "—"}</td><td class="num">${est.length ? est.map((x) => `${x.pct}%`).join(", ") : "—"}</td><td class="num">${notasCasos.length ? `${Math.round(notasCasos.reduce((a, b) => a + b, 0) / notasCasos.length)}%` : "—"}</td>
       <td><span class="sinal ${cls}">${txt}</span>${cls === "revisar" ? ` · <a href="${esc(r.apostila)}" target="_blank" rel="noopener">apostila</a>` : ""}</td></tr>`;
   }).join("");
   return `
     ${abertura("Desempenho", "Seu mapa de estudo", "Junta o modo estudo, os simulados e os treinos de OSCE feitos neste aparelho. É uma ferramenta de estudo, não uma nota.")}
-    <table class="tabela"><thead><tr><th>Tema</th><th class="num">Questões</th><th class="num">OSCE</th><th>Sinal</th></tr></thead><tbody>${linhas}</tbody></table>
+    <table class="tabela"><thead><tr><th>Tema</th><th class="num">Questões</th><th class="num">OSCE</th><th class="num">Casos</th><th>Sinal</th></tr></thead><tbody>${linhas}</tbody></table>
     <p class="fraco" style="text-align:center;font-size:15px;margin-top:14px">Abaixo de 60% de acerto o tema aparece como "Revisar"; de 60% a 79%, "Em evolução"; 80% ou mais, "Ponto forte".</p>
     <div class="acoes" style="justify-content:center;margin-top:10px"><button class="botao claro" data-apagar-tudo="1">Apagar meus dados deste aparelho</button></div>`;
 }
@@ -395,11 +446,24 @@ conteudo.addEventListener("click", (ev) => {
     return;
   }
 
+  if ((el = t("[data-filtro-caso]"))) { location.hash = el.dataset.filtroCaso ? `#/casos/tema/${el.dataset.filtroCaso}` : "#/casos"; return; }
+  if ((el = t("[data-abrir-caso]"))) { estado.casoAberto[el.dataset.abrirCaso] = true; const y = window.scrollY; render(); window.scrollTo(0, y); return; }
+  if ((el = t("[data-nota-caso]"))) {
+    const todos = conteudo.querySelectorAll("[data-ponto]"); const marcados = [...todos].filter((c) => c.checked).length;
+    const nota = pct(marcados, todos.length); const notas = ler("toce-casos", {});
+    (notas[el.dataset.notaCaso] ??= []).push(nota); guardar("toce-casos", notas);
+    document.getElementById("nota-caso").textContent = `${marcados} de ${todos.length} pontos-chave · ${nota}% · salvo`; return;
+  }
   if ((el = t("[data-apagar-tudo]"))) {
     if (!el.dataset.confirmado) { el.dataset.confirmado = "1"; el.textContent = "Clique de novo para confirmar"; return; }
-    ["toce-respostas", "toce-simulados", "toce-osce"].forEach((k) => { try { localStorage.removeItem(k); } catch { /* sem armazenamento */ } });
+    ["toce-respostas", "toce-simulados", "toce-osce", "toce-casos", "toce-casos-texto"].forEach((k) => { try { localStorage.removeItem(k); } catch { /* sem armazenamento */ } });
     render(); return;
   }
+});
+
+conteudo.addEventListener("input", (ev) => {
+  if (!ev.target.matches("[data-texto]")) return;
+  const textos = ler("toce-casos-texto", {}); textos[ev.target.dataset.texto] = ev.target.value; guardar("toce-casos-texto", textos);
 });
 
 conteudo.addEventListener("change", (ev) => {
@@ -431,6 +495,7 @@ function render() {
   else if (rota === "simulado") html = parametro === "prova" ? telaSimuladoProva() : telaSimuladoConfig();
   else if (rota === "treino") html = parametro ? telaEstacao(parametro) : telaTreino();
   else if (rota === "desempenho") html = telaDesempenho();
+  else if (rota === "casos") html = parametro === "tema" ? telaCasos(hash.split("/")[3]) : parametro ? telaCaso(parametro) : telaCasos();
   else html = telaInicio();
   conteudo.innerHTML = html;
   const ativa = rota === "simulado" ? "questoes" : rota || "inicio";
@@ -439,9 +504,9 @@ function render() {
 
 window.addEventListener("hashchange", () => { render(); window.scrollTo(0, 0); });
 
-Promise.all(["sessoes", "resumos", "questoes", "treino"].map((n) => fetch(`dados/${n}.json`).then((r) => r.json())))
-  .then(([s, r, q, t]) => {
-    estado.sessoes = s.sessoes; estado.resumos = r; estado.questoes = q.questoes; estado.estacoes = t.estacoes;
+Promise.all(["sessoes", "resumos", "questoes", "treino", "casos"].map((n) => fetch(`dados/${n}.json`).then((r) => r.json())))
+  .then(([s, r, q, t, c]) => {
+    estado.sessoes = s.sessoes; estado.resumos = r; estado.questoes = q.questoes; estado.estacoes = t.estacoes; estado.casos = c.casos;
     estado.simConfig.temas = Object.keys(r);
     render();
   })
