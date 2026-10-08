@@ -149,6 +149,10 @@ function telaSimuladoConfig() {
   return `
     ${abertura("Questões", "Monte seu simulado", "Você escolhe os temas e a quantidade. Sem gabarito durante a prova: a correção comentada aparece só no final.")}
     ${abasQuestoes("simulado")}
+    <div class="acoes" style="justify-content:center;margin:-4px 0 22px">
+      <button class="botao claro" data-mini="10">Mini prova rápida · 10 questões de todos os temas</button>
+      <button class="botao claro" data-mini="30">Prova completa · 30 questões</button>
+    </div>
     <section class="simulado-grade">
       <div>
         <div class="passo-titulo"><span>1</span><h2>Temas</h2><button class="link" data-todos="1">${cfg.temas.length === Object.keys(estado.resumos).length ? "Limpar" : "Selecionar todos"}</button></div>
@@ -156,7 +160,7 @@ function telaSimuladoConfig() {
       </div>
       <aside class="caixa">
         <div class="passo-titulo"><span>2</span><h2>Quantidade</h2></div>
-        <div class="contagem">${[5, 10, 15, 20].map((v) => `<button class="${cfg.n === v ? "ativo" : ""}" data-n="${v}">${v}</button>`).join("")}</div>
+        <div class="contagem">${[5, 10, 20, 30, 40].map((v) => `<button class="${cfg.n === v ? "ativo" : ""}" data-n="${v}">${v}</button>`).join("")}</div>
         <p class="fraco" style="margin:10px 0">${cfg.temas.length ? `${disponiveis} questões disponíveis nos temas escolhidos.` : "Escolha pelo menos um tema."}</p>
         <button class="botao" data-iniciar-sim="1" ${n ? "" : "disabled"}>Iniciar simulado · ${n} questões</button>
       </aside>
@@ -198,7 +202,14 @@ function telaSimuladoResultado() {
     <section style="margin-top:22px"><span class="rotulo">Correção comentada</span>${correcao}</section>`;
 }
 
+/** Copia a questão com as alternativas em nova ordem e o gabarito ajustado, para a prova não virar decoreba. */
+function embaralharAlternativas(q) {
+  const ordem = embaralhar(q.alternativas.map((_, i) => i));
+  return { ...q, alternativas: ordem.map((i) => q.alternativas[i]), correta: ordem.indexOf(q.correta) };
+}
+
 function iniciarSimulado(pool) {
+  pool = pool.map(embaralharAlternativas);
   estado.sim = { pool, idx: 0, respostas: {}, fim: false, inicio: Date.now() };
   location.hash = "#/simulado/prova";
 }
@@ -336,6 +347,10 @@ conteudo.addEventListener("click", (ev) => {
   /* simulado */
   if ((el = t("[data-todos]"))) { const todos = Object.keys(estado.resumos); estado.simConfig.temas = estado.simConfig.temas.length === todos.length ? [] : todos; render(); return; }
   if ((el = t("[data-n]"))) { estado.simConfig.n = Number(el.dataset.n); render(); return; }
+  if ((el = t("[data-mini]"))) {
+    estado.simConfig.temas = Object.keys(estado.resumos);
+    iniciarSimulado(embaralhar(estado.questoes).slice(0, Number(el.dataset.mini))); return;
+  }
   if ((el = t("[data-iniciar-sim]"))) {
     const pool = embaralhar(estado.questoes.filter((q) => estado.simConfig.temas.includes(q.resumo))).slice(0, estado.simConfig.n);
     iniciarSimulado(pool); return;
