@@ -112,7 +112,50 @@ main { max-width: 1040px; margin: 0 auto; padding: 28px 16px 48px; outline: none
 .rodape { max-width: 1040px; margin: 0 auto; padding: 18px 16px 34px; border-top: 1px solid var(--filete); text-align: center; color: var(--fraco); font-size: 14px; font-style: italic; }
 .rodape p { margin: 4px 0; }
 
+/* abas, simulado, desempenho */
+.abas { display: flex; justify-content: center; gap: 4px; margin: -8px 0 20px; flex-wrap: wrap; }
+.abas a, .abas button { font: inherit; font-size: 16px; font-variant: small-caps; letter-spacing: .1em; padding: 5px 14px; border: 0; border-bottom: 2px solid var(--linha);
+  background: transparent; color: var(--tinta-2); text-decoration: none; cursor: pointer; }
+.abas .ativo { color: var(--vinho); border-bottom-color: var(--vinho); }
+.simulado-grade { display: grid; grid-template-columns: 1fr 300px; gap: 26px; align-items: start; }
+.passo-titulo { display: flex; align-items: baseline; gap: 10px; margin-bottom: 10px; }
+.passo-titulo span { font-style: italic; color: var(--vinho); font-size: 22px; }
+.passo-titulo h2 { font-size: 22px; }
+.passo-titulo .link { margin-left: auto; font: inherit; font-size: 15px; background: none; border: 0; color: var(--vinho); text-decoration: underline; cursor: pointer; }
+.opcoes { display: grid; gap: 8px; }
+.opcao { display: grid; grid-template-columns: 22px 1fr; gap: 10px; align-items: center; padding: 10px 12px; border: 1px solid var(--linha); background: rgba(255, 255, 255, .3); cursor: pointer; }
+.opcao.ativo { border-color: var(--filete); background: var(--tom); }
+.opcao input { width: 17px; height: 17px; accent-color: var(--tinta); }
+.opcao small { display: block; color: var(--fraco); font-size: 14px; }
+.contagem { display: flex; gap: 6px; }
+.contagem button { flex: 1; font: inherit; font-size: 18px; padding: 6px 0; border: 1px solid var(--linha); background: transparent; color: var(--tinta); cursor: pointer; }
+.contagem button.ativo { border-color: var(--vinho); color: var(--vinho); background: var(--tom); }
+.historico { list-style: none; padding: 0; margin: 6px 0 0; }
+.historico li { display: grid; grid-template-columns: 110px 130px 1fr; gap: 10px; padding: 8px 0; border-bottom: 1px solid var(--linha); font-size: 16px; }
+.prova-topo { display: flex; justify-content: space-between; align-items: baseline; }
+.relogio-mini { font-variant-numeric: tabular-nums; color: var(--tinta-2); }
+.barra { height: 3px; background: var(--linha); margin: 8px 0 4px; }
+.barra span { display: block; height: 100%; background: var(--vinho); transition: width .2s; }
+.alternativas button.marcada { border-color: var(--tinta); background: var(--tom); }
+.mapa { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; margin: 10px 0; }
+.mapa button { width: 34px; height: 34px; font: inherit; font-size: 15px; border: 1px solid var(--linha); background: transparent; color: var(--tinta-2); cursor: pointer; }
+.mapa button.feita { background: var(--tom); border-color: var(--filete); }
+.mapa button.atual { border-color: var(--vinho); color: var(--vinho); }
+.tabela { width: 100%; border-collapse: collapse; font-size: 17px; }
+.tabela th { text-align: left; font-weight: 500; font-variant: small-caps; letter-spacing: .1em; color: var(--tinta-2); padding: 8px 10px 6px 0; border-top: 2px solid var(--tinta); border-bottom: 1px solid var(--tinta); }
+.tabela td { padding: 8px 10px 8px 0; border-bottom: 1px solid var(--linha); vertical-align: top; }
+.tabela tbody tr:last-child td { border-bottom: 2px solid var(--tinta); }
+.tabela .num { text-align: right; font-variant-numeric: tabular-nums; }
+.sinal { font-variant: small-caps; letter-spacing: .08em; }
+.sinal.revisar { color: var(--vinho); } .sinal.evolucao { color: var(--oliva); } .sinal.forte { color: var(--certo); } .sinal.iniciar { color: var(--fraco); }
+.caixa.oculto { text-align: center; margin: 18px 0; }
+.estacao-card small { display: block; margin-top: 8px; font-size: 14px; }
+
 @media (max-width: 720px) {
+  .simulado-grade { grid-template-columns: 1fr; }
+  .historico li { grid-template-columns: 1fr 1fr; }
+  .historico li span:last-child { grid-column: 1 / -1; }
+  .menu { overflow-x: auto; }
   body { font-size: 17px; }
   .topo { flex-direction: column; align-items: stretch; gap: 6px; padding-bottom: 4px; }
   .menu { justify-content: space-between; }
