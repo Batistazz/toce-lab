@@ -1,0 +1,23 @@
+{
+  "fonte": "Cronograma Habilidades Cirúrgicas – 8ª etapa – 2026.2 (atualizado em 27/08/2026)",
+  "sessoes": [
+    { "id": "s01", "numero": "1", "dataB": "2026-08-13", "dataA": "2026-08-14", "teoria": "Hemorragia digestiva alta e baixa", "pratica": "Acessos venosos periférico e central, punção intraóssea" },
+    { "id": "s02", "numero": "2", "dataB": "2026-08-20", "dataA": "2026-08-21", "teoria": "Abdome agudo: classificação, imagem e diagnóstico diferencial", "pratica": "Paracentese" },
+    { "id": "s03", "numero": "3", "dataB": "2026-08-27", "dataA": "2026-08-28", "teoria": "Apendicite aguda e colecistite aguda", "pratica": "Discussão de casos clínicos" },
+    { "id": "s04", "numero": "4", "dataB": "2026-09-03", "dataA": "2026-09-04", "teoria": "Diverticulite aguda e pancreatite aguda", "pratica": "Discussão de casos clínicos" },
+    { "id": "s05", "numero": "5", "dataB": "2026-09-10", "dataA": "2026-09-11", "teoria": "Abdome agudo vascular e obstrutivo", "pratica": "Casos clínicos e tomada de decisão" },
+    { "id": "s06", "numero": "6", "dataB": "2026-09-17", "dataA": "2026-09-18", "teoria": "Hérnias da parede abdominal", "pratica": "Small bites, fechamento por planos e tela" },
+    { "id": "s07", "numero": "7", "dataB": "2026-10-01", "dataA": "2026-10-02", "teoria": "Câncer gástrico, esofágico e colorretal", "pratica": "Cuidados com ostomias" },
+    { "id": "s08", "numero": "8", "dataB": "2026-10-08", "dataA": "2026-10-09", "teoria": "Abordagem inicial do paciente queimado", "pratica": "Classificação, SCQ, Parkland e curativos", "resumo": "queimaduras" },
+    { "id": "s09", "numero": "9", "dataB": "2026-10-22", "dataA": "2026-10-23", "teoria": "Sem aula teórica no cronograma", "pratica": "Sondagem vesical masculina e feminina", "resumo": "afeccoes-urologicas" },
+    { "id": "s10", "numero": "10", "dataB": "2026-10-29", "dataA": "2026-10-30", "teoria": "ATLS: avaliação inicial (xABCDE), trauma torácico e controle de danos", "pratica": "Toracocentese de alívio, drenagem pleural e torácica", "resumo": "politraumatizado" },
+    { "id": "s11", "numero": "11", "dataB": "2026-11-05", "dataA": "2026-11-06", "teoria": "Trauma abdominal, trauma pélvico e estados de choque", "pratica": "Vias aéreas, intubação orotraqueal e cricotireoidostomia", "resumo": "choque-hemorragico" },
+    { "id": "s12", "numero": "12", "dataB": "2026-11-12", "dataA": "2026-11-13", "teoria": "Cirurgia pediátrica", "pratica": "Revisão integrada e casos clínicos complexos" },
+    { "id": "rev", "numero": "Revisão", "dataB": "2026-11-26", "dataA": "2026-11-27", "teoria": "Afecções urológicas", "pratica": "Revisão prática para OSCE", "resumo": "afeccoes-urologicas" }
+  ],
+  "avaliacoes": [
+    { "nome": "Prova teórica D1", "data": "2026-09-24" },
+    { "nome": "Prova teórica D2", "data": "2026-12-03" },
+    { "nome": "OSCE prático", "data": "2026-12-04" }
+  ]
+}

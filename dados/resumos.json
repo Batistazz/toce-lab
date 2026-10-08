@@ -1,0 +1,46 @@
+{
+  "queimaduras": {
+    "titulo": "Queimaduras",
+    "subtitulo": "Abordagem inicial, profundidade, extensão, reposição e curativos",
+    "sessoes": ["s08"],
+    "apostila": "resumos/queimaduras/apostila.pdf",
+    "flash": "resumos/queimaduras/revisao-flash.pdf",
+    "capa": "resumos/queimaduras/capa.jpg",
+    "paginasApostila": 9,
+    "paginasFlash": 2,
+    "atualizado": "2026-10-08"
+  },
+  "afeccoes-urologicas": {
+    "titulo": "Afecções urológicas e sondagem vesical",
+    "subtitulo": "Cólica renal, retenção urinária, escroto agudo, priapismo e sondagem vesical",
+    "sessoes": ["s09", "rev"],
+    "apostila": "resumos/afeccoes-urologicas/apostila.pdf",
+    "flash": "resumos/afeccoes-urologicas/revisao-flash.pdf",
+    "capa": "resumos/afeccoes-urologicas/capa.jpg",
+    "paginasApostila": 11,
+    "paginasFlash": 2,
+    "atualizado": "2026-10-08"
+  },
+  "politraumatizado": {
+    "titulo": "ATLS e trauma torácico",
+    "subtitulo": "Avaliação inicial (xABCDE), trauma torácico e controle de danos",
+    "sessoes": ["s10"],
+    "apostila": "resumos/politraumatizado/apostila.pdf",
+    "flash": "resumos/politraumatizado/revisao-flash.pdf",
+    "capa": "resumos/politraumatizado/capa.jpg",
+    "paginasApostila": 12,
+    "paginasFlash": 2,
+    "atualizado": "2026-10-08"
+  },
+  "choque-hemorragico": {
+    "titulo": "Trauma abdominal, pélvico e choque",
+    "subtitulo": "Choque, trauma abdominal e pélvico, controle de danos e via aérea definitiva",
+    "sessoes": ["s11"],
+    "apostila": "resumos/choque-hemorragico/apostila.pdf",
+    "flash": "resumos/choque-hemorragico/revisao-flash.pdf",
+    "capa": "resumos/choque-hemorragico/capa.jpg",
+    "paginasApostila": 13,
+    "paginasFlash": 2,
+    "atualizado": "2026-10-08"
+  }
+}

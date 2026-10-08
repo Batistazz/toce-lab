@@ -1,0 +1,165 @@
+{
+  "aviso": "Questões elaboradas pela monitoria a partir das apostilas. Versão inicial: serão revisadas e ampliadas.",
+  "questoes": [
+    {
+      "id": "q-queim-01", "resumo": "queimaduras", "sessao": "s08",
+      "enunciado": "Homem de 70 kg sofre queimaduras de 2º e 3º graus em 40% da superfície corporal. Pela fórmula de Parkland, qual é o volume de Ringer lactato nas primeiras 24 horas e como ele é distribuído?",
+      "alternativas": ["5.600 mL: metade nas primeiras 8 h a partir da chegada ao hospital", "11.200 mL: metade nas primeiras 8 h a partir da queimadura", "11.200 mL: dividido igualmente pelas 24 h", "2.800 mL: metade nas primeiras 8 h a partir da queimadura"],
+      "correta": 1,
+      "comentario": "Parkland: 4 mL × 70 kg × 40% = 11.200 mL em 24 h. Metade (5.600 mL) corre nas primeiras 8 h contadas do momento da queimadura, e não da chegada; a outra metade, nas 16 h seguintes. A fórmula da ABA parte de 2 mL × kg × %SCQ.",
+      "fonte": "Aula da disciplina (Profa. Fernanda Parreiras); ATLS 11, cap. 9"
+    },
+    {
+      "id": "q-queim-02", "resumo": "queimaduras", "sessao": "s08",
+      "enunciado": "Jovem volta da praia com eritema doloroso, sem bolhas, em cerca de 30% do corpo. Sobre o cálculo da reposição volêmica, é correto afirmar:",
+      "alternativas": ["Entra no cálculo como queimadura de 2º grau superficial", "Entra no cálculo pela regra dos nove, com metade do peso", "Não entra no cálculo da SCQ, porque é queimadura de 1º grau", "Exige Parkland com 2 mL × kg × %SCQ"],
+      "correta": 2,
+      "comentario": "Eritema sem bolhas é 1º grau (epidérmico). Ele não entra no cálculo da superfície corporal queimada para reposição: só contam as áreas de 2º e 3º graus.",
+      "fonte": "ATLS 11, Box 9-1"
+    },
+    {
+      "id": "q-queim-03", "resumo": "queimaduras", "sessao": "s08",
+      "enunciado": "Vítima de incêndio em apartamento fechado chega confusa, com cefaleia e oximetria de pulso de 99%. Qual é a conduta mais adequada?",
+      "alternativas": ["Tranquilizar: a oximetria normal exclui intoxicação por monóxido de carbono", "Oxigênio a 100% e dosagem de carboxi-hemoglobina na gasometria", "Oxigênio por cateter nasal a 2 L/min e observação", "Câmara hiperbárica antes da avaliação primária"],
+      "correta": 1,
+      "comentario": "O oxímetro lê a carboxi-hemoglobina como oxi-hemoglobina e pode marcar 98–100%. O diagnóstico vem da carboxi-hemoglobina na gasometria, e o O₂ a 100% reduz a meia-vida do CO de cerca de 4 h para 40–50 min. O ATLS 11 não indica oxigenoterapia hiperbárica na ressuscitação primária.",
+      "fonte": "ATLS 11, cap. 9"
+    },
+    {
+      "id": "q-queim-04", "resumo": "queimaduras", "sessao": "s08",
+      "enunciado": "Qual achado, em um paciente queimado, indica intubação imediata?",
+      "alternativas": ["Vibrissas nasais chamuscadas isoladamente", "Queimadura de 2º grau no antebraço", "Rouquidão e estridor", "Exposição à fumaça há 2 horas, sem sintomas"],
+      "correta": 2,
+      "comentario": "Sinais de obstrução da via aérea (rouquidão, estridor, uso de musculatura acessória, retração esternal) indicam intubação imediata. Vibrissas chamuscadas e exposição em ambiente fechado levantam suspeita de lesão inalatória e pedem reavaliação frequente.",
+      "fonte": "ATLS 11, cap. 9"
+    },
+    {
+      "id": "q-queim-05", "resumo": "queimaduras", "sessao": "s08",
+      "enunciado": "Leito da queimadura mais seco, vermelho mosqueado, que não clareia à pressão e é menos doloroso. Qual é a profundidade mais provável?",
+      "alternativas": ["1º grau", "2º grau superficial", "2º grau profundo", "4º grau"],
+      "correta": 2,
+      "comentario": "O 2º grau superficial é úmido, rosado, muito doloroso e clareia à pressão. O 2º grau profundo atinge a derme reticular: é mais seco, mosqueado ou esbranquiçado, não clareia e dói menos.",
+      "fonte": "ATLS 11, cap. 9"
+    },
+    {
+      "id": "q-uro-01", "resumo": "afeccoes-urologicas", "sessao": "rev",
+      "enunciado": "Na cólica renal, sem contraindicações, qual é a analgesia de primeira escolha?",
+      "alternativas": ["Opioide forte de horário", "Anti-inflamatório não esteroide", "Antiespasmódico isolado", "Hidratação venosa vigorosa"],
+      "correta": 1,
+      "comentario": "A EAU recomenda o AINE como primeira escolha (respeitando risco cardiovascular e função renal). Opioides ficam como segunda opção.",
+      "fonte": "EAU Guidelines on Urolithiasis, 2026"
+    },
+    {
+      "id": "q-uro-02", "resumo": "afeccoes-urologicas", "sessao": "rev",
+      "enunciado": "Paciente com cálculo ureteral obstrutivo, febre de 39 °C e hipotensão. Qual é a prioridade?",
+      "alternativas": ["Ureteroscopia com retirada do cálculo imediatamente", "Terapia expulsiva com tansulosina e observação", "Descompressão urgente (duplo J ou nefrostomia) e antibiótico", "Litotripsia extracorpórea no mesmo dia"],
+      "correta": 2,
+      "comentario": "Rim obstruído e infectado é urgência: descomprimir com duplo J ou nefrostomia percutânea (igualmente eficazes), colher urocultura e iniciar antibiótico. O tratamento definitivo do cálculo fica para depois que a sepse resolver.",
+      "fonte": "EAU Guidelines on Urolithiasis, 2026"
+    },
+    {
+      "id": "q-uro-03", "resumo": "afeccoes-urologicas", "sessao": "rev",
+      "enunciado": "Adolescente de 14 anos com dor testicular súbita há 2 horas, vômitos, testículo elevado e reflexo cremastérico ausente. Qual é a conduta?",
+      "alternativas": ["Doppler eletivo no dia seguinte", "Antibiótico para epididimite e reavaliação", "Exploração cirúrgica imediata, sem atrasar por exame de imagem", "Anti-inflamatório e gelo local"],
+      "correta": 2,
+      "comentario": "Quadro típico de torção testicular, emergência com janela crítica de cerca de 4 a 6 horas. O diagnóstico é clínico; o Doppler ajuda, mas não pode atrasar a cirurgia. A ausência do reflexo cremastérico tem sensibilidade de 100% para torção.",
+      "fonte": "EAU Guidelines on Paediatric Urology, 2026, cap. 8"
+    },
+    {
+      "id": "q-uro-04", "resumo": "afeccoes-urologicas", "sessao": "s09",
+      "enunciado": "Politraumatizado com sangue no meato uretral e equimose perineal. Antes de passar sonda vesical, deve-se:",
+      "alternativas": ["Passar a sonda com mais lubrificante", "Palpar a próstata: se estiver tópica, sondar", "Fazer uretrografia retrógrada", "Passar sonda de menor calibre"],
+      "correta": 2,
+      "comentario": "Suspeita de lesão uretral contraindica a sonda uretral até a uretrografia retrógrada. Pelo ATLS 11, palpar a próstata não é sinal confiável de lesão uretral.",
+      "fonte": "ATLS 11, cap. 21"
+    },
+    {
+      "id": "q-uro-05", "resumo": "afeccoes-urologicas", "sessao": "s09",
+      "enunciado": "Durante a sondagem vesical masculina, em que momento se insufla o balão da sonda de Foley?",
+      "alternativas": ["Assim que a sonda passa pelo meato", "Ao sentir resistência na uretra prostática", "Somente depois da saída de urina pela sonda", "Antes de introduzir a sonda, para testá-la dentro da uretra"],
+      "correta": 2,
+      "comentario": "O balão só é insuflado depois que a urina drena, confirmando que a ponta está na bexiga. Insuflar na uretra pode rompê-la; dor intensa ao insuflar sugere balão mal posicionado.",
+      "fonte": "Apostila da monitoria · Sondagem vesical"
+    },
+    {
+      "id": "q-atls-01", "resumo": "politraumatizado", "sessao": "s10",
+      "enunciado": "Politrauma com FC 132, PAS 92, SpO₂ 86% e murmúrio vesicular abolido à direita. Qual é a próxima ação?",
+      "alternativas": ["Radiografia de tórax para confirmar", "Tomografia de tórax com contraste", "Descompressão torácica imediata, sem aguardar imagem", "Intubação e reavaliação após 10 minutos"],
+      "correta": 2,
+      "comentario": "Pneumotórax hipertensivo é diagnóstico clínico (mecanismo, murmúrio abolido e hipotensão). A descompressão não espera radiografia nem ultrassom e é seguida de dreno de tórax.",
+      "fonte": "Aula da disciplina (caso 1); ATLS 11, cap. 5"
+    },
+    {
+      "id": "q-atls-02", "resumo": "politraumatizado", "sessao": "s10",
+      "enunciado": "Segundo o ATLS 11, onde se faz a descompressão por agulha no adulto?",
+      "alternativas": ["Somente no 2º espaço intercostal, na linha axilar média", "No 5º espaço intercostal, entre as linhas axilares anterior e média, ou no 2º espaço intercostal na linha hemiclavicular", "No 7º espaço intercostal, na linha axilar posterior", "Na borda inferior da costela, para evitar o pulmão"],
+      "correta": 1,
+      "comentario": "O ATLS 11 aceita dois pontos: 5º EIC entre as linhas axilares anterior e média (altura da prega inframamária) e 2º EIC na linha hemiclavicular, com cateter de 14 G ou maior. Entra-se pela borda superior da costela, porque o feixe vasculonervoso corre pela inferior.",
+      "fonte": "ATLS 11, cap. 5"
+    },
+    {
+      "id": "q-atls-03", "resumo": "politraumatizado", "sessao": "s10",
+      "enunciado": "Sobre o ácido tranexâmico no choque hemorrágico traumático, é correto:",
+      "alternativas": ["Pode ser iniciado até 12 horas após o trauma", "Reduz mortalidade quando dado até 3 horas após o trauma", "Substitui o controle cirúrgico da hemorragia", "É contraindicado no atendimento pré-hospitalar"],
+      "correta": 1,
+      "comentario": "O TXA reduz mortalidade quando dado até 3 h do trauma: 1 g em bolus + 1 g em 8 h, ou 2 g em dose única. Depois de 3 h não é recomendado, salvo hiperfibrinólise. Não substitui a hemostasia.",
+      "fonte": "ATLS 11, cap. 6"
+    },
+    {
+      "id": "q-atls-04", "resumo": "politraumatizado", "sessao": "s10",
+      "enunciado": "Qual combinação de achados é mais compatível com hemotórax maciço?",
+      "alternativas": ["Murmúrio abolido, percussão timpânica, jugulares túrgidas", "Murmúrio abolido, percussão maciça, jugulares colabadas, choque", "Murmúrio preservado, bulhas abafadas, jugulares túrgidas", "Movimento paradoxal da parede e hipoxemia isolada"],
+      "correta": 1,
+      "comentario": "O hemotórax maciço soma perda de sangue e compressão pulmonar: murmúrio abolido, macicez e veias do pescoço colabadas pelo choque hemorrágico. Timpanismo com jugular túrgida sugere pneumotórax hipertensivo; murmúrio preservado com jugular túrgida, tamponamento.",
+      "fonte": "ATLS 11, Tabela 5-1; aula da disciplina"
+    },
+    {
+      "id": "q-atls-05", "resumo": "politraumatizado", "sessao": "s10",
+      "enunciado": "Paciente com tórax instável (movimento paradoxal), consciente, oxigenando bem com O₂ suplementar. A conduta inicial é:",
+      "alternativas": ["Intubação imediata pelo movimento paradoxal", "Analgesia multimodal e higiene pulmonar, com reavaliação", "Fixação cirúrgica das costelas na emergência", "Faixa compressiva ao redor do tórax"],
+      "correta": 1,
+      "comentario": "Não se intuba só pelo movimento paradoxal. A base é analgesia multimodal e higiene pulmonar; intuba-se se o paciente não ventila, se a contusão causa hipóxia ou se a sedação exigir.",
+      "fonte": "ATLS 11, cap. 5; aula da disciplina"
+    },
+    {
+      "id": "q-abd-01", "resumo": "choque-hemorragico", "sessao": "s11",
+      "enunciado": "Vítima de colisão, hipotensa e taquicárdica, com FAST positivo na janela hepatorrenal. Qual é a conduta?",
+      "alternativas": ["Tomografia com contraste para graduar a lesão", "Controle imediato da fonte intraperitoneal (laparotomia)", "Tratamento não operatório com observação", "Repetir o FAST em 6 horas"],
+      "correta": 1,
+      "comentario": "Instável + FAST positivo = controle imediato da provável fonte intraperitoneal. Atrasar para fazer TC é erro: a TC é para o paciente estável ou estabilizado.",
+      "fonte": "ATLS 11, cap. 21; aula da disciplina"
+    },
+    {
+      "id": "q-abd-02", "resumo": "choque-hemorragico", "sessao": "s11",
+      "enunciado": "Ao aplicar um binder pélvico (ou lençol) na suspeita de fratura de pelve com choque, ele deve ficar centrado:",
+      "alternativas": ["Sobre as cristas ilíacas", "Na cintura, acima do umbigo", "Sobre os grandes trocânteres", "Nas coxas, abaixo do períneo"],
+      "correta": 2,
+      "comentario": "O binder é centrado nos grandes trocânteres, nunca sobre as cristas ilíacas. Também se evita manipular a pelve repetidamente, para não deslocar o coágulo.",
+      "fonte": "ATLS 11, cap. 21"
+    },
+    {
+      "id": "q-abd-03", "resumo": "choque-hemorragico", "sessao": "s11",
+      "enunciado": "Em qual situação a hipotensão permissiva é inadequada?",
+      "alternativas": ["Trauma penetrante de tronco com hemostasia próxima", "TCE grave associado a hemorragia", "Hemorragia não controlada em adulto jovem sem TCE", "Ferimento por arma branca no abdome"],
+      "correta": 1,
+      "comentario": "No TCE significativo, a hipotensão agrava a lesão cerebral secundária; a prioridade é proteger a perfusão cerebral e controlar a fonte rapidamente.",
+      "fonte": "ATLS 11, cap. 6; aula da disciplina"
+    },
+    {
+      "id": "q-abd-04", "resumo": "choque-hemorragico", "sessao": "s11",
+      "enunciado": "Paciente melhora com o primeiro volume de sangue, mas volta a ficar taquicárdico e hipotenso em 15 minutos. Como interpretar?",
+      "alternativas": ["Respondedor rápido: manter observação", "Respondedor transitório: sangramento persistente, acelerar o controle da fonte", "Não respondedor: suspender a transfusão", "Resposta normal à dor"],
+      "correta": 1,
+      "comentario": "O respondedor transitório é o perfil de maior risco: a melhora não significa hemostasia. Acelere o sangue e o controle da fonte e reavalie diagnósticos alternativos.",
+      "fonte": "ATLS 11, cap. 6; aula da disciplina"
+    },
+    {
+      "id": "q-abd-05", "resumo": "choque-hemorragico", "sessao": "s11",
+      "enunciado": "Na cricotireoidostomia cirúrgica (técnica bisturi-bougie-tubo), as incisões são:",
+      "alternativas": ["Pele horizontal e membrana vertical", "Pele vertical na linha média e membrana transversal", "Pele e membrana verticais", "Pele e membrana horizontais, abaixo da cartilagem cricoide"],
+      "correta": 1,
+      "comentario": "Pele na vertical (linha média, sobre a membrana cricotireóidea) e membrana na horizontal. Depois, dilata-se com o cabo do bisturi, passa-se o tubo (ou bougie e tubo) e confirma-se com capnografia.",
+      "fonte": "ATLS 11, cap. 4, Figura 4-14"
+    }
+  ]
+}
