@@ -2,7 +2,7 @@
 "use strict";
 
 const estado = {
-  sessoes: [], resumos: {}, questoes: [], estacoes: [], casos: [], casoAberto: {},
+  sessoes: [], resumos: {}, questoes: [], estacoes: [], casos: [], casoAberto: {}, casoEtapa: {}, osceFiltro: "todas",
   timer: null,
   osce: { modo: "treino", fase: "pronto", resta: 0, leitura: 0 },
   sim: null, // { temas, n, pool, idx, respostas, fim, inicio, fimEm }
@@ -60,8 +60,7 @@ function telaInicio() {
     ${proxima}
     <section class="portas">
       <a class="porta" href="#/resumos"><span class="num">${Object.keys(estado.resumos).length}</span><h3>Resumos</h3><p>Apostila de Estudo e Revisão Flash de cada sessão, para ler ou baixar.</p></a>
-      <a class="porta" href="#/treino"><span class="num">${estado.estacoes.length}</span><h3>Treino OSCE</h3><p>Estações com leitura de porta, cronômetro e checklist, em treino aberto, individual ou em dupla.</p></a>
-      <a class="porta" href="#/casos"><span class="num">${estado.casos.length}</span><h3>Casos</h3><p>Estações escritas com radiografia, TC ou ultrassom: escreva a conduta e corrija pelos pontos-chave.</p></a>
+      <a class="porta" href="#/osce"><span class="num">${estado.estacoes.length + estado.casos.length}</span><h3>OSCE</h3><p>Estações práticas com checklist e estações escritas com caso em etapas e exames de imagem. Sorteie uma e treine com o cronômetro.</p></a>
       <a class="porta" href="#/questoes"><span class="num">${estado.questoes.length}</span><h3>Questões</h3><p>Estudo com correção na hora ou simulado montado por você, com nota no final.</p></a>
     </section>
     <p style="text-align:center;margin-top:22px"><a href="#/desempenho">Ver meu desempenho →</a></p>`;
@@ -227,19 +226,48 @@ function finalizarSimulado() {
 }
 
 /* ---------- treino (OSCE) ---------- */
-function telaTreino() {
+function telaOsce() {
   const resultados = ler("toce-osce", {});
-  const cards = estado.estacoes.map((e) => {
+  const notas = ler("toce-casos", {});
+  const filtro = estado.osceFiltro;
+  const praticas = estado.estacoes.map((e) => ({ ...e, tipo: "pratica" }));
+  const escritas = estado.casos.map((c) => ({ ...c, tipo: "escrita" }));
+  const todas = [...praticas, ...escritas].filter((e) => filtro === "todas" || e.tipo === filtro)
+    .sort((a, b) => estado.sessoes.findIndex((x) => x.id === a.sessao) - estado.sessoes.findIndex((x) => x.id === b.sessao));
+  const cards = todas.map((e) => {
     const s = sessaoPorId(e.sessao);
-    const ult = (resultados[e.id] ?? []).at(-1);
-    return `<a class="estacao-card" href="#/treino/${esc(e.id)}"><span class="rotulo">${s ? esc(rotuloSessao(s)) : ""} · ${e.minutos} min</span>
-      <h3>${esc(e.titulo)}</h3><p>${esc(e.cenario)}</p>${ult ? `<small class="fraco">Último treino: ${ult.pct}% do checklist (${esc(ult.modo)})</small>` : ""}</a>`;
+    const ult = e.tipo === "pratica" ? (resultados[e.id] ?? []).at(-1) : undefined;
+    const nota = e.tipo === "escrita" ? (notas[e.id] ?? []).at(-1) : undefined;
+    const img = e.tipo === "escrita" ? (e.etapas ?? []).find((x) => x.imagem)?.imagem : null;
+    return `<a class="estacao-card caso-card" href="#/osce/${esc(e.id)}">
+      ${img ? `<img src="${esc(img)}" alt="" loading="lazy">` : `<div class="sem-imagem">${e.tipo === "pratica" ? "prática" : "escrita"}</div>`}
+      <div><span class="rotulo">${e.tipo === "pratica" ? "Prática · checklist" : `Escrita · ${(e.etapas ?? []).length} etapas`} · ${e.minutos} min${s ? ` · ${esc(rotuloSessao(s))}` : ""}</span>
+      <h3>${esc(e.titulo)}</h3>
+      ${ult ? `<small class="fraco">Último treino: ${ult.pct}% do checklist</small>` : ""}${nota !== undefined ? `<small class="fraco">Última correção: ${nota}% dos pontos-chave</small>` : ""}</div></a>`;
   }).join("");
   return `
-    ${abertura("Treino", "Estações de OSCE", "Escolha uma estação ou sorteie. Treine com o checklist aberto, sozinho com o checklist oculto, ou em dupla com um colega avaliando.")}
-    <div class="acoes" style="justify-content:center;margin-bottom:22px"><button class="botao" data-sortear="1">⤨ Sortear uma estação</button></div>
-    <section class="estacoes">${cards}</section>
-    <p class="fraco" style="text-align:center;margin-top:22px;font-style:italic">Checklists da monitoria a partir das apostilas. Não substituem a rubrica oficial do OSCE.</p>`;
+    ${abertura("OSCE", "Estações de OSCE", "Estações práticas, com checklist e cronômetro, e estações escritas, com caso em etapas e exames de imagem. Sorteie uma ou escolha.")}
+    <div class="acoes" style="justify-content:center;margin-bottom:14px">
+      <button class="botao" data-sortear="todas">⤨ Sortear qualquer estação</button>
+      <button class="botao claro" data-sortear="pratica">Sortear prática</button>
+      <button class="botao claro" data-sortear="escrita">Sortear escrita</button>
+    </div>
+    <div class="abas">${[["todas", "Todas"], ["pratica", "Práticas"], ["escrita", "Escritas"]].map(([k, n]) => `<button class="${filtro === k ? "ativo" : ""}" data-osce-filtro="${k}">${n}</button>`).join("")}</div>
+    <section class="casos-lista">${cards}</section>
+    <p class="fraco" style="text-align:center;margin-top:22px;font-style:italic">Material da monitoria a partir das apostilas e de fontes primárias. Não substitui a rubrica oficial do OSCE.</p>`;
+}
+
+function blocoRelogio(e) {
+  const o = estado.osce;
+  const visor = o.fase === "leitura" ? `Leitura ${mmss(o.leitura)}` : o.fase === "fim" ? "Encerrada" : mmss(o.resta || e.minutos * 60);
+  const principal = o.fase === "pronto" ? "Começar (1 min de leitura)" : o.fase === "fim" ? "Recomeçar" : estado.timer ? "Pausar" : "Continuar";
+  return `<div style="margin:18px 0 6px">
+      <div class="relogio ${o.fase === "fim" ? "fim" : ""}" id="relogio">${visor}</div>
+      <div class="acoes" style="justify-content:center">
+        <button class="botao" data-osce="principal">${principal}</button>
+        ${o.fase !== "pronto" && o.fase !== "fim" ? `<button class="botao claro" data-osce="encerrar">Encerrar estação</button>` : ""}
+        ${o.fase !== "pronto" ? `<button class="botao claro" data-osce="zerar">Zerar</button>` : ""}
+      </div></div>`;
 }
 
 const MODOS = {
@@ -250,7 +278,7 @@ const MODOS = {
 
 function telaEstacao(id) {
   const e = estado.estacoes.find((x) => x.id === id);
-  if (!e) return telaTreino();
+  if (!e) return telaOsce();
   const o = estado.osce;
   const oculto = o.modo === "individual" && o.fase !== "fim";
   const passos = e.passos.map((p, i) => `<li><label><input type="checkbox" data-passo="${i}"><span>${esc(p)}</span></label></li>`).join("");
@@ -258,7 +286,7 @@ function telaEstacao(id) {
   const botaoPrincipal = o.fase === "pronto" ? (o.modo === "treino" ? "Iniciar cronômetro" : "Começar (1 min de leitura)")
     : o.fase === "fim" ? "Recomeçar" : estado.timer ? "Pausar" : "Continuar";
   return `
-    <a class="voltar" href="#/treino">← Todas as estações</a>
+    <a class="voltar" href="#/osce">← Todas as estações</a>
     ${abertura(`Estação · ${e.minutos} minutos`, esc(e.titulo), "")}
     <div class="abas">${Object.entries(MODOS).map(([k, m]) => `<button class="${o.modo === k ? "ativo" : ""}" data-modo="${k}">${m.nome}</button>`).join("")}</div>
     <p class="fraco" style="text-align:center;font-style:italic;margin:-6px 0 16px">${MODOS[o.modo].ajuda}</p>
@@ -294,52 +322,40 @@ function tickOsce(e) {
   if (visor) visor.textContent = o.fase === "leitura" ? `Leitura ${mmss(o.leitura)}` : mmss(o.resta);
 }
 
-/* ---------- casos discursivos ---------- */
-function telaCasos(filtro) {
-  const notas = ler("toce-casos", {});
-  const lista = filtro ? estado.casos.filter((c) => c.resumo === filtro) : estado.casos;
-  const filtros = [`<button class="${filtro ? "" : "ativo"}" data-filtro-caso="">Todos</button>`]
-    .concat(Object.entries(estado.resumos).map(([id, r]) => `<button class="${filtro === id ? "ativo" : ""}" data-filtro-caso="${esc(id)}">${esc(r.titulo)}</button>`)).join("");
-  const cards = lista.map((c) => {
-    const s = sessaoPorId(c.sessao); const n = (notas[c.id] ?? []).at(-1);
-    return `<a class="estacao-card caso-card" href="#/casos/${esc(c.id)}">
-      ${c.imagem ? `<img src="${esc(c.imagem)}" alt="" loading="lazy">` : `<div class="sem-imagem">cálculo</div>`}
-      <div><span class="rotulo">${s ? esc(rotuloSessao(s)) : ""} · ${c.minutos} min · ${c.perguntas.length} pergunta${c.perguntas.length > 1 ? "s" : ""}</span>
-      <h3>${esc(c.titulo)}</h3>${n !== undefined ? `<small class="fraco">Última correção: ${n}% dos pontos-chave</small>` : ""}</div></a>`;
-  }).join("");
-  return `
-    ${abertura("Casos", "Estações escritas", "Caso clínico com exame de imagem: escreva o que vê e o que faria. Depois compare com os pontos-chave da resposta esperada, como numa correção por rubrica.")}
-    <div class="filtros">${filtros}</div>
-    <section class="casos-lista">${cards || `<p class="fraco" style="text-align:center">Ainda não há casos deste tema.</p>`}</section>`;
-}
-
+/* ---------- estação escrita (caso em etapas) ---------- */
 function telaCaso(id) {
   const c = estado.casos.find((x) => x.id === id);
-  if (!c) return telaCasos();
+  if (!c) return telaOsce();
   const textos = ler("toce-casos-texto", {});
   const aberto = estado.casoAberto[id];
-  const perguntas = c.perguntas.map((p, i) => {
+  const visiveis = aberto ? c.etapas.length : (estado.casoEtapa[id] ?? 0) + 1;
+  const etapas = c.etapas.slice(0, visiveis).map((p, i) => {
     const chave = `${id}:${i}`;
     const pontos = p.pontos.map((pt, j) => `<li><label><input type="checkbox" data-ponto="${i}-${j}"><span>${esc(pt)}</span></label></li>`).join("");
     return `<section class="pergunta-caso">
-      <span class="rotulo">Pergunta ${i + 1}</span><p class="enunciado">${esc(p.pergunta)}</p>
-      <textarea data-texto="${esc(chave)}" rows="4" placeholder="Escreva sua resposta antes de ver o gabarito…">${esc(textos[chave] ?? "")}</textarea>
+      <span class="rotulo">Etapa ${i + 1} de ${c.etapas.length}</span>
+      ${p.dado ? `<div class="caixa dado"><p style="margin:0">${esc(p.dado)}</p></div>` : ""}
+      ${p.imagem ? `<figure class="imagem-caso"><img src="${esc(p.imagem)}" alt="Exame da etapa ${i + 1}"><figcaption>${esc(p.credito ?? "")}</figcaption></figure>` : ""}
+      <p class="enunciado">${esc(p.pergunta)}</p>
+      <textarea data-texto="${esc(chave)}" rows="4" placeholder="Escreva sua resposta…">${esc(textos[chave] ?? "")}</textarea>
       ${aberto ? `<div class="caixa gabarito"><span class="rotulo">Pontos-chave · marque os que você escreveu</span><ul class="pontos">${pontos}</ul>
         <span class="rotulo" style="display:block;margin-top:10px">Resposta esperada</span><p style="margin:2px 0 0">${esc(p.resposta)}</p></div>` : ""}
     </section>`;
   }).join("");
+  const ultima = visiveis >= c.etapas.length;
+  const botoes = aberto
+    ? `<button class="botao" data-nota-caso="${esc(id)}">Salvar minha correção</button><span class="placar" id="nota-caso" style="margin:0"></span>`
+    : ultima ? `<button class="botao" data-abrir-caso="${esc(id)}">Encerrar e ver a correção</button>`
+      : `<button class="botao" data-proxima-etapa="${esc(id)}">Próxima etapa →</button>`;
   return `
-    <a class="voltar" href="#/casos">← Todos os casos</a>
-    ${abertura(`Estação escrita · ${c.minutos} minutos`, esc(c.titulo), "")}
-    <div class="caixa"><span class="rotulo">Caso</span><p style="margin:4px 0 0">${esc(c.enunciado)}</p></div>
-    ${c.imagem ? `<figure class="imagem-caso"><img src="${esc(c.imagem)}" alt="Exame do caso"><figcaption>${esc(c.credito ?? "")}</figcaption></figure>` : ""}
-    ${perguntas}
-    <div class="acoes" style="justify-content:center;margin:18px 0">
-      ${aberto ? `<button class="botao" data-nota-caso="${esc(id)}">Salvar minha correção</button><span class="placar" id="nota-caso" style="margin:0"></span>`
-        : `<button class="botao" data-abrir-caso="${esc(id)}">Ver a resposta esperada</button>`}
-    </div>
+    <a class="voltar" href="#/osce">← Todas as estações</a>
+    ${abertura(`Estação escrita · ${c.minutos} minutos · ${c.etapas.length} etapas`, esc(c.titulo), "")}
+    <div class="caixa"><span class="rotulo">Instrução de porta</span><p style="margin:4px 0 0">${esc(c.enunciado)}</p></div>
+    ${blocoRelogio(c)}
+    ${etapas}
+    <div class="acoes" style="justify-content:center;margin:18px 0">${botoes}</div>
     <p class="fraco" style="text-align:center;font-size:15px">Fonte: ${esc(c.fonte)}</p>
-    <div class="acoes" style="justify-content:center">${botoesResumo(c.resumo)}</div>`;
+    ${c.resumo ? `<div class="acoes" style="justify-content:center">${botoesResumo(c.resumo)}</div>` : ""}`;
 }
 
 /* ---------- desempenho ---------- */
@@ -416,11 +432,17 @@ conteudo.addEventListener("click", (ev) => {
   if ((el = t("[data-refazer-sim]"))) { iniciarSimulado(embaralhar(estado.sim.pool)); return; }
 
   /* treino */
-  if ((el = t("[data-sortear]"))) { const e = estado.estacoes[Math.floor(Math.random() * estado.estacoes.length)]; location.hash = `#/treino/${e.id}`; return; }
+  if ((el = t("[data-sortear]"))) {
+    const tipo = el.dataset.sortear;
+    const pool = [...(tipo !== "escrita" ? estado.estacoes : []), ...(tipo !== "pratica" ? estado.casos : [])];
+    const e = pool[Math.floor(Math.random() * pool.length)]; location.hash = `#/osce/${e.id}`; return;
+  }
+  if ((el = t("[data-osce-filtro]"))) { estado.osceFiltro = el.dataset.osceFiltro; render(); return; }
+  if ((el = t("[data-proxima-etapa]"))) { const id = el.dataset.proximaEtapa; estado.casoEtapa[id] = (estado.casoEtapa[id] ?? 0) + 1; const y = window.scrollY; render(); window.scrollTo(0, y); return; }
   if ((el = t("[data-modo]"))) { pararRelogio(); estado.osce = { modo: el.dataset.modo, fase: "pronto", resta: 0, leitura: 0 }; render(); return; }
   if ((el = t("[data-osce]"))) {
     const id = location.hash.split("/")[2];
-    const e = estado.estacoes.find((x) => x.id === id);
+    const e = estado.estacoes.find((x) => x.id === id) ?? estado.casos.find((x) => x.id === id);
     const o = estado.osce;
     const acao = el.dataset.osce;
     if (acao === "zerar") { pararRelogio(); estado.osce = { modo: o.modo, fase: "pronto", resta: 0, leitura: 0 }; render(); return; }
@@ -437,7 +459,7 @@ conteudo.addEventListener("click", (ev) => {
     if (o.fase === "fim") { estado.osce = { modo: o.modo, fase: "pronto", resta: 0, leitura: 0 }; render(); return; }
     if (estado.timer) { pararRelogio(); el.textContent = "Continuar"; return; }
     if (o.fase === "pronto") {
-      if (o.modo === "treino") { o.fase = "estacao"; o.resta = e.minutos * 60; }
+      if (o.modo === "treino" && !e.etapas) { o.fase = "estacao"; o.resta = e.minutos * 60; }
       else { o.fase = "leitura"; o.leitura = 60; }
       render();
     }
@@ -446,7 +468,6 @@ conteudo.addEventListener("click", (ev) => {
     return;
   }
 
-  if ((el = t("[data-filtro-caso]"))) { location.hash = el.dataset.filtroCaso ? `#/casos/tema/${el.dataset.filtroCaso}` : "#/casos"; return; }
   if ((el = t("[data-abrir-caso]"))) { estado.casoAberto[el.dataset.abrirCaso] = true; const y = window.scrollY; render(); window.scrollTo(0, y); return; }
   if ((el = t("[data-nota-caso]"))) {
     const todos = conteudo.querySelectorAll("[data-ponto]"); const marcados = [...todos].filter((c) => c.checked).length;
@@ -485,17 +506,17 @@ setInterval(() => { const d = document.getElementById("decorrido"); if (d && est
 let rotaAnterior = "";
 function render() {
   const hash = location.hash.replace(/^#/, "");
-  const [, rota = "", parametro] = hash.split("/");
-  if (hash !== rotaAnterior && rota === "treino") { pararRelogio(); estado.osce = { modo: estado.osce.modo, fase: "pronto", resta: 0, leitura: 0 }; }
-  if (rota !== "treino") pararRelogio();
+  let [, rota = "", parametro] = hash.split("/");
+  if (rota === "treino" || rota === "casos") { location.replace(`#/osce${parametro && parametro !== "tema" ? `/${parametro}` : ""}`); return; }
+  if (hash !== rotaAnterior && rota === "osce") { pararRelogio(); estado.osce = { modo: estado.osce.modo, fase: "pronto", resta: 0, leitura: 0 }; }
+  if (rota !== "osce") pararRelogio();
   rotaAnterior = hash;
   let html;
   if (rota === "resumos") html = telaResumos();
   else if (rota === "questoes") html = telaQuestoes(parametro);
   else if (rota === "simulado") html = parametro === "prova" ? telaSimuladoProva() : telaSimuladoConfig();
-  else if (rota === "treino") html = parametro ? telaEstacao(parametro) : telaTreino();
+  else if (rota === "osce") html = !parametro ? telaOsce() : estado.estacoes.some((x) => x.id === parametro) ? telaEstacao(parametro) : telaCaso(parametro);
   else if (rota === "desempenho") html = telaDesempenho();
-  else if (rota === "casos") html = parametro === "tema" ? telaCasos(hash.split("/")[3]) : parametro ? telaCaso(parametro) : telaCasos();
   else html = telaInicio();
   conteudo.innerHTML = html;
   const ativa = rota === "simulado" ? "questoes" : rota || "inicio";

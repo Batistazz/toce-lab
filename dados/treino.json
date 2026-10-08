@@ -2,7 +2,35 @@
   "aviso": "Checklists de treino elaborados pela monitoria a partir das apostilas. Não substituem a rubrica oficial do OSCE.",
   "estacoes": [
     {
-      "id": "sondagem-masculina", "titulo": "Sondagem vesical masculina", "sessao": "s09", "resumo": "afeccoes-urologicas", "minutos": 8,
+      "id": "acesso-central",
+      "titulo": "Acesso venoso central (jugular interna guiada por ultrassom)",
+      "sessao": "s01",
+      "resumo": null,
+      "minutos": 10,
+      "cenario": "Paciente em choque séptico precisa de noradrenalina e não tem acesso periférico adequado. Realize o acesso venoso central na jugular interna direita, com ultrassom, em manequim.",
+      "passos": [
+        "Apresenta-se, confirma a indicação, explica o procedimento e confere coagulação e alergias",
+        "Posiciona o paciente em decúbito dorsal com a cabeça virada para o lado oposto (cabeça baixa, se tolerado)",
+        "Localiza a veia ao ultrassom: lateral à carótida, compressível, no ápice do triângulo do esternocleidomastoideo",
+        "Higieniza as mãos e usa barreira máxima: gorro, máscara, avental e luvas estéreis, campo amplo",
+        "Antissepsia com clorexidina e capa e gel estéreis no transdutor",
+        "Anestesia local no ponto de punção",
+        "Punciona sob visão do ultrassom com agulha em seringa, aspirando até o refluxo de sangue venoso",
+        "Passa o fio-guia pela agulha e confirma sua posição na veia ao ultrassom",
+        "Nunca solta o fio-guia; retira a agulha e faz pequena incisão na pele",
+        "Passa o dilatador sobre o fio e, depois, o cateter sobre o fio",
+        "Retira o fio-guia inteiro e confere que está completo",
+        "Aspira e lava todas as vias; fixa o cateter e faz curativo estéril",
+        "Pede radiografia de tórax: ponta na junção da veia cava superior com o átrio direito e ausência de pneumotórax",
+        "Descarta perfurocortantes e registra o procedimento"
+      ]
+    },
+    {
+      "id": "sondagem-masculina",
+      "titulo": "Sondagem vesical masculina",
+      "sessao": "s09",
+      "resumo": "afeccoes-urologicas",
+      "minutos": 8,
       "cenario": "Homem de 68 anos com retenção urinária aguda e bexigoma doloroso. Realize a sondagem vesical de demora.",
       "passos": [
         "Higieniza as mãos, apresenta-se, explica o procedimento e garante privacidade",
@@ -20,7 +48,11 @@
       ]
     },
     {
-      "id": "descompressao-dreno", "titulo": "Pneumotórax hipertensivo: descompressão e dreno", "sessao": "s10", "resumo": "politraumatizado", "minutos": 10,
+      "id": "descompressao-dreno",
+      "titulo": "Pneumotórax hipertensivo: descompressão e dreno",
+      "sessao": "s10",
+      "resumo": "politraumatizado",
+      "minutos": 10,
       "cenario": "Politrauma com FC 132, PAS 82, SpO₂ 86% e murmúrio abolido à direita.",
       "passos": [
         "Reconhece pneumotórax hipertensivo como diagnóstico clínico e não pede imagem antes de tratar",
@@ -37,7 +69,11 @@
       ]
     },
     {
-      "id": "cricotireoidostomia", "titulo": "Cricotireoidostomia cirúrgica", "sessao": "s11", "resumo": "choque-hemorragico", "minutos": 8,
+      "id": "cricotireoidostomia",
+      "titulo": "Cricotireoidostomia cirúrgica",
+      "sessao": "s11",
+      "resumo": "choque-hemorragico",
+      "minutos": 8,
       "cenario": "Após três tentativas de laringoscopia e falha do dispositivo supraglótico, o paciente não intuba e não oxigena.",
       "passos": [
         "Declara a situação \"não intubo, não oxigeno\" e pede o material (bisturi, bougie, tubo, seringa)",
@@ -54,7 +90,11 @@
       ]
     },
     {
-      "id": "queimado-inicial", "titulo": "Atendimento inicial ao queimado", "sessao": "s08", "resumo": "queimaduras", "minutos": 10,
+      "id": "queimado-inicial",
+      "titulo": "Atendimento inicial ao queimado",
+      "sessao": "s08",
+      "resumo": "queimaduras",
+      "minutos": 10,
       "cenario": "Homem de 70 kg, resgatado de incêndio em ambiente fechado, com queimaduras de 2º e 3º graus em tronco e membros superiores.",
       "passos": [
         "Interrompe a queimadura: remove roupas não aderidas e adornos",
