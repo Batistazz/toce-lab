@@ -172,6 +172,12 @@ main { max-width: 1040px; margin: 0 auto; padding: 28px 16px 48px; outline: none
 .caixa.dado { margin: 6px 0 10px; border-top-width: 1px; border-bottom-width: 1px; }
 .pontos { list-style: none; padding: 0; margin: 6px 0 0; }
 .pontos label { display: grid; grid-template-columns: 24px 1fr; gap: 8px; padding: 5px 0; cursor: pointer; font-size: 16.5px; }
+.opcoes li.opcao { display: block; padding: 7px 10px; margin: 4px 0; border-left: 3px solid var(--linha); }
+.opcoes li.opcao.certa { border-left-color: #4f6b3a; }
+.opcoes li.opcao.erro { background: rgba(140, 40, 30, .07); }
+.opcoes .sinal { font-size: 14px; font-style: italic; color: var(--tinta-2); white-space: nowrap; }
+.opcoes li.erro .sinal { color: #8c2a1e; }
+.opcoes li.opcao small { display: block; color: var(--fraco); font-size: 15px; margin-top: 2px; }
 .pontos input { width: 17px; height: 17px; margin-top: 4px; accent-color: var(--tinta); }
 
 @media (max-width: 720px) {

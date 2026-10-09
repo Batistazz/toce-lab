@@ -23,7 +23,8 @@
         "Aspira e lava todas as vias; fixa o cateter e faz curativo estéril",
         "Pede radiografia de tórax: ponta na junção da veia cava superior com o átrio direito e ausência de pneumotórax",
         "Descarta perfurocortantes e registra o procedimento"
-      ]
+      ],
+      "caso": "caso-acesso-central"
     },
     {
       "id": "sondagem-masculina",
@@ -45,7 +46,8 @@
         "Recoloca o prepúcio sobre a glande (prevenção de parafimose)",
         "Fixa a sonda no abdome e mantém a bolsa abaixo do nível da bexiga, em sistema fechado",
         "Registra o volume drenado e orienta o paciente"
-      ]
+      ],
+      "caso": "caso-sondagem"
     },
     {
       "id": "descompressao-dreno",
@@ -66,7 +68,8 @@
         "Escolhe o calibre: 14 Fr é eficaz; no hemotórax maciço, 24 Fr ou mais",
         "Conecta ao selo d'água e confirma oscilação e drenagem",
         "Reavalia com radiografia e reexame"
-      ]
+      ],
+      "caso": "caso-dreno-torax"
     },
     {
       "id": "cricotireoidostomia",
@@ -87,7 +90,8 @@
         "Insufla o balonete",
         "Confirma com CO₂ expirado sustentado na capnografia",
         "Fixa o tubo e reavalia ventilação e oxigenação"
-      ]
+      ],
+      "caso": "caso-crico"
     },
     {
       "id": "queimado-inicial",
@@ -108,7 +112,8 @@
         "Atualiza a profilaxia antitetânica e faz analgesia com opioide EV em doses pequenas",
         "Avalia necessidade de escarotomia em queimadura circunferencial profunda",
         "Aplica os critérios de transferência para centro de queimados"
-      ]
+      ],
+      "caso": "caso-queimado"
     }
   ]
 }

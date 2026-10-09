@@ -291,6 +291,7 @@ function telaEstacao(id) {
     <div class="abas">${Object.entries(MODOS).map(([k, m]) => `<button class="${o.modo === k ? "ativo" : ""}" data-modo="${k}">${m.nome}</button>`).join("")}</div>
     <p class="fraco" style="text-align:center;font-style:italic;margin:-6px 0 16px">${MODOS[o.modo].ajuda}</p>
     <div class="caixa"><span class="rotulo">Instrução de porta</span><p style="margin:4px 0 0">${esc(e.cenario)}</p></div>
+    ${e.caso ? `<p style="text-align:center;margin:12px 0 0"><a href="#/osce/${esc(e.caso)}">Antes da prática: faça o caso clínico desta estação (decisão, material e técnica) →</a></p>` : ""}
     <div style="margin:22px 0 6px">
       <div class="relogio ${o.fase === "fim" ? "fim" : ""}" id="relogio">${visor}</div>
       <div class="acoes" style="justify-content:center">
@@ -323,6 +324,21 @@ function tickOsce(e) {
 }
 
 /* ---------- estação escrita (caso em etapas) ---------- */
+// etapa de decisão: "unica" vira escolha única; senão, marque tudo o que usaria
+function blocoOpcoes(p, chave, aberto, textos) {
+  const sel = JSON.parse(textos[`${chave}:sel`] ?? "[]");
+  const itens = p.opcoes.map((o, j) => {
+    const marcou = sel.includes(j);
+    if (!aberto) return `<li><label><input type="${p.unica ? "radio" : "checkbox"}" name="${esc(chave)}" data-opcao="${esc(chave)}" value="${j}" ${marcou ? "checked" : ""}><span>${esc(o.texto)}</span></label></li>`;
+    const acerto = marcou === !!o.certo;
+    const sinal = marcou ? (o.certo ? "✓ escolheu, correto" : "✗ escolheu, mas não deveria") : (o.certo ? "○ deixou de escolher" : "");
+    return `<li class="opcao ${acerto ? "acerto" : "erro"} ${o.certo ? "certa" : ""}" data-acerto="${acerto ? 1 : 0}">
+      <span class="texto-opcao">${esc(o.texto)}</span>${sinal ? ` <span class="sinal">${sinal}</span>` : ""}
+      ${o.porque ? `<small>${esc(o.porque)}</small>` : ""}</li>`;
+  }).join("");
+  return `<span class="rotulo">${p.unica ? "Escolha uma" : "Marque tudo o que você usaria"}</span><ul class="pontos opcoes">${itens}</ul>`;
+}
+
 function telaCaso(id) {
   const c = estado.casos.find((x) => x.id === id);
   if (!c) return telaOsce();
@@ -331,15 +347,16 @@ function telaCaso(id) {
   const visiveis = aberto ? c.etapas.length : (estado.casoEtapa[id] ?? 0) + 1;
   const etapas = c.etapas.slice(0, visiveis).map((p, i) => {
     const chave = `${id}:${i}`;
-    const pontos = p.pontos.map((pt, j) => `<li><label><input type="checkbox" data-ponto="${i}-${j}"><span>${esc(pt)}</span></label></li>`).join("");
+    const pontos = (p.pontos ?? []).map((pt, j) => `<li><label><input type="checkbox" data-ponto="${i}-${j}"><span>${esc(pt)}</span></label></li>`).join("");
     return `<section class="pergunta-caso">
       <span class="rotulo">Etapa ${i + 1} de ${c.etapas.length}</span>
       ${p.dado ? `<div class="caixa dado"><span class="rotulo">Nova informação</span><p style="margin:2px 0 0">${esc(p.dado)}</p></div>` : ""}
       ${p.imagem ? `<figure class="imagem-caso"><img src="${esc(p.imagem)}" alt="Exame da etapa ${i + 1}"><figcaption>${esc(p.credito ?? "")}</figcaption></figure>` : ""}
       <p class="enunciado">${esc(p.pergunta)}</p>
-      <textarea data-texto="${esc(chave)}" rows="4" placeholder="Escreva sua resposta…">${esc(textos[chave] ?? "")}</textarea>
-      ${aberto ? `<div class="caixa gabarito"><span class="rotulo">Pontos-chave · marque os que você escreveu</span><ul class="pontos">${pontos}</ul>
-        <span class="rotulo" style="display:block;margin-top:10px">Resposta esperada</span><p style="margin:2px 0 0">${esc(p.resposta)}</p></div>` : ""}
+      ${p.opcoes ? blocoOpcoes(p, chave, aberto, textos) : ""}
+      ${p.pontos ? `<textarea data-texto="${esc(chave)}" rows="4" placeholder="${p.opcoes ? "Justifique a sua escolha…" : "Escreva sua resposta…"}">${esc(textos[chave] ?? "")}</textarea>` : ""}
+      ${aberto && (p.pontos || p.resposta) ? `<div class="caixa gabarito">${p.pontos ? `<span class="rotulo">Pontos-chave · marque os que você escreveu</span><ul class="pontos">${pontos}</ul>` : ""}
+        ${p.resposta ? `<span class="rotulo" style="display:block;margin-top:10px">Resposta esperada</span><p style="margin:2px 0 0">${esc(p.resposta)}</p>` : ""}</div>` : ""}
     </section>`;
   }).join("");
   const ultima = visiveis >= c.etapas.length;
@@ -472,10 +489,12 @@ conteudo.addEventListener("click", (ev) => {
 
   if ((el = t("[data-abrir-caso]"))) { estado.casoAberto[el.dataset.abrirCaso] = true; const y = window.scrollY; render(); window.scrollTo(0, y); return; }
   if ((el = t("[data-nota-caso]"))) {
-    const todos = conteudo.querySelectorAll("[data-ponto]"); const marcados = [...todos].filter((c) => c.checked).length;
+    const pts = [...conteudo.querySelectorAll("[data-ponto]")]; const ops = [...conteudo.querySelectorAll("[data-acerto]")];
+    const todos = { length: pts.length + ops.length };
+    const marcados = pts.filter((c) => c.checked).length + ops.filter((o) => o.dataset.acerto === "1").length;
     const nota = pct(marcados, todos.length); const notas = ler("toce-casos", {});
     (notas[el.dataset.notaCaso] ??= []).push(nota); guardar("toce-casos", notas);
-    document.getElementById("nota-caso").textContent = `${marcados} de ${todos.length} pontos-chave · ${nota}% · salvo`; return;
+    document.getElementById("nota-caso").textContent = `${marcados} de ${todos.length} itens corretos · ${nota}% · salvo`; return;
   }
   if ((el = t("[data-apagar-tudo]"))) {
     if (!el.dataset.confirmado) { el.dataset.confirmado = "1"; el.textContent = "Clique de novo para confirmar"; return; }
@@ -490,6 +509,11 @@ conteudo.addEventListener("input", (ev) => {
 });
 
 conteudo.addEventListener("change", (ev) => {
+  if (ev.target.matches("[data-opcao]")) {
+    const chave = ev.target.dataset.opcao; const textos = ler("toce-casos-texto", {});
+    textos[`${chave}:sel`] = JSON.stringify([...conteudo.querySelectorAll(`[data-opcao="${CSS.escape(chave)}"]`)].filter((x) => x.checked).map((x) => Number(x.value)));
+    guardar("toce-casos-texto", textos); return;
+  }
   if (ev.target.matches("[data-tema]")) {
     const id = ev.target.dataset.tema; const temas = estado.simConfig.temas;
     estado.simConfig.temas = temas.includes(id) ? temas.filter((x) => x !== id) : [...temas, id];

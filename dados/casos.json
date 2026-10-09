@@ -822,6 +822,479 @@
           "texto": "Hipertenso (enalapril), tabagista. Sem alergias. Não sabe quando tomou a última vacina antitetânica. Jantou há 4 horas."
         }
       ]
+    },
+    {
+      "id": "caso-sondagem",
+      "resumo": "afeccoes-urologicas",
+      "sessao": "s09",
+      "minutos": 10,
+      "titulo": "Retenção urinária: decida, escolha o material e sonde",
+      "enunciado": "Você é o médico do pronto-socorro. Leia o caso, tome as decisões, escolha o material e descreva o procedimento.",
+      "historia": [
+        {
+          "rotulo": "Identificação",
+          "texto": "A. R., 68 anos, sexo masculino, aposentado."
+        },
+        {
+          "rotulo": "Queixa principal",
+          "texto": "“Não consigo urinar desde ontem à noite.”"
+        },
+        {
+          "rotulo": "História da doença atual",
+          "texto": "Há 2 dias está gripado e tomou um antigripal com descongestionante e anti-histamínico. Desde ontem à noite não urina, apesar da vontade forte; dor no baixo ventre que piora a cada hora. Há 2 anos tem jato fraco, esforço para urinar e acorda três vezes à noite para urinar. Nega febre, sangue na urina e trauma."
+        },
+        {
+          "rotulo": "Antecedentes",
+          "texto": "Hipertensão (anlodipino). Nunca foi ao urologista. Nega alergias, inclusive a látex e a lidocaína."
+        },
+        {
+          "rotulo": "Exame físico",
+          "texto": "Inquieto pela dor. PA 168 × 96 mmHg, FC 98 bpm, temperatura 36,7 °C. Massa suprapúbica arredondada, maciça e dolorosa, até perto da cicatriz umbilical. Meato uretral sem sangue; períneo e escroto sem equimose. Prepúcio retrátil."
+        }
+      ],
+      "etapas": [
+        {
+          "pergunta": "Qual é o diagnóstico e qual é a conduta imediata?",
+          "unica": true,
+          "opcoes": [
+            {
+              "texto": "Sondagem vesical pela uretra",
+              "certo": true,
+              "porque": "Retenção urinária aguda (bexigoma), provavelmente por hiperplasia prostática descompensada pelo antigripal: a bexiga precisa ser drenada já."
+            },
+            {
+              "texto": "Cistostomia suprapúbica como primeira opção",
+              "certo": false,
+              "porque": "Fica para quando a via uretral é contraindicada (suspeita de lesão de uretra) ou falha."
+            },
+            {
+              "texto": "Furosemida e reavaliar em 2 horas",
+              "certo": false,
+              "porque": "O problema é a saída da urina, não a produção; diurético piora o bexigoma."
+            },
+            {
+              "texto": "Ultrassom de rins e vias urinárias antes de qualquer conduta",
+              "certo": false,
+              "porque": "O diagnóstico é clínico e a dor exige drenagem; o ultrassom pode confirmar o volume, mas não deve atrasar a sondagem."
+            }
+          ],
+          "pontos": [
+            "Retenção urinária aguda com bexigoma",
+            "Causa provável: hiperplasia prostática descompensada por anticolinérgico/descongestionante",
+            "Checou contraindicação à via uretral: sem sangue no meato, sem equimose perineal ou escrotal"
+          ],
+          "resposta": "Retenção urinária aguda com bexigoma, em homem com sintomas prostáticos prévios, desencadeada pelo antigripal (anti-histamínico e descongestionante). Sem sinais de trauma de uretra, a conduta é a sondagem vesical uretral imediata."
+        },
+        {
+          "pergunta": "Separe o material na bandeja.",
+          "opcoes": [
+            {
+              "texto": "Sonda de Foley de duas vias, 14 a 16 Fr",
+              "certo": true,
+              "porque": "Calibre adequado para o adulto sem hematúria."
+            },
+            {
+              "texto": "Sonda de Foley de três vias, 22 Fr",
+              "certo": false,
+              "porque": "Três vias e calibre grosso são para hematúria com coágulos, que precisa de irrigação."
+            },
+            {
+              "texto": "Seringa de 10 mL com água destilada",
+              "certo": true,
+              "porque": "Para insuflar o balão; soro fisiológico pode cristalizar e impedir a desinsuflação."
+            },
+            {
+              "texto": "Seringa com soro fisiológico para o balão",
+              "certo": false,
+              "porque": "Prefira água destilada."
+            },
+            {
+              "texto": "Gel de lidocaína 2% estéril",
+              "certo": true,
+              "porque": "Lubrifica e anestesia a uretra."
+            },
+            {
+              "texto": "Vaselina para lubrificar",
+              "certo": false,
+              "porque": "Não é estéril nem anestésica."
+            },
+            {
+              "texto": "Luvas estéreis, campo fenestrado e gaze estéril",
+              "certo": true,
+              "porque": "A sondagem de demora é procedimento estéril."
+            },
+            {
+              "texto": "Antisséptico (clorexidina aquosa ou PVPI tópico)",
+              "certo": true,
+              "porque": "Antissepsia do meato e da glande; formulação para mucosa."
+            },
+            {
+              "texto": "Bolsa coletora de sistema fechado",
+              "certo": true,
+              "porque": "Sistema fechado reduz infecção associada à sonda."
+            },
+            {
+              "texto": "Fio-guia metálico para ajudar a passar pela próstata",
+              "certo": false,
+              "porque": "Não faz parte da sondagem; força e instrumentos rígidos criam falso trajeto."
+            }
+          ]
+        },
+        {
+          "pergunta": "Descreva a técnica, do início ao fim.",
+          "pontos": [
+            "Higieniza as mãos, apresenta-se, explica e garante privacidade",
+            "Decúbito dorsal; abre o material com técnica estéril e calça luvas estéreis",
+            "Testa o balão (opcional) e monta o campo",
+            "Retrai o prepúcio e faz a antissepsia do meato para a periferia",
+            "Instila o gel de lidocaína na uretra e aguarda alguns minutos",
+            "Pênis perpendicular ao corpo, com leve tração; introduz a sonda até a bifurcação",
+            "Insufla o balão só depois da saída de urina",
+            "Traciona suavemente até sentir resistência",
+            "Recoloca o prepúcio sobre a glande (prevenção de parafimose)",
+            "Fixa a sonda no abdome; bolsa abaixo da bexiga, sem dobras",
+            "Registra o volume drenado"
+          ],
+          "resposta": "Higiene das mãos, apresentação e privacidade. Técnica estéril: luvas, campo, antissepsia do meato para a periferia com o prepúcio retraído. Gel de lidocaína na uretra e alguns minutos de espera. Com o pênis perpendicular ao corpo e leve tração, introduzir a sonda até a bifurcação; insuflar o balão com água destilada só após ver urina e tracionar até a resistência. Recolocar o prepúcio, fixar a sonda no abdome e manter a bolsa abaixo da bexiga. Registrar o volume."
+        },
+        {
+          "dado": "Ao insuflar o balão, o paciente grita de dor. Até agora não saiu urina pela sonda.",
+          "pergunta": "O que aconteceu e o que você faz?",
+          "pontos": [
+            "O balão foi insuflado na uretra (prostática), não na bexiga",
+            "Desinsuflar imediatamente",
+            "Avançar a sonda até a bifurcação e só insuflar após sair urina",
+            "Se não progredir: não forçar; considerar sonda de ponta curva (Coudé) ou chamar o urologista; cistostomia se falhar"
+          ],
+          "resposta": "O balão está na uretra: desinsuflar já, avançar a sonda até a bifurcação e só insuflar depois que a urina sair. Se a sonda não passar pela próstata, não forçar: sonda de ponta curva (Coudé) por quem tem experiência, urologista ou cistostomia suprapúbica."
+        },
+        {
+          "dado": "Corrigido o problema, a sonda drena 1.100 mL de urina clara, e a dor some.",
+          "pergunta": "Precisa clampear a sonda para esvaziar aos poucos? E o que orientar e vigiar?",
+          "pontos": [
+            "Não é necessário clampear: o esvaziamento completo é aceitável",
+            "Vigiar hematúria e diurese pós-obstrutiva (se houver insuficiência renal)",
+            "Suspender o antigripal desencadeante",
+            "Encaminhar ao urologista; alfa-bloqueador e tentativa de retirada da sonda conforme orientação"
+          ],
+          "resposta": "O clampeamento intermitente não mostrou benefício; pode-se esvaziar a bexiga de uma vez, vigiando hematúria e, se houver obstrução prolongada com insuficiência renal, diurese pós-obstrutiva. Suspender o antigripal e encaminhar ao urologista para tratar a hiperplasia prostática e programar a retirada da sonda."
+        },
+        {
+          "pergunta": "Outro paciente, motociclista com fratura de pelve, tem sangue no meato uretral e precisa de controle de diurese. Qual a conduta?",
+          "unica": true,
+          "opcoes": [
+            {
+              "texto": "Não sondar às cegas; uretrografia retrógrada e, se houver lesão, cistostomia suprapúbica",
+              "certo": true,
+              "porque": "Sangue no meato com fratura de pelve sugere lesão de uretra: a sonda pode completar a lesão."
+            },
+            {
+              "texto": "Sondar com Foley mais fino e bastante gel",
+              "certo": false,
+              "porque": "Trocar o calibre não elimina o risco de transformar uma lesão parcial em total."
+            },
+            {
+              "texto": "Sondar e, se não passar, forçar com leve rotação",
+              "certo": false,
+              "porque": "Forçar cria falso trajeto e piora a lesão."
+            }
+          ],
+          "pontos": [
+            "Sangue no meato, equimose perineal ou fratura de pelve: suspeita de lesão de uretra",
+            "Uretrografia retrógrada antes de qualquer sonda",
+            "Cistostomia suprapúbica se a uretra estiver lesada"
+          ],
+          "resposta": "Sangue no meato com fratura de pelve é suspeita de lesão de uretra: não se passa sonda às cegas. Faz-se uretrografia retrógrada e, se houver lesão, a drenagem é por cistostomia suprapúbica."
+        }
+      ],
+      "fonte": "Apostila Afecções Urológicas da monitoria; ATLS 11, cap. 21 (lesão de uretra); checklist de sondagem da monitoria"
+    },
+    {
+      "id": "caso-dreno-torax",
+      "resumo": "politraumatizado",
+      "sessao": "s10",
+      "minutos": 10,
+      "titulo": "Hemotórax: escolha o local, o material e drene",
+      "enunciado": "Você é o médico da sala de trauma. Leia o caso, tome as decisões, escolha o material e descreva o procedimento.",
+      "historia": [
+        {
+          "rotulo": "Relato do SAMU",
+          "texto": "Homem de 34 anos, ajudante de obra, caiu de um andaime de cerca de 3 metros há 50 minutos e bateu o lado direito do tórax em uma viga. Chega com colar cervical, em prancha, recebendo O₂."
+        },
+        {
+          "rotulo": "Na chegada",
+          "texto": "Consciente, queixa dor forte no lado direito do tórax e falta de ar."
+        },
+        {
+          "rotulo": "Exame físico",
+          "texto": "FC 108 bpm, PA 112 × 72 mmHg, FR 24 irpm, SpO₂ 93% com O₂. Escoriações e dor à palpação dos arcos costais direitos, sem movimento paradoxal. Traqueia central, jugulares planas. Macicez e murmúrio diminuído no terço inferior do hemitórax direito. Abdome flácido, pelve estável, Glasgow 15."
+        },
+        {
+          "rotulo": "Exames na sala",
+          "texto": "Radiografia de tórax: velamento do seio costofrênico e do terço inferior do hemitórax direito, sem desvio do mediastino. eFAST sem líquido no pericárdio e no abdome."
+        },
+        {
+          "rotulo": "AMPLE",
+          "texto": "Sem alergias, sem medicamentos. Tomou café há 3 horas."
+        }
+      ],
+      "etapas": [
+        {
+          "pergunta": "Qual é o diagnóstico e qual é a conduta?",
+          "unica": true,
+          "opcoes": [
+            {
+              "texto": "Hemotórax à direita: drenagem torácica",
+              "certo": true,
+              "porque": "Velamento da base com macicez no trauma é hemotórax; o ATLS 11 indica drenar hemotórax acima de 300 mL."
+            },
+            {
+              "texto": "Toracocentese de alívio com agulha no 2º espaço intercostal",
+              "certo": false,
+              "porque": "Agulha descomprime ar no pneumotórax hipertensivo; não drena sangue."
+            },
+            {
+              "texto": "Toracotomia de emergência",
+              "certo": false,
+              "porque": "Ele está estável; a toracotomia entra se drenar muito sangue de início ou mantiver choque."
+            },
+            {
+              "texto": "Observar com radiografia em 6 horas",
+              "certo": false,
+              "porque": "Hemotórax visível na radiografia e com repercussão deve ser drenado."
+            }
+          ],
+          "pontos": [
+            "Hemotórax à direita",
+            "Indicação de dreno de tórax",
+            "Critérios de toracotomia: débito inicial grande (cerca de 1.500 mL) ou sangramento contínuo, guiados pela fisiologia"
+          ],
+          "resposta": "Hemotórax à direita com repercussão respiratória: dreno de tórax. A toracotomia fica para débito inicial grande ou sangramento contínuo com instabilidade."
+        },
+        {
+          "pergunta": "Onde você coloca o dreno?",
+          "unica": true,
+          "opcoes": [
+            {
+              "texto": "5º espaço intercostal, entre as linhas axilares anterior e média",
+              "certo": true,
+              "porque": "Triângulo de segurança: borda do peitoral maior, borda do latíssimo do dorso e linha do 5º espaço, acima do diafragma."
+            },
+            {
+              "texto": "2º espaço intercostal, linha hemiclavicular",
+              "certo": false,
+              "porque": "É ponto de descompressão por agulha, não de dreno; músculos espessos e vasos mamários."
+            },
+            {
+              "texto": "8º espaço intercostal, linha axilar posterior",
+              "certo": false,
+              "porque": "Muito baixo: risco de atravessar o diafragma e lesar fígado ou baço."
+            }
+          ]
+        },
+        {
+          "pergunta": "Separe o material na bandeja.",
+          "opcoes": [
+            {
+              "texto": "Dreno de tórax 24 Fr ou maior",
+              "certo": true,
+              "porque": "Para hemotórax; no pneumotórax simples, 14 Fr é suficiente."
+            },
+            {
+              "texto": "Trocarte metálico para introduzir o dreno",
+              "certo": false,
+              "porque": "O ATLS desaconselha o trocarte: risco de lesão de pulmão, coração e vasos."
+            },
+            {
+              "texto": "Lidocaína 1% com seringa e agulhas",
+              "certo": true,
+              "porque": "Anestesia da pele, do periósteo da costela e da pleura."
+            },
+            {
+              "texto": "Bisturi e pinça de Kelly longa",
+              "certo": true,
+              "porque": "Incisão e dissecção romba até a pleura."
+            },
+            {
+              "texto": "Frasco de selo d'água com o tubo submerso cerca de 2 cm",
+              "certo": true,
+              "porque": "O selo d'água deixa sair ar e sangue e impede que entrem."
+            },
+            {
+              "texto": "Fio para fixar o dreno e curativo",
+              "certo": true,
+              "porque": "Dreno solto sai ou migra."
+            },
+            {
+              "texto": "Paramentação: luvas estéreis, avental, campo e antisséptico",
+              "certo": true,
+              "porque": "Procedimento estéril."
+            }
+          ]
+        },
+        {
+          "pergunta": "Descreva a técnica, do início ao fim.",
+          "pontos": [
+            "Braço do lado afetado elevado acima da cabeça; antissepsia e campo",
+            "Anestesia local generosa (pele, periósteo e pleura)",
+            "Incisão transversal de 2 a 3 cm no nível do 5º espaço intercostal",
+            "Dissecção romba com Kelly pela borda superior da costela (o feixe vasculonervoso corre na borda inferior)",
+            "Perfura a pleura e explora com o dedo (aderências, posição)",
+            "Introduz o dreno sem trocarte, direcionado posterior e superiormente, com todos os orifícios dentro do tórax",
+            "Conecta ao selo d'água e confere oscilação e drenagem",
+            "Fixa com sutura e faz o curativo",
+            "Radiografia de controle; registra o débito inicial e o horário"
+          ],
+          "resposta": "Braço elevado, antissepsia e campo. Anestesia de pele, periósteo e pleura. Incisão no 5º espaço, dissecção romba pela borda superior da costela, perfuração da pleura e exploração com o dedo. Dreno introduzido sem trocarte, com todos os orifícios dentro, ligado ao selo d'água; conferir oscilação, fixar, fazer o curativo, radiografia de controle e anotar o débito e a hora."
+        },
+        {
+          "dado": "O dreno drena 400 mL de sangue e para. Uma hora depois, a coluna de água do frasco não oscila com a respiração e o murmúrio continua diminuído na base.",
+          "pergunta": "Quais são as causas e o que você confere?",
+          "pontos": [
+            "Dreno dobrado, clampeado ou com o tubo de extensão obstruído",
+            "Coágulo obstruindo o dreno",
+            "Dreno fora da cavidade ou com orifício para fora (subcutâneo)",
+            "Conferir o sistema do paciente ao frasco, ordenhar o tubo e pedir radiografia",
+            "Hemotórax retido persistente: considerar novo dreno ou videotoracoscopia precoce"
+          ],
+          "resposta": "Sem oscilação, o sistema não está ligado à pleura: dreno dobrado ou clampeado, coágulo no tubo, ou dreno fora da cavidade. Percorrer o sistema do paciente ao frasco, desobstruir e pedir radiografia. Hemotórax retido que persiste pede novo dreno ou videotoracoscopia precoce."
+        }
+      ],
+      "fonte": "ATLS 11, cap. 5 e apêndice de procedimentos; apostila ATLS e Trauma Torácico da monitoria"
+    },
+    {
+      "id": "caso-crico",
+      "resumo": "choque-hemorragico",
+      "sessao": "s11",
+      "minutos": 8,
+      "titulo": "Não intubo, não oxigeno: decida e faça a via aérea cirúrgica",
+      "enunciado": "Você é o médico responsável pela via aérea na sala de trauma. Leia o caso, tome as decisões, escolha o material e descreva o procedimento.",
+      "historia": [
+        {
+          "rotulo": "Relato do SAMU",
+          "texto": "Homem de 42 anos, motorista, colisão frontal sem cinto contra um caminhão, há 35 minutos; a face bateu no volante. Rebaixamento de consciência no local. Chega com colar cervical, ventilado com bolsa-válvula-máscara com dificuldade."
+        },
+        {
+          "rotulo": "Exame físico",
+          "texto": "Glasgow 7. Fraturas faciais extensas, com mobilidade do terço médio da face, sangue em grande quantidade na boca e no nariz. SpO₂ 84% e caindo, FC 124 bpm, PA 104 × 68 mmHg. Pescoço sem hematoma; a cartilagem tireoide e a cricoide são palpáveis."
+        },
+        {
+          "rotulo": "Na sala",
+          "texto": "O colega mais experiente fez três tentativas de laringoscopia com videolaringoscópio, sem ver a glote por causa do sangue. A máscara laríngea não veda e a ventilação com bolsa-válvula-máscara, mesmo a quatro mãos, não melhora a saturação. SpO₂ agora 72%."
+        }
+      ],
+      "etapas": [
+        {
+          "pergunta": "Qual é a situação e o que fazer agora?",
+          "unica": true,
+          "opcoes": [
+            {
+              "texto": "Declarar “não intubo, não oxigeno” e fazer cricotireoidostomia cirúrgica",
+              "certo": true,
+              "porque": "Falharam a intubação, o supraglótico e a máscara: a saída é a via aérea cirúrgica, sem demora."
+            },
+            {
+              "texto": "Quarta tentativa de laringoscopia com outro laringoscópio",
+              "certo": false,
+              "porque": "Tentativas repetidas pioram o trauma e a hipóxia; o algoritmo manda parar e ir para o pescoço."
+            },
+            {
+              "texto": "Traqueostomia de urgência",
+              "certo": false,
+              "porque": "É mais demorada e sangra mais; na emergência a escolha é a cricotireoidostomia."
+            },
+            {
+              "texto": "Intubação nasotraqueal às cegas",
+              "certo": false,
+              "porque": "Contraindicada em fratura grave de face e de base de crânio, e o paciente não respira bem."
+            }
+          ],
+          "pontos": [
+            "Reconhece a situação “não intubo, não oxigeno”",
+            "Indica via aérea cirúrgica imediata: cricotireoidostomia",
+            "Mantém oxigênio pela boca e nariz e chama ajuda"
+          ],
+          "resposta": "É a situação “não intubo, não oxigeno”: falharam laringoscopia, supraglótico e máscara. Declarar em voz alta e fazer a cricotireoidostomia cirúrgica imediatamente, mantendo oxigênio por cima."
+        },
+        {
+          "pergunta": "Separe o material.",
+          "opcoes": [
+            {
+              "texto": "Bisturi com lâmina 10",
+              "certo": true,
+              "porque": "Lâmina larga para a técnica bisturi-bougie-tubo."
+            },
+            {
+              "texto": "Bougie",
+              "certo": true,
+              "porque": "Guia o tubo pela incisão."
+            },
+            {
+              "texto": "Tubo traqueal 6,0 com balonete",
+              "certo": true,
+              "porque": "Calibre pequeno passa pela membrana cricotireóidea e ainda ventila."
+            },
+            {
+              "texto": "Tubo traqueal 8,5",
+              "certo": false,
+              "porque": "Grande demais para a membrana cricotireóidea do adulto médio."
+            },
+            {
+              "texto": "Capnógrafo",
+              "certo": true,
+              "porque": "Confirma o tubo na via aérea pelo CO₂ expirado."
+            },
+            {
+              "texto": "Novo laringoscópio",
+              "certo": false,
+              "porque": "A fase de laringoscopia acabou."
+            }
+          ]
+        },
+        {
+          "pergunta": "Descreva a localização anatômica e a técnica.",
+          "pontos": [
+            "Membrana cricotireóidea: entre a cartilagem tireoide (acima) e a cricoide (abaixo)",
+            "Estabiliza a laringe com a mão não dominante",
+            "Incisão vertical na pele, na linha média, se a membrana não for palpável; transversal direto se for",
+            "Incisão transversal da membrana",
+            "Gira o bisturi 90° e mantém a abertura",
+            "Passa o bougie para dentro da traqueia e desliza o tubo 6,0 sobre ele",
+            "Insufla o balonete e ventila",
+            "Confirma com capnografia e ausculta; fixa o tubo"
+          ],
+          "resposta": "A membrana cricotireóidea fica entre a tireoide e a cricoide. Com a laringe estabilizada, incisa-se a pele (vertical e ampla se não palpável), depois a membrana em sentido transversal; gira-se o bisturi 90°, passa-se o bougie para a traqueia e o tubo 6,0 com balonete sobre ele. Insuflar, ventilar, confirmar com capnografia e fixar."
+        },
+        {
+          "dado": "Duas semanas depois, na mesma sala, uma criança de 6 anos com trauma de face chega na mesma situação.",
+          "pergunta": "A técnica muda?",
+          "unica": true,
+          "opcoes": [
+            {
+              "texto": "Sim: cricotireoidostomia por punção com agulha, como ponte",
+              "certo": true,
+              "porque": "Abaixo de cerca de 12 anos, a cricoide sustenta a via aérea e a cirúrgica arrisca estenose; usa-se a punção."
+            },
+            {
+              "texto": "Não: a mesma cricotireoidostomia cirúrgica com tubo menor",
+              "certo": false,
+              "porque": "A cirúrgica é evitada em crianças pequenas."
+            },
+            {
+              "texto": "Traqueostomia por punção à beira do leito",
+              "certo": false,
+              "porque": "Não é técnica de emergência."
+            }
+          ],
+          "pontos": [
+            "Criança menor de cerca de 12 anos: cricotireoidostomia por punção",
+            "A cartilagem cricoide é o único suporte circunferencial da via aérea infantil",
+            "É uma ponte: oxigena por tempo limitado até a via aérea definitiva"
+          ],
+          "resposta": "Sim. Em criança pequena faz-se a cricotireoidostomia por punção, porque a cirúrgica pode lesar a cricoide e causar estenose. A punção oxigena por tempo limitado e serve de ponte para a via aérea definitiva."
+        }
+      ],
+      "fonte": "ATLS 11, cap. 2; Difficult Airway Society, diretriz de 2015 (técnica bisturi-bougie-tubo); checklist de cricotireoidostomia da monitoria"
     }
   ]
 }
