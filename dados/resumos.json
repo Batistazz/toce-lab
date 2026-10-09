@@ -77,5 +77,18 @@
     "paginasApostila": 14,
     "paginasFlash": 2,
     "atualizado": "2026-10-09"
+  },
+  "hemorragia-digestiva": {
+    "titulo": "Hemorragia digestiva e acessos venosos",
+    "subtitulo": "Hemorragia alta não varicosa e varicosa, hemorragia baixa; acesso periférico, central e intraósseo",
+    "sessoes": [
+      "s01"
+    ],
+    "apostila": "resumos/hemorragia-digestiva/apostila.pdf",
+    "flash": "resumos/hemorragia-digestiva/revisao-flash.pdf",
+    "capa": "resumos/hemorragia-digestiva/capa.jpg",
+    "paginasApostila": 13,
+    "paginasFlash": 2,
+    "atualizado": "2026-10-09"
   }
 }

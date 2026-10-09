@@ -5,7 +5,7 @@
    "id": "acesso-central",
    "titulo": "Acesso venoso central (jugular interna guiada por ultrassom)",
    "sessao": "s01",
-   "resumo": null,
+   "resumo": "hemorragia-digestiva",
    "minutos": 10,
    "cenario": "Paciente em choque séptico precisa de noradrenalina e não tem acesso periférico adequado. Realize o acesso venoso central na jugular interna direita, com ultrassom, em manequim.",
    "passos": [
@@ -137,6 +137,29 @@
     "Orienta: esvaziar com um terço a metade da bolsa cheia; trocar se vazar ou arder; procurar ajuda se o estoma escurecer, doer muito ou parar de funcionar com distensão"
    ],
    "caso": "caso-colostomia"
+  },
+  {
+   "id": "intraossea-tibia",
+   "titulo": "Punção intraóssea na tíbia proximal",
+   "sessao": "s01",
+   "resumo": "hemorragia-digestiva",
+   "minutos": 6,
+   "cenario": "Criança de 2 anos, desidratada e chocada, sem acesso venoso após duas tentativas. Obtenha um acesso intraósseo na tíbia proximal.",
+   "passos": [
+    "Reconhece a indicação: emergência sem acesso venoso rápido",
+    "Checa contraindicações no osso escolhido: fratura, punção prévia, prótese, infecção ou queimadura no local",
+    "Explica aos responsáveis e planeja analgesia se a criança estiver consciente",
+    "Localiza a tuberosidade da tíbia e o ponto 1–2 cm abaixo e medial, na face anteromedial plana",
+    "Faz antissepsia e escolhe agulha adequada",
+    "Apoia o joelho por baixo, sem a mão atrás do ponto de punção",
+    "Insere perpendicular ao osso até a perda de resistência",
+    "Retira o mandril e confirma que a agulha fica firme sozinha",
+    "Lava com soro: infusão fácil e sem inchaço da perna (aspirar medula confirma, mas não é obrigatório)",
+    "Conecta, fixa e infunde (bolus com seringa para volume rápido)",
+    "Vigia extravasamento e síndrome compartimental",
+    "Troca por acesso venoso assim que possível e registra"
+   ],
+   "caso": "caso-intraossea"
   }
  ]
 }

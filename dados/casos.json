@@ -3,7 +3,7 @@
  "casos": [
   {
    "id": "caso-acesso-central",
-   "resumo": null,
+   "resumo": "hemorragia-digestiva",
    "sessao": "s01",
    "minutos": 10,
    "titulo": "Feminino, 64 anos · febre e sonolência",
@@ -1312,7 +1312,7 @@
   },
   {
    "id": "caso-intraossea",
-   "resumo": null,
+   "resumo": "hemorragia-digestiva",
    "sessao": "s01",
    "minutos": 8,
    "titulo": "Feminino, 2 anos · diarreia e sonolência",
@@ -1481,7 +1481,7 @@
   },
   {
    "id": "caso-acesso-periferico",
-   "resumo": null,
+   "resumo": "hemorragia-digestiva",
    "sessao": "s01",
    "minutos": 7,
    "titulo": "Masculino, 54 anos · vômitos com sangue",
@@ -2612,6 +2612,131 @@
     }
    ],
    "fonte": "Apostila Cirurgia Pediátrica da monitoria; ACR Appropriateness Criteria (vômitos no lactente); EAU Paediatric Urology; Caderneta da Criança (MS)"
+  },
+  {
+   "id": "caso-hdb",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "minutos": 10,
+   "titulo": "Feminino, 72 anos · sangue vivo pelo ânus",
+   "local": "Pronto-socorro · segunda, 16h",
+   "enunciado": "Você é o médico do pronto-socorro. Leia o caso e decida.",
+   "historia": [
+    {
+     "rotulo": "Identificação",
+     "texto": "R. F., 72 anos, sexo feminino, aposentada."
+    },
+    {
+     "rotulo": "Queixa principal",
+     "texto": "“Estou soltando sangue vivo pelo ânus desde a manhã.”"
+    },
+    {
+     "rotulo": "História da doença atual",
+     "texto": "Desde as 8h, quatro evacuações de sangue vermelho com coágulos, sem dor abdominal. Tontura ao levantar. Nega hematêmese, melena prévia e uso de anti-inflamatórios."
+    },
+    {
+     "rotulo": "Antecedentes",
+     "texto": "Hipertensão e fibrilação atrial (usa apixabana). Colonoscopia há 6 anos com divertículos no cólon."
+    },
+    {
+     "rotulo": "Exame físico",
+     "texto": "Pálida e sudoreica. PA 90 × 60 mmHg, FC 120 bpm (índice de choque 1,3). Abdome flácido e indolor. Toque retal: sangue vivo com coágulos, sem massa. Veias periféricas finas; duas tentativas de punção sem sucesso."
+    }
+   ],
+   "etapas": [
+    {
+     "pergunta": "Ela precisa de acesso vascular já. Qual a melhor opção agora?",
+     "unica": true,
+     "opcoes": [
+      {
+       "texto": "Punção intraóssea (tíbia proximal ou úmero) enquanto se tenta um acesso venoso",
+       "certo": true,
+       "porque": "Duas tentativas falharam em paciente chocada: a intraóssea é rápida e aceita volume e sangue."
+      },
+      {
+       "texto": "Insistir em mais tentativas periféricas pelo tempo que for preciso",
+       "certo": false,
+       "porque": "Atrasa a reanimação."
+      },
+      {
+       "texto": "Dissecção venosa como primeira alternativa",
+       "certo": false,
+       "porque": "É lenta e exige mais habilidade; a intraóssea vem antes."
+      },
+      {
+       "texto": "Esperar a hemoglobina para decidir",
+       "certo": false,
+       "porque": "A reanimação não espera exame."
+      }
+     ],
+     "pontos": [
+      "Choque: índice de choque ≥ 1",
+      "Acesso rápido: intraóssea após falha periférica",
+      "Tipagem, hemograma, coagulação; sangue se precisar"
+     ],
+     "resposta": "Está em choque (índice de choque 1,3) e sem acesso venoso após duas tentativas: punção intraóssea já, colher exames e iniciar reanimação, enquanto se busca acesso venoso calibroso."
+    },
+    {
+     "pergunta": "Na reanimação, o que mais você faz?",
+     "opcoes": [
+      {
+       "texto": "Transfundir pela clínica de choque, com alvo restritivo depois de estabilizar",
+       "certo": true,
+       "porque": "No choque ativo a transfusão segue a clínica; estável, alvo de 7 g/dL."
+      },
+      {
+       "texto": "Suspender a apixabana e considerar reversão pelo sangramento grave",
+       "certo": true,
+       "porque": "Anticoagulante em sangramento com instabilidade."
+      },
+      {
+       "texto": "Ácido tranexâmico venoso",
+       "certo": false,
+       "porque": "Sem benefício na hemorragia digestiva e com mais trombose (HALT-IT)."
+      },
+      {
+       "texto": "Infundir 3 litros de cristaloide antes de qualquer sangue",
+       "certo": false,
+       "porque": "Excesso de cristaloide dilui a coagulação."
+      }
+     ]
+    },
+    {
+     "dado": "Após 2 concentrados de hemácias, PA 102 × 64 e FC 104, mas ela continua evacuando sangue vivo. Ureia normal.",
+     "pergunta": "Qual exame agora?",
+     "unica": true,
+     "opcoes": [
+      {
+       "texto": "Angiotomografia de abdome; se mostrar o local, arteriografia com embolização",
+       "certo": true,
+       "porque": "Sangramento baixo ativo e importante: a angiotomografia localiza e guia a embolização."
+      },
+      {
+       "texto": "Colonoscopia de urgência sem preparo",
+       "certo": false,
+       "porque": "Sem preparo e com sangramento volumoso, a visão é ruim; a angiotomografia vem antes."
+      },
+      {
+       "texto": "Cintilografia com hemácias marcadas",
+       "certo": false,
+       "porque": "Demora e localiza mal; não guia a intervenção."
+      },
+      {
+       "texto": "Colectomia total de urgência",
+       "certo": false,
+       "porque": "Cirurgia só quando a localização e a embolização falham."
+      }
+     ],
+     "pontos": [
+      "Sangramento baixo ativo: angiotomografia",
+      "Positiva: arteriografia e embolização",
+      "Se não achar a fonte, pensar em hemorragia alta (endoscopia)",
+      "Provável causa: doença diverticular"
+     ],
+     "resposta": "Sangramento baixo ativo e importante em idosa com divertículos: angiotomografia. Se localizar o extravasamento, arteriografia com embolização. Se a angiotomografia não achar a fonte, fazer endoscopia alta. Depois de estabilizada, colonoscopia com preparo."
+    }
+   ],
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; BSG 2019; ACG 2023; HALT-IT 2020"
   }
  ]
 }

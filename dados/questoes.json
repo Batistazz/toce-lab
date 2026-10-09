@@ -4500,6 +4500,756 @@
    "correta": 1,
    "comentario": "A criança pode compensar a perda circulatória e apresentar hipotensão tardiamente; taquicardia e má perfusão merecem atenção imediata. Usar apenas a pressão normal para excluir choque pode atrasar a reanimação.",
    "fonte": "Apostila Cirurgia Pediátrica da monitoria; Holcomb and Ashcraft's Pediatric Surgery, 7ª ed. (2020)"
+  },
+  {
+   "id": "q-hd-01",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Um homem com hematêmese volumosa chega confuso, hipotenso e taquicárdico. A hemoglobina inicial é 8,5 g/dL. Qual é a prioridade?",
+   "alternativas": [
+    "Aguardar nova hemoglobina antes de iniciar reposição sanguínea.",
+    "Proteger a via aérea se necessário e reanimar com acessos calibrosos.",
+    "Encaminhar diretamente à endoscopia antes da estabilização.",
+    "Infundir grande volume de cristaloide até normalizar a pressão."
+   ],
+   "correta": 1,
+   "comentario": "No choque com sangramento ativo, a perfusão e o estado clínico orientam a reanimação; a hemoglobina inicial pode não refletir a perda recente. A endoscopia deve ocorrer depois da estabilização inicial.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; ACG 2021"
+  },
+  {
+   "id": "q-hd-02",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Uma paciente com melena, sinais vitais normais e sangramento cessado tem Glasgow-Blatchford igual a 1. Não há outra indicação de internação e o seguimento está garantido. Qual conduta é adequada?",
+   "alternativas": [
+    "Internação obrigatória para endoscopia nas primeiras 6 horas.",
+    "Colonoscopia urgente antes da avaliação do trato alto.",
+    "Transfusão profilática antes de receber alta hospitalar.",
+    "Alta com seguimento e endoscopia em regime ambulatorial."
+   ],
+   "correta": 3,
+   "comentario": "Glasgow-Blatchford de 0 ou 1 identifica risco muito baixo e permite manejo ambulatorial quando o contexto clínico é favorável. Internação e endoscopia imediata não são exigidas apenas pela presença prévia de melena.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; ACG 2021; ESGE 2021"
+  },
+  {
+   "id": "q-hd-03",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Após reanimação, um paciente internado por provável hemorragia alta não varicosa está estável. Qual é a janela recomendada para a endoscopia digestiva alta?",
+   "alternativas": [
+    "Até 24 horas após a apresentação.",
+    "Somente após 72 horas de IBP venoso.",
+    "Obrigatoriamente nas primeiras 2 horas.",
+    "Após uma semana de observação clínica."
+   ],
+   "correta": 0,
+   "comentario": "A endoscopia em até 24 horas, após reanimação, é a estratégia recomendada para pacientes internados. Antecipá-la de rotina para as primeiras horas não melhora os desfechos e pode preceder a estabilização.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; ACG 2021; ESGE 2021"
+  },
+  {
+   "id": "q-hd-04",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Na endoscopia de um paciente com hematêmese, uma úlcera duodenal apresenta sangramento arterial em jato. Qual classificação e conduta correspondem ao achado?",
+   "alternativas": [
+    "Forrest IIc; IBP oral sem hemostasia.",
+    "Forrest III; alta precoce após observação.",
+    "Forrest Ia; hemostasia endoscópica.",
+    "Forrest IIb; apenas observar o coágulo."
+   ],
+   "correta": 2,
+   "comentario": "Sangramento em jato é Forrest Ia e exige tratamento endoscópico. Forrest IIc e III são estigmas de baixo risco, sem indicação de hemostasia endoscópica.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; ACG 2021; ESGE 2021"
+  },
+  {
+   "id": "q-hd-05",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Uma úlcera gástrica mostra um vaso visível que não sangra durante a endoscopia. Qual abordagem está indicada?",
+   "alternativas": [
+    "Classificar como Forrest III e prescrever apenas IBP oral.",
+    "Classificar como Forrest IIa e realizar hemostasia endoscópica.",
+    "Classificar como Forrest IIc e programar colonoscopia.",
+    "Classificar como Forrest IIb e evitar manipulação endoscópica."
+   ],
+   "correta": 1,
+   "comentario": "O vaso visível sem sangramento é Forrest IIa, estigma de alto risco que requer hemostasia. A ausência de sangramento ativo não torna a lesão equivalente a uma base limpa.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; ACG 2021; ESGE 2021"
+  },
+  {
+   "id": "q-hd-06",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Durante a endoscopia, uma úlcera apresenta coágulo firmemente aderido, sem sangramento ao redor. Qual é uma conduta compatível com esse estigma?",
+   "alternativas": [
+    "Considerar remover o coágulo e tratar a base; se não, usar IBP em dose alta.",
+    "Dar alta imediata sem IBP porque o risco é equivalente ao Forrest III.",
+    "Injetar adrenalina isoladamente sobre o coágulo e encerrar o procedimento.",
+    "Prescrever ácido tranexâmico por 72 horas no lugar da avaliação endoscópica."
+   ],
+   "correta": 0,
+   "comentario": "Forrest IIb corresponde a coágulo aderido; pode-se considerar sua remoção para tratar o estigma subjacente. Se não houver tratamento endoscópico, o IBP em dose alta continua indicado.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; ESGE 2021"
+  },
+  {
+   "id": "q-hd-07",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Depois de um episódio de melena, a endoscopia encontra úlcera duodenal com base limpa e fibrina, sem outros estigmas. Qual conduta endoscópica é apropriada?",
+   "alternativas": [
+    "Aplicar clipe sobre a base da úlcera.",
+    "Injetar adrenalina ao redor da lesão.",
+    "Coagular toda a base com método térmico.",
+    "Não realizar hemostasia endoscópica."
+   ],
+   "correta": 3,
+   "comentario": "Base limpa é Forrest III, com baixo risco de ressangramento e sem indicação de hemostasia endoscópica. Aplicar clipe ou energia térmica acrescentaria intervenção sem alvo de alto risco.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; ESGE 2021"
+  },
+  {
+   "id": "q-hd-08",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Uma úlcera péptica sangra ativamente na endoscopia. O endoscopista escolhe injetar adrenalina. O que deve completar a hemostasia?",
+   "alternativas": [
+    "Apenas observação após a vasoconstrição inicial.",
+    "Lavagem com soro gelado antes de retirar o aparelho.",
+    "Um segundo método, como clipe ou terapia térmica.",
+    "Infusão de ácido tranexâmico após o exame."
+   ],
+   "correta": 2,
+   "comentario": "Na úlcera com sangramento ativo, a adrenalina deve ser combinada com outra modalidade hemostática. Seu efeito isolado é transitório e não oferece controle duradouro adequado.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; ESGE 2021"
+  },
+  {
+   "id": "q-hd-09",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Uma úlcera Forrest Ia foi tratada com sucesso por endoscopia. Qual esquema inicial reduz o risco de ressangramento?",
+   "alternativas": [
+    "IBP em dose alta por 72 horas, seguido de IBP oral duas vezes ao dia por duas semanas.",
+    "Suspender IBP assim que a endoscopia confirmar a hemostasia.",
+    "Usar apenas antiácido oral conforme a intensidade da dor.",
+    "Substituir o IBP por ácido tranexâmico durante cinco dias."
+   ],
+   "correta": 0,
+   "comentario": "Após hemostasia de úlcera de alto risco, recomenda-se IBP em dose alta por três dias, em esquema contínuo ou intermitente, seguido de IBP oral duas vezes ao dia por duas semanas. A hemostasia endoscópica não elimina o risco precoce de ressangramento.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; ACG 2021; ESGE 2021"
+  },
+  {
+   "id": "q-hd-10",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Dois dias após hemostasia endoscópica de úlcera, um paciente volta a apresentar hematêmese e queda de hemoglobina. Após reanimação, qual é o próximo tratamento preferencial?",
+   "alternativas": [
+    "Cirurgia imediata, sem nova avaliação endoscópica.",
+    "Nova endoscopia com tentativa de hemostasia.",
+    "Suspensão do IBP e observação por 24 horas.",
+    "Cintilografia com hemácias marcadas antes de intervir."
+   ],
+   "correta": 1,
+   "comentario": "No ressangramento ulceroso após tratamento inicial, recomenda-se repetir a endoscopia e tentar nova hemostasia. Cirurgia ou embolização entram na sequência se o controle endoscópico falhar.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; ACG 2021; ESGE 2021"
+  },
+  {
+   "id": "q-hd-11",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Um paciente continua sangrando por úlcera duodenal apesar de nova tentativa de hemostasia endoscópica. A equipe de radiologia intervencionista está disponível. Qual é o próximo recurso?",
+   "alternativas": [
+    "Nova sonda nasogástrica para lavagem gelada.",
+    "Observação isolada até o coágulo se formar.",
+    "Embolização arterial transcateter.",
+    "Ligadura elástica de varizes esofágicas."
+   ],
+   "correta": 2,
+   "comentario": "Depois da falha da hemostasia endoscópica repetida, a embolização arterial é a opção de resgate indicada quando disponível. A cirurgia fica para falha ou indisponibilidade da embolização.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; ACG 2021; ESGE 2021"
+  },
+  {
+   "id": "q-hd-12",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Um paciente com hematêmese importante foi reanimado, mas há suspeita de grande quantidade de sangue retido no estômago. Qual medida pode melhorar a visualização na endoscopia?",
+   "alternativas": [
+    "Lavagem gástrica de rotina com soro gelado.",
+    "Colonoscopia antes da endoscopia alta.",
+    "Ácido tranexâmico imediatamente antes do exame.",
+    "Eritromicina venosa pouco antes da endoscopia."
+   ],
+   "correta": 3,
+   "comentario": "A eritromicina venosa antes da endoscopia favorece o esvaziamento gástrico e melhora a visão quando há sangue ou coágulos. A lavagem gelada não tem benefício demonstrado.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; ACG 2021"
+  },
+  {
+   "id": "q-hd-13",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Uma mulher em uso de AAS em baixa dose após infarto apresenta hemorragia digestiva alta não varicosa. Qual é a orientação geral para a antiagregação usada em prevenção secundária?",
+   "alternativas": [
+    "Suspender definitivamente o AAS após qualquer hemorragia digestiva.",
+    "Manter o AAS; se suspenso, reiniciá-lo cedo após controlar a hemorragia.",
+    "Dobrar a dose de AAS até a endoscopia para evitar trombose.",
+    "Trocar AAS por anticoagulação plena durante a internação."
+   ],
+   "correta": 1,
+   "comentario": "Na prevenção cardiovascular secundária, o AAS em geral deve ser mantido, ou retomado logo após o controle se houve interrupção. A suspensão definitiva ignora o risco trombótico da paciente.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; ESGE 2021"
+  },
+  {
+   "id": "q-hd-14",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Um médico sugere ácido tranexâmico de rotina para uma paciente com hemorragia digestiva importante. O que o estudo HALT-IT sustenta?",
+   "alternativas": [
+    "Evitar uso rotineiro: sem redução de morte por sangramento e com mais trombose venosa.",
+    "Usar rotineiramente: houve redução de mortalidade sem aumento de eventos adversos.",
+    "Reservar para toda úlcera Forrest III antes da alta ambulatorial.",
+    "Administrar apenas quando o sangramento for de origem colônica."
+   ],
+   "correta": 0,
+   "comentario": "O HALT-IT não mostrou redução de morte por sangramento com ácido tranexâmico e encontrou aumento de eventos tromboembólicos venosos. A gravidade do sangramento, por si só, não justifica seu uso rotineiro.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; HALT-IT 2020"
+  },
+  {
+   "id": "q-hd-15",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Um homem com cirrose e ascite chega com hematêmese. Enquanto se organiza a endoscopia, qual tratamento específico deve começar já?",
+   "alternativas": [
+    "Apenas IBP venoso até confirmar a presença de varizes.",
+    "Betabloqueador não seletivo em dose plena durante o choque.",
+    "Lavagem nasogástrica seguida de colonoscopia urgente.",
+    "Vasoativo, como octreotida ou terlipressina, e antibiótico profilático."
+   ],
+   "correta": 3,
+   "comentario": "Na suspeita de sangramento varicoso, vasoativo e antibiótico começam na admissão, antes da confirmação endoscópica. Esperar a endoscopia para iniciar essas medidas perde tempo terapêutico.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; Baveno VII 2022"
+  },
+  {
+   "id": "q-hd-16",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Uma paciente cirrótica com suspeita de hemorragia varicosa chega sem febre nem foco infeccioso evidente. Qual é o papel do antibiótico nesse momento?",
+   "alternativas": [
+    "Só iniciar se a hemocultura vier positiva.",
+    "Aguardar a endoscopia para decidir se há infecção.",
+    "Iniciar profilaxia desde a admissão, conforme protocolo local.",
+    "Usar apenas se houver peritonite bacteriana espontânea comprovada."
+   ],
+   "correta": 2,
+   "comentario": "A profilaxia antibiótica é parte do manejo da hemorragia alta no paciente com cirrose, mesmo sem infecção clinicamente aparente. Aguardar cultura positiva deixaria de prevenir infecção e complicações relacionadas ao sangramento.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; Baveno VII 2022"
+  },
+  {
+   "id": "q-hd-17",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Após controle inicial de sangramento varicoso, um paciente com cirrose está perfundido e sem doença cardiovascular conhecida. Qual alvo de hemoglobina orienta uma transfusão conservadora?",
+   "alternativas": [
+    "Acima de 11 g/dL para compensar a hipertensão portal.",
+    "Entre 7 e 8 g/dL, com ajuste conforme o contexto clínico.",
+    "Entre 9 e 10 g/dL para prevenir toda recidiva.",
+    "Acima de 13 g/dL antes de qualquer endoscopia."
+   ],
+   "correta": 1,
+   "comentario": "Baveno VII recomenda transfusão conservadora com alvo de 7 a 8 g/dL, individualizada pela perfusão e comorbidades. Transfundir até valores altos pode aumentar a pressão portal e favorecer ressangramento.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; Baveno VII 2022"
+  },
+  {
+   "id": "q-hd-18",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Um cirrótico com suspeita de sangramento varicoso foi reanimado e está apto ao exame. Qual prazo é recomendado para endoscopia digestiva alta?",
+   "alternativas": [
+    "Em até 12 horas após a apresentação, depois da reanimação.",
+    "Somente após completar cinco dias de vasoativo.",
+    "Em até sete dias, desde que a hemoglobina esteja estável.",
+    "Apenas se houver novo episódio de hematêmese."
+   ],
+   "correta": 0,
+   "comentario": "Na suspeita de hemorragia varicosa, a endoscopia deve ocorrer em até 12 horas após a reanimação; instabilidade persistente exige avaliação tão logo seja seguro. Completar o curso do vasoativo antes do exame atrasaria o controle da fonte.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; Baveno VII 2022"
+  },
+  {
+   "id": "q-hd-19",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "A endoscopia identifica variz esofágica sangrando ativamente em um paciente com cirrose. Qual é o tratamento endoscópico de primeira linha?",
+   "alternativas": [
+    "Coagulação de toda a mucosa esofágica com plasma de argônio.",
+    "Apenas IBP em dose alta após a endoscopia.",
+    "Embolização da artéria gastroduodenal.",
+    "Ligadura elástica da variz esofágica."
+   ],
+   "correta": 3,
+   "comentario": "A ligadura elástica é o tratamento endoscópico recomendado para variz esofágica sangrante. A embolização da artéria gastroduodenal trata outro tipo de fonte hemorrágica, como úlcera duodenal refratária.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; Baveno VII 2022"
+  },
+  {
+   "id": "q-hd-20",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Um paciente apresenta sangramento ativo de variz gástrica isolada no fundo. Qual terapia endoscópica é recomendada para essa localização?",
+   "alternativas": [
+    "Ligadura seriada de hemorroidas internas.",
+    "Adrenalina isolada na mucosa gástrica.",
+    "Injeção de adesivo tecidual, como cianoacrilato.",
+    "Coagulação da papila duodenal com calor."
+   ],
+   "correta": 2,
+   "comentario": "Varizes gástricas isoladas, especialmente no fundo, são tratadas endoscopicamente com adesivo tecidual. A ligadura elástica é a terapia clássica para varizes esofágicas e não substitui essa escolha no fundo gástrico.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; Baveno VII 2022"
+  },
+  {
+   "id": "q-hd-21",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Uma variz esofágica continua sangrando e a terapia definitiva não pode ser feita imediatamente. Qual é o papel do balão de Sengstaken-Blakemore?",
+   "alternativas": [
+    "Tratamento definitivo mantido por vários dias sem monitorização.",
+    "Ponte temporária em paciente com via aérea protegida até o tratamento definitivo.",
+    "Profilaxia primária para varizes grandes que nunca sangraram.",
+    "Substituto permanente da ligadura elástica após a alta."
+   ],
+   "correta": 1,
+   "comentario": "O balão pode tamponar temporariamente o sangramento enquanto se viabiliza a terapia definitiva, com proteção da via aérea e uso limitado no tempo. Mantê-lo como tratamento definitivo expõe a ressangramento e lesão esofágica.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; Baveno VII 2022"
+  },
+  {
+   "id": "q-hd-22",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Apesar de vasoativo e tratamento endoscópico, a hemorragia varicosa permanece sem controle. Qual procedimento deve ser considerado como resgate?",
+   "alternativas": [
+    "TIPS de resgate para descompressão portal.",
+    "Apenas mais cristaloide até cessar o sangramento.",
+    "Colonoscopia para tratar a variz esofágica.",
+    "Suspensão do antibiótico para reduzir a pressão portal."
+   ],
+   "correta": 0,
+   "comentario": "O TIPS de resgate cria uma derivação portossistêmica quando o sangramento varicoso não é controlado pela primeira linha. O balão pode servir de ponte, mas não substitui a terapia definitiva.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; Baveno VII 2022"
+  },
+  {
+   "id": "q-hd-23",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Um cirrótico Child-Pugh C com 12 pontos teve sangramento de variz esofágica controlado na endoscopia. Qual estratégia adicional deve ser avaliada por seu alto risco?",
+   "alternativas": [
+    "Aguardar ressangramento para considerar qualquer derivação.",
+    "Usar somente IBP oral como profilaxia secundária.",
+    "Realizar embolização da artéria mesentérica inferior.",
+    "Considerar TIPS em até 72 horas, idealmente nas primeiras 24 horas."
+   ],
+   "correta": 3,
+   "comentario": "Child-Pugh C com menos de 14 pontos integra o grupo em que Baveno VII indica considerar TIPS preemptivo após hemorragia varicosa. Esperar uma nova hemorragia perde a janela de prevenção nesse grupo de alto risco.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; Baveno VII 2022"
+  },
+  {
+   "id": "q-hd-24",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Um paciente recebeu alta após sangramento de variz esofágica tratado com ligadura. Sem contraindicações, qual plano reduz novo sangramento?",
+   "alternativas": [
+    "Apenas repetir antibiótico sempre que houver melena.",
+    "Suspender seguimento se não houver nova hematêmese.",
+    "Associar betabloqueador não seletivo a ligaduras seriadas.",
+    "Usar AAS em baixa dose no lugar de ligaduras."
+   ],
+   "correta": 2,
+   "comentario": "A profilaxia secundária da hemorragia varicosa combina betabloqueador não seletivo e sessões de ligadura. Uma única ligadura durante o evento agudo não encerra a prevenção de recorrência.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; Baveno VII 2022"
+  },
+  {
+   "id": "q-hd-25",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Um paciente chega com hematoquezia volumosa, hipotensão e história de úlcera péptica. Qual fonte precisa ser considerada apesar do sangue vermelho pelo ânus?",
+   "alternativas": [
+    "Apenas fissura anal, por ser sangue vivo.",
+    "Hemorragia digestiva alta de grande volume.",
+    "Exclusivamente divertículo de Meckel.",
+    "Somente hemorroida interna não complicada."
+   ],
+   "correta": 1,
+   "comentario": "Hemorragia alta volumosa pode acelerar o trânsito e causar hematoquezia, especialmente com instabilidade. Atribuir automaticamente sangue vivo a hemorroida pode atrasar o diagnóstico da fonte alta.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; BSG 2019; ACG 2023"
+  },
+  {
+   "id": "q-hd-26",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Uma pessoa idosa apresenta grande volume de sangue vivo nas fezes, sem dor abdominal, e o sangramento cessa espontaneamente. Qual causa colônica é mais típica?",
+   "alternativas": [
+    "Sangramento por doença diverticular.",
+    "Colite isquêmica com necrose extensa.",
+    "Fissura anal associada à evacuação.",
+    "Neoplasia com sangramento oculto crônico."
+   ],
+   "correta": 0,
+   "comentario": "O sangramento diverticular costuma ser súbito, volumoso e indolor no idoso, frequentemente com cessação espontânea. Colite isquêmica costuma associar dor abdominal e diarreia sanguinolenta.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; BSG 2019; ACG 2023"
+  },
+  {
+   "id": "q-hd-27",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Uma idosa com doença vascular apresenta dor abdominal seguida de diarreia sanguinolenta. Qual hipótese melhor reúne esses achados?",
+   "alternativas": [
+    "Hemorragia diverticular indolor.",
+    "Variz esofágica por hipertensão portal.",
+    "Lesão de Mallory-Weiss após vômitos.",
+    "Colite isquêmica."
+   ],
+   "correta": 3,
+   "comentario": "Dor abdominal e diarreia com sangue em paciente vasculopata são pistas clássicas de colite isquêmica. O sangramento diverticular tende a ser indolor, embora também possa ocorrer em idosos.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; BSG 2019"
+  },
+  {
+   "id": "q-hd-28",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Uma paciente com hematoquezia cessada está estável, tem Oakland 7, não apresenta outro motivo para internação e dispõe de retorno garantido. Qual destino é razoável?",
+   "alternativas": [
+    "Internação obrigatória apenas pelo escore calculado.",
+    "Cirurgia eletiva antes de investigar a fonte.",
+    "Alta com investigação ambulatorial e orientação de retorno.",
+    "Arteriografia imediata apesar de não haver sangramento ativo."
+   ],
+   "correta": 2,
+   "comentario": "Oakland até 8 ajuda a identificar hemorragia baixa de baixo risco, permitindo alta quando o sangramento cessou e o seguimento é viável. O escore auxilia, mas não substitui a avaliação clínica nem justifica arteriografia sem sangramento ativo.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; BSG 2019; ACG 2023"
+  },
+  {
+   "id": "q-hd-29",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Após reanimação inicial, um paciente mantém hematoquezia abundante e sinais de perda sanguínea ativa. Não há forte pista de fonte alta. Qual exame pode localizar rapidamente o sangramento?",
+   "alternativas": [
+    "Cápsula endoscópica como primeiro exame na emergência.",
+    "Angiotomografia de abdome e pelve.",
+    "Colonoscopia sem preparo durante o choque.",
+    "Radiografia simples de abdome em ortostase."
+   ],
+   "correta": 1,
+   "comentario": "Na hemorragia baixa importante em curso, a angiotomografia pode localizar extravasamento e orientar intervenção. Colonoscopia sem preparo no paciente ainda instável tende a ter baixa utilidade e pode atrasar o controle.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; BSG 2019; ACG 2023"
+  },
+  {
+   "id": "q-hd-30",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "A angiotomografia de um paciente com hemorragia baixa ativa mostra extravasamento em um ramo arterial colônico. Qual intervenção pode controlar a fonte localizada?",
+   "alternativas": [
+    "Apenas IBP oral por duas semanas.",
+    "Ligadura de variz esofágica em emergência.",
+    "Lavagem gástrica com soro gelado.",
+    "Arteriografia com embolização seletiva."
+   ],
+   "correta": 3,
+   "comentario": "A localização do extravasamento pela angiotomografia permite direcionar arteriografia e embolização seletiva. IBP trata lesões ácidas do trato alto e não controla uma artéria colônica sangrante.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; BSG 2019; ACG 2023"
+  },
+  {
+   "id": "q-hd-31",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Um paciente estável permanece internado para investigar hematoquezia, sem evidência de hemorragia alta. Qual exame diagnóstico e potencialmente terapêutico deve ser programado?",
+   "alternativas": [
+    "Colonoscopia após preparo intestinal adequado.",
+    "Endoscopia alta sem indicação clínica específica.",
+    "Cintilografia óssea para localizar a perda.",
+    "Laparotomia exploradora antes de imagem."
+   ],
+   "correta": 0,
+   "comentario": "Na hemorragia baixa de paciente estável que necessita internação, a colonoscopia com preparo permite diagnosticar e tratar lesões. A cirurgia exploradora fica para situações refratárias e com fonte adequadamente definida.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; ACG 2023; BSG 2019"
+  },
+  {
+   "id": "q-hd-32",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Uma paciente estável precisa de colonoscopia durante a internação por hemorragia baixa. Qual afirmação sobre o momento do exame acompanha a diretriz ACG 2023?",
+   "alternativas": [
+    "A colonoscopia sem preparo deve ocorrer nas primeiras 2 horas para localizar a fonte.",
+    "Todo paciente precisa colonoscopia em menos de 6 horas, mesmo após cessar o sangramento.",
+    "Colonoscopia não urgente após preparo; fazê-la em menos de 24 horas não melhora desfechos.",
+    "A colonoscopia deve ser adiada por semanas, mesmo quando há indicação de internação."
+   ],
+   "correta": 2,
+   "comentario": "A ACG 2023 recomenda colonoscopia não urgente para a maioria dos internados, após preparo adequado. A pressa para examinar em menos de 24 horas não demonstrou melhorar ressangramento ou outros desfechos clínicos importantes.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; ACG 2023"
+  },
+  {
+   "id": "q-hd-33",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Um homem idoso tem episódios intermitentes de hematoquezia discreta e anemia ferropriva. A colonoscopia encontra lesão vascular plana no cólon direito. Qual diagnóstico é mais provável?",
+   "alternativas": [
+    "Fissura anal.",
+    "Úlcera duodenal posterior.",
+    "Laceração de Mallory-Weiss.",
+    "Angiodisplasia colônica."
+   ],
+   "correta": 3,
+   "comentario": "Angiodisplasia em idosos, especialmente no cólon direito, pode causar sangramento intermitente e anemia ferropriva. Fissura anal costuma provocar dor ao evacuar e sangue vivo em pequena quantidade.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; BSG 2019; ACG 2023"
+  },
+  {
+   "id": "q-hd-34",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Uma paciente de 68 anos relata pequenas perdas de sangue repetidas nas fezes, mudança do hábito intestinal e perda de peso. Qual causa deve ser investigada com prioridade?",
+   "alternativas": [
+    "Neoplasia colorretal.",
+    "Laceração aguda da junção esofagogástrica.",
+    "Variz esofágica isolada.",
+    "Sangramento diverticular autolimitado."
+   ],
+   "correta": 0,
+   "comentario": "Sangramento recorrente de pequeno volume, alteração do hábito intestinal e perda ponderal sugerem neoplasia colorretal. O sangramento diverticular clássico costuma ser súbito, volumoso e indolor.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; BSG 2019; ACG 2023"
+  },
+  {
+   "id": "q-hd-35",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Um paciente com hemorragia maciça precisa de infusão rápida de sangue. Há possibilidade de dois cateteres periféricos curtos 14–16 G ou de um cateter central longo convencional. Qual opção favorece maior fluxo?",
+   "alternativas": [
+    "Um cateter central longo, por alcançar vaso maior.",
+    "Um cateter periférico fino e comprido, para reduzir turbulência.",
+    "Dois cateteres periféricos curtos e calibrosos.",
+    "Qualquer cateter, pois o calibre não modifica o fluxo."
+   ],
+   "correta": 2,
+   "comentario": "O fluxo cresce muito com o raio interno e cai com o comprimento do cateter; periféricos curtos e calibrosos são apropriados para reposição rápida. A posição central da ponta não compensa, por si só, o menor fluxo de um cateter convencional longo.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; ACG 2021"
+  },
+  {
+   "id": "q-hd-36",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Uma paciente em hemodiálise tem fístula arteriovenosa no braço esquerdo e precisa de acesso periférico. Qual local deve ser evitado para a punção?",
+   "alternativas": [
+    "Veia do braço esquerdo que contém a fístula.",
+    "Veia da fossa antecubital direita sem lesão local.",
+    "Veia do dorso da mão direita sem lesão local.",
+    "Veia do antebraço direito sem lesão local."
+   ],
+   "correta": 0,
+   "comentario": "O membro com fístula de diálise deve ser preservado de punções periféricas. Veias adequadas do membro contralateral são opções mais seguras quando disponíveis.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; ASA 2020"
+  },
+  {
+   "id": "q-hd-37",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Durante a punção de uma veia periférica do antebraço, aparece refluxo de sangue na câmara do dispositivo. Qual é o próximo passo técnico adequado?",
+   "alternativas": [
+    "Recuar o conjunto e comprimir a veia antes de avançar.",
+    "Avançar o cateter para a veia, retirar a agulha e então fixá-lo.",
+    "Manter a agulha metálica no vaso durante toda a infusão.",
+    "Introduzir um dilatador sobre o cateter antes da infusão."
+   ],
+   "correta": 1,
+   "comentario": "Após confirmar a entrada no vaso pelo refluxo, avança-se o cateter flexível e remove-se a agulha, com liberação do garrote e fixação. Manter a agulha metálica durante a infusão aumenta o risco de lesão e não corresponde à técnica descrita.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; ASA 2020"
+  },
+  {
+   "id": "q-hd-38",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Um paciente internado necessita de vasopressor contínuo e tem previsão de tratamento prolongado. Qual é uma indicação apropriada para acesso venoso central?",
+   "alternativas": [
+    "Administração de vasopressor com monitorização e cuidados de segurança.",
+    "Substituição obrigatória de todo acesso periférico que funciona.",
+    "Aumento do fluxo de reposição em relação a dois periféricos calibrosos.",
+    "Dispensa da confirmação da posição da ponta do cateter."
+   ],
+   "correta": 0,
+   "comentario": "Vasopressores são uma indicação clássica de cateter central, conforme o contexto e a duração previstos. Um cateter central convencional não é escolhido apenas para superar o fluxo de dois periféricos curtos e calibrosos.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; ASA 2020"
+  },
+  {
+   "id": "q-hd-39",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Antes de puncionar a jugular interna guiada por ultrassom, o operador compara duas estruturas cervicais. Qual achado favorece identificar a veia?",
+   "alternativas": [
+    "Pulsatilidade intensa e ausência de compressibilidade.",
+    "Parede espessa e sinal de fluxo arterial ao Doppler.",
+    "Compressibilidade ao transdutor e relação com a carótida.",
+    "Impossibilidade de colapsar mesmo com pressão suave."
+   ],
+   "correta": 2,
+   "comentario": "A jugular costuma ser compressível, enquanto a carótida é pulsátil e menos compressível; o exame também deve pesquisar trombo. Localizar apenas uma estrutura redonda sem testar sua compressibilidade aumenta o risco de punção arterial.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; ASA 2020"
+  },
+  {
+   "id": "q-hd-40",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Uma equipe vai inserir cateter jugular interno em condições controladas. Qual conjunto reduz o risco de infecção durante a inserção?",
+   "alternativas": [
+    "Luvas de procedimento e campo pequeno, sem antissepsia adicional.",
+    "Apenas máscara cirúrgica, pois o ultrassom evita contaminação.",
+    "Antibiótico sistêmico no lugar de técnica estéril.",
+    "Higiene das mãos, barreira estéril máxima e clorexidina alcoólica."
+   ],
+   "correta": 3,
+   "comentario": "Higiene das mãos, barreira máxima e antissepsia com clorexidina alcoólica integram a prevenção de infecção relacionada ao cateter. O ultrassom reduz complicações mecânicas, mas não substitui a técnica estéril.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; ASA 2020"
+  },
+  {
+   "id": "q-hd-41",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Na punção jugular guiada por ultrassom, a imagem mostra a veia, mas a ponta da agulha deixa de ser visível. Qual é a atitude mais segura?",
+   "alternativas": [
+    "Continuar avançando pela direção presumida até aparecer refluxo.",
+    "Reidentificar a ponta da agulha em tempo real antes de progredir.",
+    "Introduzir o fio-guia mesmo sem confirmar a posição da agulha.",
+    "Trocar imediatamente para punção às cegas pelo mesmo trajeto."
+   ],
+   "correta": 1,
+   "comentario": "O avanço deve ser guiado pela visualização da ponta da agulha, para evitar transfixar a veia ou atingir a artéria. Ver a veia isoladamente não confirma o trajeto da ponta.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; ASA 2020"
+  },
+  {
+   "id": "q-hd-42",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Após refluxo de sangue escuro na punção jugular, o fio-guia foi introduzido. O que deve ser feito antes de passar o dilatador?",
+   "alternativas": [
+    "Dilatar imediatamente, pois a cor do sangue confirma a veia.",
+    "Injetar contraste no fio para testar seu comprimento.",
+    "Confirmar por ultrassom que o fio está dentro da veia.",
+    "Retirar o fio e passar o cateter diretamente pela agulha."
+   ],
+   "correta": 2,
+   "comentario": "É necessário confirmar a posição venosa do fio antes da dilatação, idealmente por ultrassom no contexto descrito. Sangue escuro pode aparecer mesmo em punção arterial, especialmente em paciente hipóxico ou chocado.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; ASA 2020"
+  },
+  {
+   "id": "q-hd-43",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Durante uma tentativa de cateter central, percebe-se que o dilatador entrou na carótida. Qual deve ser a conduta imediata?",
+   "alternativas": [
+    "Deixar o dispositivo no lugar e acionar equipe vascular experiente.",
+    "Retirar o dilatador imediatamente e comprimir por poucos segundos.",
+    "Avançar o cateter para usar a via como acesso venoso.",
+    "Injetar soro pelo dilatador para confirmar a posição."
+   ],
+   "correta": 0,
+   "comentario": "Quando um dilatador ou cateter de grande calibre entra em artéria, deve-se deixá-lo no lugar e obter avaliação vascular especializada. Retirá-lo às cegas pode causar hemorragia importante ou outras complicações graves.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; ASA 2020"
+  },
+  {
+   "id": "q-hd-44",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Ao avançar o fio-guia durante cateterização central, surgem extrassístoles no monitor. Qual é a resposta imediata mais apropriada?",
+   "alternativas": [
+    "Avançar mais o fio para reduzir contato com a parede cardíaca.",
+    "Infundir vasopressor pelo fio-guia enquanto se observa o ritmo.",
+    "Retirar todo o cateter já instalado e encerrar a reanimação.",
+    "Recuar o fio-guia, mantendo seu controle manual."
+   ],
+   "correta": 3,
+   "comentario": "Arritmia durante a passagem do fio pode indicar contato com o coração e costuma exigir seu recuo. Avançá-lo mais prolonga o estímulo e pode agravar a arritmia.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; ASA 2020"
+  },
+  {
+   "id": "q-hd-45",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Depois de instalar um cateter jugular interno, qual verificação integra a conclusão segura do procedimento?",
+   "alternativas": [
+    "Usar o cateter apenas porque houve sangue escuro na punção inicial.",
+    "Confirmar posição venosa e ponta adequada, além de pesquisar pneumotórax.",
+    "Deixar o fio-guia no cateter até a radiografia do dia seguinte.",
+    "Dispensar a avaliação das vias se o curativo estiver seco."
+   ],
+   "correta": 1,
+   "comentario": "É preciso confirmar que o cateter está na veia, verificar a posição da ponta e procurar complicações como pneumotórax. O refluxo inicial de sangue escuro não substitui essas etapas de confirmação.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; ASA 2020"
+  },
+  {
+   "id": "q-hd-46",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Durante parada cardíaca em adulto, a equipe precisa administrar medicações. Segundo a orientação AHA/ILCOR 2025, qual sequência de acesso é apropriada?",
+   "alternativas": [
+    "Tentar primeiro a via intraóssea mesmo com veia acessível.",
+    "Aguardar acesso central antes de qualquer medicação.",
+    "Tentar acesso venoso; se falhar ou for inviável, usar intraósseo.",
+    "Evitar a via intraóssea mesmo após tentativas venosas malsucedidas."
+   ],
+   "correta": 2,
+   "comentario": "As diretrizes de 2025 recomendam primeiro tentar acesso intravenoso no adulto em parada; a intraóssea é razoável se a tentativa falhar ou não for viável. Persistir indefinidamente em punções venosas atrasaria a administração de medicamentos.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; AHA/ILCOR 2025"
+  },
+  {
+   "id": "q-hd-47",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Um paciente em choque não tem acesso venoso obtido rapidamente. A tíbia direita está fraturada e a esquerda está íntegra. Qual escolha para punção intraóssea é adequada?",
+   "alternativas": [
+    "Puncionar a tíbia direita porque o choque impede fluxo no osso íntegro.",
+    "Puncionar diretamente sobre a fratura para facilitar a entrada.",
+    "Repetir a punção no mesmo osso caso haja extravasamento.",
+    "Escolher um osso íntegro, como a tíbia esquerda, após examinar o local."
+   ],
+   "correta": 3,
+   "comentario": "Fratura no osso escolhido é contraindicação para punção intraóssea, pelo risco de extravasamento e falha. A tíbia contralateral íntegra pode ser usada se não houver outra contraindicação local.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; AHA/ILCOR 2025"
+  },
+  {
+   "id": "q-hd-48",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "A equipe escolhe a tíbia proximal para punção intraóssea em um paciente grave. Qual região deve ser localizada?",
+   "alternativas": [
+    "A face anteromedial plana da tíbia proximal, afastada da placa de crescimento.",
+    "A face posterior da perna, junto ao feixe neurovascular.",
+    "O centro da articulação do joelho, entre os côndilos.",
+    "A região da fratura óssea, por oferecer menor resistência."
+   ],
+   "correta": 0,
+   "comentario": "A superfície anteromedial plana da tíbia proximal é o ponto descrito para a punção, com cuidado para evitar a placa de crescimento em crianças. A face posterior da perna expõe estruturas que não são alvo do procedimento.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; AHA/ILCOR 2025"
+  },
+  {
+   "id": "q-hd-49",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Após inserir agulha intraóssea na tíbia, não se consegue aspirar medula, mas a agulha está firme. Qual verificação funcional é mais útil antes de infundir?",
+   "alternativas": [
+    "Retirar a agulha automaticamente pela ausência de aspirado.",
+    "Lavar com soro e observar infusão fácil sem inchaço da perna.",
+    "Iniciar infusão rápida mesmo com aumento de volume local.",
+    "Avançar a agulha até atravessar a cortical oposta."
+   ],
+   "correta": 1,
+   "comentario": "A ausência de aspirado medular não invalida sozinha o acesso; lavagem fácil, agulha estável e ausência de inchaço apoiam o posicionamento. Aumento de volume local sugere extravasamento e exige interromper a infusão.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; AHA/ILCOR 2025"
+  },
+  {
+   "id": "q-hd-50",
+   "resumo": "hemorragia-digestiva",
+   "sessao": "s01",
+   "enunciado": "Um paciente consciente em choque recebeu acesso intraósseo tibial e precisa de infusão rápida. Qual plano combina conforto e uso seguro do acesso?",
+   "alternativas": [
+    "Manter infusão por gravidade e preservar a agulha por vários dias, se funcionar.",
+    "Considerar lidocaína, infusão pressurizada e troca por acesso venoso assim que possível.",
+    "Usar a via só para medicações e adiar a reposição de volume até obter veia.",
+    "Evitar analgesia, pois a infusão no canal medular costuma ser indolor."
+   ],
+   "correta": 1,
+   "comentario": "A infusão intraóssea pode ser dolorosa no paciente consciente; lidocaína pode aliviar, e pressão ou bolus ajudam a atingir fluxo rápido. O acesso é temporário e deve ser substituído por via venosa assim que possível.",
+   "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; AHA/ILCOR 2025"
   }
  ]
 }
