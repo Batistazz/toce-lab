@@ -90,5 +90,18 @@
     "paginasApostila": 13,
     "paginasFlash": 2,
     "atualizado": "2026-10-09"
+  },
+  "abdome-agudo": {
+    "titulo": "Abdome agudo e paracentese",
+    "subtitulo": "Classificação, exame físico, imagem e conduta inicial; paracentese e análise do líquido ascítico",
+    "sessoes": [
+      "s02"
+    ],
+    "apostila": "resumos/abdome-agudo/apostila.pdf",
+    "flash": "resumos/abdome-agudo/revisao-flash.pdf",
+    "capa": "resumos/abdome-agudo/capa.jpg",
+    "paginasApostila": 13,
+    "paginasFlash": 2,
+    "atualizado": "2026-10-09"
   }
 }

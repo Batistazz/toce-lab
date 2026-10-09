@@ -160,6 +160,29 @@
     "Troca por acesso venoso assim que possível e registra"
    ],
    "caso": "caso-intraossea"
+  },
+  {
+   "id": "paracentese",
+   "titulo": "Paracentese diagnóstica e de alívio",
+   "sessao": "s02",
+   "resumo": "abdome-agudo",
+   "minutos": 8,
+   "cenario": "Homem de 61 anos, cirrótico, internado com ascite volumosa, febre baixa e dor abdominal difusa. Faça a paracentese diagnóstica e de alívio.",
+   "passos": [
+    "Identifica, explica, pede consentimento e confere a indicação",
+    "Pede para esvaziar a bexiga; decúbito dorsal levemente lateralizado",
+    "Localiza o ponto no quadrante inferior esquerdo, lateral ao reto, cerca de 3 cm medial e acima da EIAS",
+    "Confirma com ultrassom bolsão profundo, sem alças nem vasos no trajeto, e marca o ponto",
+    "Higiene das mãos, luvas estéreis, antissepsia com clorexidina e campo",
+    "Anestesia local da pele ao peritônio",
+    "Técnica em Z e punção aspirando até sair líquido",
+    "Colhe contagem de células com diferencial, albumina e proteína (com albumina do soro) e cultura em frascos de hemocultura à beira do leito",
+    "Conecta a drenagem de alívio e vigia sinais vitais e sintomas",
+    "Retira, comprime, faz curativo e procura sangramento ou vazamento",
+    "Prescreve albumina 6–8 g por litro se retirar mais de 5 litros",
+    "Registra volume, aspecto e intercorrências"
+   ],
+   "caso": "caso-paracentese"
   }
  ]
 }
