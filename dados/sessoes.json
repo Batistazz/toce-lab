@@ -100,7 +100,8 @@
       "dataB": "2026-11-12",
       "dataA": "2026-11-13",
       "teoria": "Cirurgia pediátrica",
-      "pratica": "Revisão integrada e casos clínicos complexos"
+      "pratica": "Revisão integrada e casos clínicos complexos",
+      "resumo": "cirurgia-pediatrica"
     },
     {
       "id": "rev",

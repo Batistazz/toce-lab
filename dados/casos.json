@@ -2242,6 +2242,376 @@
     }
    ],
    "fonte": "Apostila Neoplasias Digestivas e Ostomias da monitoria; WOCN/ASCRS 2015; Portaria SAS/MS nº 400/2009"
+  },
+  {
+   "id": "caso-volvo",
+   "resumo": "cirurgia-pediatrica",
+   "sessao": "s12",
+   "minutos": 10,
+   "titulo": "Masculino, 4 dias · vômitos verdes",
+   "local": "Alojamento conjunto · terça, 3h",
+   "enunciado": "Você é o plantonista da maternidade. Leia o caso e decida.",
+   "historia": [
+    {
+     "rotulo": "Identificação",
+     "texto": "RN de G. P., 4 dias de vida, sexo masculino, a termo, 3.200 g ao nascer."
+    },
+    {
+     "rotulo": "Queixa principal",
+     "texto": "A enfermagem chama: “o bebê vomitou verde três vezes”."
+    },
+    {
+     "rotulo": "História da doença atual",
+     "texto": "Mamava bem e eliminou mecônio nas primeiras 24 horas. Há 4 horas começou a vomitar; os últimos três vômitos foram verde-escuros. Está mais sonolento e mamou pouco."
+    },
+    {
+     "rotulo": "Antecedentes",
+     "texto": "Pré-natal sem intercorrências, ultrassons normais. Parto normal, Apgar 9 e 10."
+    },
+    {
+     "rotulo": "Exame físico",
+     "texto": "Hipoativo, mucosas secas. FC 178 bpm, tempo de enchimento capilar de 4 segundos. Abdome pouco distendido, levemente doloroso. Períneo e ânus normais."
+    }
+   ],
+   "etapas": [
+    {
+     "pergunta": "Qual é a hipótese que não pode ser perdida?",
+     "unica": true,
+     "opcoes": [
+      {
+       "texto": "Má rotação intestinal com volvo do intestino médio",
+       "certo": true,
+       "porque": "Vômito bilioso no recém-nascido que já se alimentava bem, com piora do estado geral, é volvo até prova em contrário."
+      },
+      {
+       "texto": "Refluxo gastroesofágico fisiológico",
+       "certo": false,
+       "porque": "Refluxo não é verde. Vômito bilioso é sinal de obstrução abaixo da papila."
+      },
+      {
+       "texto": "Estenose hipertrófica do piloro",
+       "certo": false,
+       "porque": "O vômito do piloro não é bilioso e começa entre 2 e 8 semanas."
+      },
+      {
+       "texto": "Intolerância à lactose",
+       "certo": false,
+       "porque": "Não causa vômito bilioso nem sinais de choque."
+      }
+     ],
+     "pontos": [
+      "Vômito bilioso = obstrução abaixo da papila",
+      "Má rotação com volvo é a hipótese que não pode esperar",
+      "Taquicardia e enchimento lento: hipovolemia ou isquemia intestinal"
+     ],
+     "resposta": "Recém-nascido que se alimentava bem e passa a ter vômitos biliosos, com sinais de hipoperfusão: má rotação com volvo do intestino médio até prova em contrário. O intestino inteiro pode necrosar em poucas horas."
+    },
+    {
+     "pergunta": "O que você faz agora, enquanto chama o cirurgião pediátrico?",
+     "opcoes": [
+      {
+       "texto": "Suspender a dieta",
+       "certo": true,
+       "porque": "Obstrução: nada por via oral."
+      },
+      {
+       "texto": "Sonda orogástrica aberta",
+       "certo": true,
+       "porque": "Descomprime o estômago e reduz o risco de aspiração."
+      },
+      {
+       "texto": "Acesso venoso, bolus de cristaloide por peso e glicose na manutenção",
+       "certo": true,
+       "porque": "Tratar a hipovolemia e evitar hipoglicemia."
+      },
+      {
+       "texto": "Aquecer e monitorizar",
+       "certo": true,
+       "porque": "O recém-nascido perde calor rápido."
+      },
+      {
+       "texto": "Prescrever antiemético e reavaliar em 6 horas",
+       "certo": false,
+       "porque": "Mascara o quadro e atrasa a cirurgia."
+      },
+      {
+       "texto": "Pedir ultrassom eletivo para amanhã",
+       "certo": false,
+       "porque": "Não se espera: a isquemia evolui em horas."
+      }
+     ]
+    },
+    {
+     "dado": "Depois de 20 mL/kg de soro, FC 150 bpm e enchimento de 2 segundos. A radiografia de abdome tem poucos gases, sem sinais de perfuração.",
+     "pergunta": "Qual exame e qual tratamento?",
+     "unica": true,
+     "opcoes": [
+      {
+       "texto": "Seriografia gastroduodenal (estudo contrastado alto) já, e cirurgia de Ladd se confirmar",
+       "certo": true,
+       "porque": "Estável, o exame confirma a má rotação: o duodeno não cruza a linha média ou faz o 'saca-rolhas'."
+      },
+      {
+       "texto": "Radiografia normal exclui volvo: observar",
+       "certo": false,
+       "porque": "Radiografia normal não exclui volvo."
+      },
+      {
+       "texto": "Enema opaco para reduzir o volvo",
+       "certo": false,
+       "porque": "Enema não trata volvo; é o método de redução da intussuscepção."
+      }
+     ],
+     "pontos": [
+      "Radiografia normal não exclui volvo",
+      "Estável: seriografia gastroduodenal urgente",
+      "Confirmado, ou se instável/peritonite: laparotomia (cirurgia de Ladd)"
+     ],
+     "resposta": "A radiografia normal não exclui volvo. Como ele estabilizou, faz-se a seriografia gastroduodenal com urgência: o duodeno que não cruza a linha média ou o aspecto em 'saca-rolhas' confirmam. Confirmado, ou se piorar ou surgir peritonite, vai direto para a cirurgia de Ladd (destorcer o volvo, seccionar as bandas e alargar a base do mesentério)."
+    },
+    {
+     "pergunta": "Outro bebê, de 4 semanas, vomita em jato leite talhado, sem bile, logo após mamar, e quer mamar de novo. Gasometria com pH 7,52 e cloreto baixo. Qual a conduta?",
+     "unica": true,
+     "opcoes": [
+      {
+       "texto": "Ultrassom do piloro e correção da desidratação e da alcalose antes da piloromiotomia",
+       "certo": true,
+       "porque": "Estenose hipertrófica do piloro: urgência clínica, cirurgia só com os distúrbios corrigidos."
+      },
+      {
+       "texto": "Piloromiotomia de urgência hoje mesmo",
+       "certo": false,
+       "porque": "Operar com alcalose aumenta o risco de apneia pós-anestésica."
+      },
+      {
+       "texto": "Trocar a fórmula e observar",
+       "certo": false,
+       "porque": "Vômito em jato progressivo com alcalose não é intolerância alimentar."
+      }
+     ],
+     "pontos": [
+      "Estenose hipertrófica do piloro",
+      "Alcalose metabólica hipoclorêmica e hipocalêmica",
+      "Ultrassom confirma",
+      "Corrigir água, cloreto e potássio antes de operar"
+     ],
+     "resposta": "É estenose hipertrófica do piloro, com alcalose metabólica hipoclorêmica. Confirma-se com ultrassom; hidrata-se com soro fisiológico e glicose, acrescentando potássio após a diurese, e só com os distúrbios normalizados faz-se a piloromiotomia."
+    }
+   ],
+   "fonte": "Apostila Cirurgia Pediátrica da monitoria; ACR Appropriateness Criteria (vômitos no lactente); EAU Paediatric Urology"
+  },
+  {
+   "id": "caso-intussuscepcao",
+   "resumo": "cirurgia-pediatrica",
+   "sessao": "s12",
+   "minutos": 10,
+   "titulo": "Feminino, 9 meses · crises de choro",
+   "local": "Pronto-socorro infantil · domingo, 22h",
+   "enunciado": "Você é o plantonista do pronto-socorro infantil. Leia o caso e decida.",
+   "historia": [
+    {
+     "rotulo": "Identificação",
+     "texto": "L. M., 9 meses, sexo feminino, 8,5 kg."
+    },
+    {
+     "rotulo": "Queixa principal",
+     "texto": "“Ela chora de repente, encolhe as pernas e depois fica molinha.”"
+    },
+    {
+     "rotulo": "História da doença atual",
+     "texto": "Há 8 horas tem crises de choro intenso, a cada 15 a 20 minutos, encolhendo as pernas; entre as crises fica pálida e quieta. Vomitou 4 vezes, a última esverdeada. Teve gripe na semana passada. Ainda não evacuou hoje."
+    },
+    {
+     "rotulo": "Antecedentes",
+     "texto": "Vacinação em dia. Sem cirurgias."
+    },
+    {
+     "rotulo": "Exame físico",
+     "texto": "Entre crises, sonolenta. FC 160 bpm, temperatura 37,4 °C, enchimento capilar de 3 segundos. Abdome flácido, massa alongada e pouco dolorosa no hipocôndrio direito; fossa ilíaca direita 'vazia'. Sem defesa. Toque retal: muco com raias de sangue."
+    }
+   ],
+   "etapas": [
+    {
+     "pergunta": "Qual o diagnóstico mais provável e qual exame confirma?",
+     "unica": true,
+     "opcoes": [
+      {
+       "texto": "Intussuscepção ileocólica; ultrassom de abdome",
+       "certo": true,
+       "porque": "Crises de choro em cólica intercaladas com prostração, vômitos, massa 'em salsicha' e muco com sangue: o ultrassom mostra o sinal do alvo."
+      },
+      {
+       "texto": "Gastroenterite viral; não precisa de exame",
+       "certo": false,
+       "porque": "Crises intermitentes com massa palpável e sangue não são gastroenterite."
+      },
+      {
+       "texto": "Apendicite; tomografia de abdome",
+       "certo": false,
+       "porque": "O quadro e a idade sugerem intussuscepção, e o exame inicial é o ultrassom."
+      },
+      {
+       "texto": "Constipação; enema de limpeza",
+       "certo": false,
+       "porque": "Enema de limpeza não é tratamento e atrasa o diagnóstico."
+      }
+     ],
+     "pontos": [
+      "Crises de cólica com prostração entre elas",
+      "Massa em salsicha e fossa ilíaca direita vazia (sinal de Dance)",
+      "Muco com sangue é sinal tardio",
+      "Ultrassom: sinal do alvo"
+     ],
+     "resposta": "Intussuscepção ileocólica, provavelmente por hipertrofia linfoide após a virose. O exame é o ultrassom, que mostra o sinal do alvo (ou do 'pseudorrim' no corte longitudinal)."
+    },
+    {
+     "dado": "O ultrassom confirma a intussuscepção ileocólica. Não há líquido livre nem sinais de perfuração.",
+     "pergunta": "Qual a conduta?",
+     "opcoes": [
+      {
+       "texto": "Acesso venoso e hidratação",
+       "certo": true,
+       "porque": "Está desidratada e taquicárdica."
+      },
+      {
+       "texto": "Sonda gástrica, porque vomitou bile",
+       "certo": true,
+       "porque": "Descompressão na obstrução."
+      },
+      {
+       "texto": "Redução por enema (ar ou líquido) guiada por imagem, com o cirurgião avisado",
+       "certo": true,
+       "porque": "Criança estável e sem peritonite: a redução não cirúrgica resolve a maioria."
+      },
+      {
+       "texto": "Laparotomia imediata",
+       "certo": false,
+       "porque": "Só se houver peritonite, perfuração, choque ou falha da redução."
+      },
+      {
+       "texto": "Antiespasmódico e alta com retorno se piorar",
+       "certo": false,
+       "porque": "A alça invaginada pode necrosar."
+      }
+     ]
+    },
+    {
+     "dado": "Durante a tentativa de redução, a criança fica com abdome tenso e distendido, e a imagem mostra ar livre na cavidade.",
+     "pergunta": "O que aconteceu e o que fazer?",
+     "pontos": [
+      "Perfuração intestinal durante o enema",
+      "Se o abdome tenso comprometer a ventilação: punção com agulha para descomprimir o pneumoperitônio",
+      "Ressuscitação e antibiótico",
+      "Cirurgia de urgência"
+     ],
+     "resposta": "Houve perfuração durante a redução, com pneumoperitônio. Se o abdome tenso comprometer a respiração, descomprime-se com agulha. Ressuscitação, antibiótico e laparotomia de urgência: redução manual se possível e ressecção do segmento perfurado ou necrosado."
+    },
+    {
+     "pergunta": "Um menino de 6 anos tem a terceira intussuscepção. O que muda?",
+     "unica": true,
+     "opcoes": [
+      {
+       "texto": "Procurar uma causa anatômica (divertículo de Meckel, pólipo, linfoma)",
+       "certo": true,
+       "porque": "Acima de 3 anos ou com recorrência, é mais provável haver uma 'cabeça' que puxa a alça."
+      },
+      {
+       "texto": "Nada: repetir o enema sempre",
+       "certo": false,
+       "porque": "Recorrência em criança maior pede investigar a causa."
+      },
+      {
+       "texto": "Tratar com corticoide para reduzir os linfonodos",
+       "certo": false,
+       "porque": "Não é tratamento da intussuscepção."
+      }
+     ],
+     "pontos": [
+      "Idade fora da faixa típica ou recorrência",
+      "Procurar causa: Meckel, pólipo, linfoma",
+      "Muitas vezes a cirurgia resolve e esclarece"
+     ],
+     "resposta": "Fora da faixa típica, ou com recorrências, a intussuscepção costuma ter uma causa anatômica: divertículo de Meckel, pólipo, duplicação ou linfoma. A investigação, e muitas vezes a cirurgia, procura essa causa."
+    }
+   ],
+   "fonte": "Apostila Cirurgia Pediátrica da monitoria; ACR Appropriateness Criteria (vômitos no lactente); EAU Paediatric Urology"
+  },
+  {
+   "id": "caso-atresia-biliar",
+   "resumo": "cirurgia-pediatrica",
+   "sessao": "s12",
+   "minutos": 8,
+   "titulo": "Feminino, 5 semanas · amarelinha e fezes claras",
+   "local": "Unidade básica de saúde · quinta, 10h",
+   "enunciado": "Você atende a consulta de puericultura. Leia o caso e decida.",
+   "historia": [
+    {
+     "rotulo": "Identificação",
+     "texto": "A. C., 5 semanas de vida, sexo feminino, a termo, em aleitamento materno exclusivo."
+    },
+    {
+     "rotulo": "Queixa principal",
+     "texto": "“Ela continua amarelinha, e as fezes estão bem clarinhas.”"
+    },
+    {
+     "rotulo": "História da doença atual",
+     "texto": "Icterícia desde a 2ª semana, que não melhorou. Há 10 dias as fezes ficaram brancas-acinzentadas e a urina escura, manchando a fralda. Mama bem e ganha peso. Na maternidade disseram que era 'icterícia do leite'."
+    },
+    {
+     "rotulo": "Antecedentes",
+     "texto": "Pré-natal sem intercorrências. Teste do pezinho normal."
+    },
+    {
+     "rotulo": "Exame físico",
+     "texto": "Bom estado, ictérica até o abdome. Fígado palpável a 3 cm do rebordo costal direito, de consistência aumentada. Baço não palpável. Fezes na fralda: cor de massa de vidraceiro, número 1 da escala de cores da Caderneta da Criança."
+    }
+   ],
+   "etapas": [
+    {
+     "pergunta": "Qual a interpretação e o próximo passo?",
+     "unica": true,
+     "opcoes": [
+      {
+       "texto": "Colestase (fezes claras e urina escura): dosar bilirrubina total e direta hoje e encaminhar com urgência",
+       "certo": true,
+       "porque": "Fezes claras são colestase até prova em contrário; atresia de vias biliares precisa de diagnóstico rápido."
+      },
+      {
+       "texto": "Icterícia do leite materno: suspender a amamentação por 48 horas",
+       "certo": false,
+       "porque": "Icterícia do leite tem bilirrubina indireta e fezes coradas."
+      },
+      {
+       "texto": "Fototerapia",
+       "certo": false,
+       "porque": "Fototerapia trata bilirrubina indireta; não serve para colestase."
+      },
+      {
+       "texto": "Reavaliar em 1 mês",
+       "certo": false,
+       "porque": "Cada semana reduz a chance de sucesso do Kasai."
+      }
+     ],
+     "pontos": [
+      "Acolia e colúria = colestase",
+      "Bilirrubina direta no mesmo dia",
+      "Encaminhamento urgente ao cirurgião pediátrico/hepatologista"
+     ],
+     "resposta": "Fezes acólicas e urina escura indicam colestase, e não icterícia do leite. Dosa-se a bilirrubina total e direta no mesmo dia e encaminha-se com urgência: atresia de vias biliares até prova em contrário."
+    },
+    {
+     "dado": "Bilirrubina total 9,8 mg/dL, direta 7,1 mg/dL. Ultrassom: vesícula pequena e irregular, com o sinal do cordão triangular no hilo.",
+     "pergunta": "Qual o diagnóstico provável e o tratamento?",
+     "pontos": [
+      "Atresia de vias biliares",
+      "Confirmação por colangiografia intraoperatória e biópsia",
+      "Portoenterostomia de Kasai o mais cedo possível",
+      "Se falhar: transplante hepático"
+     ],
+     "resposta": "Atresia de vias biliares. A confirmação é feita por colangiografia intraoperatória e biópsia, e o tratamento é a portoenterostomia de Kasai o quanto antes: a criança já tem 5 semanas. Se a drenagem de bile falhar, ou se houver cirrose avançada, o caminho é o transplante hepático."
+    }
+   ],
+   "fonte": "Apostila Cirurgia Pediátrica da monitoria; ACR Appropriateness Criteria (vômitos no lactente); EAU Paediatric Urology; Caderneta da Criança (MS)"
   }
  ]
 }
