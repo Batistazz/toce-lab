@@ -326,7 +326,12 @@ function tickOsce(e) {
 // etapa de decisão: "unica" vira escolha única; senão, marque tudo o que usaria
 function blocoOpcoes(p, chave, aberto, textos) {
   const sel = JSON.parse(textos[`${chave}:sel`] ?? "[]");
-  const itens = p.opcoes.map((o, j) => {
+  // ordem embaralhada, mas fixa por pergunta (semente = chave), para a certa não ficar sempre em primeiro
+  let s = [...chave].reduce((h, ch) => Math.imul(h ^ ch.charCodeAt(0), 2654435761) >>> 0, 2166136261);
+  const sorteio = () => { s = (s + 0x6D2B79F5) >>> 0; let t = Math.imul(s ^ (s >>> 15), 1 | s); t ^= t + Math.imul(t ^ (t >>> 7), 61 | t); return ((t ^ (t >>> 14)) >>> 0) / 4294967296; };
+  const ordem = p.opcoes.map((_, j) => j);
+  for (let k = ordem.length - 1; k > 0; k--) { const r = Math.floor(sorteio() * (k + 1)); [ordem[k], ordem[r]] = [ordem[r], ordem[k]]; }
+  const itens = ordem.map((j) => [p.opcoes[j], j]).map(([o, j]) => {
     const marcou = sel.includes(j);
     if (!aberto) return `<li><label><input type="${p.unica ? "radio" : "checkbox"}" name="${esc(chave)}" data-opcao="${esc(chave)}" value="${j}" ${marcou ? "checked" : ""}><span>${esc(o.texto)}</span></label></li>`;
     const acerto = marcou === !!o.certo;

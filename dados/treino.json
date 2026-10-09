@@ -1,119 +1,142 @@
 {
-  "aviso": "Checklists de treino elaborados pela monitoria a partir das apostilas. Não substituem a rubrica oficial do OSCE.",
-  "estacoes": [
-    {
-      "id": "acesso-central",
-      "titulo": "Acesso venoso central (jugular interna guiada por ultrassom)",
-      "sessao": "s01",
-      "resumo": null,
-      "minutos": 10,
-      "cenario": "Paciente em choque séptico precisa de noradrenalina e não tem acesso periférico adequado. Realize o acesso venoso central na jugular interna direita, com ultrassom, em manequim.",
-      "passos": [
-        "Apresenta-se, confirma a indicação, explica o procedimento e confere coagulação e alergias",
-        "Posiciona o paciente em decúbito dorsal com a cabeça virada para o lado oposto (cabeça baixa, se tolerado)",
-        "Localiza a veia ao ultrassom: lateral à carótida, compressível, no ápice do triângulo do esternocleidomastoideo",
-        "Higieniza as mãos e usa barreira máxima: gorro, máscara, avental e luvas estéreis, campo amplo",
-        "Antissepsia com clorexidina e capa e gel estéreis no transdutor",
-        "Anestesia local no ponto de punção",
-        "Punciona sob visão do ultrassom com agulha em seringa, aspirando até o refluxo de sangue venoso",
-        "Passa o fio-guia pela agulha e confirma sua posição na veia ao ultrassom",
-        "Nunca solta o fio-guia; retira a agulha e faz pequena incisão na pele",
-        "Passa o dilatador sobre o fio e, depois, o cateter sobre o fio",
-        "Retira o fio-guia inteiro e confere que está completo",
-        "Aspira e lava todas as vias; fixa o cateter e faz curativo estéril",
-        "Pede radiografia de tórax: ponta na junção da veia cava superior com o átrio direito e ausência de pneumotórax",
-        "Descarta perfurocortantes e registra o procedimento"
-      ],
-      "caso": "caso-acesso-central"
-    },
-    {
-      "id": "sondagem-masculina",
-      "titulo": "Sondagem vesical masculina",
-      "sessao": "s09",
-      "resumo": "afeccoes-urologicas",
-      "minutos": 8,
-      "cenario": "Homem de 68 anos com retenção urinária aguda e bexigoma doloroso. Realize a sondagem vesical de demora.",
-      "passos": [
-        "Higieniza as mãos, apresenta-se, explica o procedimento e garante privacidade",
-        "Confere contraindicação: sangue no meato, equimose perineal ou escrotal (trauma)",
-        "Posiciona em decúbito dorsal e separa o material (Foley 14–16 Fr, seringa com água destilada, gel de lidocaína, antisséptico, campo, luvas estéreis, bolsa coletora)",
-        "Calça luvas estéreis e monta o campo",
-        "Retrai o prepúcio e faz a antissepsia do meato para a periferia",
-        "Instila o gel anestésico na uretra e aguarda",
-        "Mantém o pênis perpendicular ao corpo, com leve tração, e introduz a sonda até a bifurcação",
-        "Insufla o balão somente após a saída de urina",
-        "Traciona suavemente até sentir resistência",
-        "Recoloca o prepúcio sobre a glande (prevenção de parafimose)",
-        "Fixa a sonda no abdome e mantém a bolsa abaixo do nível da bexiga, em sistema fechado",
-        "Registra o volume drenado e orienta o paciente"
-      ],
-      "caso": "caso-sondagem"
-    },
-    {
-      "id": "descompressao-dreno",
-      "titulo": "Pneumotórax hipertensivo: descompressão e dreno",
-      "sessao": "s10",
-      "resumo": "politraumatizado",
-      "minutos": 10,
-      "cenario": "Politrauma com FC 132, PAS 82, SpO₂ 86% e murmúrio abolido à direita.",
-      "passos": [
-        "Reconhece pneumotórax hipertensivo como diagnóstico clínico e não pede imagem antes de tratar",
-        "Oferece O₂ a 100% e mantém a avaliação primária em paralelo",
-        "Escolhe o ponto: 5º EIC entre as linhas axilares anterior e média ou 2º EIC na linha hemiclavicular",
-        "Faz antissepsia e usa cateter sobre agulha de 14 G ou maior",
-        "Entra pela borda superior da costela",
-        "Confirma a saída de ar e reavalia sinais vitais e saturação",
-        "Indica dreno de tórax em seguida (a tensão pode voltar)",
-        "Posiciona o dreno no triângulo de segurança (peitoral maior, latíssimo do dorso, linha do 5º EIC)",
-        "Escolhe o calibre: 14 Fr é eficaz; no hemotórax maciço, 24 Fr ou mais",
-        "Conecta ao selo d'água e confirma oscilação e drenagem",
-        "Reavalia com radiografia e reexame"
-      ],
-      "caso": "caso-dreno-torax"
-    },
-    {
-      "id": "cricotireoidostomia",
-      "titulo": "Cricotireoidostomia cirúrgica",
-      "sessao": "s11",
-      "resumo": "choque-hemorragico",
-      "minutos": 8,
-      "cenario": "Após três tentativas de laringoscopia e falha do dispositivo supraglótico, o paciente não intuba e não oxigena.",
-      "passos": [
-        "Declara a situação \"não intubo, não oxigeno\" e pede o material (bisturi, bougie, tubo, seringa)",
-        "Identifica a membrana cricotireóidea entre as cartilagens tireoide e cricoide",
-        "Estabiliza a laringe com a mão não dominante",
-        "Faz incisão vertical na pele, na linha média, sobre a membrana",
-        "Palpa a membrana com o indicador",
-        "Incisa a membrana transversalmente",
-        "Introduz o cabo do bisturi e gira para dilatar",
-        "Passa o tubo (direto ou sobre o bougie) até o balonete ficar na via aérea",
-        "Insufla o balonete",
-        "Confirma com CO₂ expirado sustentado na capnografia",
-        "Fixa o tubo e reavalia ventilação e oxigenação"
-      ],
-      "caso": "caso-crico"
-    },
-    {
-      "id": "queimado-inicial",
-      "titulo": "Atendimento inicial ao queimado",
-      "sessao": "s08",
-      "resumo": "queimaduras",
-      "minutos": 10,
-      "cenario": "Homem de 70 kg, resgatado de incêndio em ambiente fechado, com queimaduras de 2º e 3º graus em tronco e membros superiores.",
-      "passos": [
-        "Interrompe a queimadura: remove roupas não aderidas e adornos",
-        "Resfria com água corrente em temperatura ambiente por 20 minutos (nunca gelo) e previne hipotermia",
-        "Avalia a via aérea e os sinais de lesão inalatória; reconhece critérios de intubação",
-        "Oferece O₂ a 100% e pede gasometria com carboxi-hemoglobina",
-        "Punciona dois acessos calibrosos e inicia Ringer lactato pela idade (500 mL/h no adulto)",
-        "Calcula a SCQ só com áreas de 2º e 3º graus (regra dos nove ou palma da mão)",
-        "Calcula a reposição (Parkland ou ABA) e passa sonda vesical para diurese-alvo de 0,5 mL/kg/h",
-        "Cobre com lençóis limpos e secos; não rompe bolhas nem usa antibiótico profilático",
-        "Atualiza a profilaxia antitetânica e faz analgesia com opioide EV em doses pequenas",
-        "Avalia necessidade de escarotomia em queimadura circunferencial profunda",
-        "Aplica os critérios de transferência para centro de queimados"
-      ],
-      "caso": "caso-queimado"
-    }
-  ]
+ "aviso": "Checklists de treino elaborados pela monitoria a partir das apostilas. Não substituem a rubrica oficial do OSCE.",
+ "estacoes": [
+  {
+   "id": "acesso-central",
+   "titulo": "Acesso venoso central (jugular interna guiada por ultrassom)",
+   "sessao": "s01",
+   "resumo": null,
+   "minutos": 10,
+   "cenario": "Paciente em choque séptico precisa de noradrenalina e não tem acesso periférico adequado. Realize o acesso venoso central na jugular interna direita, com ultrassom, em manequim.",
+   "passos": [
+    "Apresenta-se, confirma a indicação, explica o procedimento e confere coagulação e alergias",
+    "Posiciona o paciente em decúbito dorsal com a cabeça virada para o lado oposto (cabeça baixa, se tolerado)",
+    "Localiza a veia ao ultrassom: lateral à carótida, compressível, no ápice do triângulo do esternocleidomastoideo",
+    "Higieniza as mãos e usa barreira máxima: gorro, máscara, avental e luvas estéreis, campo amplo",
+    "Antissepsia com clorexidina e capa e gel estéreis no transdutor",
+    "Anestesia local no ponto de punção",
+    "Punciona sob visão do ultrassom com agulha em seringa, aspirando até o refluxo de sangue venoso",
+    "Passa o fio-guia pela agulha e confirma sua posição na veia ao ultrassom",
+    "Nunca solta o fio-guia; retira a agulha e faz pequena incisão na pele",
+    "Passa o dilatador sobre o fio e, depois, o cateter sobre o fio",
+    "Retira o fio-guia inteiro e confere que está completo",
+    "Aspira e lava todas as vias; fixa o cateter e faz curativo estéril",
+    "Pede radiografia de tórax: ponta na junção da veia cava superior com o átrio direito e ausência de pneumotórax",
+    "Descarta perfurocortantes e registra o procedimento"
+   ],
+   "caso": "caso-acesso-central"
+  },
+  {
+   "id": "sondagem-masculina",
+   "titulo": "Sondagem vesical masculina",
+   "sessao": "s09",
+   "resumo": "afeccoes-urologicas",
+   "minutos": 8,
+   "cenario": "Homem de 68 anos com retenção urinária aguda e bexigoma doloroso. Realize a sondagem vesical de demora.",
+   "passos": [
+    "Higieniza as mãos, apresenta-se, explica o procedimento e garante privacidade",
+    "Confere contraindicação: sangue no meato, equimose perineal ou escrotal (trauma)",
+    "Posiciona em decúbito dorsal e separa o material (Foley 14–16 Fr, seringa com água destilada, gel de lidocaína, antisséptico, campo, luvas estéreis, bolsa coletora)",
+    "Calça luvas estéreis e monta o campo",
+    "Retrai o prepúcio e faz a antissepsia do meato para a periferia",
+    "Instila o gel anestésico na uretra e aguarda",
+    "Mantém o pênis perpendicular ao corpo, com leve tração, e introduz a sonda até a bifurcação",
+    "Insufla o balão somente após a saída de urina",
+    "Traciona suavemente até sentir resistência",
+    "Recoloca o prepúcio sobre a glande (prevenção de parafimose)",
+    "Fixa a sonda no abdome e mantém a bolsa abaixo do nível da bexiga, em sistema fechado",
+    "Registra o volume drenado e orienta o paciente"
+   ],
+   "caso": "caso-sondagem"
+  },
+  {
+   "id": "descompressao-dreno",
+   "titulo": "Pneumotórax hipertensivo: descompressão e dreno",
+   "sessao": "s10",
+   "resumo": "politraumatizado",
+   "minutos": 10,
+   "cenario": "Politrauma com FC 132, PAS 82, SpO₂ 86% e murmúrio abolido à direita.",
+   "passos": [
+    "Reconhece pneumotórax hipertensivo como diagnóstico clínico e não pede imagem antes de tratar",
+    "Oferece O₂ a 100% e mantém a avaliação primária em paralelo",
+    "Escolhe o ponto: 5º EIC entre as linhas axilares anterior e média ou 2º EIC na linha hemiclavicular",
+    "Faz antissepsia e usa cateter sobre agulha de 14 G ou maior",
+    "Entra pela borda superior da costela",
+    "Confirma a saída de ar e reavalia sinais vitais e saturação",
+    "Indica dreno de tórax em seguida (a tensão pode voltar)",
+    "Posiciona o dreno no triângulo de segurança (peitoral maior, latíssimo do dorso, linha do 5º EIC)",
+    "Escolhe o calibre: 14 Fr é eficaz; no hemotórax maciço, 24 Fr ou mais",
+    "Conecta ao selo d'água e confirma oscilação e drenagem",
+    "Reavalia com radiografia e reexame"
+   ],
+   "caso": "caso-dreno-torax"
+  },
+  {
+   "id": "cricotireoidostomia",
+   "titulo": "Cricotireoidostomia cirúrgica",
+   "sessao": "s11",
+   "resumo": "choque-hemorragico",
+   "minutos": 8,
+   "cenario": "Após três tentativas de laringoscopia e falha do dispositivo supraglótico, o paciente não intuba e não oxigena.",
+   "passos": [
+    "Declara a situação \"não intubo, não oxigeno\" e pede o material (bisturi, bougie, tubo, seringa)",
+    "Identifica a membrana cricotireóidea entre as cartilagens tireoide e cricoide",
+    "Estabiliza a laringe com a mão não dominante",
+    "Faz incisão vertical na pele, na linha média, sobre a membrana",
+    "Palpa a membrana com o indicador",
+    "Incisa a membrana transversalmente",
+    "Introduz o cabo do bisturi e gira para dilatar",
+    "Passa o tubo (direto ou sobre o bougie) até o balonete ficar na via aérea",
+    "Insufla o balonete",
+    "Confirma com CO₂ expirado sustentado na capnografia",
+    "Fixa o tubo e reavalia ventilação e oxigenação"
+   ],
+   "caso": "caso-crico"
+  },
+  {
+   "id": "queimado-inicial",
+   "titulo": "Atendimento inicial ao queimado",
+   "sessao": "s08",
+   "resumo": "queimaduras",
+   "minutos": 10,
+   "cenario": "Homem de 70 kg, resgatado de incêndio em ambiente fechado, com queimaduras de 2º e 3º graus em tronco e membros superiores.",
+   "passos": [
+    "Interrompe a queimadura: remove roupas não aderidas e adornos",
+    "Resfria com água corrente em temperatura ambiente por 20 minutos (nunca gelo) e previne hipotermia",
+    "Avalia a via aérea e os sinais de lesão inalatória; reconhece critérios de intubação",
+    "Oferece O₂ a 100% e pede gasometria com carboxi-hemoglobina",
+    "Punciona dois acessos calibrosos e inicia Ringer lactato pela idade (500 mL/h no adulto)",
+    "Calcula a SCQ só com áreas de 2º e 3º graus (regra dos nove ou palma da mão)",
+    "Calcula a reposição (Parkland ou ABA) e passa sonda vesical para diurese-alvo de 0,5 mL/kg/h",
+    "Cobre com lençóis limpos e secos; não rompe bolhas nem usa antibiótico profilático",
+    "Atualiza a profilaxia antitetânica e faz analgesia com opioide EV em doses pequenas",
+    "Avalia necessidade de escarotomia em queimadura circunferencial profunda",
+    "Aplica os critérios de transferência para centro de queimados"
+   ],
+   "caso": "caso-queimado"
+  },
+  {
+   "id": "troca-bolsa-colostomia",
+   "titulo": "Troca de bolsa de colostomia",
+   "sessao": "s07",
+   "resumo": "neoplasias-gi",
+   "minutos": 8,
+   "cenario": "Homem de 63 anos no 4º dia após amputação abdominoperineal por câncer de reto, com colostomia terminal na fossa ilíaca esquerda. A bolsa está vazando. Troque o equipamento e oriente o paciente.",
+   "passos": [
+    "Identifica o paciente, apresenta-se, explica o procedimento, pede consentimento e garante privacidade",
+    "Higieniza as mãos, calça luvas e separa o material (bolsa e placa compatíveis, medidor, tesoura curva, gaze ou pano macio, água morna, sabão neutro, saco de descarte)",
+    "Esvazia a bolsa, se necessário, e solta a placa devagar, rente à pele, apoiando a pele com a outra mão",
+    "Inspeciona o estoma: cor (vermelha ou rósea), umidade, altura e junção com a pele",
+    "Inspeciona a pele periestomal e o verso da placa retirada para localizar o vazamento",
+    "Limpa com água morna (ou soro) e sabão neutro, sem esfregar e sem álcool, éter, óleo ou creme",
+    "Seca completamente a pele",
+    "Mede o estoma com o medidor (nos dois eixos, se oval)",
+    "Recorta a placa do tamanho do estoma, com folga mínima: sem apertar a mucosa e sem deixar pele exposta",
+    "Aplica a placa centrada, de baixo para cima, pressiona alguns segundos, encaixa e fecha a bolsa",
+    "Descarta o material, retira as luvas, higieniza as mãos e registra o aspecto do estoma, da pele e do efluente",
+    "Orienta: esvaziar com um terço a metade da bolsa cheia; trocar se vazar ou arder; procurar ajuda se o estoma escurecer, doer muito ou parar de funcionar com distensão"
+   ],
+   "caso": "caso-colostomia"
+  }
+ ]
 }

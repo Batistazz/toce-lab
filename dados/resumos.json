@@ -51,5 +51,18 @@
     "paginasApostila": 13,
     "paginasFlash": 2,
     "atualizado": "2026-10-08"
+  },
+  "neoplasias-gi": {
+    "titulo": "Neoplasias digestivas e ostomias",
+    "subtitulo": "Câncer de esôfago, gástrico e colorretal; cuidados com ostomias",
+    "sessoes": [
+      "s07"
+    ],
+    "apostila": "resumos/neoplasias-gi/apostila.pdf",
+    "flash": "resumos/neoplasias-gi/revisao-flash.pdf",
+    "capa": "resumos/neoplasias-gi/capa.jpg",
+    "paginasApostila": 14,
+    "paginasFlash": 2,
+    "atualizado": "2026-10-08"
   }
 }
