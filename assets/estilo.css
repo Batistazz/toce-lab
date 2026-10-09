@@ -163,12 +163,20 @@ main { max-width: 1040px; margin: 0 auto; padding: 28px 16px 48px; outline: none
 .pergunta-caso { margin: 20px 0; }
 .pergunta-caso textarea { width: 100%; font: inherit; font-size: 17px; padding: 10px 12px; border: 1px solid var(--filete); background: rgba(255, 255, 255, .45); color: var(--tinta); resize: vertical; }
 .gabarito { margin-top: 10px; }
+.prontuario { margin: 22px 0 8px; padding: 20px 24px; border: 1px solid var(--filete); background: rgba(255, 255, 255, .35); }
+.prontuario h2, .titulo-perguntas { font-size: 15px; letter-spacing: .14em; text-transform: uppercase; font-weight: 600; text-align: center; margin: 0 0 12px; color: var(--tinta-2); }
+.titulo-perguntas { margin: 26px 0 4px; }
+.prontuario p { margin: 0 0 10px; text-align: justify; hyphens: auto; }
+.prontuario p:last-child { margin-bottom: 0; }
+.prontuario .campo { font-variant: small-caps; font-weight: 600; letter-spacing: .03em; }
 .caixa.dado { margin: 6px 0 10px; border-top-width: 1px; border-bottom-width: 1px; }
 .pontos { list-style: none; padding: 0; margin: 6px 0 0; }
 .pontos label { display: grid; grid-template-columns: 24px 1fr; gap: 8px; padding: 5px 0; cursor: pointer; font-size: 16.5px; }
 .pontos input { width: 17px; height: 17px; margin-top: 4px; accent-color: var(--tinta); }
 
 @media (max-width: 720px) {
+  .prontuario { padding: 16px 14px; }
+  .prontuario p { text-align: left; }
   .casos-lista { grid-template-columns: 1fr; }
   .simulado-grade { grid-template-columns: 1fr; }
   .historico li { grid-template-columns: 1fr 1fr; }

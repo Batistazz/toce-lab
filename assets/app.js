@@ -334,7 +334,7 @@ function telaCaso(id) {
     const pontos = p.pontos.map((pt, j) => `<li><label><input type="checkbox" data-ponto="${i}-${j}"><span>${esc(pt)}</span></label></li>`).join("");
     return `<section class="pergunta-caso">
       <span class="rotulo">Etapa ${i + 1} de ${c.etapas.length}</span>
-      ${p.dado ? `<div class="caixa dado"><p style="margin:0">${esc(p.dado)}</p></div>` : ""}
+      ${p.dado ? `<div class="caixa dado"><span class="rotulo">Nova informação</span><p style="margin:2px 0 0">${esc(p.dado)}</p></div>` : ""}
       ${p.imagem ? `<figure class="imagem-caso"><img src="${esc(p.imagem)}" alt="Exame da etapa ${i + 1}"><figcaption>${esc(p.credito ?? "")}</figcaption></figure>` : ""}
       <p class="enunciado">${esc(p.pergunta)}</p>
       <textarea data-texto="${esc(chave)}" rows="4" placeholder="Escreva sua resposta…">${esc(textos[chave] ?? "")}</textarea>
@@ -352,6 +352,8 @@ function telaCaso(id) {
     ${abertura(`Estação escrita · ${c.minutos} minutos · ${c.etapas.length} etapas`, esc(c.titulo), "")}
     <div class="caixa"><span class="rotulo">Instrução de porta</span><p style="margin:4px 0 0">${esc(c.enunciado)}</p></div>
     ${blocoRelogio(c)}
+    ${c.historia ? `<section class="prontuario"><h2>Caso clínico</h2>${c.historia.map((h) => `<p><span class="campo">${esc(h.rotulo)}.</span> ${esc(h.texto)}</p>`).join("")}</section>
+    <h2 class="titulo-perguntas">Perguntas</h2>` : ""}
     ${etapas}
     <div class="acoes" style="justify-content:center;margin:18px 0">${botoes}</div>
     <p class="fraco" style="text-align:center;font-size:15px">Fonte: ${esc(c.fonte)}</p>

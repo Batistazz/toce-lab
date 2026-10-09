@@ -1,261 +1,827 @@
 {
-  "aviso": "Estações escritas da monitoria, no formato do OSCE: o caso avança em etapas, cada uma com informação nova. Escreva a sua resposta antes de abrir a correção por pontos-chave.",
+  "aviso": "Estações escritas da monitoria, no formato do OSCE: primeiro o caso clínico completo, depois as perguntas em etapas, cada uma com informação nova. Escreva a sua resposta antes de abrir a correção por pontos-chave.",
   "casos": [
     {
-      "id": "caso-acesso-central", "resumo": null, "sessao": "s01", "minutos": 10,
+      "id": "caso-acesso-central",
+      "resumo": null,
+      "sessao": "s01",
+      "minutos": 10,
       "titulo": "Acesso venoso central: indicação, anatomia e técnica",
-      "enunciado": "Você está na sala de emergência. Mulher de 64 anos, 70 kg, com choque séptico de foco urinário: PA 78 × 42 mmHg após reposição volêmica, lactato 5 mmol/L. Há dois acessos periféricos finos, um já perdido. A equipe decide iniciar noradrenalina. Responda às etapas na ordem.",
+      "enunciado": "Você é o médico plantonista da sala de emergência. Leia o caso e responda às etapas na ordem.",
       "etapas": [
-        { "pergunta": "Por que esta paciente precisa de acesso venoso central? Cite outras indicações.",
-          "pontos": ["Vasopressor (noradrenalina) é administrado de preferência por acesso central", "Acesso periférico difícil ou insuficiente", "Outras: drogas irritantes ou vesicantes, monitorização hemodinâmica, nutrição parenteral, hemodiálise, coleta frequente"],
-          "resposta": "Vasopressores são administrados de preferência por via central, pelo risco de lesão no sítio periférico (ATLS 11, cap. 6), e ela tem acesso periférico precário. Outras indicações: drogas irritantes, monitorização hemodinâmica, nutrição parenteral, hemodiálise e acesso periférico impossível." },
-        { "dado": "Ela está acordada, sem coagulopatia, e há ultrassom disponível. Os sítios possíveis são jugular interna, subclávia e femoral.",
+        {
+          "pergunta": "Por que esta paciente precisa de acesso venoso central? Cite outras indicações.",
+          "pontos": [
+            "Vasopressor (noradrenalina) é administrado de preferência por acesso central",
+            "Acesso periférico difícil ou insuficiente",
+            "Outras: drogas irritantes ou vesicantes, monitorização hemodinâmica, nutrição parenteral, hemodiálise, coleta frequente"
+          ],
+          "resposta": "Vasopressores são administrados de preferência por via central, pelo risco de lesão no sítio periférico (ATLS 11, cap. 6), e ela tem acesso periférico precário. Outras indicações: drogas irritantes, monitorização hemodinâmica, nutrição parenteral, hemodiálise e acesso periférico impossível."
+        },
+        {
+          "dado": "Ela está sem coagulopatia e há ultrassom disponível. Os sítios possíveis são jugular interna, subclávia e femoral.",
           "pergunta": "Compare os três sítios e escolha um, justificando.",
-          "pontos": ["Jugular interna direita: preferida com ultrassom; veia maior e menos sobreposta à carótida", "Subclávia: menor taxa de infecção e trombose, porém maior risco de pneumotórax", "Femoral: praticamente sem risco de pneumotórax, mas mais infecção e trombose", "Escolha justificada (por exemplo, jugular interna direita guiada por ultrassom)"],
-          "resposta": "Jugular interna direita guiada por ultrassom é uma escolha excelente: a veia é maior e menos sobreposta à carótida. A subclávia tem menos infecção e trombose, mas mais pneumotórax; a femoral quase não tem pneumotórax, mas tem mais infecção e trombose (estudo randomizado de 2015, citado por Woodfall e van Zundert, 2025)." },
-        { "pergunta": "Descreva a anatomia de referência para puncionar cada sítio.",
-          "pontos": ["Jugular interna: ápice do triângulo entre as cabeças esternal e clavicular do esternocleidomastoideo, com a cabeça virada para o lado oposto", "Jugular interna: veia lateral à artéria carótida", "Subclávia (infraclavicular): cerca de 1 cm abaixo da junção dos terços medial e médio da clavícula, agulha em direção à fúrcula esternal", "Femoral: no ponto médio entre a espinha ilíaca anterossuperior e o tubérculo púbico, abaixo do ligamento inguinal; a veia é medial à artéria"],
-          "resposta": "Jugular interna: com a cabeça virada para o lado oposto, punciona-se no ápice do triângulo formado pelas cabeças esternal e clavicular do esternocleidomastoideo; a veia fica lateral à carótida. Subclávia infraclavicular: cerca de 1 cm abaixo da junção dos terços medial e médio da clavícula, com a agulha dirigida à fúrcula esternal. Femoral: no ponto médio entre a espinha ilíaca anterossuperior e o tubérculo púbico, logo abaixo do ligamento inguinal; a veia é medial à artéria femoral. Com ultrassom, essas referências são confirmadas em tempo real." },
-        { "dado": "Material separado, na ordem de uso (imagem abaixo).",
-          "imagem": "assets/casos/cvc-kit.jpg", "credito": "Mikael Häggström · Wikimedia Commons · CC0",
+          "pontos": [
+            "Jugular interna direita: preferida com ultrassom; veia maior e menos sobreposta à carótida",
+            "Subclávia: menor taxa de infecção e trombose, porém maior risco de pneumotórax",
+            "Femoral: praticamente sem risco de pneumotórax, mas mais infecção e trombose",
+            "Escolha justificada (por exemplo, jugular interna direita guiada por ultrassom)"
+          ],
+          "resposta": "Jugular interna direita guiada por ultrassom é uma escolha excelente: a veia é maior e menos sobreposta à carótida. A subclávia tem menos infecção e trombose, mas mais pneumotórax; a femoral quase não tem pneumotórax, mas tem mais infecção e trombose (estudo randomizado de 2015, citado por Woodfall e van Zundert, 2025)."
+        },
+        {
+          "pergunta": "Descreva a anatomia de referência para puncionar cada sítio.",
+          "pontos": [
+            "Jugular interna: ápice do triângulo entre as cabeças esternal e clavicular do esternocleidomastoideo, com a cabeça virada para o lado oposto",
+            "Jugular interna: veia lateral à artéria carótida",
+            "Subclávia (infraclavicular): cerca de 1 cm abaixo da junção dos terços medial e médio da clavícula, agulha em direção à fúrcula esternal",
+            "Femoral: no ponto médio entre a espinha ilíaca anterossuperior e o tubérculo púbico, abaixo do ligamento inguinal; a veia é medial à artéria"
+          ],
+          "resposta": "Jugular interna: com a cabeça virada para o lado oposto, punciona-se no ápice do triângulo formado pelas cabeças esternal e clavicular do esternocleidomastoideo; a veia fica lateral à carótida. Subclávia infraclavicular: cerca de 1 cm abaixo da junção dos terços medial e médio da clavícula, com a agulha dirigida à fúrcula esternal. Femoral: no ponto médio entre a espinha ilíaca anterossuperior e o tubérculo púbico, logo abaixo do ligamento inguinal; a veia é medial à artéria femoral. Com ultrassom, essas referências são confirmadas em tempo real."
+        },
+        {
+          "dado": "Material separado, na ordem de uso (imagem abaixo).",
+          "imagem": "assets/casos/cvc-kit.jpg",
+          "credito": "Mikael Häggström · Wikimedia Commons · CC0",
           "pergunta": "Descreva a técnica de Seldinger passo a passo, usando o material da imagem.",
-          "pontos": ["Antissepsia (clorexidina), barreira máxima: gorro, máscara, avental e luvas estéreis, campo amplo", "Ultrassom com capa e gel estéreis; identificar veia e artéria", "Anestesia local (1)", "Punção com agulha introdutora em seringa (4), aspirando até o refluxo de sangue venoso", "Passar o fio-guia (5) pela agulha e confirmar sua posição na veia; nunca soltar o fio", "Retirar a agulha, pequena incisão na pele com bisturi (2)", "Dilatador (6) sobre o fio", "Cateter (7) sobre o fio; retirar o fio-guia inteiro", "Aspirar e lavar todas as vias, fixar (8) e fazer o curativo (9)"],
-          "resposta": "Com antissepsia e barreira máxima, e ultrassom estéril: anestesia local, punção com a agulha introdutora acoplada à seringa até aspirar sangue venoso, passagem do fio-guia pela agulha (confirmado na veia pelo ultrassom), retirada da agulha sem nunca soltar o fio, pequena incisão na pele, dilatador sobre o fio, cateter sobre o fio e retirada do fio inteiro. Aspirar e lavar todas as vias, fixar e cobrir. A sequência acompanha a numeração do kit." },
-        { "dado": "Radiografia de tórax após o procedimento (exemplo de cateter em subclávia direita).",
-          "imagem": "assets/casos/cvc-rx-subclavia.jpg", "credito": "MrCarbohydrate · Wikimedia Commons · CC BY-SA 3.0",
+          "pontos": [
+            "Antissepsia (clorexidina), barreira máxima: gorro, máscara, avental e luvas estéreis, campo amplo",
+            "Ultrassom com capa e gel estéreis; identificar veia e artéria",
+            "Anestesia local (1)",
+            "Punção com agulha introdutora em seringa (4), aspirando até o refluxo de sangue venoso",
+            "Passar o fio-guia (5) pela agulha e confirmar sua posição na veia; nunca soltar o fio",
+            "Retirar a agulha, pequena incisão na pele com bisturi (2)",
+            "Dilatador (6) sobre o fio",
+            "Cateter (7) sobre o fio; retirar o fio-guia inteiro",
+            "Aspirar e lavar todas as vias, fixar (8) e fazer o curativo (9)"
+          ],
+          "resposta": "Com antissepsia e barreira máxima, e ultrassom estéril: anestesia local, punção com a agulha introdutora acoplada à seringa até aspirar sangue venoso, passagem do fio-guia pela agulha (confirmado na veia pelo ultrassom), retirada da agulha sem nunca soltar o fio, pequena incisão na pele, dilatador sobre o fio, cateter sobre o fio e retirada do fio inteiro. Aspirar e lavar todas as vias, fixar e cobrir. A sequência acompanha a numeração do kit."
+        },
+        {
+          "dado": "Radiografia de tórax após o procedimento (exemplo de cateter em subclávia direita).",
+          "imagem": "assets/casos/cvc-rx-subclavia.jpg",
+          "credito": "MrCarbohydrate · Wikimedia Commons · CC BY-SA 3.0",
           "pergunta": "O que você confere na radiografia e quais complicações deve conhecer?",
-          "pontos": ["Ponta do cateter na veia cava superior baixa, junto ao átrio direito, de preferência acima da carina", "Excluir pneumotórax (ultrassom à beira do leito também detecta)", "Ponta dentro do átrio pode causar arritmia; o fio-guia também", "Punção arterial: retirar e comprimir; canulação arterial com cateter: não retirar, chamar cirurgia vascular ou radiologia intervencionista", "Fio-guia não recuperado: radiografia imediata e radiologia intervencionista", "Tardias: infecção da corrente sanguínea e trombose"],
-          "resposta": "A ponta deve ficar na veia cava superior baixa, na junção com o átrio direito; a carina é uma referência confiável (ponta acima dela reduz o risco de tamponamento). Excluir pneumotórax, o que o ultrassom também faz. Complicações: arritmia (ponta no átrio ou fio-guia), punção arterial (comprimir), canulação arterial (deixar o cateter e chamar vascular ou radiologia intervencionista), fio-guia retido (radiografia e radiologia intervencionista), infecção e trombose." }
+          "pontos": [
+            "Ponta do cateter na veia cava superior baixa, junto ao átrio direito, de preferência acima da carina",
+            "Excluir pneumotórax (ultrassom à beira do leito também detecta)",
+            "Ponta dentro do átrio pode causar arritmia; o fio-guia também",
+            "Punção arterial: retirar e comprimir; canulação arterial com cateter: não retirar, chamar cirurgia vascular ou radiologia intervencionista",
+            "Fio-guia não recuperado: radiografia imediata e radiologia intervencionista",
+            "Tardias: infecção da corrente sanguínea e trombose"
+          ],
+          "resposta": "A ponta deve ficar na veia cava superior baixa, na junção com o átrio direito; a carina é uma referência confiável (ponta acima dela reduz o risco de tamponamento). Excluir pneumotórax, o que o ultrassom também faz. Complicações: arritmia (ponta no átrio ou fio-guia), punção arterial (comprimir), canulação arterial (deixar o cateter e chamar vascular ou radiologia intervencionista), fio-guia retido (radiografia e radiologia intervencionista), infecção e trombose."
+        }
       ],
-      "fonte": "Woodfall K, van Zundert A. Central Venous Access: An Update on Modern Techniques to Avoid Complications. Healthcare. 2025;13(10):1168 (CC BY 4.0); ATLS 11, cap. 6; Society of Hospital Medicine, posicionamento sobre ultrassom em acesso vascular (2019)"
+      "fonte": "Woodfall K, van Zundert A. Central Venous Access: An Update on Modern Techniques to Avoid Complications. Healthcare. 2025;13(10):1168 (CC BY 4.0); ATLS 11, cap. 6; Society of Hospital Medicine, posicionamento sobre ultrassom em acesso vascular (2019)",
+      "historia": [
+        {
+          "rotulo": "Identificação",
+          "texto": "M. A. S., 64 anos, sexo feminino, aposentada, 70 kg. Trazida pela filha."
+        },
+        {
+          "rotulo": "Queixa principal",
+          "texto": "“\u0001”"
+        },
+        {
+          "rotulo": "História da doença atual",
+          "texto": "Há 4 dias começou com ardência ao urinar e idas frequentes ao banheiro, sem procurar atendimento. Há 2 dias surgiram febre de até 39 °C, calafrios e dor lombar à direita. Hoje amanheceu sonolenta e confusa, sem conseguir se levantar, e urinou pouco."
+        },
+        {
+          "rotulo": "Antecedentes",
+          "texto": "Diabetes tipo 2 (metformina) e hipertensão (losartana). Nega alergias. Não usa anticoagulante. Sem cirurgias prévias."
+        },
+        {
+          "rotulo": "Exame físico",
+          "texto": "Regular estado geral, sonolenta, desperta ao chamado (Glasgow 14), extremidades frias, enchimento capilar de 4 s. PA 82 × 46 mmHg, FC 118 bpm, FR 24 irpm, temperatura 38,6 °C, SpO₂ 95% em ar ambiente. Punho-percussão lombar dolorosa à direita. Pescoço sem alterações; veias periféricas finas, difíceis de ver."
+        },
+        {
+          "rotulo": "Exames iniciais",
+          "texto": "Leucócitos 21.000/mm³, plaquetas 210.000/mm³, INR 1,1, creatinina 1,9 mg/dL, lactato 5 mmol/L. Urina com nitrito positivo e leucocitúria."
+        },
+        {
+          "rotulo": "Evolução na sala",
+          "texto": "Recebeu 30 mL/kg de cristaloide (2.100 mL) e antibiótico. Continua com PA 78 × 42 mmHg. Há dois acessos periféricos de 22 G no dorso das mãos, e um deles acabou de perder. A equipe decide iniciar noradrenalina."
+        }
+      ]
     },
     {
-      "id": "caso-pneumotorax", "resumo": "politraumatizado", "sessao": "s10", "minutos": 8,
+      "id": "caso-pneumotorax",
+      "resumo": "politraumatizado",
+      "sessao": "s10",
+      "minutos": 8,
       "titulo": "Facada no tórax: de estável a instável",
-      "enunciado": "Homem de 25 anos, ferimento por arma branca no hemitórax esquerdo há 1 hora, trazido pelo SAMU. Você é o médico da sala de trauma.",
+      "enunciado": "Você é o médico da sala de trauma. Leia o caso e responda às etapas na ordem.",
       "etapas": [
-        { "dado": "Consciente, falando, sem sangramento ativo. FC 98, PA 128 × 80 mmHg, FR 24, SpO₂ 93% em ar ambiente. Murmúrio vesicular diminuído à esquerda. Traqueia central.",
+        {
           "pergunta": "Como você conduz a avaliação primária deste paciente?",
-          "pontos": ["xABCDE em ordem, tratando cada ameaça ao encontrá-la", "Via aérea pérvia (fala); oferecer O₂", "B: inspeção, ausculta, percussão; suspeita de pneumotórax ou hemotórax à esquerda", "C: dois acessos calibrosos, monitorização", "Pedir radiografia de tórax (estável)"],
-          "resposta": "xABCDE: sem hemorragia externa; via aérea pérvia; O₂. No B, murmúrio diminuído à esquerda sugere pneumotórax ou hemotórax; como está estável, cabe imagem. Acessos calibrosos e monitorização no C." },
-        { "dado": "Radiografia de tórax:", "imagem": "assets/casos/pneumotorax-rx.jpg", "credito": "Clinical Cases · Wikimedia Commons · CC BY-SA 2.5",
+          "pontos": [
+            "xABCDE em ordem, tratando cada ameaça ao encontrá-la",
+            "Via aérea pérvia (fala); oferecer O₂",
+            "B: inspeção, ausculta, percussão; suspeita de pneumotórax ou hemotórax à esquerda",
+            "C: dois acessos calibrosos, monitorização",
+            "Pedir radiografia de tórax (estável)"
+          ],
+          "resposta": "xABCDE: sem hemorragia externa; via aérea pérvia; O₂. No B, murmúrio diminuído à esquerda sugere pneumotórax ou hemotórax; como está estável, cabe imagem. Acessos calibrosos e monitorização no C."
+        },
+        {
+          "dado": "Radiografia de tórax:",
+          "imagem": "assets/casos/pneumotorax-rx.jpg",
+          "credito": "Clinical Cases · Wikimedia Commons · CC BY-SA 2.5",
           "pergunta": "Interprete a radiografia.",
-          "pontos": ["Hemitórax esquerdo hipertransparente, sem trama vascular", "Pulmão colabado junto ao hilo", "Pneumotórax à esquerda"],
-          "resposta": "Hemitórax esquerdo hipertransparente, sem trama vascular, com o pulmão colabado junto ao hilo: pneumotórax à esquerda." },
-        { "pergunta": "Qual é o tratamento definitivo? Descreva onde e como.",
-          "pontos": ["Dreno de tórax", "Triângulo de segurança: 5º EIC entre as linhas axilares anterior e média", "Borda superior da costela", "14 Fr é suficiente no pneumotórax", "Selo d'água; conferir oscilação; radiografia de controle"],
-          "resposta": "Dreno de tórax no triângulo de segurança (5º EIC entre as axilares anterior e média), entrando pela borda superior da costela. Pelo ATLS 11, 14 Fr é tão eficaz quanto os mais calibrosos. Selo d'água, oscilação e radiografia de controle." },
-        { "dado": "Enquanto o material é preparado, ele é intubado por rebaixamento após sedação. Minutos depois: SpO₂ 82%, PA 72 × 40 mmHg, pressão inspiratória alta, murmúrio abolido à esquerda.",
+          "pontos": [
+            "Hemitórax esquerdo hipertransparente, sem trama vascular",
+            "Pulmão colabado junto ao hilo",
+            "Pneumotórax à esquerda"
+          ],
+          "resposta": "Hemitórax esquerdo hipertransparente, sem trama vascular, com o pulmão colabado junto ao hilo: pneumotórax à esquerda."
+        },
+        {
+          "pergunta": "Qual é o tratamento definitivo? Descreva onde e como.",
+          "pontos": [
+            "Dreno de tórax",
+            "Triângulo de segurança: 5º EIC entre as linhas axilares anterior e média",
+            "Borda superior da costela",
+            "14 Fr é suficiente no pneumotórax",
+            "Selo d'água; conferir oscilação; radiografia de controle"
+          ],
+          "resposta": "Dreno de tórax no triângulo de segurança (5º EIC entre as axilares anterior e média), entrando pela borda superior da costela. Pelo ATLS 11, 14 Fr é tão eficaz quanto os mais calibrosos. Selo d'água, oscilação e radiografia de controle."
+        },
+        {
+          "dado": "Enquanto o material é preparado, ele é intubado por rebaixamento após sedação. Minutos depois: SpO₂ 82%, PA 72 × 40 mmHg, pressão inspiratória alta, murmúrio abolido à esquerda.",
           "pergunta": "O que aconteceu e qual é a conduta imediata?",
-          "pontos": ["A ventilação com pressão positiva converteu o pneumotórax em hipertensivo", "Descompressão imediata, sem esperar imagem", "Agulha 14 G ou mais no 5º EIC (axilares anterior/média) ou 2º EIC hemiclavicular, ou toracostomia digital", "Seguir com dreno de tórax", "Conferir também a posição do tubo (intubação seletiva)"],
-          "resposta": "A pressão positiva transformou o pneumotórax em hipertensivo. Descompressão imediata (agulha de 14 G ou maior no 5º EIC entre as axilares anterior e média, ou 2º EIC na hemiclavicular, ou toracostomia digital), seguida de dreno. Conferir o tubo, porque intubação seletiva também abole o murmúrio." }
+          "pontos": [
+            "A ventilação com pressão positiva converteu o pneumotórax em hipertensivo",
+            "Descompressão imediata, sem esperar imagem",
+            "Agulha 14 G ou mais no 5º EIC (axilares anterior/média) ou 2º EIC hemiclavicular, ou toracostomia digital",
+            "Seguir com dreno de tórax",
+            "Conferir também a posição do tubo (intubação seletiva)"
+          ],
+          "resposta": "A pressão positiva transformou o pneumotórax em hipertensivo. Descompressão imediata (agulha de 14 G ou maior no 5º EIC entre as axilares anterior e média, ou 2º EIC na hemiclavicular, ou toracostomia digital), seguida de dreno. Conferir o tubo, porque intubação seletiva também abole o murmúrio."
+        }
       ],
-      "fonte": "ATLS 11, caps. 1 e 5; aula da disciplina (caso 4)"
+      "fonte": "ATLS 11, caps. 1 e 5; aula da disciplina (caso 4)",
+      "historia": [
+        {
+          "rotulo": "Relato do SAMU",
+          "texto": "Homem de 25 anos, agredido com faca há cerca de 1 hora. Ferimento único no hemitórax esquerdo. No transporte recebeu oxigênio, curativo e um acesso periférico. Sem perda de consciência."
+        },
+        {
+          "rotulo": "Na chegada",
+          "texto": "Consciente, ansioso, fala frases completas. Queixa dor no lado esquerdo do tórax e “\u0001”."
+        },
+        {
+          "rotulo": "Exame físico",
+          "texto": "FC 98 bpm, PA 128 × 80 mmHg, FR 24 irpm, SpO₂ 93% em ar ambiente. Ferimento de 2 cm no 4º espaço intercostal esquerdo, na linha axilar anterior, sem sangramento ativo e sem saída de ar. Traqueia central, jugulares planas. Murmúrio vesicular diminuído à esquerda. Abdome flácido, indolor. Glasgow 15, pupilas isocóricas."
+        },
+        {
+          "rotulo": "AMPLE",
+          "texto": "Sem alergias e sem medicamentos de uso contínuo. Nega doenças. Bebeu cerveja hoje; última refeição há 3 horas. Agressão em via pública."
+        }
+      ]
     },
     {
-      "id": "caso-hemotorax", "resumo": "politraumatizado", "sessao": "s10", "minutos": 8,
+      "id": "caso-hemotorax",
+      "resumo": "politraumatizado",
+      "sessao": "s10",
+      "minutos": 8,
       "titulo": "Colisão com taquicardia e macicez",
-      "enunciado": "Mulher de 40 anos, colisão frontal, cinto de segurança. Chega com colar cervical e dor torácica à esquerda.",
+      "enunciado": "Você é o médico da sala de trauma. Leia o caso e responda às etapas na ordem.",
       "etapas": [
-        { "dado": "FC 112, PA 100 × 70 mmHg, FR 26, SpO₂ 94% com O₂. Macicez e murmúrio diminuído na base esquerda. Jugulares colabadas.",
+        {
           "pergunta": "Qual é a sua hipótese e o que diferencia dos outros diagnósticos do tórax instável?",
-          "pontos": ["Hemotórax à esquerda com choque hemorrágico inicial", "Macicez e jugulares colabadas favorecem hemotórax", "Pneumotórax hipertensivo: timpanismo e jugulares túrgidas", "Tamponamento: murmúrio preservado e jugulares túrgidas"],
-          "resposta": "Hemotórax à esquerda com sinais de choque. Macicez com jugulares colabadas favorece sangue; o pneumotórax hipertensivo daria timpanismo e jugulares túrgidas; o tamponamento, murmúrio preservado com jugulares túrgidas." },
-        { "dado": "Radiografia de tórax:", "imagem": "assets/casos/hemotorax-rx.jpg", "credito": "Mahoozi, Volmerig e Hecker · Wikimedia Commons · CC BY 4.0",
+          "pontos": [
+            "Hemotórax à esquerda com choque hemorrágico inicial",
+            "Macicez e jugulares colabadas favorecem hemotórax",
+            "Pneumotórax hipertensivo: timpanismo e jugulares túrgidas",
+            "Tamponamento: murmúrio preservado e jugulares túrgidas"
+          ],
+          "resposta": "Hemotórax à esquerda com sinais de choque. Macicez com jugulares colabadas favorece sangue; o pneumotórax hipertensivo daria timpanismo e jugulares túrgidas; o tamponamento, murmúrio preservado com jugulares túrgidas."
+        },
+        {
+          "dado": "Radiografia de tórax:",
+          "imagem": "assets/casos/hemotorax-rx.jpg",
+          "credito": "Mahoozi, Volmerig e Hecker · Wikimedia Commons · CC BY 4.0",
           "pergunta": "Interprete a imagem.",
-          "pontos": ["Opacidade na base esquerda apagando o seio costofrênico", "Compatível com hemotórax"],
-          "resposta": "Opacidade que apaga o seio costofrênico e a base esquerda: hemotórax." },
-        { "pergunta": "Qual é a conduta?",
-          "pontos": ["Dois acessos calibrosos; sangue se houver choque", "Dreno de tórax (hemotórax acima de 300 mL deve ser drenado)", "24 Fr ou mais se maciço", "Registrar débito inicial e horário"],
-          "resposta": "Acessos calibrosos e sangue se houver choque; dreno de tórax (ATLS 11: drenar acima de 300 mL), 24 Fr ou mais se for maciço, registrando o débito inicial e horário." },
-        { "dado": "O dreno drena 1.700 mL de sangue de imediato. Após 2 concentrados de hemácias, ela continua com PA 84 × 50 mmHg e FC 128.",
+          "pontos": [
+            "Opacidade na base esquerda apagando o seio costofrênico",
+            "Compatível com hemotórax"
+          ],
+          "resposta": "Opacidade que apaga o seio costofrênico e a base esquerda: hemotórax."
+        },
+        {
+          "pergunta": "Qual é a conduta?",
+          "pontos": [
+            "Dois acessos calibrosos; sangue se houver choque",
+            "Dreno de tórax (hemotórax acima de 300 mL deve ser drenado)",
+            "24 Fr ou mais se maciço",
+            "Registrar débito inicial e horário"
+          ],
+          "resposta": "Acessos calibrosos e sangue se houver choque; dreno de tórax (ATLS 11: drenar acima de 300 mL), 24 Fr ou mais se for maciço, registrando o débito inicial e horário."
+        },
+        {
+          "dado": "O dreno drena 1.700 mL de sangue de imediato. Após 2 concentrados de hemácias, ela continua com PA 84 × 50 mmHg e FC 128.",
           "pergunta": "Qual é a próxima decisão?",
-          "pontos": ["Hemotórax maciço com choque persistente: controle cirúrgico (toracotomia) urgente", "Decisão pela fisiologia; débito de cerca de 1.500 mL apoia", "Manter ressuscitação hemostática (protocolo de transfusão maciça), TXA se até 3 h", "Se o serviço não opera, transferir"],
-          "resposta": "Choque persistente com 1.700 mL drenados: controle cirúrgico urgente. O ATLS 11 decide pela fisiologia, e o débito apoia. Ressuscitação hemostática com protocolo de transfusão maciça e TXA se até 3 h do trauma; se o hospital não tem cirurgia torácica, transferir." }
+          "pontos": [
+            "Hemotórax maciço com choque persistente: controle cirúrgico (toracotomia) urgente",
+            "Decisão pela fisiologia; débito de cerca de 1.500 mL apoia",
+            "Manter ressuscitação hemostática (protocolo de transfusão maciça), TXA se até 3 h",
+            "Se o serviço não opera, transferir"
+          ],
+          "resposta": "Choque persistente com 1.700 mL drenados: controle cirúrgico urgente. O ATLS 11 decide pela fisiologia, e o débito apoia. Ressuscitação hemostática com protocolo de transfusão maciça e TXA se até 3 h do trauma; se o hospital não tem cirurgia torácica, transferir."
+        }
       ],
-      "fonte": "ATLS 11, caps. 5 e 6; aula da disciplina"
+      "fonte": "ATLS 11, caps. 5 e 6; aula da disciplina",
+      "historia": [
+        {
+          "rotulo": "Relato do SAMU",
+          "texto": "Mulher de 40 anos, motorista, colisão frontal do carro contra um poste a cerca de 60 km/h, há 40 minutos. Usava cinto; o airbag abriu. Retirada do veículo sem dificuldade. Chega com colar cervical e em prancha, recebendo oxigênio."
+        },
+        {
+          "rotulo": "Na chegada",
+          "texto": "Ansiosa, responde às perguntas. Queixa dor no lado esquerdo do tórax, que piora ao respirar."
+        },
+        {
+          "rotulo": "Exame físico",
+          "texto": "FC 112 bpm, PA 100 × 70 mmHg, FR 26 irpm, SpO₂ 94% com O₂, pele fria, enchimento capilar de 3 s. Marca do cinto na diagonal do tórax esquerdo. Traqueia central, jugulares colabadas. Macicez e murmúrio vesicular diminuído na base esquerda. Bulhas normofonéticas. Abdome flácido, pelve estável. Glasgow 15."
+        },
+        {
+          "rotulo": "AMPLE",
+          "texto": "Sem alergias. Usa anticoncepcional oral. Sem doenças. Almoçou há 2 horas."
+        }
+      ]
     },
     {
-      "id": "caso-torax-instavel", "resumo": "politraumatizado", "sessao": "s10", "minutos": 7,
+      "id": "caso-torax-instavel",
+      "resumo": "politraumatizado",
+      "sessao": "s10",
+      "minutos": 7,
       "titulo": "Idoso com fraturas de costela",
-      "enunciado": "Homem de 72 anos caiu de uma escada há 2 horas. Usa antiagregante. Dor torácica intensa à direita.",
+      "enunciado": "Você é o médico da sala de emergência. Leia o caso e responda às etapas na ordem.",
       "etapas": [
-        { "dado": "FR 26, SpO₂ 94% com O₂ por máscara, consciente. Um segmento da parede direita afunda na inspiração.",
-          "pergunta": "Qual é o achado ao exame e o que ele indica?",
-          "pontos": ["Movimento paradoxal", "Tórax instável clínico"],
-          "resposta": "O segmento que afunda na inspiração é o movimento paradoxal: tórax instável clínico." },
-        { "dado": "Reconstrução 3D da TC (setas):", "imagem": "assets/casos/torax-instavel-tc.jpg", "credito": "James Heilman, MD · Wikimedia Commons · CC BY-SA 4.0",
+        {
+          "pergunta": "Qual é o achado mais importante do exame físico e o que ele indica?",
+          "pontos": [
+            "Movimento paradoxal",
+            "Tórax instável clínico"
+          ],
+          "resposta": "O segmento que afunda na inspiração é o movimento paradoxal: tórax instável clínico."
+        },
+        {
+          "dado": "Reconstrução 3D da TC (setas):",
+          "imagem": "assets/casos/torax-instavel-tc.jpg",
+          "credito": "James Heilman, MD · Wikimedia Commons · CC BY-SA 4.0",
           "pergunta": "Interprete a TC.",
-          "pontos": ["Fraturas em vários arcos costais consecutivos", "Duas ou mais costelas fraturadas em dois ou mais pontos = tórax instável radiográfico"],
-          "resposta": "Fraturas em vários arcos costais consecutivos; duas ou mais costelas fraturadas em dois ou mais pontos definem o tórax instável radiográfico." },
-        { "pergunta": "Qual é o tratamento inicial? Ele precisa ser intubado agora?",
-          "pontos": ["Analgesia multimodal (paracetamol, AINE, cetamina, lidocaína, bloqueio regional)", "Higiene pulmonar: fisioterapia, incentivador", "Não intubar só pelo paradoxal", "Intubar se não ventila, hipóxia por contusão ou se a sedação exigir", "Idoso e antiagregado: centro de trauma"],
-          "resposta": "Analgesia multimodal e higiene pulmonar. Não se intuba só pelo paradoxal: intuba-se se não ventila, se a contusão causa hipóxia ou se a sedação exigir. Idoso frágil e antiagregado se beneficia de centro de trauma." },
-        { "dado": "36 horas depois, a SpO₂ cai para 86% com O₂ e surgem estertores na base direita.",
+          "pontos": [
+            "Fraturas em vários arcos costais consecutivos",
+            "Duas ou mais costelas fraturadas em dois ou mais pontos = tórax instável radiográfico"
+          ],
+          "resposta": "Fraturas em vários arcos costais consecutivos; duas ou mais costelas fraturadas em dois ou mais pontos definem o tórax instável radiográfico."
+        },
+        {
+          "pergunta": "Qual é o tratamento inicial? Ele precisa ser intubado agora?",
+          "pontos": [
+            "Analgesia multimodal (paracetamol, AINE, cetamina, lidocaína, bloqueio regional)",
+            "Higiene pulmonar: fisioterapia, incentivador",
+            "Não intubar só pelo paradoxal",
+            "Intubar se não ventila, hipóxia por contusão ou se a sedação exigir",
+            "Idoso e antiagregado: centro de trauma"
+          ],
+          "resposta": "Analgesia multimodal e higiene pulmonar. Não se intuba só pelo paradoxal: intuba-se se não ventila, se a contusão causa hipóxia ou se a sedação exigir. Idoso frágil e antiagregado se beneficia de centro de trauma."
+        },
+        {
+          "dado": "36 horas depois, a SpO₂ cai para 86% com O₂ e surgem estertores na base direita.",
           "pergunta": "Qual é a causa provável e o que fazer?",
-          "pontos": ["Contusão pulmonar, que piora em 24 a 72 h", "Oxigênio e suporte ventilatório conforme a necessidade", "Evitar sobrecarga de volume", "Considerar fixação cirúrgica em casos selecionados"],
-          "resposta": "Contusão pulmonar, que piora entre 24 e 72 h. Oxigênio e suporte ventilatório se necessário, evitando excesso de volume; a fixação cirúrgica das costelas entra em casos selecionados." }
+          "pontos": [
+            "Contusão pulmonar, que piora em 24 a 72 h",
+            "Oxigênio e suporte ventilatório conforme a necessidade",
+            "Evitar sobrecarga de volume",
+            "Considerar fixação cirúrgica em casos selecionados"
+          ],
+          "resposta": "Contusão pulmonar, que piora entre 24 e 72 h. Oxigênio e suporte ventilatório se necessário, evitando excesso de volume; a fixação cirúrgica das costelas entra em casos selecionados."
+        }
       ],
-      "fonte": "ATLS 11, cap. 5; aula da disciplina"
+      "fonte": "ATLS 11, cap. 5; aula da disciplina",
+      "historia": [
+        {
+          "rotulo": "Identificação",
+          "texto": "Sr. J. P., 72 anos, aposentado. Trazido pelo filho."
+        },
+        {
+          "rotulo": "História",
+          "texto": "Há 2 horas, limpando a calha, caiu de uma escada de cerca de 2 metros e bateu o lado direito do tórax na borda de um muro. Não bateu a cabeça. Desde então, dor torácica intensa à direita, que piora muito ao respirar e ao tossir; está “\u0001”."
+        },
+        {
+          "rotulo": "Antecedentes",
+          "texto": "Infarto há 3 anos com stent; usa AAS e clopidogrel. Hipertensão. DPOC leve, ex-tabagista (40 maços-ano). Mora com a esposa, independente."
+        },
+        {
+          "rotulo": "Exame físico",
+          "texto": "Consciente, Glasgow 15, fala frases curtas por causa da dor. FR 26 irpm, SpO₂ 94% com O₂ por máscara, FC 104 bpm, PA 146 × 88 mmHg. Equimose e crepitação sobre os arcos costais direitos, da linha axilar anterior para trás. Um segmento da parede direita afunda na inspiração e se projeta na expiração. Murmúrio presente dos dois lados, diminuído na base direita. Abdome flácido. FAST sem líquido livre."
+        }
+      ]
     },
     {
-      "id": "caso-tamponamento", "resumo": "politraumatizado", "sessao": "s10", "minutos": 6,
+      "id": "caso-tamponamento",
+      "resumo": "politraumatizado",
+      "sessao": "s10",
+      "minutos": 6,
       "titulo": "Facada precordial com hipotensão",
-      "enunciado": "Homem de 22 anos, facada na região paraesternal esquerda, chega em 15 minutos.",
+      "enunciado": "Você é o médico da sala de trauma. Leia o caso e responda às etapas na ordem.",
       "etapas": [
-        { "dado": "PA 80 × 50 mmHg, FC 130, murmúrio vesicular presente e simétrico, bulhas difíceis de ouvir, jugulares pouco visíveis.",
+        {
           "pergunta": "Quais diagnósticos você considera e qual exame faz à beira do leito?",
-          "pontos": ["Tamponamento cardíaco (ferida na área cardíaca, murmúrio preservado)", "Hemorragia", "eFAST, incluindo a janela pericárdica", "A tríade de Beck é pouco sensível; jugulares podem não ingurgitar se houver hipovolemia"],
-          "resposta": "Ferida na área cardíaca, choque e murmúrio preservado: tamponamento até prova em contrário, além de hemorragia. eFAST à beira do leito. A tríade de Beck é pouco sensível no trauma, e a hipovolemia pode esconder a turgência jugular." },
-        { "dado": "eFAST, janela cardíaca (seta):", "imagem": "assets/casos/derrame-pericardico-us.jpg", "credito": "James Heilman, MD · Wikimedia Commons · CC BY-SA 3.0",
+          "pontos": [
+            "Tamponamento cardíaco (ferida na área cardíaca, murmúrio preservado)",
+            "Hemorragia",
+            "eFAST, incluindo a janela pericárdica",
+            "A tríade de Beck é pouco sensível; jugulares podem não ingurgitar se houver hipovolemia"
+          ],
+          "resposta": "Ferida na área cardíaca, choque e murmúrio preservado: tamponamento até prova em contrário, além de hemorragia. eFAST à beira do leito. A tríade de Beck é pouco sensível no trauma, e a hipovolemia pode esconder a turgência jugular."
+        },
+        {
+          "dado": "eFAST, janela cardíaca (seta):",
+          "imagem": "assets/casos/derrame-pericardico-us.jpg",
+          "credito": "James Heilman, MD · Wikimedia Commons · CC BY-SA 3.0",
           "pergunta": "Interprete o exame.",
-          "pontos": ["Líquido ao redor do coração", "Confirma tamponamento traumático"],
-          "resposta": "Líquido pericárdico: tamponamento traumático." },
-        { "pergunta": "Qual é a conduta?",
-          "pontos": ["Ressuscitação em paralelo", "Controle cirúrgico urgente da lesão cardíaca", "Pericardiocentese guiada por ultrassom só como ponte"],
-          "resposta": "Ressuscitar e levar ao controle cirúrgico urgente; a pericardiocentese guiada pode ganhar tempo, sem substituir a cirurgia." },
-        { "dado": "Na espera, ele perde o pulso na sala de trauma.",
+          "pontos": [
+            "Líquido ao redor do coração",
+            "Confirma tamponamento traumático"
+          ],
+          "resposta": "Líquido pericárdico: tamponamento traumático."
+        },
+        {
+          "pergunta": "Qual é a conduta?",
+          "pontos": [
+            "Ressuscitação em paralelo",
+            "Controle cirúrgico urgente da lesão cardíaca",
+            "Pericardiocentese guiada por ultrassom só como ponte"
+          ],
+          "resposta": "Ressuscitar e levar ao controle cirúrgico urgente; a pericardiocentese guiada pode ganhar tempo, sem substituir a cirurgia."
+        },
+        {
+          "dado": "Na espera, ele perde o pulso na sala de trauma.",
           "pergunta": "Que procedimento é considerado e por que este paciente é bom candidato?",
-          "pontos": ["Toracotomia de reanimação", "Ferimento penetrante torácico com sinais de vida recentes: maior probabilidade de benefício", "Depende de equipe treinada e recursos"],
-          "resposta": "Toracotomia de reanimação. Ferimento penetrante torácico com perda recente dos sinais de vida é o cenário de maior benefício relativo, desde que haja equipe e recursos." }
+          "pontos": [
+            "Toracotomia de reanimação",
+            "Ferimento penetrante torácico com sinais de vida recentes: maior probabilidade de benefício",
+            "Depende de equipe treinada e recursos"
+          ],
+          "resposta": "Toracotomia de reanimação. Ferimento penetrante torácico com perda recente dos sinais de vida é o cenário de maior benefício relativo, desde que haja equipe e recursos."
+        }
       ],
-      "fonte": "ATLS 11, caps. 5 e 6; aula da disciplina"
+      "fonte": "ATLS 11, caps. 5 e 6; aula da disciplina",
+      "historia": [
+        {
+          "rotulo": "Chegada",
+          "texto": "Homem de 22 anos, levado por amigos em carro particular cerca de 15 minutos após levar uma facada no peito durante uma briga. Sem atendimento pré-hospitalar."
+        },
+        {
+          "rotulo": "Exame físico",
+          "texto": "Agitado, pálido, sudoreico, diz que está “\u0001”. PA 80 × 50 mmHg, FC 130 bpm, FR 28 irpm, SpO₂ 96% em ar ambiente. Ferimento de 2 cm na região paraesternal esquerda, no 4º espaço intercostal, sem sangramento ativo. Traqueia central, murmúrio vesicular presente e simétrico. Bulhas difíceis de ouvir. Jugulares pouco visíveis. Abdome sem lesões. Glasgow 14."
+        },
+        {
+          "rotulo": "AMPLE",
+          "texto": "Sem alergias, sem medicamentos, sem doenças conhecidas. Bebeu durante a festa."
+        }
+      ]
     },
     {
-      "id": "caso-fast", "resumo": "choque-hemorragico", "sessao": "s11", "minutos": 8,
+      "id": "caso-fast",
+      "resumo": "choque-hemorragico",
+      "sessao": "s11",
+      "minutos": 8,
       "titulo": "Motociclista em choque",
-      "enunciado": "Motociclista de 30 anos, colisão em alta velocidade, trazido sem imobilização da pelve.",
+      "enunciado": "Você é o médico da sala de trauma. Leia o caso e responda às etapas na ordem.",
       "etapas": [
-        { "dado": "PA 78 × 40 mmHg, FC 140, pele fria, confuso. Sem sangramento externo. Murmúrio simétrico. Abdome distendido. Glasgow 14.",
+        {
           "pergunta": "Como você classifica o choque e onde procura o sangue?",
-          "pontos": ["Choque hemorrágico até prova em contrário (índice de choque ≈ 1,8)", "Procurar: tórax, abdome, pelve, retroperitônio e ossos longos", "Exames da sala: radiografia de tórax e pelve, eFAST"],
-          "resposta": "Choque hemorrágico até prova em contrário (índice de choque 140 ÷ 78 ≈ 1,8). Procurar sangue no tórax, abdome, pelve, retroperitônio e ossos longos com radiografias de tórax e pelve e eFAST." },
-        { "dado": "Radiografias de tórax e pelve normais. FAST, janela hepatorrenal (seta):", "imagem": "assets/casos/fast-morison.jpg", "credito": "James Heilman, MD · Wikimedia Commons · CC BY-SA 3.0",
+          "pontos": [
+            "Choque hemorrágico até prova em contrário (índice de choque ≈ 1,8)",
+            "Procurar: tórax, abdome, pelve, retroperitônio e ossos longos",
+            "Exames da sala: radiografia de tórax e pelve, eFAST"
+          ],
+          "resposta": "Choque hemorrágico até prova em contrário (índice de choque 140 ÷ 78 ≈ 1,8). Procurar sangue no tórax, abdome, pelve, retroperitônio e ossos longos com radiografias de tórax e pelve e eFAST."
+        },
+        {
+          "dado": "Radiografias de tórax e pelve normais. FAST, janela hepatorrenal (seta):",
+          "imagem": "assets/casos/fast-morison.jpg",
+          "credito": "James Heilman, MD · Wikimedia Commons · CC BY-SA 3.0",
           "pergunta": "Interprete o FAST.",
-          "pontos": ["Líquido livre entre fígado e rim (espaço de Morison)", "FAST positivo: hemoperitônio"],
-          "resposta": "Líquido livre no espaço de Morison: FAST positivo, hemoperitônio." },
-        { "pergunta": "Qual é a conduta?",
-          "pontos": ["Instável + FAST positivo: laparotomia, sem TC", "Ressuscitação hemostática: sangue precoce, perto de 1:1:1, protocolo de transfusão maciça", "Limitar cristaloide", "TXA se até 3 h do trauma", "Aquecer; corrigir cálcio", "Hipotensão permissiva aceitável (sem TCE)"],
-          "resposta": "Controle da fonte por laparotomia, sem TC. Em paralelo: sangue precoce (próximo de 1:1:1), pouco cristaloide, TXA até 3 h, aquecimento, correção do cálcio e hipotensão permissiva por não haver TCE." },
-        { "dado": "Na cirurgia: temperatura 34,5 °C, pH 7,15, sangramento difuso, coagulopatia.",
+          "pontos": [
+            "Líquido livre entre fígado e rim (espaço de Morison)",
+            "FAST positivo: hemoperitônio"
+          ],
+          "resposta": "Líquido livre no espaço de Morison: FAST positivo, hemoperitônio."
+        },
+        {
+          "pergunta": "Qual é a conduta?",
+          "pontos": [
+            "Instável + FAST positivo: laparotomia, sem TC",
+            "Ressuscitação hemostática: sangue precoce, perto de 1:1:1, protocolo de transfusão maciça",
+            "Limitar cristaloide",
+            "TXA se até 3 h do trauma",
+            "Aquecer; corrigir cálcio",
+            "Hipotensão permissiva aceitável (sem TCE)"
+          ],
+          "resposta": "Controle da fonte por laparotomia, sem TC. Em paralelo: sangue precoce (próximo de 1:1:1), pouco cristaloide, TXA até 3 h, aquecimento, correção do cálcio e hipotensão permissiva por não haver TCE."
+        },
+        {
+          "dado": "Na cirurgia: temperatura 34,5 °C, pH 7,15, sangramento difuso, coagulopatia.",
           "pergunta": "Que estratégia cirúrgica adotar?",
-          "pontos": ["Cirurgia de controle de danos: abreviada", "Hemostasia e controle de contaminação; empacotamento", "Correção da fisiologia na UTI (espiral letal)", "Reabordagem para o tratamento definitivo"],
-          "resposta": "Controle de danos: operação abreviada com hemostasia, controle de contaminação e empacotamento, correção da hipotermia, acidose e coagulopatia na UTI e reabordagem depois." }
+          "pontos": [
+            "Cirurgia de controle de danos: abreviada",
+            "Hemostasia e controle de contaminação; empacotamento",
+            "Correção da fisiologia na UTI (espiral letal)",
+            "Reabordagem para o tratamento definitivo"
+          ],
+          "resposta": "Controle de danos: operação abreviada com hemostasia, controle de contaminação e empacotamento, correção da hipotermia, acidose e coagulopatia na UTI e reabordagem depois."
+        }
       ],
-      "fonte": "ATLS 11, caps. 6 e 21; aula da disciplina"
+      "fonte": "ATLS 11, caps. 6 e 21; aula da disciplina",
+      "historia": [
+        {
+          "rotulo": "Relato do SAMU",
+          "texto": "Motociclista de 30 anos, colisão contra carro em rodovia a cerca de 80 km/h, há 30 minutos; foi arremessado a alguns metros. Usava capacete. Recebeu colar, prancha, O₂ e 1.000 mL de cristaloide no transporte. A pelve não foi imobilizada."
+        },
+        {
+          "rotulo": "Na chegada",
+          "texto": "Confuso, responde com frases desconexas; queixa dor na barriga."
+        },
+        {
+          "rotulo": "Exame físico",
+          "texto": "PA 78 × 40 mmHg, FC 140 bpm, FR 28 irpm, SpO₂ 95% com O₂, pele fria e pálida, enchimento capilar acima de 3 s. Sem sangramento externo. Traqueia central, murmúrio simétrico. Abdome distendido, com escoriações no andar superior, doloroso difusamente. Fêmures sem deformidade. Glasgow 14 (abertura ocular 4, verbal 4, motora 6), pupilas isocóricas e fotorreagentes."
+        },
+        {
+          "rotulo": "AMPLE",
+          "texto": "Não sabe referir alergias ou medicamentos. Última refeição desconhecida."
+        }
+      ]
     },
     {
-      "id": "caso-laceracao-hepatica", "resumo": "choque-hemorragico", "sessao": "s11", "minutos": 7,
+      "id": "caso-laceracao-hepatica",
+      "resumo": "choque-hemorragico",
+      "sessao": "s11",
+      "minutos": 7,
       "titulo": "Dor no hipocôndrio direito após colisão",
-      "enunciado": "Mulher de 30 anos, colisão, cinto de três pontos. Hospital com cirurgião, UTI e tomografia.",
+      "enunciado": "Você é o médico da sala de trauma de um hospital com cirurgião, UTI e tomografia. Leia o caso e responda às etapas na ordem.",
       "etapas": [
-        { "dado": "PA 124 × 78 mmHg, FC 92, Glasgow 15, dor no hipocôndrio direito, sem defesa. FAST com pequena quantidade de líquido.",
+        {
           "pergunta": "Qual exame faz agora e por quê?",
-          "pontos": ["TC de abdome com contraste", "Paciente estável: a TC define anatomia e planeja o tratamento", "O FAST não gradua lesão de órgão sólido"],
-          "resposta": "TC com contraste: no paciente estável ela define a anatomia e orienta a conduta; o FAST não serve para graduar órgão sólido." },
-        { "dado": "TC com contraste (seta):", "imagem": "assets/casos/laceracao-hepatica-tc.jpg", "credito": "James Heilman, MD · Wikimedia Commons · CC BY-SA 4.0",
+          "pontos": [
+            "TC de abdome com contraste",
+            "Paciente estável: a TC define anatomia e planeja o tratamento",
+            "O FAST não gradua lesão de órgão sólido"
+          ],
+          "resposta": "TC com contraste: no paciente estável ela define a anatomia e orienta a conduta; o FAST não serve para graduar órgão sólido."
+        },
+        {
+          "dado": "TC com contraste (seta):",
+          "imagem": "assets/casos/laceracao-hepatica-tc.jpg",
+          "credito": "James Heilman, MD · Wikimedia Commons · CC BY-SA 4.0",
           "pergunta": "Interprete a TC.",
-          "pontos": ["Laceração hepática (lesão de órgão sólido)"],
-          "resposta": "Laceração hepática." },
-        { "pergunta": "Qual é a conduta?",
-          "pontos": ["Tratamento não operatório", "Internação com vigilância ativa: exame, sinais vitais e hemoglobina seriados", "Cirurgião envolvido e recursos para operar", "Blush na TC: considerar angioembolização"],
-          "resposta": "Tratamento não operatório com internação e vigilância ativa (exame, sinais vitais e hemoglobina seriados), cirurgião envolvido; blush na TC orienta angioembolização." },
-        { "dado": "Oito horas depois: FC 128, PA 86 × 50 mmHg, abdome com defesa difusa, hemoglobina caiu 3 g/dL.",
+          "pontos": [
+            "Laceração hepática (lesão de órgão sólido)"
+          ],
+          "resposta": "Laceração hepática."
+        },
+        {
+          "pergunta": "Qual é a conduta?",
+          "pontos": [
+            "Tratamento não operatório",
+            "Internação com vigilância ativa: exame, sinais vitais e hemoglobina seriados",
+            "Cirurgião envolvido e recursos para operar",
+            "Blush na TC: considerar angioembolização"
+          ],
+          "resposta": "Tratamento não operatório com internação e vigilância ativa (exame, sinais vitais e hemoglobina seriados), cirurgião envolvido; blush na TC orienta angioembolização."
+        },
+        {
+          "dado": "Oito horas depois: FC 128, PA 86 × 50 mmHg, abdome com defesa difusa, hemoglobina caiu 3 g/dL.",
           "pergunta": "O que fazer?",
-          "pontos": ["Falha do tratamento não operatório", "Laparotomia urgente com ressuscitação", "Não insistir em observação passiva"],
-          "resposta": "Falha do tratamento não operatório: instabilidade e peritonite indicam laparotomia urgente, com ressuscitação hemostática." }
+          "pontos": [
+            "Falha do tratamento não operatório",
+            "Laparotomia urgente com ressuscitação",
+            "Não insistir em observação passiva"
+          ],
+          "resposta": "Falha do tratamento não operatório: instabilidade e peritonite indicam laparotomia urgente, com ressuscitação hemostática."
+        }
       ],
-      "fonte": "ATLS 11, cap. 21; aula da disciplina"
+      "fonte": "ATLS 11, cap. 21; aula da disciplina",
+      "historia": [
+        {
+          "rotulo": "Relato do SAMU",
+          "texto": "Mulher de 30 anos, passageira do banco da frente, colisão frontal a cerca de 50 km/h, há 1 hora. Usava cinto de três pontos. Retirada sem dificuldade, sempre consciente."
+        },
+        {
+          "rotulo": "Na chegada",
+          "texto": "Queixa dor no lado direito, “\u0001”, que piora ao respirar fundo."
+        },
+        {
+          "rotulo": "Exame físico",
+          "texto": "PA 124 × 78 mmHg, FC 92 bpm, FR 18 irpm, SpO₂ 98% em ar ambiente, Glasgow 15. Marca do cinto no tórax e no abdome superior. Abdome com dor à palpação do hipocôndrio direito, sem defesa nem descompressão dolorosa. Pelve estável."
+        },
+        {
+          "rotulo": "Exames na sala",
+          "texto": "Radiografias de tórax e pelve normais. FAST com pequena quantidade de líquido no espaço hepatorrenal. Hemoglobina 12,1 g/dL."
+        },
+        {
+          "rotulo": "AMPLE",
+          "texto": "Alergia a dipirona. Sem medicamentos, sem doenças. Não está grávida (beta-hCG negativo)."
+        }
+      ]
     },
     {
-      "id": "caso-colica-renal", "resumo": "afeccoes-urologicas", "sessao": "rev", "minutos": 7,
+      "id": "caso-colica-renal",
+      "resumo": "afeccoes-urologicas",
+      "sessao": "rev",
+      "minutos": 7,
       "titulo": "Dor lombar em cólica",
-      "enunciado": "Homem de 38 anos no pronto-socorro com dor intensa há 6 horas.",
+      "enunciado": "Você é o médico do pronto-socorro. Leia o caso e responda às etapas na ordem.",
       "etapas": [
-        { "dado": "Dor lombar esquerda em cólica, irradiando para a região inguinal e o testículo, náuseas, inquieto. Afebril. Urina com hematúria microscópica. Creatinina normal.",
+        {
           "pergunta": "Qual é a hipótese e qual a analgesia?",
-          "pontos": ["Cólica renal por cálculo ureteral", "AINE é a primeira escolha (se não houver contraindicação)", "Opioide como segunda opção"],
-          "resposta": "Cólica renal por cálculo. Analgesia com AINE como primeira escolha; opioide como segunda opção." },
-        { "dado": "Ultrassonografia inconclusiva. TC sem contraste (seta):", "imagem": "assets/casos/calculo-juv-tc.jpg", "credito": "James Heilman, MD · Wikimedia Commons · CC BY-SA 3.0",
+          "pontos": [
+            "Cólica renal por cálculo ureteral",
+            "AINE é a primeira escolha (se não houver contraindicação)",
+            "Opioide como segunda opção"
+          ],
+          "resposta": "Cólica renal por cálculo. Analgesia com AINE como primeira escolha; opioide como segunda opção."
+        },
+        {
+          "dado": "Ultrassonografia inconclusiva. TC sem contraste (seta):",
+          "imagem": "assets/casos/calculo-juv-tc.jpg",
+          "credito": "James Heilman, MD · Wikimedia Commons · CC BY-SA 3.0",
           "pergunta": "Interprete a TC.",
-          "pontos": ["Cálculo na junção ureterovesical", "Ponto mais estreito do ureter"],
-          "resposta": "Cálculo na junção ureterovesical, o ponto mais estreito do ureter." },
-        { "dado": "O cálculo mede 4 mm. A dor cedeu com a analgesia.",
+          "pontos": [
+            "Cálculo na junção ureterovesical",
+            "Ponto mais estreito do ureter"
+          ],
+          "resposta": "Cálculo na junção ureterovesical, o ponto mais estreito do ureter."
+        },
+        {
+          "dado": "O cálculo mede 4 mm. A dor cedeu com a analgesia.",
           "pergunta": "Qual é o plano?",
-          "pontos": ["Chance de eliminação espontânea de cerca de 89% (menor que 5 mm, ureter distal)", "Observação com analgesia e seguimento", "α-bloqueador só agregaria benefício acima de 5 mm", "Orientar sinais de alarme: febre, dor refratária, anúria"],
-          "resposta": "Menor que 5 mm no ureter distal elimina sozinho em cerca de 89%: observação com analgesia e seguimento, orientando retorno se febre, dor refratária ou redução da urina. O α-bloqueador é opção para cálculos distais maiores que 5 mm." },
-        { "pergunta": "Quando o cálculo precisaria ser retirado?",
-          "pontos": ["Baixa chance de eliminação espontânea", "Dor persistente apesar da analgesia", "Obstrução persistente", "Insuficiência renal: obstrução bilateral ou rim único", "Infecção com obstrução: primeiro descomprimir"],
-          "resposta": "Baixa chance de eliminação, dor refratária, obstrução persistente ou insuficiência renal (bilateral ou rim único). Com infecção e obstrução, primeiro se descomprime." }
+          "pontos": [
+            "Chance de eliminação espontânea de cerca de 89% (menor que 5 mm, ureter distal)",
+            "Observação com analgesia e seguimento",
+            "α-bloqueador só agregaria benefício acima de 5 mm",
+            "Orientar sinais de alarme: febre, dor refratária, anúria"
+          ],
+          "resposta": "Menor que 5 mm no ureter distal elimina sozinho em cerca de 89%: observação com analgesia e seguimento, orientando retorno se febre, dor refratária ou redução da urina. O α-bloqueador é opção para cálculos distais maiores que 5 mm."
+        },
+        {
+          "pergunta": "Quando o cálculo precisaria ser retirado?",
+          "pontos": [
+            "Baixa chance de eliminação espontânea",
+            "Dor persistente apesar da analgesia",
+            "Obstrução persistente",
+            "Insuficiência renal: obstrução bilateral ou rim único",
+            "Infecção com obstrução: primeiro descomprimir"
+          ],
+          "resposta": "Baixa chance de eliminação, dor refratária, obstrução persistente ou insuficiência renal (bilateral ou rim único). Com infecção e obstrução, primeiro se descomprime."
+        }
       ],
-      "fonte": "EAU Guidelines on Urolithiasis, 2026"
+      "fonte": "EAU Guidelines on Urolithiasis, 2026",
+      "historia": [
+        {
+          "rotulo": "Identificação",
+          "texto": "R. F., 38 anos, sexo masculino, motorista de aplicativo."
+        },
+        {
+          "rotulo": "Queixa principal",
+          "texto": "“\u0001”"
+        },
+        {
+          "rotulo": "História da doença atual",
+          "texto": "Dor de início súbito há 6 horas na região lombar esquerda, em cólica, com piora em ondas, irradiando para a virilha e o testículo esquerdo. Náuseas e dois vômitos. Nenhuma posição alivia. Nega febre, ardência ao urinar e trauma. Primeiro episódio. Conta que bebe pouca água durante o trabalho."
+        },
+        {
+          "rotulo": "Antecedentes",
+          "texto": "Sem doenças e sem medicamentos. Nega alergias. Pai teve “\u0001”."
+        },
+        {
+          "rotulo": "Exame físico",
+          "texto": "Inquieto, mudando de posição na maca. Temperatura 36,8 °C, PA 150 × 90 mmHg, FC 102 bpm. Abdome flácido, sem sinais de peritonite. Punho-percussão lombar dolorosa à esquerda. Testículos sem alterações."
+        },
+        {
+          "rotulo": "Exames iniciais",
+          "texto": "Urina com hematúria microscópica, sem nitrito, leucócitos normais. Creatinina 0,9 mg/dL."
+        }
+      ]
     },
     {
-      "id": "caso-rim-infectado", "resumo": "afeccoes-urologicas", "sessao": "rev", "minutos": 6,
+      "id": "caso-rim-infectado",
+      "resumo": "afeccoes-urologicas",
+      "sessao": "rev",
+      "minutos": 6,
       "titulo": "Cólica renal que virou sepse",
-      "enunciado": "Mulher de 52 anos em observação domiciliar por cálculo ureteral de 7 mm à direita.",
+      "enunciado": "Você é o médico do pronto-socorro. Leia o caso e responda às etapas na ordem.",
       "etapas": [
-        { "dado": "No 3º dia, volta com febre de 39 °C, calafrios, PA 90 × 60 mmHg, FC 118, dor lombar direita.",
+        {
           "pergunta": "O que está acontecendo?",
-          "pontos": ["Infecção urinária com obstrução (pielonefrite obstrutiva)", "Sepse"],
-          "resposta": "Pielonefrite obstrutiva por cálculo, com sepse." },
-        { "dado": "Ultrassonografia do rim direito:", "imagem": "assets/casos/hidronefrose-us.jpg", "credito": "Cerevisae · Wikimedia Commons · CC BY-SA 4.0",
+          "pontos": [
+            "Infecção urinária com obstrução (pielonefrite obstrutiva)",
+            "Sepse"
+          ],
+          "resposta": "Pielonefrite obstrutiva por cálculo, com sepse."
+        },
+        {
+          "dado": "Ultrassonografia do rim direito:",
+          "imagem": "assets/casos/hidronefrose-us.jpg",
+          "credito": "Cerevisae · Wikimedia Commons · CC BY-SA 4.0",
           "pergunta": "Interprete o exame.",
-          "pontos": ["Hidronefrose: cálices dilatados", "Confirma obstrução"],
-          "resposta": "Cálices dilatados: hidronefrose, confirmando a obstrução." },
-        { "pergunta": "Qual é a conduta?",
-          "pontos": ["Descompressão urgente: duplo J ou nefrostomia (igualmente eficazes)", "Urocultura e antibiótico imediato", "Suporte da sepse", "Tratar o cálculo só depois da sepse"],
-          "resposta": "Descompressão urgente com duplo J ou nefrostomia, urocultura e antibiótico imediatos, suporte da sepse; o cálculo é tratado depois." },
-        { "pergunta": "O que teria sido diferente se ela não tivesse febre e só mantivesse dor?",
-          "pontos": ["Dor refratária à analgesia também indica descompressão ou ureteroscopia", "Sem infecção, pode-se retirar o cálculo diretamente"],
-          "resposta": "Dor refratária sem infecção também é indicação de intervir: descompressão ou retirada do cálculo por ureteroscopia." }
+          "pontos": [
+            "Hidronefrose: cálices dilatados",
+            "Confirma obstrução"
+          ],
+          "resposta": "Cálices dilatados: hidronefrose, confirmando a obstrução."
+        },
+        {
+          "pergunta": "Qual é a conduta?",
+          "pontos": [
+            "Descompressão urgente: duplo J ou nefrostomia (igualmente eficazes)",
+            "Urocultura e antibiótico imediato",
+            "Suporte da sepse",
+            "Tratar o cálculo só depois da sepse"
+          ],
+          "resposta": "Descompressão urgente com duplo J ou nefrostomia, urocultura e antibiótico imediatos, suporte da sepse; o cálculo é tratado depois."
+        },
+        {
+          "pergunta": "O que teria sido diferente se ela não tivesse febre e só mantivesse dor?",
+          "pontos": [
+            "Dor refratária à analgesia também indica descompressão ou ureteroscopia",
+            "Sem infecção, pode-se retirar o cálculo diretamente"
+          ],
+          "resposta": "Dor refratária sem infecção também é indicação de intervir: descompressão ou retirada do cálculo por ureteroscopia."
+        }
       ],
-      "fonte": "EAU Guidelines on Urolithiasis, 2026"
+      "fonte": "EAU Guidelines on Urolithiasis, 2026",
+      "historia": [
+        {
+          "rotulo": "Identificação",
+          "texto": "L. M. C., 52 anos, sexo feminino, professora."
+        },
+        {
+          "rotulo": "Queixa principal",
+          "texto": "“\u0001”"
+        },
+        {
+          "rotulo": "História da doença atual",
+          "texto": "Há 3 dias foi atendida neste pronto-socorro com cólica renal direita; a TC mostrou cálculo de 7 mm no ureter distal direito. Recebeu alta com analgesia e tansulosina, para observar a eliminação. Hoje começou com febre de 39 °C, calafrios e piora da dor lombar direita. Urinou pouco desde a manhã."
+        },
+        {
+          "rotulo": "Antecedentes",
+          "texto": "Diabetes tipo 2 (metformina). Nega alergias."
+        },
+        {
+          "rotulo": "Exame físico",
+          "texto": "Sonolenta, mas orientada. Temperatura 39 °C, PA 90 × 60 mmHg, FC 118 bpm, FR 24 irpm. Extremidades frias. Punho-percussão lombar muito dolorosa à direita."
+        },
+        {
+          "rotulo": "Exames iniciais",
+          "texto": "Leucócitos 19.000/mm³, creatinina 1,6 mg/dL, lactato 3,2 mmol/L. Urina com nitrito positivo e leucocitúria."
+        }
+      ]
     },
     {
-      "id": "caso-torcao", "resumo": "afeccoes-urologicas", "sessao": "rev", "minutos": 6,
+      "id": "caso-torcao",
+      "resumo": "afeccoes-urologicas",
+      "sessao": "rev",
+      "minutos": 6,
       "titulo": "Adolescente com dor testicular súbita",
-      "enunciado": "Adolescente de 15 anos acorda às 6 h com dor forte no testículo direito. Chega às 9 h.",
+      "enunciado": "Você é o médico do pronto-socorro. Leia o caso e responda às etapas na ordem.",
       "etapas": [
-        { "dado": "Vômitos, testículo direito elevado e horizontalizado, reflexo cremastérico ausente, elevar o escroto não alivia.",
+        {
           "pergunta": "Qual é a hipótese e por que é urgente?",
-          "pontos": ["Torção testicular", "Reflexo cremastérico ausente (sensibilidade de 100%)", "Prehn negativo (elevar não alivia)", "Janela crítica de cerca de 4 a 6 horas"],
-          "resposta": "Torção testicular: cremastérico ausente e Prehn negativo. A janela crítica é de cerca de 4 a 6 horas, e ele já tem 3." },
-        { "dado": "O Doppler estava disponível na sala ao lado:", "imagem": "assets/casos/torcao-doppler.jpg", "credito": "Chee-Wai Mak e Wen-Sheng Tzeng · Wikimedia Commons · CC BY 3.0",
+          "pontos": [
+            "Torção testicular",
+            "Reflexo cremastérico ausente (sensibilidade de 100%)",
+            "Prehn negativo (elevar não alivia)",
+            "Janela crítica de cerca de 4 a 6 horas"
+          ],
+          "resposta": "Torção testicular: cremastérico ausente e Prehn negativo. A janela crítica é de cerca de 4 a 6 horas, e ele já tem 3."
+        },
+        {
+          "dado": "O Doppler estava disponível na sala ao lado:",
+          "imagem": "assets/casos/torcao-doppler.jpg",
+          "credito": "Chee-Wai Mak e Wen-Sheng Tzeng · Wikimedia Commons · CC BY 3.0",
           "pergunta": "Interprete o exame.",
-          "pontos": ["Testículo sem sinal de fluxo ao Doppler", "Compatível com torção"],
-          "resposta": "Testículo sem fluxo ao Doppler: torção." },
-        { "pergunta": "Qual é a conduta?",
-          "pontos": ["Exploração cirúrgica imediata", "Destorção, avaliação da viabilidade, orquidopexia e fixação do contralateral", "Destorção manual para fora pode ser tentada enquanto aguarda, sem atrasar a cirurgia"],
-          "resposta": "Exploração cirúrgica imediata, com destorção, avaliação da viabilidade e fixação dos dois testículos. A destorção manual (girando para fora) pode ser tentada enquanto se aguarda, sem atrasar." },
-        { "pergunta": "Se o Doppler tivesse mostrado fluxo, você mudaria a conduta?",
-          "pontos": ["Não: fluxo presente não exclui torção (24% tinham fluxo em estudo multicêntrico)", "O diagnóstico é clínico; o Doppler não deve atrasar a cirurgia"],
-          "resposta": "Não. Fluxo presente não exclui torção (24% dos casos em estudo multicêntrico), e o diagnóstico é clínico." }
+          "pontos": [
+            "Testículo sem sinal de fluxo ao Doppler",
+            "Compatível com torção"
+          ],
+          "resposta": "Testículo sem fluxo ao Doppler: torção."
+        },
+        {
+          "pergunta": "Qual é a conduta?",
+          "pontos": [
+            "Exploração cirúrgica imediata",
+            "Destorção, avaliação da viabilidade, orquidopexia e fixação do contralateral",
+            "Destorção manual para fora pode ser tentada enquanto aguarda, sem atrasar a cirurgia"
+          ],
+          "resposta": "Exploração cirúrgica imediata, com destorção, avaliação da viabilidade e fixação dos dois testículos. A destorção manual (girando para fora) pode ser tentada enquanto se aguarda, sem atrasar."
+        },
+        {
+          "pergunta": "Se o Doppler tivesse mostrado fluxo, você mudaria a conduta?",
+          "pontos": [
+            "Não: fluxo presente não exclui torção (24% tinham fluxo em estudo multicêntrico)",
+            "O diagnóstico é clínico; o Doppler não deve atrasar a cirurgia"
+          ],
+          "resposta": "Não. Fluxo presente não exclui torção (24% dos casos em estudo multicêntrico), e o diagnóstico é clínico."
+        }
       ],
-      "fonte": "EAU Guidelines on Paediatric Urology, 2026, cap. 8"
+      "fonte": "EAU Guidelines on Paediatric Urology, 2026, cap. 8",
+      "historia": [
+        {
+          "rotulo": "Identificação",
+          "texto": "P. H., 15 anos, sexo masculino, estudante. Trazido pela mãe."
+        },
+        {
+          "rotulo": "Queixa principal",
+          "texto": "“\u0001”"
+        },
+        {
+          "rotulo": "História da doença atual",
+          "texto": "Acordou às 6 h com dor súbita e intensa no testículo direito, que irradia para a parte de baixo da barriga. Vomitou duas vezes. A mãe deu dipirona, sem melhora. Nega febre, ardência ao urinar, trauma e atividade sexual. Há 2 meses teve uma dor parecida, que passou sozinha em meia hora. Chega às 9 h."
+        },
+        {
+          "rotulo": "Antecedentes",
+          "texto": "Sem doenças, sem medicamentos, sem alergias."
+        },
+        {
+          "rotulo": "Exame físico",
+          "texto": "Muito incomodado pela dor. Temperatura 36,9 °C, FC 104 bpm. Abdome flácido. Testículo direito elevado e horizontalizado, muito doloroso ao toque, com edema discreto do escroto. Reflexo cremastérico ausente à direita e presente à esquerda. Elevar o escroto não alivia a dor."
+        }
+      ]
     },
     {
-      "id": "caso-queimado", "resumo": "queimaduras", "sessao": "s08", "minutos": 10,
+      "id": "caso-queimado",
+      "resumo": "queimaduras",
+      "sessao": "s08",
+      "minutos": 10,
       "titulo": "Incêndio em casa: avalie, calcule e conduza",
-      "enunciado": "Homem de 80 kg resgatado de incêndio dentro de casa. Chega ao hospital 2 horas após a queimadura, sem ter recebido líquidos.",
+      "enunciado": "Você é o médico da sala de emergência. Leia o caso e responda às etapas na ordem.",
       "etapas": [
-        { "dado": "Consciente, voz levemente rouca, vibrissas chamuscadas, escarro escurecido. SpO₂ 98% em ar ambiente.",
+        {
           "pergunta": "Quais são as prioridades da avaliação primária?",
-          "pontos": ["Interromper a queimadura, retirar roupas e adornos", "Via aérea: rouquidão é sinal de obstrução, indica intubação precoce por profissional experiente, com tubo de 7,0 mm ou maior", "O₂ a 100%", "Oximetria normal não exclui CO: carboxi-hemoglobina na gasometria", "Acessos calibrosos e RL 500 mL/h até calcular a SCQ"],
-          "resposta": "Interromper a queimadura. A rouquidão é sinal de obstrução: intubação precoce pelo mais experiente, com tubo de 7,0 mm ou maior. O₂ a 100% e carboxi-hemoglobina, porque o oxímetro não exclui CO. Acessos calibrosos e RL 500 mL/h (adulto) até o cálculo." },
-        { "dado": "Exame: queimaduras de 2º e 3º graus em todo o tronco anterior e em todo o membro superior direito; eritema sem bolhas na face.",
+          "pontos": [
+            "Interromper a queimadura, retirar roupas e adornos",
+            "Via aérea: rouquidão é sinal de obstrução, indica intubação precoce por profissional experiente, com tubo de 7,0 mm ou maior",
+            "O₂ a 100%",
+            "Oximetria normal não exclui CO: carboxi-hemoglobina na gasometria",
+            "Acessos calibrosos e RL 500 mL/h até calcular a SCQ"
+          ],
+          "resposta": "Interromper a queimadura. A rouquidão é sinal de obstrução: intubação precoce pelo mais experiente, com tubo de 7,0 mm ou maior. O₂ a 100% e carboxi-hemoglobina, porque o oxímetro não exclui CO. Acessos calibrosos e RL 500 mL/h (adulto) até o cálculo."
+        },
+        {
           "pergunta": "Qual é a SCQ?",
-          "pontos": ["Tronco anterior 18% + membro superior 9% = 27%", "O eritema da face (1º grau) não entra"],
-          "resposta": "18% + 9% = 27%; o eritema da face não entra." },
-        { "pergunta": "Calcule a reposição pela Parkland e pelo ATLS 11.",
-          "pontos": ["Parkland: 4 × 80 × 27 = 8.640 mL/24 h", "Metade (4.320 mL) até 8 h da queimadura: restam 6 h, logo cerca de 720 mL/h", "ATLS 11: 2 × 80 × 27 = 4.320 mL ÷ 16 = 270 mL/h", "Titular pela diurese de 0,5 mL/kg/h = 40 mL/h, com sonda vesical"],
-          "resposta": "Parkland: 8.640 mL/24 h; a primeira metade (4.320 mL) vai até 8 h da queimadura, e restam 6 h: cerca de 720 mL/h. ATLS 11: 4.320 mL ÷ 16 = 270 mL/h. Titular pela diurese (40 mL/h), com sonda vesical." },
-        { "dado": "Após 3 horas, o membro superior direito tem queimadura circunferencial de espessura total; dor ao estender os dedos e parestesia.",
+          "pontos": [
+            "Tronco anterior 18% + membro superior 9% = 27%",
+            "O eritema da face (1º grau) não entra"
+          ],
+          "resposta": "18% + 9% = 27%; o eritema da face não entra."
+        },
+        {
+          "pergunta": "Calcule a reposição pela Parkland e pelo ATLS 11.",
+          "pontos": [
+            "Parkland: 4 × 80 × 27 = 8.640 mL/24 h",
+            "Metade (4.320 mL) até 8 h da queimadura: restam 6 h, logo cerca de 720 mL/h",
+            "ATLS 11: 2 × 80 × 27 = 4.320 mL ÷ 16 = 270 mL/h",
+            "Titular pela diurese de 0,5 mL/kg/h = 40 mL/h, com sonda vesical"
+          ],
+          "resposta": "Parkland: 8.640 mL/24 h; a primeira metade (4.320 mL) vai até 8 h da queimadura, e restam 6 h: cerca de 720 mL/h. ATLS 11: 4.320 mL ÷ 16 = 270 mL/h. Titular pela diurese (40 mL/h), com sonda vesical."
+        },
+        {
+          "dado": "Após 3 horas, o membro superior direito tem queimadura circunferencial de espessura total; dor ao estender os dedos e parestesia.",
           "pergunta": "O que está acontecendo e o que fazer? Para onde ele vai?",
-          "pontos": ["Síndrome compartimental pela escara rígida", "Escarotomia (faces medial e lateral), sem esperar perda de pulso", "Cobertura limpa e seca, sem antibiótico profilático, tétano, analgesia com opioide EV", "Transferir para centro de queimados (3º grau, mais de 10%, lesão inalatória)"],
-          "resposta": "A escara rígida com edema causa síndrome compartimental: escarotomia nas faces medial e lateral, sem esperar a perda do pulso. Cobertura limpa e seca, tétano, analgesia com opioide EV, sem antibiótico profilático. Encaminhar a centro de queimados (3º grau, mais de 10% e lesão inalatória)." }
+          "pontos": [
+            "Síndrome compartimental pela escara rígida",
+            "Escarotomia (faces medial e lateral), sem esperar perda de pulso",
+            "Cobertura limpa e seca, sem antibiótico profilático, tétano, analgesia com opioide EV",
+            "Transferir para centro de queimados (3º grau, mais de 10%, lesão inalatória)"
+          ],
+          "resposta": "A escara rígida com edema causa síndrome compartimental: escarotomia nas faces medial e lateral, sem esperar a perda do pulso. Cobertura limpa e seca, tétano, analgesia com opioide EV, sem antibiótico profilático. Encaminhar a centro de queimados (3º grau, mais de 10% e lesão inalatória)."
+        }
       ],
-      "fonte": "ATLS 11, cap. 9; aula da disciplina (Profa. Fernanda Parreiras)"
+      "fonte": "ATLS 11, cap. 9; aula da disciplina (Profa. Fernanda Parreiras)",
+      "historia": [
+        {
+          "rotulo": "Relato dos bombeiros",
+          "texto": "Homem de 45 anos, 80 kg, retirado de um quarto em chamas dentro de casa, onde ficou cerca de 10 minutos em meio à fumaça. Chega ao hospital 2 horas após a queimadura. Recebeu oxigênio no transporte, mas nenhum líquido."
+        },
+        {
+          "rotulo": "Na chegada",
+          "texto": "Consciente, Glasgow 15, com dor intensa no tronco e no braço direito. Diz que a “\u0001”."
+        },
+        {
+          "rotulo": "Exame físico",
+          "texto": "FC 116 bpm, PA 132 × 84 mmHg, FR 22 irpm, SpO₂ 98% em ar ambiente. Voz levemente rouca, vibrissas chamuscadas, fuligem na orofaringe e escarro escurecido. Queimaduras com bolhas e áreas brancas, endurecidas e indolores, em todo o tronco anterior e em todo o membro superior direito. Face com eritema, sem bolhas."
+        },
+        {
+          "rotulo": "AMPLE",
+          "texto": "Hipertenso (enalapril), tabagista. Sem alergias. Não sabe quando tomou a última vacina antitetânica. Jantou há 4 horas."
+        }
+      ]
     }
   ]
 }
