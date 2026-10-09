@@ -238,11 +238,10 @@ function telaOsce() {
     const s = sessaoPorId(e.sessao);
     const ult = e.tipo === "pratica" ? (resultados[e.id] ?? []).at(-1) : undefined;
     const nota = e.tipo === "escrita" ? (notas[e.id] ?? []).at(-1) : undefined;
-    const img = e.tipo === "escrita" ? (e.etapas ?? []).find((x) => x.imagem)?.imagem : null;
-    return `<a class="estacao-card caso-card" href="#/osce/${esc(e.id)}">
-      ${img ? `<img src="${esc(img)}" alt="" loading="lazy">` : `<div class="sem-imagem">${e.tipo === "pratica" ? "prática" : "escrita"}</div>`}
+    return `<a class="estacao-card caso-card ${e.tipo}" href="#/osce/${esc(e.id)}">
       <div><span class="rotulo">${e.tipo === "pratica" ? "Prática · checklist" : `Escrita · ${(e.etapas ?? []).length} etapas`} · ${e.minutos} min${s ? ` · ${esc(rotuloSessao(s))}` : ""}</span>
       <h3>${esc(e.titulo)}</h3>
+      ${e.local ? `<small class="local">${esc(e.local)}</small>` : ""}
       ${ult ? `<small class="fraco">Último treino: ${ult.pct}% do checklist</small>` : ""}${nota !== undefined ? `<small class="fraco">Última correção: ${nota}% dos pontos-chave</small>` : ""}</div></a>`;
   }).join("");
   return `
@@ -324,6 +323,14 @@ function tickOsce(e) {
 }
 
 /* ---------- estação escrita (caso em etapas) ---------- */
+function monitor(m, alerta) {
+  if (!m) return "";
+  const campos = [["FC", m.FC, "bpm", "fc"], ["PA", m.PA, "mmHg", "pa"], ["FR", m.FR, "irpm", "fr"], ["SpO₂", m.SpO2, "%", "sat"], ["T", m.T, "°C", "temp"]]
+    .filter(([, v]) => v !== undefined)
+    .map(([n, v, u, cls]) => `<div class="sinal-vital ${cls}"><span class="nome">${n}</span><span class="valor">${esc(String(v).replace(".", ","))}</span><span class="unidade">${u}</span></div>`).join("");
+  return `<div class="monitor ${alerta ? "alerta" : ""}" role="img" aria-label="Monitor de sinais vitais">${campos}</div>`;
+}
+
 // etapa de decisão: "unica" vira escolha única; senão, marque tudo o que usaria
 function blocoOpcoes(p, chave, aberto, textos) {
   const sel = JSON.parse(textos[`${chave}:sel`] ?? "[]");
@@ -350,13 +357,15 @@ function telaCaso(id) {
     const pontos = (p.pontos ?? []).map((pt, j) => `<li><label><input type="checkbox" data-ponto="${i}-${j}"><span>${esc(pt)}</span></label></li>`).join("");
     return `<section class="pergunta-caso">
       <span class="rotulo">Etapa ${i + 1} de ${c.etapas.length}</span>
+      ${monitor(p.monitor, true)}
       ${p.dado ? `<div class="caixa dado"><span class="rotulo">Nova informação</span><p style="margin:2px 0 0">${esc(p.dado)}</p></div>` : ""}
       ${p.imagem ? `<figure class="imagem-caso"><img src="${esc(p.imagem)}" alt="Exame da etapa ${i + 1}"><figcaption>${esc(p.credito ?? "")}</figcaption></figure>` : ""}
       <p class="enunciado">${esc(p.pergunta)}</p>
       ${p.opcoes ? blocoOpcoes(p, chave, aberto, textos) : ""}
       ${p.pontos ? `<textarea data-texto="${esc(chave)}" rows="4" placeholder="${p.opcoes ? "Justifique a sua escolha…" : "Escreva sua resposta…"}">${esc(textos[chave] ?? "")}</textarea>` : ""}
-      ${aberto && (p.pontos || p.resposta) ? `<div class="caixa gabarito">${p.pontos ? `<span class="rotulo">Pontos-chave · marque os que você escreveu</span><ul class="pontos">${pontos}</ul>` : ""}
-        ${p.resposta ? `<span class="rotulo" style="display:block;margin-top:10px">Resposta esperada</span><p style="margin:2px 0 0">${esc(p.resposta)}</p>` : ""}</div>` : ""}
+      ${aberto && (p.pontos || p.resposta || p.imagemGabarito) ? `<div class="caixa gabarito">${p.pontos ? `<span class="rotulo">Pontos-chave · marque os que você escreveu</span><ul class="pontos">${pontos}</ul>` : ""}
+        ${p.resposta ? `<span class="rotulo" style="display:block;margin-top:10px">Resposta esperada</span><p style="margin:2px 0 0">${esc(p.resposta)}</p>` : ""}
+        ${p.imagemGabarito ? `<figure class="imagem-caso"><img src="${esc(p.imagemGabarito)}" alt="Figura da correção"><figcaption>${esc(p.creditoGabarito ?? "")}</figcaption></figure>` : ""}</div>` : ""}
     </section>`;
   }).join("");
   const ultima = visiveis >= c.etapas.length;
@@ -366,9 +375,11 @@ function telaCaso(id) {
       : `<button class="botao" data-proxima-etapa="${esc(id)}">Próxima etapa →</button>`;
   return `
     <a class="voltar" href="#/osce">← Todas as estações</a>
-    ${abertura(`Estação escrita · ${c.minutos} minutos · ${c.etapas.length} etapas`, esc(c.titulo), "")}
+    ${abertura(`${c.local ? `${esc(c.local)} · ` : ""}${c.minutos} minutos · ${c.etapas.length} etapas`, esc(c.titulo), "")}
     <div class="caixa"><span class="rotulo">Instrução de porta</span><p style="margin:4px 0 0">${esc(c.enunciado)}</p></div>
     ${blocoRelogio(c)}
+    ${c.cena ? `<p class="cena">${esc(c.cena)}</p>` : ""}
+    ${monitor(c.monitor)}
     ${c.historia ? `<section class="prontuario"><h2>Caso clínico</h2>${c.historia.map((h) => `<p><span class="campo">${esc(h.rotulo)}.</span> ${esc(h.texto)}</p>`).join("")}</section>
     <h2 class="titulo-perguntas">Perguntas</h2>` : ""}
     ${etapas}

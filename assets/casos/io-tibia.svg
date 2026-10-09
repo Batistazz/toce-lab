@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-120 0 690 560" font-family="Georgia, serif" font-size="17">
+  <rect x="-120" width="690" height="560" fill="#fbf6ea"/>
+  <!-- contorno da perna (vista anterior, perna esquerda) -->
+  <path d="M150 20 C150 120 140 180 150 240 C160 330 175 430 185 540 L335 540 C345 430 360 330 370 240 C380 180 370 120 370 20 Z" fill="#f2dcc4" stroke="#8a6a4f" stroke-width="2"/>
+  <!-- fêmur distal -->
+  <path d="M205 20 L205 120 C190 150 185 175 200 190 L320 190 C335 175 330 150 315 120 L315 20 Z" fill="#efe6d2" stroke="#6b5640" stroke-width="2"/>
+  <!-- patela -->
+  <ellipse cx="260" cy="150" rx="34" ry="42" fill="#e6dcc4" stroke="#6b5640" stroke-width="2"/>
+  <!-- tíbia -->
+  <path d="M192 205 C188 225 196 245 214 262 C222 300 226 380 228 540 L292 540 C294 380 300 300 308 262 C322 245 330 225 326 205 Z" fill="#efe6d2" stroke="#6b5640" stroke-width="2"/>
+  <!-- fíbula (lateral = direita da figura) -->
+  <path d="M332 232 C346 232 350 246 344 258 C340 330 338 430 340 540 L322 540 C322 430 324 330 326 260 C320 248 322 234 332 232 Z" fill="#efe6d2" stroke="#6b5640" stroke-width="2"/>
+  <!-- placa de crescimento -->
+  <path d="M196 232 C230 240 290 240 324 232" fill="none" stroke="#a33" stroke-width="2.5" stroke-dasharray="7 5"/>
+  <!-- tuberosidade da tíbia -->
+  <ellipse cx="260" cy="268" rx="20" ry="13" fill="#d9ccb0" stroke="#6b5640" stroke-width="2"/>
+  <!-- ponto de punção: 1 a 2 cm abaixo e medial (medial = esquerda da figura) -->
+  <circle cx="234" cy="306" r="11" fill="none" stroke="#1d5a2c" stroke-width="3"/>
+  <path d="M226 298 L242 314 M242 298 L226 314" stroke="#1d5a2c" stroke-width="3"/>
+  <!-- legendas -->
+  <g fill="#33281e">
+    <text x="396" y="150">Patela</text><line x1="392" y1="146" x2="294" y2="146" stroke="#33281e"/>
+    <text x="396" y="225" fill="#a33">Placa de</text><text x="396" y="244" fill="#a33">crescimento</text>
+    <line x1="392" y1="232" x2="326" y2="233" stroke="#a33"/>
+    <text x="396" y="285">Tuberosidade</text><text x="396" y="304">da tíbia</text>
+    <line x1="392" y1="285" x2="282" y2="270" stroke="#33281e"/>
+    <text x="396" y="380">Fíbula</text><line x1="392" y1="376" x2="342" y2="376" stroke="#33281e"/>
+    <text x="-110" y="300" fill="#1d5a2c" font-weight="bold">Ponto de punção</text>
+    <text x="-110" y="321" fill="#1d5a2c">1–2 cm (um dedo)</text>
+    <text x="-110" y="341" fill="#1d5a2c">abaixo e medial à</text>
+    <text x="-110" y="361" fill="#1d5a2c">tuberosidade, na face</text>
+    <text x="-110" y="381" fill="#1d5a2c">anteromedial plana</text>
+    <line x1="80" y1="306" x2="221" y2="306" stroke="#1d5a2c"/>
+    <text x="-110" y="450" font-style="italic" font-size="15">Perna esquerda, vista anterior.</text>
+    <text x="-110" y="470" font-style="italic" font-size="15">Medial à esquerda da figura.</text>
+  </g>
+</svg>

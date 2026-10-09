@@ -6,7 +6,7 @@
       "resumo": null,
       "sessao": "s01",
       "minutos": 10,
-      "titulo": "Acesso venoso central: indicação, anatomia e técnica",
+      "titulo": "Sonolenta, febril e sem veia",
       "enunciado": "Você é o médico plantonista da sala de emergência. Leia o caso e responda às etapas na ordem.",
       "etapas": [
         {
@@ -81,7 +81,7 @@
         },
         {
           "rotulo": "Queixa principal",
-          "texto": "“\u0001”"
+          "texto": "“Febre e muita fraqueza há 2 dias.”"
         },
         {
           "rotulo": "História da doença atual",
@@ -103,14 +103,23 @@
           "rotulo": "Evolução na sala",
           "texto": "Recebeu 30 mL/kg de cristaloide (2.100 mL) e antibiótico. Continua com PA 78 × 42 mmHg. Há dois acessos periféricos de 22 G no dorso das mãos, e um deles acabou de perder. A equipe decide iniciar noradrenalina."
         }
-      ]
+      ],
+      "local": "Sala de emergência · domingo, 14h",
+      "cena": "A filha entra empurrando a cadeira de rodas: “Ela não está falando coisa com coisa desde cedo.” A mãe está quente, pálida e não abre bem os olhos.",
+      "monitor": {
+        "FC": 118,
+        "PA": "82/46",
+        "FR": 24,
+        "SpO2": 95,
+        "T": 38.6
+      }
     },
     {
       "id": "caso-pneumotorax",
       "resumo": "politraumatizado",
       "sessao": "s10",
       "minutos": 8,
-      "titulo": "Facada no tórax: de estável a instável",
+      "titulo": "Agressão com faca, sábado à noite",
       "enunciado": "Você é o médico da sala de trauma. Leia o caso e responda às etapas na ordem.",
       "etapas": [
         {
@@ -157,7 +166,12 @@
             "Seguir com dreno de tórax",
             "Conferir também a posição do tubo (intubação seletiva)"
           ],
-          "resposta": "A pressão positiva transformou o pneumotórax em hipertensivo. Descompressão imediata (agulha de 14 G ou maior no 5º EIC entre as axilares anterior e média, ou 2º EIC na hemiclavicular, ou toracostomia digital), seguida de dreno. Conferir o tubo, porque intubação seletiva também abole o murmúrio."
+          "resposta": "A pressão positiva transformou o pneumotórax em hipertensivo. Descompressão imediata (agulha de 14 G ou maior no 5º EIC entre as axilares anterior e média, ou 2º EIC na hemiclavicular, ou toracostomia digital), seguida de dreno. Conferir o tubo, porque intubação seletiva também abole o murmúrio.",
+          "monitor": {
+            "FC": 136,
+            "PA": "72/40",
+            "SpO2": 82
+          }
         }
       ],
       "fonte": "ATLS 11, caps. 1 e 5; aula da disciplina (caso 4)",
@@ -168,7 +182,7 @@
         },
         {
           "rotulo": "Na chegada",
-          "texto": "Consciente, ansioso, fala frases completas. Queixa dor no lado esquerdo do tórax e “\u0001”."
+          "texto": "Consciente, ansioso, fala frases completas. Queixa dor no lado esquerdo do tórax e “falta de ar quando respira fundo”."
         },
         {
           "rotulo": "Exame físico",
@@ -178,14 +192,22 @@
           "rotulo": "AMPLE",
           "texto": "Sem alergias e sem medicamentos de uso contínuo. Nega doenças. Bebeu cerveja hoje; última refeição há 3 horas. Agressão em via pública."
         }
-      ]
+      ],
+      "local": "Sala de trauma · sábado, 23h40",
+      "cena": "O rádio avisa: vítima de agressão com faca, consciente, chegando em 5 minutos. A equipe veste o avental e você assume a cabeceira.",
+      "monitor": {
+        "FC": 98,
+        "PA": "128/80",
+        "FR": 24,
+        "SpO2": 93
+      }
     },
     {
       "id": "caso-hemotorax",
       "resumo": "politraumatizado",
       "sessao": "s10",
       "minutos": 8,
-      "titulo": "Colisão com taquicardia e macicez",
+      "titulo": "Motorista contra o poste",
       "enunciado": "Você é o médico da sala de trauma. Leia o caso e responda às etapas na ordem.",
       "etapas": [
         {
@@ -228,7 +250,13 @@
             "Manter ressuscitação hemostática (protocolo de transfusão maciça), TXA se até 3 h",
             "Se o serviço não opera, transferir"
           ],
-          "resposta": "Choque persistente com 1.700 mL drenados: controle cirúrgico urgente. O ATLS 11 decide pela fisiologia, e o débito apoia. Ressuscitação hemostática com protocolo de transfusão maciça e TXA se até 3 h do trauma; se o hospital não tem cirurgia torácica, transferir."
+          "resposta": "Choque persistente com 1.700 mL drenados: controle cirúrgico urgente. O ATLS 11 decide pela fisiologia, e o débito apoia. Ressuscitação hemostática com protocolo de transfusão maciça e TXA se até 3 h do trauma; se o hospital não tem cirurgia torácica, transferir.",
+          "monitor": {
+            "FC": 128,
+            "PA": "84/50",
+            "FR": 30,
+            "SpO2": 93
+          }
         }
       ],
       "fonte": "ATLS 11, caps. 5 e 6; aula da disciplina",
@@ -249,14 +277,22 @@
           "rotulo": "AMPLE",
           "texto": "Sem alergias. Usa anticoncepcional oral. Sem doenças. Almoçou há 2 horas."
         }
-      ]
+      ],
+      "local": "Sala de trauma · terça, 7h15",
+      "cena": "Horário de pico. O SAMU entra com uma motorista na prancha; ela segura o lado esquerdo do peito a cada respiração.",
+      "monitor": {
+        "FC": 112,
+        "PA": "100/70",
+        "FR": 26,
+        "SpO2": 94
+      }
     },
     {
       "id": "caso-torax-instavel",
       "resumo": "politraumatizado",
       "sessao": "s10",
       "minutos": 7,
-      "titulo": "Idoso com fraturas de costela",
+      "titulo": "Queda da escada ao limpar a calha",
       "enunciado": "Você é o médico da sala de emergência. Leia o caso e responda às etapas na ordem.",
       "etapas": [
         {
@@ -298,7 +334,13 @@
             "Evitar sobrecarga de volume",
             "Considerar fixação cirúrgica em casos selecionados"
           ],
-          "resposta": "Contusão pulmonar, que piora entre 24 e 72 h. Oxigênio e suporte ventilatório se necessário, evitando excesso de volume; a fixação cirúrgica das costelas entra em casos selecionados."
+          "resposta": "Contusão pulmonar, que piora entre 24 e 72 h. Oxigênio e suporte ventilatório se necessário, evitando excesso de volume; a fixação cirúrgica das costelas entra em casos selecionados.",
+          "monitor": {
+            "FC": 112,
+            "PA": "150/90",
+            "FR": 30,
+            "SpO2": 86
+          }
         }
       ],
       "fonte": "ATLS 11, cap. 5; aula da disciplina",
@@ -309,7 +351,7 @@
         },
         {
           "rotulo": "História",
-          "texto": "Há 2 horas, limpando a calha, caiu de uma escada de cerca de 2 metros e bateu o lado direito do tórax na borda de um muro. Não bateu a cabeça. Desde então, dor torácica intensa à direita, que piora muito ao respirar e ao tossir; está “\u0001”."
+          "texto": "Há 2 horas, limpando a calha, caiu de uma escada de cerca de 2 metros e bateu o lado direito do tórax na borda de um muro. Não bateu a cabeça. Desde então, dor torácica intensa à direita, que piora muito ao respirar e ao tossir; está “respirando curtinho”."
         },
         {
           "rotulo": "Antecedentes",
@@ -319,14 +361,22 @@
           "rotulo": "Exame físico",
           "texto": "Consciente, Glasgow 15, fala frases curtas por causa da dor. FR 26 irpm, SpO₂ 94% com O₂ por máscara, FC 104 bpm, PA 146 × 88 mmHg. Equimose e crepitação sobre os arcos costais direitos, da linha axilar anterior para trás. Um segmento da parede direita afunda na inspiração e se projeta na expiração. Murmúrio presente dos dois lados, diminuído na base direita. Abdome flácido. FAST sem líquido livre."
         }
-      ]
+      ],
+      "local": "Sala de emergência · sábado, 10h",
+      "cena": "O filho conta que o pai insistiu em subir sozinho na escada. Ele respira curto, segurando o lado direito do peito com a mão.",
+      "monitor": {
+        "FC": 104,
+        "PA": "146/88",
+        "FR": 26,
+        "SpO2": 94
+      }
     },
     {
       "id": "caso-tamponamento",
       "resumo": "politraumatizado",
       "sessao": "s10",
       "minutos": 6,
-      "titulo": "Facada precordial com hipotensão",
+      "titulo": "Briga na saída da festa",
       "enunciado": "Você é o médico da sala de trauma. Leia o caso e responda às etapas na ordem.",
       "etapas": [
         {
@@ -367,7 +417,12 @@
             "Ferimento penetrante torácico com sinais de vida recentes: maior probabilidade de benefício",
             "Depende de equipe treinada e recursos"
           ],
-          "resposta": "Toracotomia de reanimação. Ferimento penetrante torácico com perda recente dos sinais de vida é o cenário de maior benefício relativo, desde que haja equipe e recursos."
+          "resposta": "Toracotomia de reanimação. Ferimento penetrante torácico com perda recente dos sinais de vida é o cenário de maior benefício relativo, desde que haja equipe e recursos.",
+          "monitor": {
+            "FC": "—",
+            "PA": "—",
+            "SpO2": "—"
+          }
         }
       ],
       "fonte": "ATLS 11, caps. 5 e 6; aula da disciplina",
@@ -378,20 +433,28 @@
         },
         {
           "rotulo": "Exame físico",
-          "texto": "Agitado, pálido, sudoreico, diz que está “\u0001”. PA 80 × 50 mmHg, FC 130 bpm, FR 28 irpm, SpO₂ 96% em ar ambiente. Ferimento de 2 cm na região paraesternal esquerda, no 4º espaço intercostal, sem sangramento ativo. Traqueia central, murmúrio vesicular presente e simétrico. Bulhas difíceis de ouvir. Jugulares pouco visíveis. Abdome sem lesões. Glasgow 14."
+          "texto": "Agitado, pálido, sudoreico, diz que está “passando mal”. PA 80 × 50 mmHg, FC 130 bpm, FR 28 irpm, SpO₂ 96% em ar ambiente. Ferimento de 2 cm na região paraesternal esquerda, no 4º espaço intercostal, sem sangramento ativo. Traqueia central, murmúrio vesicular presente e simétrico. Bulhas difíceis de ouvir. Jugulares pouco visíveis. Abdome sem lesões. Glasgow 14."
         },
         {
           "rotulo": "AMPLE",
           "texto": "Sem alergias, sem medicamentos, sem doenças conhecidas. Bebeu durante a festa."
         }
-      ]
+      ],
+      "local": "Sala de trauma · domingo, 2h10",
+      "cena": "Um carro para buzinando na porta do pronto-socorro. Dois amigos carregam o rapaz até a maca: “Foi uma facada, doutor, foi rápido.”",
+      "monitor": {
+        "FC": 130,
+        "PA": "80/50",
+        "FR": 28,
+        "SpO2": 96
+      }
     },
     {
       "id": "caso-fast",
       "resumo": "choque-hemorragico",
       "sessao": "s11",
       "minutos": 8,
-      "titulo": "Motociclista em choque",
+      "titulo": "Motociclista na rodovia",
       "enunciado": "Você é o médico da sala de trauma. Leia o caso e responda às etapas na ordem.",
       "etapas": [
         {
@@ -435,7 +498,12 @@
             "Correção da fisiologia na UTI (espiral letal)",
             "Reabordagem para o tratamento definitivo"
           ],
-          "resposta": "Controle de danos: operação abreviada com hemostasia, controle de contaminação e empacotamento, correção da hipotermia, acidose e coagulopatia na UTI e reabordagem depois."
+          "resposta": "Controle de danos: operação abreviada com hemostasia, controle de contaminação e empacotamento, correção da hipotermia, acidose e coagulopatia na UTI e reabordagem depois.",
+          "monitor": {
+            "FC": 146,
+            "PA": "70/40",
+            "T": 34.5
+          }
         }
       ],
       "fonte": "ATLS 11, caps. 6 e 21; aula da disciplina",
@@ -456,14 +524,22 @@
           "rotulo": "AMPLE",
           "texto": "Não sabe referir alergias ou medicamentos. Última refeição desconhecida."
         }
-      ]
+      ],
+      "local": "Sala de trauma · sexta, 19h",
+      "cena": "Chove na BR. A equipe do SAMU entra apressada: “Colisão com carro, foi arremessado. Perdeu a cor no caminho.”",
+      "monitor": {
+        "FC": 140,
+        "PA": "78/40",
+        "FR": 28,
+        "SpO2": 95
+      }
     },
     {
       "id": "caso-laceracao-hepatica",
       "resumo": "choque-hemorragico",
       "sessao": "s11",
       "minutos": 7,
-      "titulo": "Dor no hipocôndrio direito após colisão",
+      "titulo": "Passageira do banco da frente",
       "enunciado": "Você é o médico da sala de trauma de um hospital com cirurgião, UTI e tomografia. Leia o caso e responda às etapas na ordem.",
       "etapas": [
         {
@@ -503,7 +579,12 @@
             "Laparotomia urgente com ressuscitação",
             "Não insistir em observação passiva"
           ],
-          "resposta": "Falha do tratamento não operatório: instabilidade e peritonite indicam laparotomia urgente, com ressuscitação hemostática."
+          "resposta": "Falha do tratamento não operatório: instabilidade e peritonite indicam laparotomia urgente, com ressuscitação hemostática.",
+          "monitor": {
+            "FC": 128,
+            "PA": "86/50",
+            "FR": 26
+          }
         }
       ],
       "fonte": "ATLS 11, cap. 21; aula da disciplina",
@@ -514,7 +595,7 @@
         },
         {
           "rotulo": "Na chegada",
-          "texto": "Queixa dor no lado direito, “\u0001”, que piora ao respirar fundo."
+          "texto": "Queixa dor no lado direito, “embaixo das costelas”, que piora ao respirar fundo."
         },
         {
           "rotulo": "Exame físico",
@@ -528,14 +609,22 @@
           "rotulo": "AMPLE",
           "texto": "Alergia a dipirona. Sem medicamentos, sem doenças. Não está grávida (beta-hCG negativo)."
         }
-      ]
+      ],
+      "local": "Sala de trauma · quarta, 16h",
+      "cena": "Ela chega andando com ajuda do socorrista, apertando o lado direito da barriga, e pergunta se o marido, que dirigia, está bem.",
+      "monitor": {
+        "FC": 92,
+        "PA": "124/78",
+        "FR": 18,
+        "SpO2": 98
+      }
     },
     {
       "id": "caso-colica-renal",
       "resumo": "afeccoes-urologicas",
       "sessao": "rev",
       "minutos": 7,
-      "titulo": "Dor lombar em cólica",
+      "titulo": "Não consegue ficar parado na maca",
       "enunciado": "Você é o médico do pronto-socorro. Leia o caso e responda às etapas na ordem.",
       "etapas": [
         {
@@ -589,7 +678,7 @@
         },
         {
           "rotulo": "Queixa principal",
-          "texto": "“\u0001”"
+          "texto": "“Dor nas costas que não me deixa ficar parado.”"
         },
         {
           "rotulo": "História da doença atual",
@@ -597,7 +686,7 @@
         },
         {
           "rotulo": "Antecedentes",
-          "texto": "Sem doenças e sem medicamentos. Nega alergias. Pai teve “\u0001”."
+          "texto": "Sem doenças e sem medicamentos. Nega alergias. Pai teve “pedra nos rins”."
         },
         {
           "rotulo": "Exame físico",
@@ -607,14 +696,21 @@
           "rotulo": "Exames iniciais",
           "texto": "Urina com hematúria microscópica, sem nitrito, leucócitos normais. Creatinina 0,9 mg/dL."
         }
-      ]
+      ],
+      "local": "Pronto-socorro · quinta, 3h",
+      "cena": "Da triagem já se ouve: um homem anda de um lado para o outro, senta, levanta, e pede “qualquer coisa para essa dor”.",
+      "monitor": {
+        "FC": 102,
+        "PA": "150/90",
+        "T": 36.8
+      }
     },
     {
       "id": "caso-rim-infectado",
       "resumo": "afeccoes-urologicas",
       "sessao": "rev",
       "minutos": 6,
-      "titulo": "Cólica renal que virou sepse",
+      "titulo": "Voltou com febre três dias depois",
       "enunciado": "Você é o médico do pronto-socorro. Leia o caso e responda às etapas na ordem.",
       "etapas": [
         {
@@ -663,7 +759,7 @@
         },
         {
           "rotulo": "Queixa principal",
-          "texto": "“\u0001”"
+          "texto": "“Febre alta e tremedeira.”"
         },
         {
           "rotulo": "História da doença atual",
@@ -681,14 +777,22 @@
           "rotulo": "Exames iniciais",
           "texto": "Leucócitos 19.000/mm³, creatinina 1,6 mg/dL, lactato 3,2 mmol/L. Urina com nitrito positivo e leucocitúria."
         }
-      ]
+      ],
+      "local": "Pronto-socorro · segunda, 22h",
+      "cena": "Você reconhece a paciente: foi atendida aqui na sexta-feira. Agora ela treme embaixo de dois cobertores, ao lado do marido.",
+      "monitor": {
+        "FC": 118,
+        "PA": "90/60",
+        "FR": 24,
+        "T": 39.0
+      }
     },
     {
       "id": "caso-torcao",
       "resumo": "afeccoes-urologicas",
       "sessao": "rev",
       "minutos": 6,
-      "titulo": "Adolescente com dor testicular súbita",
+      "titulo": "Acordou com dor às 6 da manhã",
       "enunciado": "Você é o médico do pronto-socorro. Leia o caso e responda às etapas na ordem.",
       "etapas": [
         {
@@ -738,7 +842,7 @@
         },
         {
           "rotulo": "Queixa principal",
-          "texto": "“\u0001”"
+          "texto": "“Dor muito forte no saco.”"
         },
         {
           "rotulo": "História da doença atual",
@@ -752,14 +856,20 @@
           "rotulo": "Exame físico",
           "texto": "Muito incomodado pela dor. Temperatura 36,9 °C, FC 104 bpm. Abdome flácido. Testículo direito elevado e horizontalizado, muito doloroso ao toque, com edema discreto do escroto. Reflexo cremastérico ausente à direita e presente à esquerda. Elevar o escroto não alivia a dor."
         }
-      ]
+      ],
+      "local": "Pronto-socorro · sábado, 9h",
+      "cena": "A mãe chega aflita com o filho curvado de dor. Ele demora a contar onde dói, com vergonha, e só fala quando ela sai da sala.",
+      "monitor": {
+        "FC": 104,
+        "T": 36.9
+      }
     },
     {
       "id": "caso-queimado",
       "resumo": "queimaduras",
       "sessao": "s08",
       "minutos": 10,
-      "titulo": "Incêndio em casa: avalie, calcule e conduza",
+      "titulo": "Retirado de um quarto em chamas",
       "enunciado": "Você é o médico da sala de emergência. Leia o caso e responda às etapas na ordem.",
       "etapas": [
         {
@@ -811,7 +921,7 @@
         },
         {
           "rotulo": "Na chegada",
-          "texto": "Consciente, Glasgow 15, com dor intensa no tronco e no braço direito. Diz que a “\u0001”."
+          "texto": "Consciente, Glasgow 15, com dor intensa no tronco e no braço direito. Diz que a “voz está diferente”."
         },
         {
           "rotulo": "Exame físico",
@@ -821,14 +931,22 @@
           "rotulo": "AMPLE",
           "texto": "Hipertenso (enalapril), tabagista. Sem alergias. Não sabe quando tomou a última vacina antitetânica. Jantou há 4 horas."
         }
-      ]
+      ],
+      "local": "Sala de emergência · quinta, 21h",
+      "cena": "Os bombeiros avisam por rádio: homem retirado de casa em chamas, chegando em 10 minutos. Quando a maca entra, a sala fica com cheiro de fumaça.",
+      "monitor": {
+        "FC": 116,
+        "PA": "132/84",
+        "FR": 22,
+        "SpO2": 98
+      }
     },
     {
       "id": "caso-sondagem",
       "resumo": "afeccoes-urologicas",
       "sessao": "s09",
       "minutos": 10,
-      "titulo": "Retenção urinária: decida, escolha o material e sonde",
+      "titulo": "Não urina desde ontem à noite",
       "enunciado": "Você é o médico do pronto-socorro. Leia o caso, tome as decisões, escolha o material e descreva o procedimento.",
       "historia": [
         {
@@ -1007,14 +1125,21 @@
           "resposta": "Sangue no meato com fratura de pelve é suspeita de lesão de uretra: não se passa sonda às cegas. Faz-se uretrografia retrógrada e, se houver lesão, a drenagem é por cistostomia suprapúbica."
         }
       ],
-      "fonte": "Apostila Afecções Urológicas da monitoria; ATLS 11, cap. 21 (lesão de uretra); checklist de sondagem da monitoria"
+      "fonte": "Apostila Afecções Urológicas da monitoria; ATLS 11, cap. 21 (lesão de uretra); checklist de sondagem da monitoria",
+      "local": "Pronto-socorro · quarta, 6h",
+      "cena": "Ele está curvado na cadeira da recepção, com a mão no baixo ventre, e pede para ser atendido logo: “Não aguento mais.”",
+      "monitor": {
+        "FC": 98,
+        "PA": "168/96",
+        "T": 36.7
+      }
     },
     {
       "id": "caso-dreno-torax",
       "resumo": "politraumatizado",
       "sessao": "s10",
       "minutos": 10,
-      "titulo": "Hemotórax: escolha o local, o material e drene",
+      "titulo": "Queda do andaime",
       "enunciado": "Você é o médico da sala de trauma. Leia o caso, tome as decisões, escolha o material e descreva o procedimento.",
       "historia": [
         {
@@ -1160,14 +1285,22 @@
           "resposta": "Sem oscilação, o sistema não está ligado à pleura: dreno dobrado ou clampeado, coágulo no tubo, ou dreno fora da cavidade. Percorrer o sistema do paciente ao frasco, desobstruir e pedir radiografia. Hemotórax retido que persiste pede novo dreno ou videotoracoscopia precoce."
         }
       ],
-      "fonte": "ATLS 11, cap. 5 e apêndice de procedimentos; apostila ATLS e Trauma Torácico da monitoria"
+      "fonte": "ATLS 11, cap. 5 e apêndice de procedimentos; apostila ATLS e Trauma Torácico da monitoria",
+      "local": "Sala de trauma · segunda, 15h",
+      "cena": "Os colegas de obra vieram atrás da ambulância. Um deles conta que ele “caiu de lado em cima da viga” e não conseguiu se levantar.",
+      "monitor": {
+        "FC": 108,
+        "PA": "112/72",
+        "FR": 24,
+        "SpO2": 93
+      }
     },
     {
       "id": "caso-crico",
       "resumo": "choque-hemorragico",
       "sessao": "s11",
       "minutos": 8,
-      "titulo": "Não intubo, não oxigeno: decida e faça a via aérea cirúrgica",
+      "titulo": "Rosto contra o volante",
       "enunciado": "Você é o médico responsável pela via aérea na sala de trauma. Leia o caso, tome as decisões, escolha o material e descreva o procedimento.",
       "historia": [
         {
@@ -1294,7 +1427,681 @@
           "resposta": "Sim. Em criança pequena faz-se a cricotireoidostomia por punção, porque a cirúrgica pode lesar a cricoide e causar estenose. A punção oxigena por tempo limitado e serve de ponte para a via aérea definitiva."
         }
       ],
-      "fonte": "ATLS 11, cap. 2; Difficult Airway Society, diretriz de 2015 (técnica bisturi-bougie-tubo); checklist de cricotireoidostomia da monitoria"
+      "fonte": "ATLS 11, cap. 2; Difficult Airway Society, diretriz de 2015 (técnica bisturi-bougie-tubo); checklist de cricotireoidostomia da monitoria",
+      "local": "Sala de trauma · domingo, 4h",
+      "cena": "O SAMU entra ventilando com bolsa e máscara. Há sangue na prancha, no colar e nas luvas da equipe; o oxímetro apita sem parar.",
+      "monitor": {
+        "FC": 124,
+        "PA": "104/68",
+        "SpO2": 84
+      }
+    },
+    {
+      "id": "caso-intraossea",
+      "resumo": null,
+      "sessao": "s01",
+      "minutos": 8,
+      "titulo": "Dois anos, diarreia e olhar parado",
+      "local": "Sala de emergência · segunda, 11h",
+      "cena": "A mãe entra correndo com a filha no colo, mole, enrolada numa manta: “Ela não está acordando direito.”",
+      "monitor": {
+        "FC": 178,
+        "PA": "68/40",
+        "FR": 40,
+        "SpO2": 97
+      },
+      "enunciado": "Você é o médico da sala de emergência. Leia o caso, tome as decisões, escolha o material e descreva o procedimento.",
+      "historia": [
+        {
+          "rotulo": "Identificação",
+          "texto": "M. E., 2 anos, sexo feminino, 12 kg. Trazida pela mãe."
+        },
+        {
+          "rotulo": "Queixa principal",
+          "texto": "“Ela não para de fazer cocô aguado e agora não acorda direito.”"
+        },
+        {
+          "rotulo": "História da doença atual",
+          "texto": "Há 3 dias com diarreia líquida, 8 a 10 vezes por dia, e vômitos. Não aceita líquidos desde ontem. A última fralda molhada foi há 14 horas. Hoje está muito sonolenta."
+        },
+        {
+          "rotulo": "Antecedentes",
+          "texto": "Nascida a termo, vacinação em dia, sem doenças. Sem alergias."
+        },
+        {
+          "rotulo": "Exame físico",
+          "texto": "Sonolenta, só responde à dor. Olhos encovados, mucosas secas, choro sem lágrimas. Extremidades frias e moteadas, enchimento capilar de 5 s, pulsos periféricos finos. FC 178 bpm, PA 68 × 40 mmHg, FR 40 irpm, SpO₂ 97% em ar ambiente. Glicemia capilar 82 mg/dL."
+        },
+        {
+          "rotulo": "Na sala",
+          "texto": "A enfermeira mais experiente tentou duas veias periféricas em 90 segundos, sem sucesso. A criança continua moteada."
+        }
+      ],
+      "etapas": [
+        {
+          "pergunta": "Como você consegue o acesso agora?",
+          "unica": true,
+          "opcoes": [
+            {
+              "texto": "Punção intraóssea",
+              "certo": true,
+              "porque": "Criança em choque com acesso periférico difícil: a via intraóssea é rápida e aceita líquidos, sangue e drogas como uma veia."
+            },
+            {
+              "texto": "Mais duas tentativas de acesso periférico",
+              "certo": false,
+              "porque": "Cada minuto de choque conta; se a periférica falhou, passa-se à intraóssea."
+            },
+            {
+              "texto": "Dissecção de veia safena no tornozelo",
+              "certo": false,
+              "porque": "É alternativa, mas demora e exige experiência."
+            },
+            {
+              "texto": "Acesso venoso central na jugular",
+              "certo": false,
+              "porque": "Em criança, fica para quem tem experiência pediátrica; é mais lento."
+            },
+            {
+              "texto": "Hidratação por sonda nasogástrica",
+              "certo": false,
+              "porque": "Choque com rebaixamento exige via vascular."
+            }
+          ],
+          "pontos": [
+            "Choque hipovolêmico por desidratação grave",
+            "Acesso periférico falhou: punção intraóssea sem demora",
+            "A via intraóssea aceita líquidos, sangue e drogas"
+          ],
+          "resposta": "Desidratação grave com choque hipovolêmico. Com o acesso periférico difícil, a punção intraóssea é a via de resgate: rápida, aceita cristaloide, sangue e drogas."
+        },
+        {
+          "pergunta": "Onde você punciona?",
+          "unica": true,
+          "opcoes": [
+            {
+              "texto": "Tíbia proximal, face anteromedial, 1 a 2 cm abaixo e medial à tuberosidade",
+              "certo": true,
+              "porque": "Osso plano, superficial, longe da placa de crescimento."
+            },
+            {
+              "texto": "Sobre a tuberosidade da tíbia",
+              "certo": false,
+              "porque": "Fica junto à placa de crescimento; punciona-se abaixo e medial a ela."
+            },
+            {
+              "texto": "Esterno",
+              "certo": false,
+              "porque": "Em criança, risco de transfixar e lesar estruturas do mediastino."
+            },
+            {
+              "texto": "Tíbia de uma perna com fratura",
+              "certo": false,
+              "porque": "O líquido extravasa pelo foco de fratura; usa-se outro osso."
+            }
+          ],
+          "imagemGabarito": "assets/casos/io-tibia.svg",
+          "creditoGabarito": "Figura da monitoria"
+        },
+        {
+          "pergunta": "Separe o material.",
+          "opcoes": [
+            {
+              "texto": "Agulha intraóssea com mandril (15 a 18 G)",
+              "certo": true,
+              "porque": "O ATLS cita 18 G no lactente e 15 G na criança pequena; o mandril impede que fragmento ósseo entupa a agulha."
+            },
+            {
+              "texto": "Agulha hipodérmica comum, sem mandril",
+              "certo": false,
+              "porque": "Entope com osso e dobra."
+            },
+            {
+              "texto": "Seringa com soro fisiológico para lavar",
+              "certo": true,
+              "porque": "Confirma a posição: o soro entra sem extravasar."
+            },
+            {
+              "texto": "Seringa de 20 mL e torneira de três vias para o bolus",
+              "certo": true,
+              "porque": "Por gravidade o fluxo é lento; o bolus é empurrado com seringa ou bolsa pressurizada."
+            },
+            {
+              "texto": "Clorexidina e luvas",
+              "certo": true,
+              "porque": "Antissepsia: a complicação a evitar é a osteomielite."
+            },
+            {
+              "texto": "Coxim sob o joelho",
+              "certo": true,
+              "porque": "Apoia a perna estendida."
+            },
+            {
+              "texto": "Garrote",
+              "certo": false,
+              "porque": "Não tem papel na punção intraóssea."
+            }
+          ]
+        },
+        {
+          "pergunta": "Descreva a técnica e a reposição.",
+          "pontos": [
+            "Perna estendida, coxim sob o joelho; mão de apoio fora da trajetória da agulha",
+            "Antissepsia",
+            "Agulha perpendicular ao osso, ou levemente angulada para longe da placa de crescimento",
+            "Pressão firme com rotação até a perda súbita de resistência",
+            "Agulha firme, de pé sozinha; retira o mandril",
+            "Aspira medula (pode não vir) e lava com soro, sem extravasamento nem endurecimento da perna",
+            "Fixa e faz bolus de 20 mL/kg de cristaloide isotônico (240 mL), reavaliando após cada bolus",
+            "Acesso temporário: substituir por veia assim que possível"
+          ],
+          "resposta": "Perna estendida com coxim, antissepsia, agulha perpendicular (ou angulada para longe da placa de crescimento) com pressão e rotação até perder a resistência. A agulha fica firme sozinha; retirar o mandril, aspirar e lavar com soro sem extravasar. Fixar e fazer 20 mL/kg (240 mL) de cristaloide isotônico com seringa, reavaliando a cada bolus. É acesso temporário: trocar por veia assim que possível."
+        },
+        {
+          "dado": "Após o segundo bolus, a panturrilha esquerda está endurecida e maior que a direita, e o soro passa com resistência.",
+          "monitor": {
+            "FC": 150,
+            "PA": "80/48",
+            "FR": 36,
+            "SpO2": 97
+          },
+          "pergunta": "O que aconteceu e o que você faz?",
+          "pontos": [
+            "Extravasamento: agulha fora da medula ou transfixou o osso",
+            "Parar a infusão e retirar a agulha",
+            "Vigiar síndrome compartimental na perna",
+            "Nova punção em outro osso (a outra tíbia), nunca no mesmo osso já furado",
+            "Outras complicações: osteomielite, fratura, lesão da placa de crescimento"
+          ],
+          "resposta": "Extravasamento: a agulha saiu da medula ou transfixou o osso. Parar, retirar a agulha e vigiar síndrome compartimental. Nova punção em outro osso, porque o líquido sairia pelo furo anterior. Outras complicações: osteomielite, fratura e lesão da placa de crescimento."
+        }
+      ],
+      "fonte": "ATLS 11, caps. 1 e 11 (acesso intraósseo; 18 G no lactente e 15 G na criança pequena); American Heart Association, suporte avançado de vida em pediatria (bolus de 10 a 20 mL/kg)"
+    },
+    {
+      "id": "caso-acesso-periferico",
+      "resumo": null,
+      "sessao": "s01",
+      "minutos": 7,
+      "titulo": "Sangue na pia do banheiro",
+      "local": "Pronto-socorro · terça, 20h",
+      "cena": "Na recepção, um homem vomita sangue vivo na pia do banheiro. A técnica de enfermagem o traz de cadeira de rodas, pálido, segurando um saco plástico.",
+      "monitor": {
+        "FC": 118,
+        "PA": "96/60",
+        "FR": 22,
+        "SpO2": 97
+      },
+      "enunciado": "Você é o médico do pronto-socorro. Leia o caso, tome as decisões, escolha o material e descreva o procedimento.",
+      "historia": [
+        {
+          "rotulo": "Identificação",
+          "texto": "C. S., 54 anos, sexo masculino, pedreiro, 75 kg."
+        },
+        {
+          "rotulo": "Queixa principal",
+          "texto": "“Vomitei sangue três vezes.”"
+        },
+        {
+          "rotulo": "História da doença atual",
+          "texto": "Desde a tarde, três vômitos com sangue vivo, cerca de uma xícara cada. Ontem as fezes saíram pretas. Sente tontura ao se levantar."
+        },
+        {
+          "rotulo": "Antecedentes",
+          "texto": "Toma diclofenaco por conta própria há 2 semanas por dor nas costas. Bebe nos fins de semana. Nega doença do fígado conhecida e alergias."
+        },
+        {
+          "rotulo": "Exame físico",
+          "texto": "Pálido, sudoreico, consciente e orientado. FC 118 bpm, PA 96 × 60 mmHg, FR 22 irpm, SpO₂ 97%. Abdome flácido, doloroso no epigástrio, sem sinais de peritonite. Com o garrote, as veias da dobra do cotovelo aparecem bem."
+        }
+      ],
+      "etapas": [
+        {
+          "pergunta": "Qual acesso venoso você pede primeiro?",
+          "unica": true,
+          "opcoes": [
+            {
+              "texto": "Dois cateteres periféricos curtos e calibrosos (14 a 16 G), um em cada braço",
+              "certo": true,
+              "porque": "O fluxo cresce com o raio e cai com o comprimento: curto e grosso infunde mais rápido."
+            },
+            {
+              "texto": "Um cateter 22 G no dorso da mão",
+              "certo": false,
+              "porque": "Fino demais para repor volume e sangue."
+            },
+            {
+              "texto": "Acesso venoso central como primeira escolha",
+              "certo": false,
+              "porque": "O cateter central é longo; em geral infunde menos que um periférico calibroso e demora mais para passar."
+            },
+            {
+              "texto": "Punção intraóssea",
+              "certo": false,
+              "porque": "Fica para quando a periférica falha."
+            }
+          ],
+          "pontos": [
+            "Hemorragia digestiva alta com sinais de choque",
+            "Dois acessos periféricos calibrosos",
+            "Fluxo depende do raio e do comprimento (lei de Poiseuille): curto e grosso",
+            "Na mesma punção, colher tipagem, hemograma e coagulograma"
+          ],
+          "resposta": "Hemorragia digestiva alta com choque: dois acessos periféricos curtos e calibrosos, aproveitando a punção para colher tipagem, hemograma e coagulograma. Pela lei de Poiseuille, o fluxo depende do raio (à quarta potência) e cai com o comprimento."
+        },
+        {
+          "pergunta": "Quais veias você procura na dobra do cotovelo e o que existe embaixo delas?",
+          "pontos": [
+            "Cefálica na face lateral (lado do polegar)",
+            "Basílica na face medial",
+            "Intermédia (mediana) do cotovelo ligando as duas: calibrosa e fácil de puncionar",
+            "Mais profundos e mediais: artéria braquial e nervo mediano, sob a aponeurose do bíceps",
+            "Para acesso de manutenção, preferir o antebraço (a dobra atrapalha o fluxo ao fletir)"
+          ],
+          "resposta": "Na fossa cubital estão a cefálica (lateral), a basílica (medial) e a intermédia do cotovelo, que liga as duas e é a mais usada. Mais profundamente e medial ficam a artéria braquial e o nervo mediano, sob a aponeurose do bíceps. No choque, a dobra do cotovelo é ótima; para manutenção, prefere-se o antebraço.",
+          "imagemGabarito": "assets/casos/veias-membro-superior.png",
+          "creditoGabarito": "Gray's Anatomy (1918), fig. 574 · Wikimedia Commons · domínio público"
+        },
+        {
+          "pergunta": "Separe o material.",
+          "opcoes": [
+            {
+              "texto": "Cateter sobre agulha 14 ou 16 G",
+              "certo": true,
+              "porque": "Calibroso para repor volume."
+            },
+            {
+              "texto": "Scalp (borboleta) 21 G",
+              "certo": false,
+              "porque": "Agulha metálica e fina: não serve para reposição."
+            },
+            {
+              "texto": "Garrote",
+              "certo": true,
+              "porque": "Ingurgita a veia; soltar antes de conectar o equipo."
+            },
+            {
+              "texto": "Clorexidina alcoólica (ou álcool 70%)",
+              "certo": true,
+              "porque": "Antissepsia da pele; deixar secar."
+            },
+            {
+              "texto": "Luvas de procedimento",
+              "certo": true,
+              "porque": "A punção periférica é técnica limpa: luva de procedimento, sem tocar o local depois da antissepsia."
+            },
+            {
+              "texto": "Luvas estéreis, avental e campo amplo",
+              "certo": false,
+              "porque": "Barreira máxima é para acesso central."
+            },
+            {
+              "texto": "Seringa com soro, tubos de coleta e curativo transparente",
+              "certo": true,
+              "porque": "Coletar, lavar, fixar e identificar."
+            }
+          ]
+        },
+        {
+          "pergunta": "Descreva a técnica, do início ao fim.",
+          "pontos": [
+            "Higiene das mãos, apresenta-se e explica",
+            "Garrote 7 a 10 cm acima do local; escolhe e palpa a veia",
+            "Antissepsia e espera secar, sem palpar de novo",
+            "Traciona a pele abaixo para fixar a veia",
+            "Bisel para cima, ângulo de 15 a 30°",
+            "Ao ver refluxo na câmara, abaixa o ângulo e avança um pouco",
+            "Avança o cateter sobre a agulha e solta o garrote",
+            "Comprime a veia acima da ponta e retira a agulha; descarta no perfurocortante",
+            "Colhe os exames, lava com soro, fixa e identifica (data e calibre)"
+          ],
+          "resposta": "Higiene das mãos e explicação. Garrote, escolha da veia, antissepsia sem tocar de novo. Pele tracionada, bisel para cima a 15–30°, refluxo na câmara, abaixar o ângulo, avançar o cateter sobre a agulha. Soltar o garrote, comprimir acima da ponta, retirar a agulha direto no perfurocortante. Colher, lavar, fixar e identificar."
+        },
+        {
+          "dado": "Duas horas depois, o braço esquerdo está inchado, frio e pálido em volta do cateter, e o soro parou de correr.",
+          "monitor": {
+            "FC": 104,
+            "PA": "108/68",
+            "FR": 20,
+            "SpO2": 97
+          },
+          "pergunta": "O que aconteceu e o que fazer?",
+          "pontos": [
+            "Infiltração: o líquido está fora da veia",
+            "Parar a infusão e retirar o cateter",
+            "Elevar o membro e observar",
+            "Nova punção em outro local, de preferência no outro braço ou acima",
+            "Diferenciar de flebite: vermelhidão, calor e cordão endurecido no trajeto"
+          ],
+          "resposta": "Infiltração: o soro está saindo da veia para o subcutâneo (inchado, frio e pálido). Parar, retirar, elevar o membro e puncionar outro local. A flebite é diferente: vermelha, quente, com cordão endurecido."
+        }
+      ],
+      "fonte": "ATLS 11, cap. 6 (dois acessos periféricos calibrosos no choque); CDC, Guidelines for the Prevention of Intravascular Catheter-Related Infections (2011)"
+    },
+    {
+      "id": "caso-paracentese",
+      "resumo": null,
+      "sessao": "s02",
+      "minutos": 10,
+      "titulo": "A barriga não para de crescer",
+      "local": "Enfermaria · quinta, 10h",
+      "cena": "Você é chamado ao leito 12. O paciente está sentado na beira da cama, porque deitado “o ar não entra”, com a barriga esticada e brilhante.",
+      "monitor": {
+        "FC": 96,
+        "PA": "108/66",
+        "FR": 22,
+        "SpO2": 95,
+        "T": 37.9
+      },
+      "enunciado": "Você é o médico da enfermaria. Leia o caso, tome as decisões, escolha o material e descreva o procedimento.",
+      "historia": [
+        {
+          "rotulo": "Identificação",
+          "texto": "J. A., 61 anos, sexo masculino, ex-caminhoneiro, 72 kg."
+        },
+        {
+          "rotulo": "Queixa principal",
+          "texto": "“A barriga não para de crescer e agora está me faltando o ar.”"
+        },
+        {
+          "rotulo": "História da doença atual",
+          "texto": "Há 3 semanas, aumento progressivo da barriga. Há 2 dias, dor difusa leve no abdome e febre de 37,9 °C. Falta de ar ao deitar."
+        },
+        {
+          "rotulo": "Antecedentes",
+          "texto": "Cirrose por álcool diagnosticada há 2 anos; parou de beber há 6 meses. Usa espironolactona e furosemida, mas falha muitas doses. Nunca teve sangramento digestivo. Sem alergias."
+        },
+        {
+          "rotulo": "Exame físico",
+          "texto": "Ictérico (+/4+), aranhas vasculares no tórax e eritema palmar. Abdome globoso e tenso, com macicez móvel e sinal do piparote, dor leve difusa, sem defesa. Edema de membros inferiores. FC 96 bpm, PA 108 × 66 mmHg, FR 22 irpm, SpO₂ 95%, temperatura 37,9 °C. Orientado."
+        },
+        {
+          "rotulo": "Exames iniciais",
+          "texto": "Plaquetas 78.000/mm³, INR 1,8, albumina sérica 2,6 g/dL, creatinina 1,1 mg/dL, sódio 131 mEq/L."
+        }
+      ],
+      "etapas": [
+        {
+          "pergunta": "Qual é a conduta agora?",
+          "unica": true,
+          "opcoes": [
+            {
+              "texto": "Paracentese diagnóstica e de alívio",
+              "certo": true,
+              "porque": "Cirrótico com ascite, febre e dor: é preciso excluir peritonite bacteriana espontânea; a ascite tensa com falta de ar justifica o alívio."
+            },
+            {
+              "texto": "Corrigir antes o INR com plasma e as plaquetas com transfusão",
+              "certo": false,
+              "porque": "A coagulopatia do cirrótico não contraindica a paracentese; transfusão profilática não é recomendada."
+            },
+            {
+              "texto": "Antibiótico empírico, sem puncionar",
+              "certo": false,
+              "porque": "Colher o líquido antes do antibiótico é o que confirma o diagnóstico."
+            },
+            {
+              "texto": "Tomografia de abdome antes de decidir",
+              "certo": false,
+              "porque": "Não muda a conduta e atrasa o diagnóstico."
+            }
+          ],
+          "pontos": [
+            "Ascite com febre e dor: suspeita de peritonite bacteriana espontânea",
+            "Paracentese diagnóstica antes do antibiótico",
+            "INR alto e plaquetas baixas não contraindicam",
+            "Alívio pela ascite tensa com dispneia"
+          ],
+          "resposta": "Ascite com febre e dor no cirrótico é peritonite bacteriana espontânea até prova em contrário: paracentese diagnóstica antes do antibiótico, e de alívio pela ascite tensa. INR e plaquetas do cirrótico não contraindicam nem exigem transfusão."
+        },
+        {
+          "dado": "Ultrassom à beira do leito, no quadrante inferior esquerdo:",
+          "imagem": "assets/casos/ascite-us.jpg",
+          "credito": "Samir · Wikimedia Commons · CC BY 3.0",
+          "pergunta": "Onde você punciona?",
+          "unica": true,
+          "opcoes": [
+            {
+              "texto": "Quadrante inferior esquerdo, a dois terços da distância do umbigo à espinha ilíaca anterossuperior",
+              "certo": true,
+              "porque": "Lateral ao músculo reto, longe das artérias epigástricas inferiores, onde a ascite costuma ser mais profunda."
+            },
+            {
+              "texto": "Na borda lateral do músculo reto abdominal",
+              "certo": false,
+              "porque": "É por onde correm as artérias epigástricas inferiores."
+            },
+            {
+              "texto": "Sobre uma cicatriz cirúrgica",
+              "certo": false,
+              "porque": "Alças podem estar aderidas à parede."
+            },
+            {
+              "texto": "Linha média, 2 cm abaixo do umbigo",
+              "certo": false,
+              "porque": "Possível, mas costuma ter menos líquido e pode haver veias colaterais; o quadrante inferior esquerdo é o preferido."
+            }
+          ]
+        },
+        {
+          "pergunta": "Separe o material.",
+          "opcoes": [
+            {
+              "texto": "Cateter sobre agulha 14 a 16 G ou agulha própria de paracentese",
+              "certo": true,
+              "porque": "Permite drenar sem deixar agulha metálica no abdome."
+            },
+            {
+              "texto": "Luvas estéreis, campo e clorexidina",
+              "certo": true,
+              "porque": "Procedimento estéril."
+            },
+            {
+              "texto": "Lidocaína 1%",
+              "certo": true,
+              "porque": "Anestesia da pele até o peritônio."
+            },
+            {
+              "texto": "Frascos de hemocultura e tubos para celularidade e bioquímica",
+              "certo": true,
+              "porque": "Inocular a cultura à beira do leito aumenta a positividade."
+            },
+            {
+              "texto": "Sistema de drenagem com frascos a vácuo",
+              "certo": true,
+              "porque": "Para o alívio."
+            },
+            {
+              "texto": "Albumina humana 20%",
+              "certo": true,
+              "porque": "Repor se drenar mais de 5 L."
+            },
+            {
+              "texto": "Plasma fresco congelado",
+              "certo": false,
+              "porque": "Não é necessário antes da paracentese."
+            }
+          ]
+        },
+        {
+          "pergunta": "Descreva a técnica, do início ao fim.",
+          "pontos": [
+            "Explica, decúbito dorsal levemente lateralizado para o lado da punção; bexiga vazia",
+            "Confirma o ponto com ultrassom, se disponível",
+            "Antissepsia, campo e anestesia até o peritônio",
+            "Técnica em Z: desloca a pele cerca de 2 cm antes de entrar",
+            "Avança aspirando até o retorno de líquido",
+            "Colhe: celularidade com diferencial, albumina e proteína total, cultura em frasco de hemocultura",
+            "Drena o alívio; retira o cateter e faz curativo compressivo",
+            "Albumina 6 a 8 g por litro retirado se drenar mais de 5 L"
+          ],
+          "resposta": "Paciente em decúbito, ponto marcado (de preferência com ultrassom), antissepsia, campo e anestesia até o peritônio. Técnica em Z para o trajeto se fechar ao sair. Avançar aspirando, colher celularidade, albumina, proteína total e cultura em frasco de hemocultura, drenar o alívio e fazer curativo. Acima de 5 L, repor albumina 6 a 8 g por litro retirado."
+        },
+        {
+          "dado": "Líquido turvo. Resultado: 480 polimorfonucleares/mm³; albumina do líquido 0,9 g/dL (sérica 2,6 g/dL).",
+          "pergunta": "Interprete e conduza.",
+          "pontos": [
+            "Polimorfonucleares ≥ 250/mm³: peritonite bacteriana espontânea",
+            "Gradiente de albumina soro-ascite = 2,6 − 0,9 = 1,7 g/dL (≥ 1,1): ascite por hipertensão portal",
+            "Antibiótico venoso: cefalosporina de 3ª geração",
+            "Albumina 1,5 g/kg no 1º dia e 1 g/kg no 3º dia, para prevenir lesão renal",
+            "Depois, profilaxia secundária com antibiótico"
+          ],
+          "resposta": "Polimorfonucleares acima de 250/mm³: peritonite bacteriana espontânea. O gradiente de albumina de 1,7 g/dL confirma hipertensão portal. Tratar com cefalosporina de 3ª geração venosa e albumina 1,5 g/kg no 1º dia e 1 g/kg no 3º, que reduz lesão renal e mortalidade; depois, profilaxia secundária."
+        }
+      ],
+      "fonte": "AASLD Practice Guidance: ascites, spontaneous bacterial peritonitis and hepatorenal syndrome (Biggins et al., Hepatology 2021); EASL Clinical Practice Guidelines on decompensated cirrhosis (2018)"
+    },
+    {
+      "id": "caso-iot",
+      "resumo": "choque-hemorragico",
+      "sessao": "s11",
+      "minutos": 10,
+      "titulo": "Queda da laje no churrasco",
+      "local": "Sala de trauma · domingo, 17h",
+      "cena": "O SAMU entra com o paciente no colar. Ele ronca alto, há resto de vômito no canto da boca, e a esposa chora no corredor.",
+      "monitor": {
+        "FC": 88,
+        "PA": "138/84",
+        "FR": 12,
+        "SpO2": 90
+      },
+      "enunciado": "Você é o médico responsável pela via aérea na sala de trauma. Leia o caso, tome as decisões, escolha o material e descreva o procedimento.",
+      "historia": [
+        {
+          "rotulo": "Relato do SAMU",
+          "texto": "Homem de 45 anos, 80 kg, caiu da laje (cerca de 4 metros) há 40 minutos e bateu a cabeça. Perdeu a consciência no local e vomitou uma vez na ambulância. Colar cervical, prancha e O₂ por máscara."
+        },
+        {
+          "rotulo": "Exame físico",
+          "texto": "Respiração ruidosa, com roncos. Glasgow 7 (abertura ocular 1, verbal 2, motora 4). Pupilas isocóricas e fotorreagentes. Hematoma na região occipital. FC 88 bpm, PA 138 × 84 mmHg, FR 12 irpm, SpO₂ 90% com máscara. Murmúrio simétrico. Abdome flácido, pelve estável."
+        },
+        {
+          "rotulo": "AMPLE (pela esposa)",
+          "texto": "Sem alergias. Hipertenso, usa losartana. Bebeu cerveja e comeu churrasco há cerca de 1 hora."
+        }
+      ],
+      "etapas": [
+        {
+          "pergunta": "Qual é a prioridade agora?",
+          "unica": true,
+          "opcoes": [
+            {
+              "texto": "Via aérea definitiva: intubação orotraqueal em sequência rápida, com estabilização manual da coluna",
+              "certo": true,
+              "porque": "Glasgow 8 ou menos não protege a via aérea, e a hipóxia agrava a lesão cerebral."
+            },
+            {
+              "texto": "Tomografia de crânio antes de mexer na via aérea",
+              "certo": false,
+              "porque": "A via aérea vem antes de qualquer exame."
+            },
+            {
+              "texto": "Cânula orofaríngea e observar",
+              "certo": false,
+              "porque": "Serve de ponte; com Glasgow 7 e vômito, precisa de via aérea definitiva."
+            },
+            {
+              "texto": "Intubação nasotraqueal às cegas",
+              "certo": false,
+              "porque": "Contraindicada com possível fratura de base de crânio e pouco confiável."
+            }
+          ],
+          "pontos": [
+            "Glasgow ≤ 8: indicação de via aérea definitiva",
+            "Aspirar a boca e manter O₂ enquanto prepara",
+            "Sequência rápida (estômago cheio)",
+            "Restrição de movimento da coluna: abre a frente do colar e um auxiliar estabiliza a cabeça alinhada",
+            "Evitar hipóxia e hipotensão (lesão cerebral secundária)"
+          ],
+          "resposta": "Glasgow 7 com vômito: via aérea definitiva por intubação orotraqueal em sequência rápida, aspirando a boca e oxigenando enquanto prepara. Abre-se a frente do colar e um auxiliar mantém a cabeça alinhada. Hipóxia e hipotensão pioram a lesão cerebral."
+        },
+        {
+          "pergunta": "Monte a bandeja e as drogas (80 kg).",
+          "opcoes": [
+            {
+              "texto": "Laringoscópio testado ou videolaringoscópio",
+              "certo": true,
+              "porque": "Luz testada antes de começar."
+            },
+            {
+              "texto": "Tubo 7,5 a 8,0 com balonete testado e fio-guia",
+              "certo": true,
+              "porque": "Calibre do adulto."
+            },
+            {
+              "texto": "Bougie e dispositivo supraglótico separados",
+              "certo": true,
+              "porque": "Plano B se a glote não aparecer."
+            },
+            {
+              "texto": "Aspirador ligado com ponta rígida",
+              "certo": true,
+              "porque": "Há vômito na boca."
+            },
+            {
+              "texto": "Capnógrafo",
+              "certo": true,
+              "porque": "A confirmação do tubo é pelo CO₂ expirado."
+            },
+            {
+              "texto": "Etomidato 0,3 mg/kg (24 mg) ou cetamina",
+              "certo": true,
+              "porque": "Indutores com pouca queda de pressão."
+            },
+            {
+              "texto": "Rocurônio 1,2 mg/kg (cerca de 100 mg) ou succinilcolina 1,5 mg/kg",
+              "certo": true,
+              "porque": "Bloqueador neuromuscular da sequência rápida."
+            },
+            {
+              "texto": "Propofol 2 mg/kg em bolus",
+              "certo": false,
+              "porque": "Derruba a pressão; no trauma de crânio, a hipotensão piora o prognóstico."
+            },
+            {
+              "texto": "Tubo 6,0",
+              "certo": false,
+              "porque": "É o da cricotireoidostomia, não o da intubação do adulto."
+            }
+          ]
+        },
+        {
+          "dado": "Laringoscopia feita. Como se classifica o que se vê da glote:",
+          "imagem": "assets/casos/cormack-lehane.jpg",
+          "credito": "Tubus · Wikimedia Commons · CC BY-SA 3.0 (título original recortado)",
+          "pergunta": "Descreva a técnica da sequência rápida e explique a classificação da imagem.",
+          "pontos": [
+            "Preparação: material testado, aspirador, plano B",
+            "Pré-oxigenação com O₂ a 100% por cerca de 3 minutos",
+            "Indutor seguido do bloqueador, sem ventilar com pressão se não precisar",
+            "Estabilização manual alinhada, frente do colar aberta",
+            "Lâmina pela direita, afasta a língua, ponta na valécula, traciona para cima e para frente, sem alavanca nos dentes",
+            "Passa o tubo entre as cordas vocais até o balonete passar",
+            "Insufla o balonete; confirma com capnografia, ausculta e expansão",
+            "Fixa (cerca de 21 a 23 cm na rima labial) e pede radiografia",
+            "Cormack-Lehane: I glote toda; II parte posterior; III só epiglote; IV nem epiglote (III e IV: bougie, videolaringoscópio, plano B)"
+          ],
+          "resposta": "Preparar e testar o material, pré-oxigenar, fazer indutor e bloqueador, abrir a frente do colar com estabilização alinhada. Lâmina pela direita, ponta na valécula, tração para cima e para frente; passar o tubo pelas cordas até o balonete sumir, insuflar e confirmar com capnografia, ausculta e expansão. Fixar e pedir radiografia. Cormack-Lehane: I glote inteira, II só a parte posterior, III só a epiglote, IV nem a epiglote; nas classes III e IV, usar bougie, videolaringoscópio e o plano B."
+        },
+        {
+          "dado": "Cinco minutos depois, a saturação cai. O murmúrio só é ouvido à direita, e o tubo está marcado em 27 cm na rima labial.",
+          "monitor": {
+            "FC": 104,
+            "PA": "132/80",
+            "SpO2": 88
+          },
+          "pergunta": "O que aconteceu e o que você faz?",
+          "pontos": [
+            "Intubação seletiva no brônquio principal direito",
+            "Desinsuflar o balonete, recuar o tubo 2 a 3 cm, reinsuflar e reauscultar",
+            "Se não resolver, revisar: tubo deslocado, obstruído, pneumotórax ou falha do equipamento",
+            "Radiografia: ponta alguns centímetros acima da carina"
+          ],
+          "resposta": "Tubo profundo demais, no brônquio principal direito (mais vertical). Desinsuflar, recuar 2 a 3 cm, reinsuflar e reauscultar. Se não resolver, revisar deslocamento, obstrução, pneumotórax e equipamento. Confirmar com radiografia, com a ponta alguns centímetros acima da carina."
+        }
+      ],
+      "fonte": "ATLS 11, cap. 2 (via aérea; Glasgow ≤ 8; restrição de movimento da coluna) e capítulo de trauma cranioencefálico; Cormack e Lehane, Anaesthesia 1984"
     }
   ]
 }
