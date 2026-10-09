@@ -166,16 +166,6 @@ main { max-width: 1040px; margin: 0 auto; padding: 28px 16px 48px; outline: none
 .caso-card { grid-template-columns: 1fr; border-left: 4px solid var(--filete); }
 .caso-card.pratica { border-left-color: #4f6b3a; }
 .caso-card .local { display: block; font-style: italic; color: var(--fraco); font-size: 15px; margin-top: 2px; }
-.cena { font-style: italic; font-size: 19px; line-height: 1.55; text-align: center; max-width: 760px; margin: 22px auto 14px; color: var(--tinta-2); }
-.monitor { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px; background: #0e1412; border: 2px solid #2a332f; border-radius: 6px; padding: 10px 12px; margin: 14px auto; max-width: 640px; font-family: "Courier New", ui-monospace, monospace; box-shadow: inset 0 0 18px rgba(0, 0, 0, .7); }
-.monitor.alerta { border-color: #8c2a1e; animation: alarme 1.2s ease-in-out 3; }
-@keyframes alarme { 50% { box-shadow: inset 0 0 18px rgba(0, 0, 0, .7), 0 0 0 4px rgba(200, 40, 30, .35); } }
-.sinal-vital { flex: 1 1 96px; display: grid; grid-template-rows: auto auto auto; text-align: center; padding: 4px 6px; }
-.sinal-vital .nome { font-size: 12px; letter-spacing: .1em; opacity: .8; }
-.sinal-vital .valor { font-size: 30px; font-weight: 700; line-height: 1.1; }
-.sinal-vital .unidade { font-size: 11px; opacity: .7; }
-.sinal-vital.fc { color: #4ee07a; } .sinal-vital.pa { color: #ff6b6b; } .sinal-vital.fr { color: #f2d45c; }
-.sinal-vital.sat { color: #5fd3f3; } .sinal-vital.temp { color: #e8e8e8; }
 .prontuario { margin: 22px 0 8px; padding: 20px 24px; border: 1px solid var(--filete); background: rgba(255, 255, 255, .35); }
 .prontuario h2, .titulo-perguntas { font-size: 15px; letter-spacing: .14em; text-transform: uppercase; font-weight: 600; text-align: center; margin: 0 0 12px; color: var(--tinta-2); }
 .titulo-perguntas { margin: 26px 0 4px; }

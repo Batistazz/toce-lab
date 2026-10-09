@@ -6,7 +6,7 @@
       "resumo": null,
       "sessao": "s01",
       "minutos": 10,
-      "titulo": "Sonolenta, febril e sem veia",
+      "titulo": "Feminino, 64 anos · febre e sonolência",
       "enunciado": "Você é o médico plantonista da sala de emergência. Leia o caso e responda às etapas na ordem.",
       "etapas": [
         {
@@ -104,22 +104,14 @@
           "texto": "Recebeu 30 mL/kg de cristaloide (2.100 mL) e antibiótico. Continua com PA 78 × 42 mmHg. Há dois acessos periféricos de 22 G no dorso das mãos, e um deles acabou de perder. A equipe decide iniciar noradrenalina."
         }
       ],
-      "local": "Sala de emergência · domingo, 14h",
-      "cena": "A filha entra empurrando a cadeira de rodas: “Ela não está falando coisa com coisa desde cedo.” A mãe está quente, pálida e não abre bem os olhos.",
-      "monitor": {
-        "FC": 118,
-        "PA": "82/46",
-        "FR": 24,
-        "SpO2": 95,
-        "T": 38.6
-      }
+      "local": "Sala de emergência · domingo, 14h"
     },
     {
       "id": "caso-pneumotorax",
       "resumo": "politraumatizado",
       "sessao": "s10",
       "minutos": 8,
-      "titulo": "Agressão com faca, sábado à noite",
+      "titulo": "Masculino, 25 anos · ferimento por arma branca no tórax",
       "enunciado": "Você é o médico da sala de trauma. Leia o caso e responda às etapas na ordem.",
       "etapas": [
         {
@@ -166,12 +158,7 @@
             "Seguir com dreno de tórax",
             "Conferir também a posição do tubo (intubação seletiva)"
           ],
-          "resposta": "A pressão positiva transformou o pneumotórax em hipertensivo. Descompressão imediata (agulha de 14 G ou maior no 5º EIC entre as axilares anterior e média, ou 2º EIC na hemiclavicular, ou toracostomia digital), seguida de dreno. Conferir o tubo, porque intubação seletiva também abole o murmúrio.",
-          "monitor": {
-            "FC": 136,
-            "PA": "72/40",
-            "SpO2": 82
-          }
+          "resposta": "A pressão positiva transformou o pneumotórax em hipertensivo. Descompressão imediata (agulha de 14 G ou maior no 5º EIC entre as axilares anterior e média, ou 2º EIC na hemiclavicular, ou toracostomia digital), seguida de dreno. Conferir o tubo, porque intubação seletiva também abole o murmúrio."
         }
       ],
       "fonte": "ATLS 11, caps. 1 e 5; aula da disciplina (caso 4)",
@@ -193,21 +180,14 @@
           "texto": "Sem alergias e sem medicamentos de uso contínuo. Nega doenças. Bebeu cerveja hoje; última refeição há 3 horas. Agressão em via pública."
         }
       ],
-      "local": "Sala de trauma · sábado, 23h40",
-      "cena": "O rádio avisa: vítima de agressão com faca, consciente, chegando em 5 minutos. A equipe veste o avental e você assume a cabeceira.",
-      "monitor": {
-        "FC": 98,
-        "PA": "128/80",
-        "FR": 24,
-        "SpO2": 93
-      }
+      "local": "Sala de trauma · sábado, 23h40"
     },
     {
       "id": "caso-hemotorax",
       "resumo": "politraumatizado",
       "sessao": "s10",
       "minutos": 8,
-      "titulo": "Motorista contra o poste",
+      "titulo": "Feminino, 40 anos · colisão automobilística",
       "enunciado": "Você é o médico da sala de trauma. Leia o caso e responda às etapas na ordem.",
       "etapas": [
         {
@@ -250,13 +230,7 @@
             "Manter ressuscitação hemostática (protocolo de transfusão maciça), TXA se até 3 h",
             "Se o serviço não opera, transferir"
           ],
-          "resposta": "Choque persistente com 1.700 mL drenados: controle cirúrgico urgente. O ATLS 11 decide pela fisiologia, e o débito apoia. Ressuscitação hemostática com protocolo de transfusão maciça e TXA se até 3 h do trauma; se o hospital não tem cirurgia torácica, transferir.",
-          "monitor": {
-            "FC": 128,
-            "PA": "84/50",
-            "FR": 30,
-            "SpO2": 93
-          }
+          "resposta": "Choque persistente com 1.700 mL drenados: controle cirúrgico urgente. O ATLS 11 decide pela fisiologia, e o débito apoia. Ressuscitação hemostática com protocolo de transfusão maciça e TXA se até 3 h do trauma; se o hospital não tem cirurgia torácica, transferir."
         }
       ],
       "fonte": "ATLS 11, caps. 5 e 6; aula da disciplina",
@@ -278,21 +252,14 @@
           "texto": "Sem alergias. Usa anticoncepcional oral. Sem doenças. Almoçou há 2 horas."
         }
       ],
-      "local": "Sala de trauma · terça, 7h15",
-      "cena": "Horário de pico. O SAMU entra com uma motorista na prancha; ela segura o lado esquerdo do peito a cada respiração.",
-      "monitor": {
-        "FC": 112,
-        "PA": "100/70",
-        "FR": 26,
-        "SpO2": 94
-      }
+      "local": "Sala de trauma · terça, 7h15"
     },
     {
       "id": "caso-torax-instavel",
       "resumo": "politraumatizado",
       "sessao": "s10",
       "minutos": 7,
-      "titulo": "Queda da escada ao limpar a calha",
+      "titulo": "Masculino, 72 anos · queda de escada",
       "enunciado": "Você é o médico da sala de emergência. Leia o caso e responda às etapas na ordem.",
       "etapas": [
         {
@@ -326,7 +293,7 @@
           "resposta": "Analgesia multimodal e higiene pulmonar. Não se intuba só pelo paradoxal: intuba-se se não ventila, se a contusão causa hipóxia ou se a sedação exigir. Idoso frágil e antiagregado se beneficia de centro de trauma."
         },
         {
-          "dado": "36 horas depois, a SpO₂ cai para 86% com O₂ e surgem estertores na base direita.",
+          "dado": "36 horas depois, a SpO₂ cai para 86% com O₂ e surgem estertores na base direita. FC 112 bpm, FR 30 irpm.",
           "pergunta": "Qual é a causa provável e o que fazer?",
           "pontos": [
             "Contusão pulmonar, que piora em 24 a 72 h",
@@ -334,13 +301,7 @@
             "Evitar sobrecarga de volume",
             "Considerar fixação cirúrgica em casos selecionados"
           ],
-          "resposta": "Contusão pulmonar, que piora entre 24 e 72 h. Oxigênio e suporte ventilatório se necessário, evitando excesso de volume; a fixação cirúrgica das costelas entra em casos selecionados.",
-          "monitor": {
-            "FC": 112,
-            "PA": "150/90",
-            "FR": 30,
-            "SpO2": 86
-          }
+          "resposta": "Contusão pulmonar, que piora entre 24 e 72 h. Oxigênio e suporte ventilatório se necessário, evitando excesso de volume; a fixação cirúrgica das costelas entra em casos selecionados."
         }
       ],
       "fonte": "ATLS 11, cap. 5; aula da disciplina",
@@ -362,21 +323,14 @@
           "texto": "Consciente, Glasgow 15, fala frases curtas por causa da dor. FR 26 irpm, SpO₂ 94% com O₂ por máscara, FC 104 bpm, PA 146 × 88 mmHg. Equimose e crepitação sobre os arcos costais direitos, da linha axilar anterior para trás. Um segmento da parede direita afunda na inspiração e se projeta na expiração. Murmúrio presente dos dois lados, diminuído na base direita. Abdome flácido. FAST sem líquido livre."
         }
       ],
-      "local": "Sala de emergência · sábado, 10h",
-      "cena": "O filho conta que o pai insistiu em subir sozinho na escada. Ele respira curto, segurando o lado direito do peito com a mão.",
-      "monitor": {
-        "FC": 104,
-        "PA": "146/88",
-        "FR": 26,
-        "SpO2": 94
-      }
+      "local": "Sala de emergência · sábado, 10h"
     },
     {
       "id": "caso-tamponamento",
       "resumo": "politraumatizado",
       "sessao": "s10",
       "minutos": 6,
-      "titulo": "Briga na saída da festa",
+      "titulo": "Masculino, 22 anos · ferimento paraesternal por arma branca",
       "enunciado": "Você é o médico da sala de trauma. Leia o caso e responda às etapas na ordem.",
       "etapas": [
         {
@@ -417,12 +371,7 @@
             "Ferimento penetrante torácico com sinais de vida recentes: maior probabilidade de benefício",
             "Depende de equipe treinada e recursos"
           ],
-          "resposta": "Toracotomia de reanimação. Ferimento penetrante torácico com perda recente dos sinais de vida é o cenário de maior benefício relativo, desde que haja equipe e recursos.",
-          "monitor": {
-            "FC": "—",
-            "PA": "—",
-            "SpO2": "—"
-          }
+          "resposta": "Toracotomia de reanimação. Ferimento penetrante torácico com perda recente dos sinais de vida é o cenário de maior benefício relativo, desde que haja equipe e recursos."
         }
       ],
       "fonte": "ATLS 11, caps. 5 e 6; aula da disciplina",
@@ -440,21 +389,14 @@
           "texto": "Sem alergias, sem medicamentos, sem doenças conhecidas. Bebeu durante a festa."
         }
       ],
-      "local": "Sala de trauma · domingo, 2h10",
-      "cena": "Um carro para buzinando na porta do pronto-socorro. Dois amigos carregam o rapaz até a maca: “Foi uma facada, doutor, foi rápido.”",
-      "monitor": {
-        "FC": 130,
-        "PA": "80/50",
-        "FR": 28,
-        "SpO2": 96
-      }
+      "local": "Sala de trauma · domingo, 2h10"
     },
     {
       "id": "caso-fast",
       "resumo": "choque-hemorragico",
       "sessao": "s11",
       "minutos": 8,
-      "titulo": "Motociclista na rodovia",
+      "titulo": "Masculino, 30 anos · colisão de moto",
       "enunciado": "Você é o médico da sala de trauma. Leia o caso e responda às etapas na ordem.",
       "etapas": [
         {
@@ -490,7 +432,7 @@
           "resposta": "Controle da fonte por laparotomia, sem TC. Em paralelo: sangue precoce (próximo de 1:1:1), pouco cristaloide, TXA até 3 h, aquecimento, correção do cálcio e hipotensão permissiva por não haver TCE."
         },
         {
-          "dado": "Na cirurgia: temperatura 34,5 °C, pH 7,15, sangramento difuso, coagulopatia.",
+          "dado": "Na cirurgia: temperatura 34,5 °C, pH 7,15, sangramento difuso, coagulopatia. FC 146 bpm, PA 70 × 40 mmHg.",
           "pergunta": "Que estratégia cirúrgica adotar?",
           "pontos": [
             "Cirurgia de controle de danos: abreviada",
@@ -498,12 +440,7 @@
             "Correção da fisiologia na UTI (espiral letal)",
             "Reabordagem para o tratamento definitivo"
           ],
-          "resposta": "Controle de danos: operação abreviada com hemostasia, controle de contaminação e empacotamento, correção da hipotermia, acidose e coagulopatia na UTI e reabordagem depois.",
-          "monitor": {
-            "FC": 146,
-            "PA": "70/40",
-            "T": 34.5
-          }
+          "resposta": "Controle de danos: operação abreviada com hemostasia, controle de contaminação e empacotamento, correção da hipotermia, acidose e coagulopatia na UTI e reabordagem depois."
         }
       ],
       "fonte": "ATLS 11, caps. 6 e 21; aula da disciplina",
@@ -525,21 +462,14 @@
           "texto": "Não sabe referir alergias ou medicamentos. Última refeição desconhecida."
         }
       ],
-      "local": "Sala de trauma · sexta, 19h",
-      "cena": "Chove na BR. A equipe do SAMU entra apressada: “Colisão com carro, foi arremessado. Perdeu a cor no caminho.”",
-      "monitor": {
-        "FC": 140,
-        "PA": "78/40",
-        "FR": 28,
-        "SpO2": 95
-      }
+      "local": "Sala de trauma · sexta, 19h"
     },
     {
       "id": "caso-laceracao-hepatica",
       "resumo": "choque-hemorragico",
       "sessao": "s11",
       "minutos": 7,
-      "titulo": "Passageira do banco da frente",
+      "titulo": "Feminino, 30 anos · passageira em colisão frontal",
       "enunciado": "Você é o médico da sala de trauma de um hospital com cirurgião, UTI e tomografia. Leia o caso e responda às etapas na ordem.",
       "etapas": [
         {
@@ -579,12 +509,7 @@
             "Laparotomia urgente com ressuscitação",
             "Não insistir em observação passiva"
           ],
-          "resposta": "Falha do tratamento não operatório: instabilidade e peritonite indicam laparotomia urgente, com ressuscitação hemostática.",
-          "monitor": {
-            "FC": 128,
-            "PA": "86/50",
-            "FR": 26
-          }
+          "resposta": "Falha do tratamento não operatório: instabilidade e peritonite indicam laparotomia urgente, com ressuscitação hemostática."
         }
       ],
       "fonte": "ATLS 11, cap. 21; aula da disciplina",
@@ -610,21 +535,14 @@
           "texto": "Alergia a dipirona. Sem medicamentos, sem doenças. Não está grávida (beta-hCG negativo)."
         }
       ],
-      "local": "Sala de trauma · quarta, 16h",
-      "cena": "Ela chega andando com ajuda do socorrista, apertando o lado direito da barriga, e pergunta se o marido, que dirigia, está bem.",
-      "monitor": {
-        "FC": 92,
-        "PA": "124/78",
-        "FR": 18,
-        "SpO2": 98
-      }
+      "local": "Sala de trauma · quarta, 16h"
     },
     {
       "id": "caso-colica-renal",
       "resumo": "afeccoes-urologicas",
       "sessao": "rev",
       "minutos": 7,
-      "titulo": "Não consegue ficar parado na maca",
+      "titulo": "Masculino, 38 anos · dor lombar",
       "enunciado": "Você é o médico do pronto-socorro. Leia o caso e responda às etapas na ordem.",
       "etapas": [
         {
@@ -697,20 +615,14 @@
           "texto": "Urina com hematúria microscópica, sem nitrito, leucócitos normais. Creatinina 0,9 mg/dL."
         }
       ],
-      "local": "Pronto-socorro · quinta, 3h",
-      "cena": "Da triagem já se ouve: um homem anda de um lado para o outro, senta, levanta, e pede “qualquer coisa para essa dor”.",
-      "monitor": {
-        "FC": 102,
-        "PA": "150/90",
-        "T": 36.8
-      }
+      "local": "Pronto-socorro · quinta, 3h"
     },
     {
       "id": "caso-rim-infectado",
       "resumo": "afeccoes-urologicas",
       "sessao": "rev",
       "minutos": 6,
-      "titulo": "Voltou com febre três dias depois",
+      "titulo": "Feminino, 52 anos · febre e calafrios",
       "enunciado": "Você é o médico do pronto-socorro. Leia o caso e responda às etapas na ordem.",
       "etapas": [
         {
@@ -778,21 +690,14 @@
           "texto": "Leucócitos 19.000/mm³, creatinina 1,6 mg/dL, lactato 3,2 mmol/L. Urina com nitrito positivo e leucocitúria."
         }
       ],
-      "local": "Pronto-socorro · segunda, 22h",
-      "cena": "Você reconhece a paciente: foi atendida aqui na sexta-feira. Agora ela treme embaixo de dois cobertores, ao lado do marido.",
-      "monitor": {
-        "FC": 118,
-        "PA": "90/60",
-        "FR": 24,
-        "T": 39.0
-      }
+      "local": "Pronto-socorro · segunda, 22h"
     },
     {
       "id": "caso-torcao",
       "resumo": "afeccoes-urologicas",
       "sessao": "rev",
       "minutos": 6,
-      "titulo": "Acordou com dor às 6 da manhã",
+      "titulo": "Masculino, 15 anos · dor escrotal",
       "enunciado": "Você é o médico do pronto-socorro. Leia o caso e responda às etapas na ordem.",
       "etapas": [
         {
@@ -857,19 +762,14 @@
           "texto": "Muito incomodado pela dor. Temperatura 36,9 °C, FC 104 bpm. Abdome flácido. Testículo direito elevado e horizontalizado, muito doloroso ao toque, com edema discreto do escroto. Reflexo cremastérico ausente à direita e presente à esquerda. Elevar o escroto não alivia a dor."
         }
       ],
-      "local": "Pronto-socorro · sábado, 9h",
-      "cena": "A mãe chega aflita com o filho curvado de dor. Ele demora a contar onde dói, com vergonha, e só fala quando ela sai da sala.",
-      "monitor": {
-        "FC": 104,
-        "T": 36.9
-      }
+      "local": "Pronto-socorro · sábado, 9h"
     },
     {
       "id": "caso-queimado",
       "resumo": "queimaduras",
       "sessao": "s08",
       "minutos": 10,
-      "titulo": "Retirado de um quarto em chamas",
+      "titulo": "Masculino, 45 anos · vítima de incêndio",
       "enunciado": "Você é o médico da sala de emergência. Leia o caso e responda às etapas na ordem.",
       "etapas": [
         {
@@ -932,21 +832,14 @@
           "texto": "Hipertenso (enalapril), tabagista. Sem alergias. Não sabe quando tomou a última vacina antitetânica. Jantou há 4 horas."
         }
       ],
-      "local": "Sala de emergência · quinta, 21h",
-      "cena": "Os bombeiros avisam por rádio: homem retirado de casa em chamas, chegando em 10 minutos. Quando a maca entra, a sala fica com cheiro de fumaça.",
-      "monitor": {
-        "FC": 116,
-        "PA": "132/84",
-        "FR": 22,
-        "SpO2": 98
-      }
+      "local": "Sala de emergência · quinta, 21h"
     },
     {
       "id": "caso-sondagem",
       "resumo": "afeccoes-urologicas",
       "sessao": "s09",
       "minutos": 10,
-      "titulo": "Não urina desde ontem à noite",
+      "titulo": "Masculino, 68 anos · não consegue urinar",
       "enunciado": "Você é o médico do pronto-socorro. Leia o caso, tome as decisões, escolha o material e descreva o procedimento.",
       "historia": [
         {
@@ -1126,20 +1019,14 @@
         }
       ],
       "fonte": "Apostila Afecções Urológicas da monitoria; ATLS 11, cap. 21 (lesão de uretra); checklist de sondagem da monitoria",
-      "local": "Pronto-socorro · quarta, 6h",
-      "cena": "Ele está curvado na cadeira da recepção, com a mão no baixo ventre, e pede para ser atendido logo: “Não aguento mais.”",
-      "monitor": {
-        "FC": 98,
-        "PA": "168/96",
-        "T": 36.7
-      }
+      "local": "Pronto-socorro · quarta, 6h"
     },
     {
       "id": "caso-dreno-torax",
       "resumo": "politraumatizado",
       "sessao": "s10",
       "minutos": 10,
-      "titulo": "Queda do andaime",
+      "titulo": "Masculino, 34 anos · queda de altura",
       "enunciado": "Você é o médico da sala de trauma. Leia o caso, tome as decisões, escolha o material e descreva o procedimento.",
       "historia": [
         {
@@ -1286,21 +1173,14 @@
         }
       ],
       "fonte": "ATLS 11, cap. 5 e apêndice de procedimentos; apostila ATLS e Trauma Torácico da monitoria",
-      "local": "Sala de trauma · segunda, 15h",
-      "cena": "Os colegas de obra vieram atrás da ambulância. Um deles conta que ele “caiu de lado em cima da viga” e não conseguiu se levantar.",
-      "monitor": {
-        "FC": 108,
-        "PA": "112/72",
-        "FR": 24,
-        "SpO2": 93
-      }
+      "local": "Sala de trauma · segunda, 15h"
     },
     {
       "id": "caso-crico",
       "resumo": "choque-hemorragico",
       "sessao": "s11",
       "minutos": 8,
-      "titulo": "Rosto contra o volante",
+      "titulo": "Masculino, 42 anos · trauma de face",
       "enunciado": "Você é o médico responsável pela via aérea na sala de trauma. Leia o caso, tome as decisões, escolha o material e descreva o procedimento.",
       "historia": [
         {
@@ -1428,28 +1308,15 @@
         }
       ],
       "fonte": "ATLS 11, cap. 2; Difficult Airway Society, diretriz de 2015 (técnica bisturi-bougie-tubo); checklist de cricotireoidostomia da monitoria",
-      "local": "Sala de trauma · domingo, 4h",
-      "cena": "O SAMU entra ventilando com bolsa e máscara. Há sangue na prancha, no colar e nas luvas da equipe; o oxímetro apita sem parar.",
-      "monitor": {
-        "FC": 124,
-        "PA": "104/68",
-        "SpO2": 84
-      }
+      "local": "Sala de trauma · domingo, 4h"
     },
     {
       "id": "caso-intraossea",
       "resumo": null,
       "sessao": "s01",
       "minutos": 8,
-      "titulo": "Dois anos, diarreia e olhar parado",
+      "titulo": "Feminino, 2 anos · diarreia e sonolência",
       "local": "Sala de emergência · segunda, 11h",
-      "cena": "A mãe entra correndo com a filha no colo, mole, enrolada numa manta: “Ela não está acordando direito.”",
-      "monitor": {
-        "FC": 178,
-        "PA": "68/40",
-        "FR": 40,
-        "SpO2": 97
-      },
       "enunciado": "Você é o médico da sala de emergência. Leia o caso, tome as decisões, escolha o material e descreva o procedimento.",
       "historia": [
         {
@@ -1598,13 +1465,7 @@
           "resposta": "Perna estendida com coxim, antissepsia, agulha perpendicular (ou angulada para longe da placa de crescimento) com pressão e rotação até perder a resistência. A agulha fica firme sozinha; retirar o mandril, aspirar e lavar com soro sem extravasar. Fixar e fazer 20 mL/kg (240 mL) de cristaloide isotônico com seringa, reavaliando a cada bolus. É acesso temporário: trocar por veia assim que possível."
         },
         {
-          "dado": "Após o segundo bolus, a panturrilha esquerda está endurecida e maior que a direita, e o soro passa com resistência.",
-          "monitor": {
-            "FC": 150,
-            "PA": "80/48",
-            "FR": 36,
-            "SpO2": 97
-          },
+          "dado": "Após o segundo bolus, a panturrilha esquerda está endurecida e maior que a direita, e o soro passa com resistência. FC 150 bpm, PA 80 × 48 mmHg, FR 36 irpm, SpO₂ 97%.",
           "pergunta": "O que aconteceu e o que você faz?",
           "pontos": [
             "Extravasamento: agulha fora da medula ou transfixou o osso",
@@ -1623,15 +1484,8 @@
       "resumo": null,
       "sessao": "s01",
       "minutos": 7,
-      "titulo": "Sangue na pia do banheiro",
+      "titulo": "Masculino, 54 anos · vômitos com sangue",
       "local": "Pronto-socorro · terça, 20h",
-      "cena": "Na recepção, um homem vomita sangue vivo na pia do banheiro. A técnica de enfermagem o traz de cadeira de rodas, pálido, segurando um saco plástico.",
-      "monitor": {
-        "FC": 118,
-        "PA": "96/60",
-        "FR": 22,
-        "SpO2": 97
-      },
       "enunciado": "Você é o médico do pronto-socorro. Leia o caso, tome as decisões, escolha o material e descreva o procedimento.",
       "historia": [
         {
@@ -1758,13 +1612,7 @@
           "resposta": "Higiene das mãos e explicação. Garrote, escolha da veia, antissepsia sem tocar de novo. Pele tracionada, bisel para cima a 15–30°, refluxo na câmara, abaixar o ângulo, avançar o cateter sobre a agulha. Soltar o garrote, comprimir acima da ponta, retirar a agulha direto no perfurocortante. Colher, lavar, fixar e identificar."
         },
         {
-          "dado": "Duas horas depois, o braço esquerdo está inchado, frio e pálido em volta do cateter, e o soro parou de correr.",
-          "monitor": {
-            "FC": 104,
-            "PA": "108/68",
-            "FR": 20,
-            "SpO2": 97
-          },
+          "dado": "Duas horas depois, o braço esquerdo está inchado, frio e pálido em volta do cateter, e o soro parou de correr. FC 104 bpm, PA 108 × 68 mmHg.",
           "pergunta": "O que aconteceu e o que fazer?",
           "pontos": [
             "Infiltração: o líquido está fora da veia",
@@ -1783,16 +1631,8 @@
       "resumo": null,
       "sessao": "s02",
       "minutos": 10,
-      "titulo": "A barriga não para de crescer",
+      "titulo": "Masculino, 61 anos · aumento do volume abdominal",
       "local": "Enfermaria · quinta, 10h",
-      "cena": "Você é chamado ao leito 12. O paciente está sentado na beira da cama, porque deitado “o ar não entra”, com a barriga esticada e brilhante.",
-      "monitor": {
-        "FC": 96,
-        "PA": "108/66",
-        "FR": 22,
-        "SpO2": 95,
-        "T": 37.9
-      },
       "enunciado": "Você é o médico da enfermaria. Leia o caso, tome as decisões, escolha o material e descreva o procedimento.",
       "historia": [
         {
@@ -1957,15 +1797,8 @@
       "resumo": "choque-hemorragico",
       "sessao": "s11",
       "minutos": 10,
-      "titulo": "Queda da laje no churrasco",
+      "titulo": "Masculino, 45 anos · queda de laje",
       "local": "Sala de trauma · domingo, 17h",
-      "cena": "O SAMU entra com o paciente no colar. Ele ronca alto, há resto de vômito no canto da boca, e a esposa chora no corredor.",
-      "monitor": {
-        "FC": 88,
-        "PA": "138/84",
-        "FR": 12,
-        "SpO2": 90
-      },
       "enunciado": "Você é o médico responsável pela via aérea na sala de trauma. Leia o caso, tome as decisões, escolha o material e descreva o procedimento.",
       "historia": [
         {
@@ -2085,12 +1918,7 @@
           "resposta": "Preparar e testar o material, pré-oxigenar, fazer indutor e bloqueador, abrir a frente do colar com estabilização alinhada. Lâmina pela direita, ponta na valécula, tração para cima e para frente; passar o tubo pelas cordas até o balonete sumir, insuflar e confirmar com capnografia, ausculta e expansão. Fixar e pedir radiografia. Cormack-Lehane: I glote inteira, II só a parte posterior, III só a epiglote, IV nem a epiglote; nas classes III e IV, usar bougie, videolaringoscópio e o plano B."
         },
         {
-          "dado": "Cinco minutos depois, a saturação cai. O murmúrio só é ouvido à direita, e o tubo está marcado em 27 cm na rima labial.",
-          "monitor": {
-            "FC": 104,
-            "PA": "132/80",
-            "SpO2": 88
-          },
+          "dado": "Cinco minutos depois, a saturação cai. O murmúrio só é ouvido à direita, e o tubo está marcado em 27 cm na rima labial. SpO₂ 88%, FC 104 bpm, PA 132 × 80 mmHg.",
           "pergunta": "O que aconteceu e o que você faz?",
           "pontos": [
             "Intubação seletiva no brônquio principal direito",

@@ -323,14 +323,6 @@ function tickOsce(e) {
 }
 
 /* ---------- estação escrita (caso em etapas) ---------- */
-function monitor(m, alerta) {
-  if (!m) return "";
-  const campos = [["FC", m.FC, "bpm", "fc"], ["PA", m.PA, "mmHg", "pa"], ["FR", m.FR, "irpm", "fr"], ["SpO₂", m.SpO2, "%", "sat"], ["T", m.T, "°C", "temp"]]
-    .filter(([, v]) => v !== undefined)
-    .map(([n, v, u, cls]) => `<div class="sinal-vital ${cls}"><span class="nome">${n}</span><span class="valor">${esc(String(v).replace(".", ","))}</span><span class="unidade">${u}</span></div>`).join("");
-  return `<div class="monitor ${alerta ? "alerta" : ""}" role="img" aria-label="Monitor de sinais vitais">${campos}</div>`;
-}
-
 // etapa de decisão: "unica" vira escolha única; senão, marque tudo o que usaria
 function blocoOpcoes(p, chave, aberto, textos) {
   const sel = JSON.parse(textos[`${chave}:sel`] ?? "[]");
@@ -357,8 +349,7 @@ function telaCaso(id) {
     const pontos = (p.pontos ?? []).map((pt, j) => `<li><label><input type="checkbox" data-ponto="${i}-${j}"><span>${esc(pt)}</span></label></li>`).join("");
     return `<section class="pergunta-caso">
       <span class="rotulo">Etapa ${i + 1} de ${c.etapas.length}</span>
-      ${monitor(p.monitor, true)}
-      ${p.dado ? `<div class="caixa dado"><span class="rotulo">Nova informação</span><p style="margin:2px 0 0">${esc(p.dado)}</p></div>` : ""}
+      ${p.dado ? `<div class="caixa dado"><span class="rotulo">Evolução</span><p style="margin:2px 0 0">${esc(p.dado)}</p></div>` : ""}
       ${p.imagem ? `<figure class="imagem-caso"><img src="${esc(p.imagem)}" alt="Exame da etapa ${i + 1}"><figcaption>${esc(p.credito ?? "")}</figcaption></figure>` : ""}
       <p class="enunciado">${esc(p.pergunta)}</p>
       ${p.opcoes ? blocoOpcoes(p, chave, aberto, textos) : ""}
@@ -378,8 +369,6 @@ function telaCaso(id) {
     ${abertura(`${c.local ? `${esc(c.local)} · ` : ""}${c.minutos} minutos · ${c.etapas.length} etapas`, esc(c.titulo), "")}
     <div class="caixa"><span class="rotulo">Instrução de porta</span><p style="margin:4px 0 0">${esc(c.enunciado)}</p></div>
     ${blocoRelogio(c)}
-    ${c.cena ? `<p class="cena">${esc(c.cena)}</p>` : ""}
-    ${monitor(c.monitor)}
     ${c.historia ? `<section class="prontuario"><h2>Caso clínico</h2>${c.historia.map((h) => `<p><span class="campo">${esc(h.rotulo)}.</span> ${esc(h.texto)}</p>`).join("")}</section>
     <h2 class="titulo-perguntas">Perguntas</h2>` : ""}
     ${etapas}
