@@ -6750,6 +6750,756 @@
    "correta": 1,
    "comentario": "Na hérnia por deslizamento, um órgão como bexiga ou cólon constitui parte da parede do saco. A abertura inadvertida pode lesar esse órgão.",
    "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; HerniaSurge 2018."
+  },
+  {
+   "id": "q-ac-01",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Um estudante de 21 anos relata dor inicialmente periumbilical que, após algumas horas, se fixa na fossa ilíaca direita. Qual mecanismo explica essa mudança?",
+   "alternativas": [
+    "Obstrução ureteral seguida de irritação da bexiga.",
+    "Distensão vesicular seguida de inflamação pancreática.",
+    "Dor visceral inicial seguida de irritação do peritônio parietal.",
+    "Isquemia colônica inicial seguida de obstrução intestinal."
+   ],
+   "correta": 2,
+   "comentario": "A dor visceral da apendicite costuma começar mal localizada e depois se tornar somática na fossa ilíaca direita. A migração é típica, embora sua ausência não afaste o diagnóstico.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; WSES 2020 (apendicite)."
+  },
+  {
+   "id": "q-ac-02",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Uma paciente de 19 anos apresenta dor abdominal, seguida horas depois por anorexia e náuseas. Qual sequência é mais compatível com a história típica de apendicite?",
+   "alternativas": [
+    "Dor antes de anorexia, náuseas ou vômitos.",
+    "Vômitos intensos antes de qualquer dor abdominal.",
+    "Icterícia antes da dor na fossa ilíaca direita.",
+    "Diarreia sanguinolenta antes da dor abdominal."
+   ],
+   "correta": 0,
+   "comentario": "Na apresentação clássica, os sintomas digestivos surgem depois do início da dor. A sequência ajuda na avaliação clínica, mas não fecha o diagnóstico isoladamente.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; WSES 2020 (apendicite)."
+  },
+  {
+   "id": "q-ac-03",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Mulher de 26 anos, sexualmente ativa, chega com dor na fossa ilíaca direita e atraso menstrual. Qual exame não deve ser omitido na avaliação inicial?",
+   "alternativas": [
+    "Amilase sérica.",
+    "Pesquisa de sangue oculto nas fezes.",
+    "Dosagem de troponina.",
+    "Teste de gravidez com β-hCG."
+   ],
+   "correta": 3,
+   "comentario": "A gestação ectópica pode simular apendicite e mudar imediatamente a investigação e a conduta. Por isso, o β-hCG é essencial na mulher em idade fértil com essa apresentação.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; WSES 2020 (apendicite)."
+  },
+  {
+   "id": "q-ac-04",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Um paciente tem escore de Alvarado baixo, exame físico pouco sugestivo e sinais vitais estáveis. Qual é o melhor uso desse escore?",
+   "alternativas": [
+    "Confirmar apendicite e indicar cirurgia imediata.",
+    "Identificar baixo risco e orientar observação ou reavaliação.",
+    "Excluir qualquer causa cirúrgica sem seguimento.",
+    "Definir necessidade de antibiótico pós-operatório."
+   ],
+   "correta": 1,
+   "comentario": "O Alvarado ajuda principalmente a reconhecer pacientes de baixo risco. Escores clínicos estratificam probabilidade e devem ser integrados à avaliação e, quando indicada, à imagem.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; WSES 2020 (apendicite)."
+  },
+  {
+   "id": "q-ac-05",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Adolescente magra com dor na fossa ilíaca direita tem risco clínico intermediário de apendicite. Qual é a estratégia de imagem inicial mais adequada?",
+   "alternativas": [
+    "Radiografia simples de abdome como exame definitivo.",
+    "Ultrassonografia, com complemento se permanecer inconclusiva.",
+    "CPRE antes da avaliação cirúrgica.",
+    "Cintilografia biliar antes da avaliação cirúrgica."
+   ],
+   "correta": 1,
+   "comentario": "No risco intermediário, a imagem melhora a precisão diagnóstica. A ultrassonografia é a primeira escolha em jovens e pode ser complementada se não esclarecer o caso.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; WSES 2020 (apendicite)."
+  },
+  {
+   "id": "q-ac-06",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Menino de 10 anos mantém dor localizada e defesa na fossa ilíaca direita, mas o apêndice não foi visualizado no ultrassom. Qual é a próxima interpretação?",
+   "alternativas": [
+    "Apendicite excluída pelo exame não diagnóstico.",
+    "Apendicite confirmada sem necessidade de reavaliação.",
+    "Cirurgia obrigatória apenas pela não visualização.",
+    "Persistindo a suspeita, reavaliar e considerar ressonância ou TC."
+   ],
+   "correta": 3,
+   "comentario": "Ultrassom inconclusivo não exclui apendicite. Na criança, a reavaliação clínica e a imagem complementar são preferíveis quando a dúvida persiste.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; WSES 2020 (apendicite)."
+  },
+  {
+   "id": "q-ac-07",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Gestante de 18 semanas apresenta suspeita persistente de apendicite após ultrassonografia inconclusiva. Qual exame complementar é preferível?",
+   "alternativas": [
+    "Ressonância magnética sem contraste.",
+    "CPRE com contraste iodado.",
+    "Radiografia contrastada do intestino.",
+    "Cintilografia hepatobiliar."
+   ],
+   "correta": 0,
+   "comentario": "A apostila recomenda ultrassom inicialmente e ressonância sem contraste quando ele é inconclusivo na gestante. O diagnóstico não deve ser adiado se a suspeita clínica permanece.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; WSES 2020 (apendicite)."
+  },
+  {
+   "id": "q-ac-08",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Homem de 74 anos apresenta dor recente na fossa ilíaca direita e febre discreta, sem quadro clássico. Qual exame ajuda a avaliar apendicite, complicações e diagnósticos alternativos?",
+   "alternativas": [
+    "Radiografia de tórax.",
+    "Cintilografia da tireoide.",
+    "Tomografia computadorizada do abdome.",
+    "Colangiografia endoscópica."
+   ],
+   "correta": 2,
+   "comentario": "No idoso, a TC é especialmente útil pela maior frequência de complicações e de diagnósticos diferenciais, inclusive tumor. A apresentação clínica pode ser menos típica nessa faixa etária.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; WSES 2020 (apendicite)."
+  },
+  {
+   "id": "q-ac-09",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "No ultrassom de uma paciente com dor na fossa ilíaca direita, qual conjunto de achados favorece apendicite aguda?",
+   "alternativas": [
+    "Apêndice não compressível com diâmetro acima de 6 mm e gordura adjacente inflamada.",
+    "Vesícula distendida com cálculo no colo e líquido perivesicular.",
+    "Colédoco dilatado com cálculo distal e aerobilia.",
+    "Pâncreas aumentado com líquido peripancreático e ascite."
+   ],
+   "correta": 0,
+   "comentario": "Apêndice alargado e não compressível, com alterações inflamatórias ao redor, é sugestivo de apendicite. O achado deve ser interpretado junto com o quadro clínico.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; WSES 2020 (apendicite)."
+  },
+  {
+   "id": "q-ac-10",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "A TC de um paciente com apendicite mostra abscesso periappendicular e ar extraluminal. Como classificar a doença?",
+   "alternativas": [
+    "Apendicite não complicada, sem risco de perfuração.",
+    "Cólica apendicular sem inflamação estabelecida.",
+    "Apendicite exclusivamente mucosa, sem complicação.",
+    "Apendicite complicada, com sinais de perfuração."
+   ],
+   "correta": 3,
+   "comentario": "Abscesso e ar extraluminal indicam perfuração ou sua consequência local. A distinção entre forma complicada e não complicada orienta o controle da fonte e o uso de antibióticos.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; WSES 2020 (apendicite)."
+  },
+  {
+   "id": "q-ac-11",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Adulto jovem tem escore clínico alto para apendicite, mas exame abdominal pouco convincente e possibilidade de outro diagnóstico. Qual afirmação é correta?",
+   "alternativas": [
+    "O escore alto substitui a avaliação clínica e a imagem.",
+    "O escore alto exige antibiótico isolado por sete dias.",
+    "O escore alto não confirma sozinho a apendicite.",
+    "O escore alto exclui diagnósticos ginecológicos e urinários."
+   ],
+   "correta": 2,
+   "comentario": "Um escore alto aumenta a suspeita, mas não é prova definitiva da doença. A decisão sobre imagem ou cirurgia considera o contexto clínico e os diagnósticos alternativos.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; WSES 2020 (apendicite)."
+  },
+  {
+   "id": "q-ac-12",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Paciente de 30 anos, apto à cirurgia, tem apendicite não complicada confirmada. Qual é o tratamento cirúrgico padrão?",
+   "alternativas": [
+    "Colectomia direita com anastomose primária.",
+    "Apendicectomia por laparoscopia.",
+    "Drenagem percutânea do apêndice não perfurado.",
+    "Laparotomia com ressecção de íleo terminal."
+   ],
+   "correta": 1,
+   "comentario": "A apendicectomia laparoscópica é a abordagem cirúrgica padrão da apendicite não complicada. Antibiótico isolado pode ser discutido em pacientes selecionados, com informação sobre falha e recorrência.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; WSES 2025 (apendicite)."
+  },
+  {
+   "id": "q-ac-13",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Homem estável com apendicite não complicada confirmada chega à noite; a equipe programa apendicectomia para a manhã seguinte, dentro de 24 horas, com antibiótico. Como avaliar essa programação?",
+   "alternativas": [
+    "É insegura mesmo com paciente estável e tratamento iniciado.",
+    "Só é aceitável se houver abscesso drenável na TC.",
+    "Exige aguardar seis semanas para diminuir inflamação.",
+    "É aceitável se a cirurgia ocorrer dentro de 24 horas."
+   ],
+   "correta": 3,
+   "comentario": "As diretrizes WSES aceitam adiamento hospitalar de até 24 horas na apendicite não complicada em paciente estável. A condição clínica deve continuar sendo monitorada nesse intervalo.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; WSES 2025 (apendicite)."
+  },
+  {
+   "id": "q-ac-14",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Uma paciente estável com apendicite não complicada, sem fecalito, prefere discutir tratamento sem cirurgia imediata. Qual proposta é compatível com a apostila?",
+   "alternativas": [
+    "Antibiótico isolado para qualquer apendicite perfurada.",
+    "Antibiótico isolado após decisão compartilhada e explicação do risco de cirurgia posterior.",
+    "Observação sem antibiótico para apendicite confirmada e sintomática.",
+    "Drenagem percutânea obrigatória mesmo sem coleção."
+   ],
+   "correta": 1,
+   "comentario": "O tratamento com antibiótico isolado é opção para casos selecionados de apendicite não complicada, preferencialmente sem fecalito. A paciente deve conhecer a possibilidade de recorrência ou apendicectomia posterior.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; WSES 2020 (apendicite); CODA 2020."
+  },
+  {
+   "id": "q-ac-15",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Ao explicar o estudo CODA a um adulto que escolhe antibiótico para apendicite, qual estimativa de apendicectomia em 90 dias é mais próxima do observado no grupo tratado com antibiótico?",
+   "alternativas": [
+    "Cerca de 1 em cada 100 pacientes.",
+    "Cerca de 1 em cada 10 pacientes.",
+    "Cerca de 3 em cada 10 pacientes.",
+    "Quase todos os pacientes tratados."
+   ],
+   "correta": 2,
+   "comentario": "No CODA, aproximadamente 30% dos pacientes alocados para antibiótico haviam sido operados em 90 dias. Esse risco é relevante para a escolha compartilhada do tratamento.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; CODA 2020."
+  },
+  {
+   "id": "q-ac-16",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Dois adultos têm apendicite não complicada e consideram antibiótico isolado; somente um tem fecalito na TC. Qual orientação é mais apropriada ao paciente com fecalito?",
+   "alternativas": [
+    "O fecalito eleva o risco de falha e de apendicectomia posterior.",
+    "O fecalito garante resolução definitiva com antibiótico.",
+    "O fecalito torna o escore clínico desnecessário e curativo.",
+    "O fecalito indica apenas colecistite simultânea."
+   ],
+   "correta": 0,
+   "comentario": "No CODA, a necessidade de cirurgia em 90 dias foi maior quando havia fecalito, em torno de quatro em dez. A apostila favorece oferecer antibiótico isolado a selecionados sem fecalito.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; CODA 2020; WSES 2020 (apendicite)."
+  },
+  {
+   "id": "q-ac-17",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Paciente com apendicite perfurada apresenta peritonite difusa, taquicardia e sinais de hipoperfusão. Qual sequência de tratamento é adequada?",
+   "alternativas": [
+    "Alta com analgésico e retorno se houver febre.",
+    "Colonoscopia antes de qualquer suporte hemodinâmico.",
+    "Antibiótico oral isolado e revisão eletiva tardia.",
+    "Reanimação, antibiótico e cirurgia urgente para controle da fonte."
+   ],
+   "correta": 3,
+   "comentario": "Peritonite difusa por apendicite complicada exige estabilização e controle cirúrgico urgente da fonte. Antibiótico isolado não resolve a contaminação peritoneal estabelecida.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; WSES 2020 (apendicite)."
+  },
+  {
+   "id": "q-ac-18",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Homem estável tem abscesso periappendicular bem delimitado e acessível por via percutânea, sem peritonite difusa. Qual conduta inicial é apropriada?",
+   "alternativas": [
+    "Antibiótico e drenagem percutânea da coleção.",
+    "Alta imediata sem tratamento da coleção.",
+    "CPRE para drenagem do apêndice perfurado.",
+    "Colectomia direita obrigatória em todos os casos."
+   ],
+   "correta": 0,
+   "comentario": "No abscesso localizado de paciente estável, antibiótico e drenagem percutânea, quando viável, constituem uma opção adequada. Cirurgia por equipe experiente também pode ser aceitável conforme o cenário.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; WSES 2020 (apendicite)."
+  },
+  {
+   "id": "q-ac-19",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Jovem de 24 anos recebeu tratamento clínico de plastrão appendicular e permaneceu assintomático. Qual plano sobre apendicectomia de intervalo é coerente?",
+   "alternativas": [
+    "É obrigatória em todos os pacientes após seis semanas.",
+    "Não é rotina se não houver recorrência de sintomas.",
+    "Deve ser substituída por colecistectomia eletiva.",
+    "É indicada apenas porque o ultrassom inicial foi inconclusivo."
+   ],
+   "correta": 1,
+   "comentario": "Apendicectomia de intervalo não é rotina em pacientes jovens que evoluem sem novos sintomas após tratamento não operatório. Recorrência ou novos achados exigem reavaliação.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; WSES 2020 (apendicite)."
+  },
+  {
+   "id": "q-ac-20",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Homem de 52 anos melhora após antibiótico e drenagem de abscesso periappendicular. Qual investigação de seguimento ganha importância nessa faixa etária?",
+   "alternativas": [
+    "CPRE para excluir cálculo em colédoco normal.",
+    "Cintilografia biliar para excluir colecistite.",
+    "Colonoscopia e imagem para pesquisar neoplasia.",
+    "Dosagem seriada de amilase como único controle."
+   ],
+   "correta": 2,
+   "comentario": "Após tratamento não operatório de apendicite complicada, adultos a partir de cerca de 40 anos devem ser investigados para neoplasia apendicular ou cecal. Colonoscopia e imagem compõem essa avaliação.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; WSES 2020 (apendicite); WSES 2025 (apendicite)."
+  },
+  {
+   "id": "q-ac-21",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Paciente é submetido a apendicectomia por doença não complicada, sem perfuração nem abscesso. Qual esquema de antibiótico perioperatório é indicado?",
+   "alternativas": [
+    "Antibiótico por dez dias após a alta.",
+    "Antibiótico até normalizar a PCR, sem profilaxia prévia.",
+    "Antibiótico apenas se houver febre no primeiro dia pós-operatório.",
+    "Dose antes da incisão, sem antibiótico pós-operatório de rotina."
+   ],
+   "correta": 3,
+   "comentario": "A profilaxia antes da incisão é indicada na apendicectomia. Na doença não complicada, antibiótico após a cirurgia não traz benefício de rotina.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; WSES 2020 (apendicite)."
+  },
+  {
+   "id": "q-ac-22",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Depois de apendicectomia por apendicite perfurada, a fonte foi adequadamente controlada e o paciente melhora. Qual duração pós-operatória se aproxima da recomendação WSES 2025 citada na apostila?",
+   "alternativas": [
+    "Antibiótico por duas a três semanas.",
+    "Curso curto de antibiótico por dois a três dias.",
+    "Nenhuma dose em qualquer forma complicada.",
+    "Antibiótico até a colonoscopia de controle."
+   ],
+   "correta": 1,
+   "comentario": "Com controle adequado da fonte na apendicite complicada, a WSES 2025 recomenda curso pós-operatório curto, de dois a três dias. Prolongar o tratamento apenas por receio de recorrência não é indicado.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; WSES 2025 (apendicite)."
+  },
+  {
+   "id": "q-ac-23",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Gestante no terceiro trimestre tem apendicite confirmada e indicação cirúrgica. Qual afirmação orienta melhor a conduta?",
+   "alternativas": [
+    "A cirurgia deve aguardar o parto mesmo com progressão clínica.",
+    "A laparoscopia é proibida depois do primeiro trimestre.",
+    "A apendicectomia laparoscópica pode ser realizada sem atraso indevido.",
+    "A perfuração apendicular não aumenta o risco fetal."
+   ],
+   "correta": 2,
+   "comentario": "A apendicectomia laparoscópica é considerada segura em qualquer trimestre quando indicada. A demora favorece perfuração, associada a maior risco de perda fetal.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; WSES 2020 (apendicite)."
+  },
+  {
+   "id": "q-ac-24",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Ao calcular Alvarado em um paciente com suspeita de apendicite, qual conjunto contém apenas componentes desse escore?",
+   "alternativas": [
+    "Migração da dor, anorexia, leucocitose e desvio à esquerda.",
+    "Icterícia, colúria, acolia fecal e fosfatase alcalina.",
+    "Murphy, bilirrubina elevada, febre e colédoco dilatado.",
+    "Hipotensão, confusão, lactato e creatinina elevada."
+   ],
+   "correta": 0,
+   "comentario": "O Alvarado reúne sintomas, sinais e hemograma associados à apendicite, incluindo migração, anorexia, leucocitose e desvio. Ele serve para estratificação, não para confirmação isolada.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; WSES 2020 (apendicite)."
+  },
+  {
+   "id": "q-ac-25",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Paciente com dor na fossa ilíaca direita tem leucócitos discretos no exame de urina, sem quadro urinário típico; a TC mostra apêndice inflamado junto ao ureter. Qual interpretação é correta?",
+   "alternativas": [
+    "Leucocitúria confirma pielonefrite e exclui apendicite.",
+    "Urina alterada torna a TC irrelevante para a conduta.",
+    "Leucocitúria exige CPRE antes da apendicectomia.",
+    "Leucocitúria discreta pode ocorrer pela proximidade do apêndice ao ureter."
+   ],
+   "correta": 3,
+   "comentario": "A inflamação apendicular próxima ao ureter pode produzir algumas células inflamatórias na urina. O achado isolado não afasta apendicite nem substitui a avaliação do conjunto clínico e da imagem.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; WSES 2020 (apendicite)."
+  },
+  {
+   "id": "q-ac-26",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Mulher de 38 anos tem dor no hipocôndrio direito após refeição gordurosa, resolvida em três horas, sem febre ou leucocitose. Qual hipótese e plano são mais prováveis?",
+   "alternativas": [
+    "Colangite grave; CPRE urgente.",
+    "Colecistite complicada; drenagem imediata.",
+    "Cólica biliar; analgesia e colecistectomia eletiva.",
+    "Apendicite perfurada; laparotomia imediata."
+   ],
+   "correta": 2,
+   "comentario": "Dor biliar que cessa em poucas horas sem inflamação sistêmica favorece cólica biliar. Na colecistite, a dor costuma ser contínua e durar mais de seis horas.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; Tóquio 2018 (colecistite)."
+  },
+  {
+   "id": "q-ac-27",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Paciente tem dor no hipocôndrio direito e febre, mas ainda aguarda ultrassom. Pelos critérios de Tóquio para colecistite, qual é a classificação diagnóstica nesse momento?",
+   "alternativas": [
+    "Suspeita, pela combinação de inflamação local e sistêmica.",
+    "Diagnóstico definitivo, mesmo sem imagem compatível.",
+    "Grau III obrigatório, apenas pela presença de febre.",
+    "Diagnóstico excluído, pois falta o sinal de Murphy."
+   ],
+   "correta": 0,
+   "comentario": "Os critérios de Tóquio definem suspeita com um achado local e um sistêmico. O diagnóstico definitivo acrescenta imagem compatível com colecistite.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; Tóquio 2018 (colecistite)."
+  },
+  {
+   "id": "q-ac-28",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Paciente tem dor no hipocôndrio direito, leucocitose e ultrassom com parede vesicular espessada, cálculo e líquido perivesicular. Como aplicar Tóquio 2018?",
+   "alternativas": [
+    "Apenas cólica biliar, porque o cálculo pode ser incidental.",
+    "Colecistite aguda definitiva: achados locais, sistêmicos e de imagem.",
+    "Colangite grau III, independentemente de icterícia ou disfunção.",
+    "Coledocolitíase de alto risco por qualquer leucocitose."
+   ],
+   "correta": 1,
+   "comentario": "A combinação dos grupos A, B e C estabelece diagnóstico definitivo de colecistite aguda. A gravidade deve ser classificada separadamente dos critérios diagnósticos.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; Tóquio 2018 (colecistite)."
+  },
+  {
+   "id": "q-ac-29",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Em suspeita de colecistite aguda calculosa, qual exame deve ser solicitado primeiro e que achado o favorece?",
+   "alternativas": [
+    "TC de crânio mostrando edema cerebral.",
+    "Radiografia torácica mostrando infiltrado basal.",
+    "CPRE mostrando papila duodenal normal.",
+    "Ultrassom mostrando cálculo, parede espessa e Murphy ultrassonográfico."
+   ],
+   "correta": 3,
+   "comentario": "A ultrassonografia é o primeiro exame de imagem na suspeita de colecistite. Cálculo, parede espessa, distensão, líquido perivesicular e Murphy ultrassonográfico são achados úteis.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; Tóquio 2018 (colecistite); WSES 2020 (colecistite)."
+  },
+  {
+   "id": "q-ac-30",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Paciente com colecistite aguda, sem disfunção orgânica, tem leucócitos de 19.500/mm³. Qual gravidade pelos critérios de Tóquio?",
+   "alternativas": [
+    "Grau I, porque não há hipotensão.",
+    "Grau III, porque toda leucocitose é falência orgânica.",
+    "Grau II, pelo valor de leucócitos acima de 18.000/mm³.",
+    "Não classificável até a realização de CPRE."
+   ],
+   "correta": 2,
+   "comentario": "Leucócitos acima de 18.000/mm³ são um dos critérios de colecistite grau II. Grau III exige disfunção de órgão, não apenas inflamação acentuada.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; Tóquio 2018 (colecistite)."
+  },
+  {
+   "id": "q-ac-31",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Paciente com colecistite aguda necessita de vasopressor após ressuscitação. Qual classificação de gravidade se aplica?",
+   "alternativas": [
+    "Grau III, por disfunção cardiovascular.",
+    "Grau II, somente por duração de sintomas.",
+    "Grau I, se a ultrassonografia mostrar cálculo pequeno.",
+    "Cólica biliar, porque a dor pode oscilar."
+   ],
+   "correta": 0,
+   "comentario": "A necessidade de vasopressor caracteriza disfunção cardiovascular, critério de colecistite grau III. A gravidade não determina sozinha a impossibilidade de operar; é preciso avaliar a condição do paciente.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; Tóquio 2018 (colecistite)."
+  },
+  {
+   "id": "q-ac-32",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Homem com dor no hipocôndrio direito e achados de colecistite apresenta icterícia importante. Qual deve ser a interpretação adicional?",
+   "alternativas": [
+    "A icterícia confirma colecistite isolada sem investigação adicional.",
+    "A icterícia afasta doença biliar e aponta apenas para apendicite.",
+    "A icterícia indica profilaxia prolongada após colecistectomia.",
+    "A icterícia exige investigar colédoco, colangite e síndrome de Mirizzi."
+   ],
+   "correta": 3,
+   "comentario": "Icterícia importante não é explicada habitualmente por colecistite simples. É preciso pesquisar obstrução do colédoco, colangite ou compressão extrínseca por cálculo impactado, como na síndrome de Mirizzi.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; WSES 2020 (colecistite); ASGE 2019."
+  },
+  {
+   "id": "q-ac-33",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Paciente em UTI após grande queimadura, com jejum prolongado, desenvolve febre e vesícula espessada sem cálculos ao ultrassom. Qual diagnóstico merece prioridade?",
+   "alternativas": [
+    "Cólica biliar sem inflamação.",
+    "Colecistite alitiásica.",
+    "Apendicite por fecalito.",
+    "Síndrome de Mirizzi."
+   ],
+   "correta": 1,
+   "comentario": "A colecistite alitiásica ocorre sobretudo em pacientes críticos e pode evoluir com gangrena ou perfuração. Antibiótico e, muitas vezes, drenagem percutânea da vesícula entram na conduta.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; WSES 2020 (colecistite)."
+  },
+  {
+   "id": "q-ac-34",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Paciente com colecistite aguda confirmada chega desidratado e com dor intensa. Qual conjunto integra a abordagem inicial?",
+   "alternativas": [
+    "Alta imediata, dieta gordurosa e retorno anual.",
+    "CPRE obrigatória antes de hidratação em qualquer caso.",
+    "Internação, analgesia, hidratação e antibiótico ajustado ao contexto.",
+    "Colonoscopia, laxativo e suspensão de avaliação cirúrgica."
+   ],
+   "correta": 2,
+   "comentario": "O cuidado inicial inclui suporte clínico e antibiótico escolhido conforme gravidade, origem da infecção e resistência local. A equipe também define o momento do controle da fonte, geralmente por colecistectomia precoce.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; WSES 2020 (colecistite)."
+  },
+  {
+   "id": "q-ac-35",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Mulher apta à cirurgia é internada com colecistite aguda calculosa. Qual janela para colecistectomia laparoscópica precoce é recomendada pela WSES 2020 citada na apostila?",
+   "alternativas": [
+    "O mais cedo possível, até 7 dias da internação e 10 dias dos sintomas.",
+    "Somente nas primeiras 24 horas após a refeição desencadeante.",
+    "Apenas depois de seis semanas de antibiótico contínuo.",
+    "Exatamente no trigésimo dia após o início da dor."
+   ],
+   "correta": 0,
+   "comentario": "A colecistectomia precoce deve ser realizada assim que possível no paciente operável. A referência da apostila é até sete dias da internação e dez dias do começo dos sintomas.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; WSES 2020 (colecistite)."
+  },
+  {
+   "id": "q-ac-36",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Paciente operável com colecistite aguda iniciou sintomas há quatro dias e está clinicamente estabilizado. Qual é a melhor conduta em relação ao tempo de doença?",
+   "alternativas": [
+    "Aguardar obrigatoriamente seis semanas por ter ultrapassado 72 horas.",
+    "Realizar apenas CPRE, sem avaliar a vesícula.",
+    "Tratar indefinidamente com antibiótico por estar no quarto dia.",
+    "Planejar colecistectomia precoce durante a internação."
+   ],
+   "correta": 3,
+   "comentario": "O limite rígido de 72 horas não define sozinho a possibilidade de cirurgia. Em paciente operável, a colecistectomia precoce continua preferível dentro da janela recomendada.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; WSES 2020 (colecistite)."
+  },
+  {
+   "id": "q-ac-37",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Paciente com colecistite e sepse persistente tem contraindicação atual à anestesia e à cirurgia. Qual forma de controle da fonte é apropriada?",
+   "alternativas": [
+    "Apendicectomia de intervalo.",
+    "Colecistostomia percutânea com antibiótico.",
+    "Colonoscopia terapêutica do cístico.",
+    "Alta com analgesia isolada."
+   ],
+   "correta": 1,
+   "comentario": "A drenagem da vesícula é indicada sobretudo quando o paciente não pode operar e a sepse não melhora. A possibilidade de cirurgia deve ser reavaliada conforme a evolução clínica.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; WSES 2020 (colecistite)."
+  },
+  {
+   "id": "q-ac-38",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Idoso com colecistite calculosa tem risco cirúrgico elevado, mas foi considerado apto à laparoscopia. O que o ensaio CHOCOLATE sugere ao comparar cirurgia com drenagem percutânea?",
+   "alternativas": [
+    "Drenagem é obrigatória para todo paciente idoso.",
+    "As duas estratégias têm idêntica taxa de complicações.",
+    "Colecistectomia pode resultar em menos complicações que drenagem.",
+    "Cirurgia está contraindicada sempre que houver grau III."
+   ],
+   "correta": 2,
+   "comentario": "No CHOCOLATE, a colecistectomia laparoscópica teve menos complicações que a drenagem em pacientes selecionados de alto risco. Alto risco, por si só, não impõe colecistostomia.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; CHOCOLATE 2018; WSES 2020 (colecistite)."
+  },
+  {
+   "id": "q-ac-39",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Após colecistectomia por colecistite não complicada, a fonte foi controlada e não há outra infecção. Qual conduta antibiótica é mais apropriada?",
+   "alternativas": [
+    "Não prolongar antibiótico após o controle da fonte.",
+    "Manter antibiótico por 21 dias em todos os casos.",
+    "Trocar obrigatoriamente para antifúngico oral.",
+    "Manter antibiótico até desaparecerem os cálculos no ultrassom."
+   ],
+   "correta": 0,
+   "comentario": "Na colecistite não complicada com controle cirúrgico adequado da fonte, antibiótico prolongado não traz benefício de rotina. A decisão deve considerar complicações ou outra infecção coexistente.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; WSES 2020 (colecistite)."
+  },
+  {
+   "id": "q-ac-40",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Paciente com dor biliar tem cálculo visível no colédoco ao ultrassom. Segundo ASGE 2019, qual classificação e próximo passo são adequados?",
+   "alternativas": [
+    "Baixo risco; colecistectomia sem avaliar o colédoco.",
+    "Risco intermediário; apenas repetir enzimas em seis meses.",
+    "Risco indeterminado; evitar qualquer tratamento da obstrução.",
+    "Alto risco; indicar CPRE ou exploração cirúrgica da via biliar."
+   ],
+   "correta": 3,
+   "comentario": "Cálculo identificado no colédoco é critério de alto risco para coledocolitíase. Nessa situação, a via biliar deve ser tratada por CPRE ou exploração cirúrgica conforme a expertise disponível.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; ASGE 2019."
+  },
+  {
+   "id": "q-ac-41",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Paciente com colelitíase tem bilirrubina total de 4,8 mg/dL, mas colédoco não dilatado e nenhum cálculo ductal visto; não há colangite. Como interpretar esse dado isolado pela ASGE 2019?",
+   "alternativas": [
+    "Confirma alto risco e exige CPRE apenas pela bilirrubina.",
+    "Não basta para alto risco; investigar com ecoendoscopia ou colangiorressonância.",
+    "Define baixo risco e dispensa qualquer avaliação da via biliar.",
+    "Diagnostica colecistite grau III mesmo sem disfunção orgânica."
+   ],
+   "correta": 1,
+   "comentario": "Bilirrubina acima de 4 mg/dL só compõe critério de alto risco quando associada a dilatação do colédoco. Sem cálculo visto ou colangite, a avaliação adicional é apropriada antes de CPRE diagnóstica.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; ASGE 2019."
+  },
+  {
+   "id": "q-ac-42",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Homem de 59 anos com cálculos vesiculares não tem colangite nem cálculo ductal visível, mas apresenta colédoco dilatado. Qual investigação corresponde ao risco intermediário da ASGE?",
+   "alternativas": [
+    "CPRE obrigatória sem outra confirmação em todo caso.",
+    "Apendicectomia para inspecionar a via biliar.",
+    "Ecoendoscopia, colangiorressonância ou colangiografia intraoperatória.",
+    "Nenhuma avaliação adicional apesar da dilatação ductal."
+   ],
+   "correta": 2,
+   "comentario": "Dilatação do colédoco, idade acima de 55 anos ou enzimas hepáticas alteradas colocam o paciente em risco intermediário. Ecoendoscopia, colangiorressonância ou avaliação ductal durante a cirurgia ajudam a confirmar o cálculo.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; ASGE 2019."
+  },
+  {
+   "id": "q-ac-43",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Paciente com cálculos sintomáticos na vesícula tem enzimas hepáticas normais, colédoco normal, idade de 40 anos e nenhum sinal de colangite. Segundo ASGE 2019, qual plano é adequado?",
+   "alternativas": [
+    "Baixo risco; colecistectomia sem investigação adicional do colédoco.",
+    "Alto risco; CPRE obrigatória antes de qualquer cirurgia.",
+    "Colangite grau II; drenagem biliar precoce.",
+    "Risco intermediário apenas pela presença de cálculos na vesícula."
+   ],
+   "correta": 0,
+   "comentario": "Sem os preditores de coledocolitíase, a probabilidade é baixa. A colecistectomia pode prosseguir sem investigação ductal específica de rotina.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; ASGE 2019."
+  },
+  {
+   "id": "q-ac-44",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Paciente apresenta febre, icterícia e dor no hipocôndrio direito, com suspeita de obstrução biliar. Que síndrome clássica esse conjunto forma?",
+   "alternativas": [
+    "Tríade de Rigler, sugestiva de íleo biliar.",
+    "Sinal de Courvoisier, sugestivo de tumor distal.",
+    "Critérios de Alvarado, sugestivos de apendicite.",
+    "Tríade de Charcot, sugestiva de colangite aguda."
+   ],
+   "correta": 3,
+   "comentario": "Febre, icterícia e dor no hipocôndrio direito constituem a tríade de Charcot da colangite. A ausência de algum componente não exclui a infecção biliar.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; Tóquio 2018 (colangite)."
+  },
+  {
+   "id": "q-ac-45",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Paciente com febre, icterícia e dor no hipocôndrio direito passa a apresentar hipotensão e confusão mental. Como se chama o conjunto de cinco achados?",
+   "alternativas": [
+    "Critérios de Tóquio para colecistite grau I.",
+    "Pêntade de Reynolds, associada a colangite grave.",
+    "Tríade de Rigler, associada a obstrução intestinal.",
+    "Escore de Alvarado, associado a apendicite."
+   ],
+   "correta": 1,
+   "comentario": "Hipotensão e alteração mental somadas à tríade de Charcot formam a pêntade de Reynolds. O quadro indica gravidade e demanda suporte e desobstrução biliar conforme estabilização.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; Tóquio 2018 (colangite)."
+  },
+  {
+   "id": "q-ac-46",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Paciente com colangite, sem disfunção orgânica, tem temperatura de 39,2 °C e bilirrubina de 6 mg/dL. Qual grau de gravidade pelos critérios de Tóquio 2018?",
+   "alternativas": [
+    "Grau I, pois a febre não entra na classificação.",
+    "Grau III, pois a bilirrubina isolada prova falência orgânica.",
+    "Grau II, por preencher dois critérios de moderação.",
+    "Não classificável sem ultrassom da vesícula."
+   ],
+   "correta": 2,
+   "comentario": "Febre de pelo menos 39 °C e bilirrubina de pelo menos 5 mg/dL são dois critérios de colangite grau II. O grau III depende de disfunção orgânica.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; Tóquio 2018 (colangite)."
+  },
+  {
+   "id": "q-ac-47",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Paciente com colangite por obstrução do colédoco apresenta choque e precisa de vasopressor. Após ressuscitação inicial, qual medida de controle da fonte deve ser priorizada?",
+   "alternativas": [
+    "Drenagem urgente da via biliar, em geral por CPRE, assim que estabilizar.",
+    "Colecistectomia eletiva isolada antes de tratar a obstrução.",
+    "Apenas analgesia e observação por seis semanas.",
+    "Drenagem do apêndice por via percutânea."
+   ],
+   "correta": 0,
+   "comentario": "Na colangite grau III, suporte hemodinâmico e antibiótico são iniciados imediatamente. A drenagem da via biliar deve ocorrer assim que o paciente estiver estabilizado; a colecistectomia fica para depois.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; Tóquio 2018 (colangite)."
+  },
+  {
+   "id": "q-ac-48",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Paciente com colangite grau I recebe hidratação e antibiótico, mas mantém febre e dor, sem resposta clínica. Qual próximo passo é indicado?",
+   "alternativas": [
+    "Aguardar remissão espontânea por várias semanas.",
+    "Suspender antibiótico e iniciar dieta gordurosa.",
+    "Fazer apenas colecistectomia sem avaliar a obstrução.",
+    "Drenar a via biliar, usualmente por CPRE."
+   ],
+   "correta": 3,
+   "comentario": "Na colangite leve, a drenagem biliar é indicada se não houver resposta ao tratamento inicial. A desobstrução trata a fonte infecciosa quando antibiótico e suporte não bastam.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; Tóquio 2018 (colangite)."
+  },
+  {
+   "id": "q-ac-49",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Durante colecistectomia laparoscópica, o cirurgião deseja confirmar a visão crítica de segurança antes de clipar. Qual conjunto de achados é necessário?",
+   "alternativas": [
+    "Dissecar apenas o ducto cístico, mantendo a vesícula aderida ao fígado.",
+    "Limpar o triângulo hepatocístico, separar o terço inferior da vesícula do leito e ver só duas estruturas entrando nela.",
+    "Identificar três estruturas no hilo e seccionar a mais calibrosa primeiro.",
+    "Obter apenas colangiografia normal, sem exposição da anatomia local."
+   ],
+   "correta": 1,
+   "comentario": "A visão crítica de segurança exige os três elementos anatômicos descritos, culminando em apenas ducto e artéria císticos entrando na vesícula. Nenhuma estrutura deve ser clipada antes da identificação segura.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; WSES 2020 (colecistite)."
+  },
+  {
+   "id": "q-ac-50",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "enunciado": "Na colecistectomia de paciente com inflamação intensa e suspeita de Mirizzi, a anatomia do triângulo hepatocístico permanece obscura. Qual decisão reduz o risco de lesão da via biliar?",
+   "alternativas": [
+    "Clipar a primeira estrutura tubular próxima ao infundíbulo.",
+    "Prosseguir com dissecção cega até encontrar o colédoco.",
+    "Usar estratégia de resgate, como colecistectomia subtotal ou colangiografia, e pedir ajuda.",
+    "Encerrar sem documentar a dificuldade anatômica e dar alta."
+   ],
+   "correta": 2,
+   "comentario": "Quando a visão crítica não pode ser obtida, insistir na dissecção aumenta o risco de lesão biliar. Colangiografia, colecistectomia subtotal, conversão ou drenagem são estratégias de resgate conforme o caso.",
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; WSES 2020 (colecistite)."
   }
  ]
 }
