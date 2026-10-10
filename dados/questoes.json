@@ -6000,6 +6000,756 @@
    "correta": 1,
    "comentario": "Na PBE, a dose descrita é 1,5 g/kg no primeiro dia e 1 g/kg no terceiro: para 70 kg, 105 g e 70 g. A albumina é adjuvante ao antibiótico e foi estudada para reduzir lesão renal e mortalidade.",
    "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; AASLD 2021; Sort et al. NEJM 1999"
+  },
+  {
+   "id": "q-her-01",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Durante a laparoscopia, um saco herniário passa lateralmente aos vasos epigástricos inferiores pelo anel inguinal profundo. Qual é o tipo de hérnia?",
+   "alternativas": [
+    "Inguinal indireta",
+    "Inguinal direta",
+    "Femoral",
+    "Obturadora"
+   ],
+   "correta": 0,
+   "comentario": "A hérnia inguinal indireta entra pelo anel profundo, lateral aos vasos epigástricos inferiores. A direta surge medialmente a esses vasos.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; HerniaSurge 2018."
+  },
+  {
+   "id": "q-her-02",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Em uma correção aberta, observa-se protrusão pela parede posterior do canal inguinal, medial aos vasos epigástricos inferiores. Qual estrutura está enfraquecida?",
+   "alternativas": [
+    "Ligamento inguinal",
+    "Fáscia transversal",
+    "Aponeurose do oblíquo externo",
+    "Ligamento redondo"
+   ],
+   "correta": 1,
+   "comentario": "A hérnia direta atravessa a parede posterior do canal, formada principalmente pela fáscia transversal. Sua localização é medial aos vasos epigástricos inferiores.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; HerniaSurge 2018."
+  },
+  {
+   "id": "q-her-03",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Uma mulher idosa apresenta pequeno abaulamento doloroso abaixo do ligamento inguinal. Na exploração, o saco está medial à veia femoral. Qual é o diagnóstico anatômico?",
+   "alternativas": [
+    "Hérnia inguinal direta",
+    "Hérnia inguinal indireta",
+    "Hérnia femoral",
+    "Hérnia de Spiegel"
+   ],
+   "correta": 2,
+   "comentario": "A hérnia femoral atravessa o canal femoral abaixo do ligamento inguinal e medial à veia femoral. Seu colo estreito favorece encarceramento.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; HerniaSurge 2018."
+  },
+  {
+   "id": "q-her-04",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Um estudante identifica o anel inguinal superficial durante uma dissecção. Em qual estrutura ele se abre?",
+   "alternativas": [
+    "Fáscia transversal",
+    "Músculo transverso",
+    "Ligamento pectíneo",
+    "Aponeurose do oblíquo externo"
+   ],
+   "correta": 3,
+   "comentario": "O anel superficial é uma abertura na aponeurose do oblíquo externo, perto do tubérculo púbico. O anel profundo fica na fáscia transversal.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; HerniaSurge 2018."
+  },
+  {
+   "id": "q-her-05",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Na visão posterior da virilha, qual referência separa uma hérnia inguinal direta de uma indireta?",
+   "alternativas": [
+    "Vasos epigástricos inferiores",
+    "Veia femoral",
+    "Ligamento de Cooper",
+    "Ducto deferente"
+   ],
+   "correta": 0,
+   "comentario": "A direta surge medial e a indireta lateral aos vasos epigástricos inferiores. Essa relação é mais confiável na visão operatória do que pelo exame físico isolado.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; HerniaSurge 2018."
+  },
+  {
+   "id": "q-her-06",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Uma criança apresenta hérnia que acompanha o trajeto do canal inguinal e pode chegar ao escroto. Qual mecanismo embriológico se associa a esse padrão?",
+   "alternativas": [
+    "Falha do ligamento pectíneo",
+    "Persistência do processo vaginal",
+    "Ruptura da linha semilunar",
+    "Fraqueza adquirida da fáscia transversal"
+   ],
+   "correta": 1,
+   "comentario": "A persistência do processo vaginal se associa à hérnia inguinal indireta na criança. Ela entra pelo anel profundo e pode avançar ao escroto.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; HerniaSurge 2018."
+  },
+  {
+   "id": "q-her-07",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Um homem idoso tem hérnia inguinal direta de colo largo. Em comparação com a femoral, qual evento é menos frequente nessa hérnia?",
+   "alternativas": [
+    "Abaulamento ao esforço",
+    "Fraqueza da parede posterior",
+    "Encarceramento",
+    "Localização medial aos vasos epigástricos"
+   ],
+   "correta": 2,
+   "comentario": "A hérnia direta costuma ter colo largo e encarcera menos. A femoral tem anel estreito e rígido, com maior risco de encarceramento e estrangulamento.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; HerniaSurge 2018."
+  },
+  {
+   "id": "q-her-08",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Ao descrever o teto do canal inguinal em uma prova prática, qual conjunto anatômico deve ser apontado?",
+   "alternativas": [
+    "Ligamento inguinal e fáscia cribriforme",
+    "Fáscia transversal e ligamento pectíneo",
+    "Aponeurose do oblíquo externo",
+    "Fibras arqueadas do oblíquo interno e transverso"
+   ],
+   "correta": 3,
+   "comentario": "O teto do canal é formado pelas fibras arqueadas do oblíquo interno e do transverso. O ligamento inguinal constitui o assoalho.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; HerniaSurge 2018."
+  },
+  {
+   "id": "q-her-09",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Uma paciente pergunta qual tipo de hérnia da virilha é o mais frequente entre mulheres. Qual resposta está correta?",
+   "alternativas": [
+    "Inguinal indireta",
+    "Inguinal direta",
+    "Femoral",
+    "Obturadora"
+   ],
+   "correta": 0,
+   "comentario": "A inguinal indireta é a hérnia da virilha mais comum também nas mulheres. A femoral é proporcionalmente mais frequente nelas do que nos homens, mas não é a mais comum.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; HerniaSurge 2018."
+  },
+  {
+   "id": "q-her-10",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Na laparoscopia, um defeito é visto dentro do triângulo de Hesselbach. Como se classifica a hérnia que atravessa esse local?",
+   "alternativas": [
+    "Femoral",
+    "Inguinal direta",
+    "Inguinal indireta",
+    "Obturadora"
+   ],
+   "correta": 1,
+   "comentario": "O triângulo de Hesselbach corresponde à região medial aos vasos epigástricos inferiores. A protrusão por essa área é uma hérnia inguinal direta.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; HerniaSurge 2018."
+  },
+  {
+   "id": "q-her-11",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Durante a exploração da virilha de uma mulher, o cirurgião encontra uma hérnia sob o ligamento inguinal. Qual característica ajuda a explicar sua maior propensão ao estrangulamento?",
+   "alternativas": [
+    "Persistência do processo vaginal",
+    "Trajeto longo pelo canal inguinal",
+    "Anel femoral estreito e rígido",
+    "Falha ampla da parede posterior"
+   ],
+   "correta": 2,
+   "comentario": "O anel femoral é estreito e pouco complacente, facilitando o comprometimento do conteúdo. Por isso a hérnia femoral merece correção sem demora.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; HerniaSurge 2018."
+  },
+  {
+   "id": "q-her-12",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Um aluno confunde os limites do canal inguinal. Qual estrutura forma seu assoalho?",
+   "alternativas": [
+    "Fáscia transversal",
+    "Oblíquo interno",
+    "Aponeurose do oblíquo externo",
+    "Ligamento inguinal"
+   ],
+   "correta": 3,
+   "comentario": "O ligamento inguinal forma o assoalho do canal. A fáscia transversal compõe a parede posterior.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; HerniaSurge 2018."
+  },
+  {
+   "id": "q-her-13",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Homem de 62 anos apresenta pequena hérnia inguinal redutível, sem dor nem limitação. Qual conduta pode ser oferecida após discussão dos riscos e do seguimento?",
+   "alternativas": [
+    "Observação vigiada",
+    "Correção de urgência",
+    "Ressecção do saco sem tela",
+    "Redução manual diária obrigatória"
+   ],
+   "correta": 0,
+   "comentario": "A observação vigiada é opção para homens assintomáticos ou minimamente sintomáticos. Muitos acabam escolhendo cirurgia programada quando surgem sintomas.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; HerniaSurge 2018; HerniaSurge 2023."
+  },
+  {
+   "id": "q-her-14",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Mulher de 58 anos tem abaulamento redutível na virilha e poucos sintomas. Qual plano é preferível segundo a apostila?",
+   "alternativas": [
+    "Observação anual sem cirurgia",
+    "Reparo eletivo por via laparoscópica",
+    "Taxis periódico no ambulatório",
+    "Sutura isolada do anel superficial"
+   ],
+   "correta": 1,
+   "comentario": "A hérnia da virilha na mulher deve ser reparada, pois uma femoral pode estar oculta. A via posterior laparoscópica permite visualizar e cobrir também o orifício femoral.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; HerniaSurge 2018."
+  },
+  {
+   "id": "q-her-15",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Idosa apresenta hérnia femoral redutível descoberta em consulta. Qual conduta corresponde ao risco desse tipo de hérnia?",
+   "alternativas": [
+    "Observar enquanto for indolor",
+    "Indicar cinta por tempo indeterminado",
+    "Programar reparo sem demora",
+    "Operar apenas após encarceramento"
+   ],
+   "correta": 2,
+   "comentario": "A hérnia femoral deve ser operada mesmo quando redutível, pelo alto risco de estrangulamento. A apostila prefere uma via posterior quando viável.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; HerniaSurge 2018."
+  },
+  {
+   "id": "q-her-16",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Homem relata abaulamento na virilha apenas ao levantar peso; no consultório, deitado, nada é palpável. Qual é o próximo passo do exame?",
+   "alternativas": [
+    "Solicitar ultrassom antes de repetir o exame",
+    "Palpar novamente apenas com ele deitado",
+    "Concluir que não há hérnia por ora",
+    "Reexaminar em pé com tosse ou Valsalva"
+   ],
+   "correta": 3,
+   "comentario": "O exame da virilha deve ocorrer em pé e deitado, com manobra que aumente a pressão abdominal. Hérnias pequenas podem desaparecer quando o paciente se deita.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; HerniaSurge 2018."
+  },
+  {
+   "id": "q-her-17",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Após exame clínico cuidadoso, persiste dúvida sobre pequeno abaulamento inguinal que surge ao esforço. Qual exame inicial de imagem é coerente com a apostila?",
+   "alternativas": [
+    "Ultrassom dinâmico",
+    "Tomografia em repouso",
+    "Ressonância como primeira etapa",
+    "Radiografia simples da pelve"
+   ],
+   "correta": 0,
+   "comentario": "O diagnóstico costuma ser clínico, mas o ultrassom dinâmico ajuda quando o exame é duvidoso. Se a dúvida persistir, podem ser usados ressonância ou tomografia.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; HerniaSurge 2018."
+  },
+  {
+   "id": "q-her-18",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Paciente com risco anestésico elevado precisa de correção eletiva de hérnia inguinal unilateral. Qual técnica com tela permite execução sob anestesia local?",
+   "alternativas": [
+    "TAPP",
+    "Lichtenstein",
+    "TEP",
+    "IPOM"
+   ],
+   "correta": 1,
+   "comentario": "Lichtenstein é reparo aberto anterior que pode ser realizado com anestesia local. A tela reforça a parede posterior do canal inguinal.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; HerniaSurge 2018."
+  },
+  {
+   "id": "q-her-19",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Um paciente com hérnia inguinal bilateral sintomática pergunta por uma abordagem que cubra os orifícios direto, indireto e femoral em ambos os lados. Qual opção atende a esse objetivo?",
+   "alternativas": [
+    "Bassini unilateral",
+    "McVay unilateral",
+    "TEP ou TAPP",
+    "Excisão isolada do saco"
+   ],
+   "correta": 2,
+   "comentario": "TEP e TAPP posicionam tela atrás da parede inguinal e cobrem os três orifícios da região. A abordagem laparoscópica é especialmente útil em hérnias bilaterais.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; HerniaSurge 2018; HerniaSurge 2023."
+  },
+  {
+   "id": "q-her-20",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Um homem tem recidiva inguinal após reparo anterior por Lichtenstein. Qual plano de acesso é preferido para a nova correção?",
+   "alternativas": [
+    "Nova dissecção anterior idêntica",
+    "Sutura apenas da pele",
+    "Punção do seroma presumido",
+    "Via posterior pré-peritoneal"
+   ],
+   "correta": 3,
+   "comentario": "Após falha de uma via anterior, a apostila recomenda abordar por via posterior. Essa troca evita redissecar o mesmo plano cicatricial.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; HerniaSurge 2018."
+  },
+  {
+   "id": "q-her-21",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Na técnica de Lichtenstein, qual cuidado com a tela reduz falha medial sobre o púbis?",
+   "alternativas": [
+    "Ultrapassar o tubérculo púbico em cerca de 2 cm",
+    "Fixar a tela profundamente no periósteo púbico",
+    "Deixar a borda medial antes do tubérculo",
+    "Cortar a tela na altura do anel profundo"
+   ],
+   "correta": 0,
+   "comentario": "A tela deve ultrapassar o tubérculo púbico em cerca de 2 cm. A apostila orienta evitar fixação no periósteo.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; HerniaSurge 2018."
+  },
+  {
+   "id": "q-her-22",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Após reparo inguinal, o paciente mantém dor neuropática na virilha por meses. Qual mecanismo operatório deve ser lembrado?",
+   "alternativas": [
+    "Persistência do processo vaginal",
+    "Aprisionamento de nervos inguinais",
+    "Ascite não controlada",
+    "Falha da bainha posterior do reto"
+   ],
+   "correta": 1,
+   "comentario": "Lesão ou aprisionamento de nervos como ilioinguinal e ílio-hipogástrico pode causar inguinodinia crônica. Identificá-los e evitar prendê-los na fixação da tela é importante.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; HerniaSurge 2018; HerniaSurge 2023."
+  },
+  {
+   "id": "q-her-23",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Adulto deseja reparo inguinal sem tela após decisão compartilhada, em centro com equipe experiente nessa opção. Qual técnica tecidual é a recomendada pela apostila?",
+   "alternativas": [
+    "Bassini",
+    "McVay",
+    "Shouldice",
+    "Fechamento cutâneo simples"
+   ],
+   "correta": 2,
+   "comentario": "Quando se escolhe um reparo sem tela, a técnica recomendada é Shouldice por equipe experiente. Na maioria dos adultos, a correção com tela reduz recidiva.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; HerniaSurge 2023."
+  },
+  {
+   "id": "q-her-24",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Na descrição de uma cirurgia laparoscópica da virilha, qual frase diferencia corretamente TAPP de TEP?",
+   "alternativas": [
+    "TAPP é anterior e TEP é retromuscular",
+    "TAPP dispensa tela e TEP usa tela",
+    "TAPP fecha o anel femoral e TEP não",
+    "TAPP é transabdominal; TEP é extraperitoneal"
+   ],
+   "correta": 3,
+   "comentario": "TAPP significa abordagem transabdominal pré-peritoneal. TEP acessa o espaço pré-peritoneal sem entrar na cavidade abdominal.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; HerniaSurge 2018."
+  },
+  {
+   "id": "q-her-25",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Adulto com hérnia umbilical sintomática apresenta defeito de 2 cm. Qual reparo é coerente com a apostila?",
+   "alternativas": [
+    "Tela em plano pré-peritoneal",
+    "Observação até fechamento espontâneo",
+    "Sutura de pele sem tratar o defeito",
+    "Tela inlay sem aproximar as bordas"
+   ],
+   "correta": 0,
+   "comentario": "Para defeito umbilical sintomático de 2 cm, a apostila indica tela e prefere o plano pré-peritoneal. O reforço com tela reduz a recidiva em comparação com a sutura isolada.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; EHS/AHS 2020."
+  },
+  {
+   "id": "q-her-26",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Paciente apresenta pequeno nódulo doloroso na linha alba entre o xifoide e o umbigo; a operação encontra apenas gordura pré-peritoneal no saco. Que hérnia é essa?",
+   "alternativas": [
+    "Spiegel",
+    "Epigástrica",
+    "Incisional",
+    "Femoral"
+   ],
+   "correta": 1,
+   "comentario": "A hérnia epigástrica ocorre na linha alba acima do umbigo. Seu conteúdo pode ser apenas gordura pré-peritoneal.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; EHS/AHS 2020."
+  },
+  {
+   "id": "q-her-27",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Uma paciente apresenta hérnia na cicatriz de laparotomia mediana e planeja reparo eletivo. Qual estratégia de tela é preferida na apostila?",
+   "alternativas": [
+    "Inlay sem fechar o defeito",
+    "IPOM com tela comum em contato com alças",
+    "Fechar o defeito e usar tela retromuscular",
+    "Sutura cutânea com tela subcutânea livre"
+   ],
+   "correta": 2,
+   "comentario": "A correção incisional eletiva descrita fecha o defeito e reforça a parede com tela retromuscular. Esse plano fica atrás do reto e à frente da bainha posterior.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; EHS/AHS 2022."
+  },
+  {
+   "id": "q-her-28",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Após laparotomia, uma paciente desenvolve hérnia incisional. Qual fator da história é destacado como principal risco na apostila?",
+   "alternativas": [
+    "Anestesia geral",
+    "Idade abaixo de 40 anos",
+    "Hérnia inguinal prévia",
+    "Infecção da ferida operatória"
+   ],
+   "correta": 3,
+   "comentario": "A infecção da ferida é destacada como principal fator de risco para hérnia incisional. A técnica de fechamento também tem papel central.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; EHS/AHS 2022."
+  },
+  {
+   "id": "q-her-29",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Mulher com dor lateral ao reto abdominal tem exame físico pouco conclusivo; a TC mostra defeito na linha semilunar sob a aponeurose do oblíquo externo. Qual hérnia é provável?",
+   "alternativas": [
+    "Spiegel",
+    "Epigástrica",
+    "Umbilical",
+    "Obturadora"
+   ],
+   "correta": 0,
+   "comentario": "A hérnia de Spiegel surge na linha semilunar e pode ficar escondida sob a aponeurose do oblíquo externo. Seu colo estreito favorece encarceramento, por isso se indica reparo.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; EHS/AHS 2020."
+  },
+  {
+   "id": "q-her-30",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Durante planejamento de hérnia ventral, o cirurgião propõe tela onlay. Onde essa tela será colocada?",
+   "alternativas": [
+    "Dentro da cavidade peritoneal",
+    "Sobre a aponeurose, sob o subcutâneo",
+    "Atrás do músculo reto",
+    "Entre a fáscia e o peritônio"
+   ],
+   "correta": 1,
+   "comentario": "A tela onlay repousa sobre a aponeurose, abaixo do tecido subcutâneo. Esse plano é mais simples, mas se associa a mais seroma e infecção na descrição da apostila.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; PRIMA 2017."
+  },
+  {
+   "id": "q-her-31",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Em reparo ventral, a tela é suturada apenas às bordas do defeito, sem fechamento fascial. Qual nome e limitação correspondem a essa montagem?",
+   "alternativas": [
+    "Sublay; maior seroma",
+    "Onlay; lesão do funículo",
+    "Inlay; maior recidiva",
+    "Pré-peritoneal; dor crônica inguinal"
+   ],
+   "correta": 2,
+   "comentario": "A tela inlay faz uma ponte entre as bordas sem fechar o defeito. A apostila recomenda evitá-la devido à maior recidiva.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; EHS/AHS 2022."
+  },
+  {
+   "id": "q-her-32",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Um reparo de hérnia ventral será feito com tela intraperitoneal em contato com alças. Qual cuidado decorre dessa posição?",
+   "alternativas": [
+    "Dispensar fixação da tela sempre",
+    "Usar tela de polipropileno comum sem barreira",
+    "Manter o defeito fascial aberto obrigatoriamente",
+    "Escolher tela própria para contato visceral"
+   ],
+   "correta": 3,
+   "comentario": "O IPOM coloca a tela dentro da cavidade, próxima às vísceras. É necessário material apropriado, pois aderências e fístulas são riscos desse contato.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; EHS/AHS 2020."
+  },
+  {
+   "id": "q-her-33",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Paciente cirrótico com ascite apresenta hérnia umbilical. Qual medida deve ser buscada antes do reparo eletivo, quando possível?",
+   "alternativas": [
+    "Controlar a ascite",
+    "Manter Valsalva diária",
+    "Evitar avaliação da pele",
+    "Usar apenas cinta definitiva"
+   ],
+   "correta": 0,
+   "comentario": "A ascite aumenta a pressão sobre o defeito e pode favorecer ruptura da hérnia umbilical. A apostila orienta controlá-la antes da operação quando possível.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; EHS/AHS 2020."
+  },
+  {
+   "id": "q-her-34",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Ao desenhar um reparo retromuscular de hérnia incisional, em que plano o cirurgião colocará a tela?",
+   "alternativas": [
+    "Entre pele e subcutâneo",
+    "Atrás do reto e à frente da bainha posterior",
+    "Dentro da cavidade junto às alças",
+    "Na borda do defeito como ponte"
+   ],
+   "correta": 1,
+   "comentario": "A posição sublay retromuscular fica posterior ao reto abdominal e anterior à sua bainha posterior. A apostila a prefere na hérnia incisional eletiva.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; EHS/AHS 2022."
+  },
+  {
+   "id": "q-her-35",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "No fechamento de laparotomia mediana eletiva, qual combinação reproduz a técnica recomendada?",
+   "alternativas": [
+    "Pontos separados largos com fio de absorção rápida",
+    "Sutura contínua pegando músculo e gordura",
+    "Small bites contínuos com fio de absorção lenta",
+    "Pontos transfixantes incluindo pele e aponeurose"
+   ],
+   "correta": 2,
+   "comentario": "A recomendação é sutura contínua em small bites, somente na aponeurose, com monofilamento de absorção lenta. A aproximação deve evitar estrangular o tecido.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; EHS/AHS 2022; STITCH 2015."
+  },
+  {
+   "id": "q-her-36",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Durante o OSCE, um estudante demonstra a distância de passagem da agulha na aponeurose para small bites. Qual referência do STITCH está correta?",
+   "alternativas": [
+    "15 mm da borda e 15 mm entre pontos",
+    "20 mm da borda e 5 mm entre pontos",
+    "5 mm da borda e 20 mm entre pontos",
+    "5 mm da borda e 5 mm entre pontos"
+   ],
+   "correta": 3,
+   "comentario": "A referência prática da apostila é cerca de 5 mm da borda e 5 mm entre passadas. Os pontos devem atravessar apenas a aponeurose.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; STITCH 2015; EHS/AHS 2022."
+  },
+  {
+   "id": "q-her-37",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Uma incisão mediana mede 12 cm. Para manter relação fio:ferida de pelo menos 4:1, qual comprimento mínimo de fio deve ser gasto na sutura fascial?",
+   "alternativas": [
+    "48 cm",
+    "36 cm",
+    "24 cm",
+    "12 cm"
+   ],
+   "correta": 0,
+   "comentario": "A relação mínima é quatro vezes o comprimento da ferida: 12 × 4 = 48 cm. O fio usado deve ser acompanhado durante o fechamento.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; EHS/AHS 2022; STITCH 2015."
+  },
+  {
+   "id": "q-her-38",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Um interno fecha a laparotomia incluindo gordura e músculo em cada passagem da sutura fascial. Qual correção técnica é necessária?",
+   "alternativas": [
+    "Aumentar a tensão em cada ponto",
+    "Passar o fio apenas na aponeurose",
+    "Trocar sutura contínua por grampos",
+    "Reduzir a relação fio:ferida para 2:1"
+   ],
+   "correta": 1,
+   "comentario": "Na técnica descrita, a sutura fascial deve capturar só aponeurose, sem músculo ou gordura. Subcutâneo e pele são fechados separadamente.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; EHS/AHS 2022; STITCH 2015."
+  },
+  {
+   "id": "q-her-39",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "No estudo STITCH citado pela apostila, como se comparou a incidência de hérnia incisional em 1 ano entre small bites e pontos grandes?",
+   "alternativas": [
+    "21% versus 13%, respectivamente",
+    "30% versus 18%, respectivamente",
+    "13% versus 21%, respectivamente",
+    "18% versus 30%, respectivamente"
+   ],
+   "correta": 2,
+   "comentario": "No STITCH, a incidência foi 13% com small bites e 21% com pontos grandes em 1 ano. O estudo sustenta o fechamento com passadas pequenas.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; STITCH 2015."
+  },
+  {
+   "id": "q-her-40",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Após laparotomia mediana eletiva em paciente com obesidade, discute-se tela profilática. Qual afirmação acompanha a apostila?",
+   "alternativas": [
+    "É obrigatória em toda laparotomia",
+    "Só pode ser usada após hérnia estabelecida",
+    "Está proibida em pacientes com aneurisma",
+    "Pode ser considerada, sobretudo no alto risco"
+   ],
+   "correta": 3,
+   "comentario": "A tela profilática pode ser considerada após laparotomia mediana eletiva, sobretudo no alto risco. A decisão é individual e não constitui obrigação para todos.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; PRIMA 2017; EHS/AHS 2022."
+  },
+  {
+   "id": "q-her-41",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Qual população de alto risco foi incluída no estudo PRIMA citado na apostila para prevenção de hérnia incisional?",
+   "alternativas": [
+    "Pacientes com aneurisma de aorta ou IMC ≥ 27",
+    "Pacientes com diabetes ou hérnia epigástrica",
+    "Pacientes com ascite ou hérnia femoral",
+    "Pacientes com tabagismo ou hérnia inguinal"
+   ],
+   "correta": 0,
+   "comentario": "O PRIMA avaliou pacientes submetidos a laparotomia mediana com aneurisma de aorta ou IMC ≥ 27. Nesse grupo, telas onlay e sublay reduziram hérnia incisional em comparação com sutura isolada.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; PRIMA 2017."
+  },
+  {
+   "id": "q-her-42",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Ao terminar o fechamento fascial, o cirurgião pede que o interno explique 'fechar por planos'. Qual resposta é adequada?",
+   "alternativas": [
+    "Passar um único ponto por todas as camadas",
+    "Fechar cada camada separadamente",
+    "Deixar o subcutâneo sempre aberto",
+    "Incluir pele na sutura aponeurótica"
+   ],
+   "correta": 1,
+   "comentario": "Fechar por planos significa tratar separadamente aponeurose, subcutâneo e pele. A sutura da aponeurose não deve englobar as outras camadas.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; EHS/AHS 2022."
+  },
+  {
+   "id": "q-her-43",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Homem apresenta hérnia inguinal que deixou de reduzir há duas horas, com dor moderada, sem sinais de isquemia ou obstrução. Qual conduta inicial é descrita na apostila?",
+   "alternativas": [
+    "Redução vigorosa sem analgesia",
+    "Alta imediata sem reavaliação",
+    "Analgesia, taxis delicada e observação",
+    "Ressecção intestinal imediata sem avaliação"
+   ],
+   "correta": 2,
+   "comentario": "Na irredutibilidade aguda sem suspeita de isquemia, pode-se tentar redução manual delicada após analgesia. Se reduzir, observa-se até passar o efeito da analgesia e programa-se a correção.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; HerniaSurge 2023."
+  },
+  {
+   "id": "q-her-44",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Paciente com hérnia femoral irredutível tem dor contínua intensa, febre e pele eritematosa sobre o abaulamento. Qual decisão é adequada?",
+   "alternativas": [
+    "Taxis forçada até desaparecer o abaulamento",
+    "Observação ambulatorial por uma semana",
+    "Cinta compressiva e retorno eletivo",
+    "Preparação e cirurgia de urgência"
+   ],
+   "correta": 3,
+   "comentario": "Os achados levantam suspeita de estrangulamento, exigindo avaliação e cirurgia de urgência. Forçar a redução pode devolver conteúdo isquêmico à cavidade.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; HerniaSurge 2023."
+  },
+  {
+   "id": "q-her-45",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Uma hérnia antes dolorosa parece desaparecer após redução vigorosa, mas o paciente continua com obstrução e dor. Qual complicação explica o quadro?",
+   "alternativas": [
+    "Redução em bloco",
+    "Hérnia de Littré",
+    "Seroma de tela",
+    "Hérnia de Spiegel"
+   ],
+   "correta": 0,
+   "comentario": "Na redução em bloco, saco e anel constritivo são deslocados juntos, mantendo a alça presa e isquêmica. Persistência de sintomas após aparente redução exige reavaliação urgente.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; HerniaSurge 2023."
+  },
+  {
+   "id": "q-her-46",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Idosa com hérnia encarcerada apresenta dor localizada e sinais inflamatórios, mas ainda elimina gases. Qual tipo especial pode necrosar sem obstrução intestinal completa?",
+   "alternativas": [
+    "Hérnia em pantalona",
+    "Hérnia de Richter",
+    "Hérnia de Littré",
+    "Hérnia lombar"
+   ],
+   "correta": 1,
+   "comentario": "Na hérnia de Richter, apenas parte da circunferência da parede intestinal fica presa. O lúmen pode continuar parcialmente pérvio apesar de isquemia e perfuração.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; HerniaSurge 2018."
+  },
+  {
+   "id": "q-her-47",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Uma cirurgia encontra o apêndice vermiforme dentro de um saco herniário inguinal. Qual epônimo nomeia esse achado?",
+   "alternativas": [
+    "De Garengeot",
+    "Richter",
+    "Amyand",
+    "Littré"
+   ],
+   "correta": 2,
+   "comentario": "A hérnia de Amyand contém o apêndice em uma hérnia inguinal. Quando o apêndice está em uma hérnia femoral, o epônimo é de Garengeot.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; HerniaSurge 2018."
+  },
+  {
+   "id": "q-her-48",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Em uma operação de hérnia, encontra-se divertículo de Meckel no saco. Qual é o nome desse tipo especial?",
+   "alternativas": [
+    "Amyand",
+    "Richter",
+    "De Garengeot",
+    "Littré"
+   ],
+   "correta": 3,
+   "comentario": "A hérnia de Littré contém o divertículo de Meckel. O nome se refere ao conteúdo, independentemente de uma hipótese de obstrução completa.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; HerniaSurge 2018."
+  },
+  {
+   "id": "q-her-49",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Mulher idosa e magra tem obstrução intestinal sem abaulamento visível e dor na face medial da coxa. Que hérnia deve ser procurada?",
+   "alternativas": [
+    "Obturadora",
+    "Epigástrica",
+    "Inguinal direta",
+    "Umbilical"
+   ],
+   "correta": 0,
+   "comentario": "A hérnia obturadora pode causar obstrução sem massa externa evidente. Dor medial da coxa corresponde ao sinal de Howship-Romberg.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; HerniaSurge 2018."
+  },
+  {
+   "id": "q-her-50",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "enunciado": "Durante reparo de uma hérnia inguinal volumosa, a parede do saco parece formada em parte pela bexiga. Qual cuidado esse achado exige?",
+   "alternativas": [
+    "Abrir amplamente o saco sem identificação",
+    "Reconhecer deslizamento e proteger o órgão",
+    "Classificar como hérnia de Richter e ressecar alça",
+    "Fixar tela diretamente na parede da bexiga"
+   ],
+   "correta": 1,
+   "comentario": "Na hérnia por deslizamento, um órgão como bexiga ou cólon constitui parte da parede do saco. A abertura inadvertida pode lesar esse órgão.",
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; HerniaSurge 2018."
   }
  ]
 }
