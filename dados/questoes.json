@@ -5250,6 +5250,756 @@
    "correta": 1,
    "comentario": "A infusão intraóssea pode ser dolorosa no paciente consciente; lidocaína pode aliviar, e pressão ou bolus ajudam a atingir fluxo rápido. O acesso é temporário e deve ser substituído por via venosa assim que possível.",
    "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; AHA/ILCOR 2025"
+  },
+  {
+   "id": "q-aa-01",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Um homem apresenta dor abdominal inicialmente vaga, que se fixa na fossa ilíaca direita após algumas horas, com febre e leucocitose. Qual mecanismo de abdome agudo predomina?",
+   "alternativas": [
+    "Hemorrágico, por perda sanguínea intraperitoneal.",
+    "Vascular, por redução do fluxo mesentérico.",
+    "Inflamatório, por comprometimento progressivo do apêndice.",
+    "Obstrutivo, por bloqueio do trânsito intestinal."
+   ],
+   "correta": 2,
+   "comentario": "A migração da dor, seguida de localização, febre e leucocitose, é típica do mecanismo inflamatório na apendicite. A dor visceral inicial passa a somática quando o peritônio parietal é irritado.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; ACR Appropriateness Criteria (dor no quadrante inferior direito)"
+  },
+  {
+   "id": "q-aa-02",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Paciente com laparotomia prévia apresenta dor em cólicas, vômitos, distensão e parada de eliminação de gases. Qual classificação melhor reúne esses achados?",
+   "alternativas": [
+    "Abdome agudo obstrutivo.",
+    "Abdome agudo vascular.",
+    "Abdome agudo hemorrágico.",
+    "Abdome agudo perfurativo."
+   ],
+   "correta": 0,
+   "comentario": "A combinação de cólicas, vômitos, distensão e obstipação caracteriza o padrão obstrutivo. A cirurgia prévia aumenta a suspeita de bridas.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; ACR Appropriateness Criteria (suspeita de obstrução do intestino delgado)"
+  },
+  {
+   "id": "q-aa-03",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Homem com antecedente de úlcera péptica relata dor súbita e muito intensa, seguida de rigidez abdominal difusa. Qual mecanismo deve ser presumido inicialmente?",
+   "alternativas": [
+    "Inflamatório, com evolução lenta e localizada.",
+    "Obstrutivo, com distensão progressiva de alças.",
+    "Vascular, com exame abdominal inicialmente pobre.",
+    "Perfurativo, com irritação peritoneal difusa."
+   ],
+   "correta": 3,
+   "comentario": "A dor abrupta associada a abdome em tábua sugere perfuração de víscera oca e peritonite. Pneumoperitônio pode reforçar a hipótese na imagem.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; ACR Appropriateness Criteria (dor abdominal aguda não localizada)"
+  },
+  {
+   "id": "q-aa-04",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Idoso com fibrilação atrial tem dor abdominal muito intensa, mas abdome flácido e pouco doloroso à palpação. Qual mecanismo exige investigação imediata?",
+   "alternativas": [
+    "Inflamatório, pela provável infecção apendicular.",
+    "Vascular, pela possível isquemia mesentérica.",
+    "Perfurativo, pela provável úlcera rota.",
+    "Obstrutivo, pela provável brida intestinal."
+   ],
+   "correta": 1,
+   "comentario": "Dor desproporcional ao exame em pessoa com arritmia é alerta para isquemia mesentérica aguda. A ausência inicial de sinais peritoneais não reduz a urgência da investigação.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; WSES 2022"
+  },
+  {
+   "id": "q-aa-05",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Mulher em idade fértil chega com dor abdominal súbita, palidez, hipotensão e suspeita de sangue livre no abdome. Qual tipo de abdome agudo e hipótese devem ser priorizados?",
+   "alternativas": [
+    "Hemorrágico; gravidez ectópica rota.",
+    "Obstrutivo; hérnia femoral encarcerada.",
+    "Inflamatório; apendicite sem perfuração.",
+    "Vascular; colite isquêmica segmentar."
+   ],
+   "correta": 0,
+   "comentario": "Dor súbita acompanhada de choque e líquido livre sugere hemorragia intra-abdominal. Nessa população, gravidez ectópica rota deve ser considerada até exclusão por avaliação apropriada.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; ACR Appropriateness Criteria (dor abdominal aguda não localizada)"
+  },
+  {
+   "id": "q-aa-06",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "No início de uma apendicite, o paciente descreve dor mal localizada ao redor do umbigo, acompanhada de náusea. Que tipo de dor explica essa fase?",
+   "alternativas": [
+    "Parietal, pela irritação localizada do peritônio.",
+    "Referida, pela estimulação do nervo frênico.",
+    "Visceral, pela aferência dos órgãos abdominais.",
+    "Somática, pela inflamação da parede abdominal."
+   ],
+   "correta": 2,
+   "comentario": "A dor visceral costuma ser vaga e percebida na linha média, podendo acompanhar-se de sintomas autonômicos. Com a irritação do peritônio parietal, a dor tende a se localizar.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; ACR Appropriateness Criteria (dor no quadrante inferior direito)"
+  },
+  {
+   "id": "q-aa-07",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Paciente com dor antes periumbilical passa a apontar um local preciso na fossa ilíaca direita e evita tossir ou se mover. Qual estrutura explica a nova característica da dor?",
+   "alternativas": [
+    "Peritônio visceral, gerando cólica mal localizada.",
+    "Peritônio parietal, gerando dor contínua localizada.",
+    "Nervo frênico, gerando dor irradiada ao ombro.",
+    "Plexo celíaco, gerando dor referida ao dorso."
+   ],
+   "correta": 1,
+   "comentario": "A inflamação do peritônio parietal produz dor somática bem delimitada e piora com movimento ou tosse. Essa transição ajuda a explicar a migração da dor apendicular.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; ACR Appropriateness Criteria (dor no quadrante inferior direito)"
+  },
+  {
+   "id": "q-aa-08",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Após trauma abdominal, paciente com suspeita de ruptura esplênica passa a relatar dor no ombro esquerdo. Como se chama esse achado?",
+   "alternativas": [
+    "Sinal de Murphy, por estímulo da vesícula.",
+    "Sinal de Jobert, por ar livre subdiafragmático.",
+    "Sinal de Rovsing, por pressão na fossa esquerda.",
+    "Sinal de Kehr, por irritação do diafragma."
+   ],
+   "correta": 3,
+   "comentario": "O sinal de Kehr é dor referida ao ombro esquerdo por irritação diafragmática, como pode ocorrer na ruptura esplênica. A dor é percebida longe da origem abdominal.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; ACR Appropriateness Criteria (dor abdominal aguda não localizada)"
+  },
+  {
+   "id": "q-aa-09",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Ao comprimir a fossa ilíaca esquerda de um paciente, o examinador desencadeia dor na fossa ilíaca direita. Qual sinal está presente?",
+   "alternativas": [
+    "Rovsing.",
+    "Blumberg.",
+    "Giordano.",
+    "Murphy."
+   ],
+   "correta": 0,
+   "comentario": "Dor à direita provocada pela compressão da fossa ilíaca esquerda caracteriza o sinal de Rovsing. Ele apoia a hipótese de apendicite no contexto clínico adequado.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; ACR Appropriateness Criteria (dor no quadrante inferior direito)"
+  },
+  {
+   "id": "q-aa-10",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Paciente com dor no hipocôndrio direito interrompe a inspiração quando o médico palpa o ponto cístico. Qual sinal e hipótese correspondem ao exame?",
+   "alternativas": [
+    "Giordano; pielonefrite aguda.",
+    "Jobert; perfuração de víscera.",
+    "Murphy; colecistite aguda.",
+    "Blumberg; apendicite aguda."
+   ],
+   "correta": 2,
+   "comentario": "A interrupção inspiratória dolorosa durante a palpação do ponto cístico define o sinal de Murphy. Em quadro compatível, ele sugere inflamação aguda da vesícula.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; ACR Appropriateness Criteria (dor no quadrante superior direito)"
+  },
+  {
+   "id": "q-aa-11",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Paciente com suspeita de apendicite refere dor quando o examinador estende passivamente o quadril direito. Qual localização do apêndice esse sinal pode sugerir?",
+   "alternativas": [
+    "Sub-hepática, pelo contato com a vesícula.",
+    "Intraperitoneal livre, sem contato muscular.",
+    "Pélvica, pelo contato com o obturador.",
+    "Retrocecal, pelo contato com o psoas."
+   ],
+   "correta": 3,
+   "comentario": "A extensão do quadril pode tensionar o psoas e desencadear dor quando o apêndice está retrocecal. Já a rotação interna da coxa fletida pesquisa irritação do obturador, associada ao apêndice pélvico.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; ACR Appropriateness Criteria (dor no quadrante inferior direito)"
+  },
+  {
+   "id": "q-aa-12",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Na percussão de paciente com dor abdominal súbita, encontra-se timpanismo na região onde se esperava macicez hepática. Qual interpretação é mais apropriada?",
+   "alternativas": [
+    "Sinal de Cullen, sugerindo hemorragia retroperitoneal.",
+    "Sinal de Jobert, sugerindo pneumoperitônio.",
+    "Sinal de Murphy, sugerindo inflamação da vesícula.",
+    "Sinal de Giordano, sugerindo infecção urinária alta."
+   ],
+   "correta": 1,
+   "comentario": "A perda da macicez hepática com timpanismo é o sinal de Jobert e sugere ar livre intraperitoneal. A interpretação depende do quadro clínico, pois há situações que simulam pneumoperitônio.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; ACR Appropriateness Criteria (dor abdominal aguda não localizada)"
+  },
+  {
+   "id": "q-aa-13",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Paciente grave com dor abdominal apresenta equimose periumbilical; em outro caso, a equimose aparece nos flancos. Quais sinais são, respectivamente?",
+   "alternativas": [
+    "Grey Turner e Cullen.",
+    "Jobert e Blumberg.",
+    "Cullen e Grey Turner.",
+    "Rovsing e Giordano."
+   ],
+   "correta": 2,
+   "comentario": "Cullen descreve equimose periumbilical; Grey Turner, equimose nos flancos. Ambos podem apontar para sangramento retroperitoneal em doenças graves, como pancreatite hemorrágica.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; ACR Appropriateness Criteria (dor abdominal aguda não localizada)"
+  },
+  {
+   "id": "q-aa-14",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Idosa apresenta vômitos, distensão e parada de gases, mas não refere massa abdominal espontaneamente. Qual parte do exame físico é essencial para uma causa que costuma passar despercebida?",
+   "alternativas": [
+    "Examinar todas as regiões herniárias, inclusive a femoral.",
+    "Restringir a palpação ao ponto de McBurney à direita.",
+    "Pesquisar apenas macicez móvel nos flancos abdominais.",
+    "Avaliar somente a punho-percussão das lojas renais."
+   ],
+   "correta": 0,
+   "comentario": "Hérnia femoral encarcerada pode causar obstrução em idosas e ser omitida se as regiões herniárias não forem examinadas. Cicatrizes e distensão também devem ser inspecionadas.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; ACR Appropriateness Criteria (suspeita de obstrução do intestino delgado)"
+  },
+  {
+   "id": "q-aa-15",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Paciente com cólicas, distensão e vômitos informa ter realizado duas laparotomias. Que dado da história favorece a principal causa mecânica sugerida pela apostila?",
+   "alternativas": [
+    "Uso crônico de anti-inflamatório e úlcera conhecida.",
+    "Dor à punho-percussão lombar e alteração urinária.",
+    "Ciclo menstrual irregular e sangramento vaginal.",
+    "Cirurgias abdominais prévias e provável aderência."
+   ],
+   "correta": 3,
+   "comentario": "Operações abdominais anteriores aumentam a possibilidade de aderências ou bridas, causa frequente de obstrução. A história cirúrgica orienta a hipótese, mas não substitui a busca por sinais de sofrimento intestinal.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; ACR Appropriateness Criteria (suspeita de obstrução do intestino delgado)"
+  },
+  {
+   "id": "q-aa-16",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Adulto hemodinamicamente estável apresenta dor abdominal aguda sem localização definida. Após avaliação inicial, qual imagem costuma ser mais completa para investigar causa e complicações?",
+   "alternativas": [
+    "Radiografia simples de abdome em uma incidência.",
+    "TC de abdome e pelve com contraste intravenoso.",
+    "Ultrassom limitado às vias biliares superiores.",
+    "Ressonância de pelve sem contraste intravenoso."
+   ],
+   "correta": 1,
+   "comentario": "A TC contrastada avalia amplamente o abdome no adulto com dor aguda não localizada e pode mostrar a causa e complicações. A escolha final depende da hipótese, estabilidade e condições do paciente.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; ACR Appropriateness Criteria (dor abdominal aguda não localizada)"
+  },
+  {
+   "id": "q-aa-17",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Mulher estável apresenta dor no hipocôndrio direito, febre e sinal de Murphy. Qual exame inicial é mais adequado para avaliar a hipótese biliar?",
+   "alternativas": [
+    "Radiografia de abdome deitada.",
+    "Angiotomografia mesentérica.",
+    "Ressonância de coluna lombar.",
+    "Ultrassom de abdome superior."
+   ],
+   "correta": 3,
+   "comentario": "O ultrassom é o exame inicial para vesícula e vias biliares no quadro clínico compatível. Ele não usa radiação, embora dependa do operador e possa ser limitado por gás ou obesidade.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; ACR Appropriateness Criteria (dor no quadrante superior direito)"
+  },
+  {
+   "id": "q-aa-18",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Idoso com fibrilação atrial tem dor abdominal intensa e desproporcional ao exame. Está estável para transporte e há suspeita de isquemia mesentérica. Qual imagem deve ser feita sem demora?",
+   "alternativas": [
+    "Angiotomografia de abdome e pelve.",
+    "Radiografia simples seriada de abdome.",
+    "Ultrassom exclusivo da vesícula biliar.",
+    "Ressonância magnética da pelve óssea."
+   ],
+   "correta": 0,
+   "comentario": "A angiotomografia é o exame indicado na suspeita de isquemia mesentérica aguda. Lactato normal ou ainda não elevado não exclui isquemia precoce.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; WSES 2022"
+  },
+  {
+   "id": "q-aa-19",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Paciente com dor súbita e defesa abdominal tem radiografia de tórax em pé sem ar livre visível. Qual interpretação da imagem é correta?",
+   "alternativas": [
+    "A radiografia normal exclui perfuração intestinal.",
+    "A ausência de ar livre elimina necessidade de reexame.",
+    "A radiografia normal não afasta doença cirúrgica.",
+    "A radiografia normal confirma dor de origem clínica."
+   ],
+   "correta": 2,
+   "comentario": "A radiografia simples tem sensibilidade limitada e um resultado normal não exclui perfuração ou outra urgência. A avaliação clínica e a TC indicada devem prosseguir sem atraso.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; ACR Appropriateness Criteria (dor abdominal aguda não localizada)"
+  },
+  {
+   "id": "q-aa-20",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Adulto estável apresenta cólicas, vômitos e distensão; a radiografia sugere alças delgadas dilatadas. Qual exame melhor define causa e complicações de uma possível obstrução?",
+   "alternativas": [
+    "Radiografia de tórax repetida a cada hora.",
+    "TC de abdome e pelve com contraste intravenoso.",
+    "Ultrassom restrito ao aparelho urinário.",
+    "Colonoscopia imediata antes da avaliação clínica."
+   ],
+   "correta": 1,
+   "comentario": "Na suspeita de obstrução aguda do intestino delgado, a TC contrastada ajuda a localizar o bloqueio e identificar sinais de complicação. Níveis hidroaéreos na radiografia orientam, mas não esclarecem toda a causa.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; ACR Appropriateness Criteria (suspeita de obstrução do intestino delgado)"
+  },
+  {
+   "id": "q-aa-21",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Paciente com dor abdominal aguda chega hipotenso, taquicárdico e mal perfundido. Qual é a prioridade inicial?",
+   "alternativas": [
+    "Iniciar reanimação e chamar precocemente a cirurgia.",
+    "Aguardar tomografia antes de obter acesso venoso.",
+    "Solicitar alta após analgesia se a dor diminuir.",
+    "Fazer colonoscopia antes de avaliar a perfusão."
+   ],
+   "correta": 0,
+   "comentario": "Instabilidade impõe avaliação da perfusão, acesso venoso e reanimação imediata, com avaliação cirúrgica precoce. Exames não devem retardar o cuidado do choque.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; WSES 2022"
+  },
+  {
+   "id": "q-aa-22",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Homem com dor abdominal intensa aguarda exames após avaliação inicial. Um colega propõe suspender opioide para preservar o diagnóstico. Qual conduta está correta?",
+   "alternativas": [
+    "Suspender toda analgesia até haver laudo da TC.",
+    "Oferecer opioide somente após decisão cirúrgica.",
+    "Substituir analgesia por sedação para o exame.",
+    "Oferecer analgesia adequada e manter reavaliação."
+   ],
+   "correta": 3,
+   "comentario": "Analgesia, inclusive com opioides, não deve ser negada por receio de mascarar a causa da dor. O exame seriado e a investigação continuam necessários.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; Cochrane 2011"
+  },
+  {
+   "id": "q-aa-23",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Paciente com provável obstrução intestinal apresenta vômitos repetidos e distensão importante. Que medida de suporte é indicada enquanto se investiga e se corrige a causa?",
+   "alternativas": [
+    "Dieta oral em pequenos volumes para manter trânsito.",
+    "Enema de rotina antes de estimar o nível obstrutivo.",
+    "Sonda nasogástrica para descompressão, além de suporte venoso.",
+    "Diurético de alça para reduzir a distensão abdominal."
+   ],
+   "correta": 2,
+   "comentario": "Na obstrução com vômitos ou distensão, a sonda nasogástrica pode aliviar a pressão e reduzir vômitos. Jejum, hidratação e avaliação da causa e de sinais de estrangulamento seguem em paralelo.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; ACR Appropriateness Criteria (suspeita de obstrução do intestino delgado)"
+  },
+  {
+   "id": "q-aa-24",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Paciente com defesa abdominal difusa, febre e hipotensão tem provável peritonite. Além de reanimação e avaliação cirúrgica, qual intervenção não deve ser adiada?",
+   "alternativas": [
+    "Antibiótico apenas após o resultado da cultura peritoneal.",
+    "Antibiótico precoce para peritonite e sepse.",
+    "Antibiótico somente se a radiografia mostrar ar livre.",
+    "Antibiótico apenas depois da primeira laparotomia."
+   ],
+   "correta": 1,
+   "comentario": "Peritonite e sepse exigem antibiótico oportuno durante a estabilização e o planejamento do controle da fonte. Não se deve esperar radiografia ou cultura para iniciar tratamento quando a suspeita é forte.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; WSES 2022"
+  },
+  {
+   "id": "q-aa-25",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Paciente com dor abdominal súbita apresenta defesa involuntária difusa e sinais de contaminação da cavidade. Qual decisão é apropriada após medidas de reanimação?",
+   "alternativas": [
+    "Observação domiciliar por 48 horas.",
+    "Aguardar normalização dos leucócitos.",
+    "Marcar retorno ambulatorial com ultrassom.",
+    "Solicitar avaliação para cirurgia de urgência."
+   ],
+   "correta": 3,
+   "comentario": "Peritonite difusa é indicação de avaliação cirúrgica urgente para controle da fonte. A reanimação e o antibiótico são iniciados em paralelo à definição operatória.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; WSES 2022"
+  },
+  {
+   "id": "q-aa-26",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Paciente inicialmente com cólicas e distensão passa a ter dor contínua, febre, taquicardia, acidose e defesa abdominal. O que essa mudança sugere?",
+   "alternativas": [
+    "Obstrução com sofrimento ou estrangulamento intestinal.",
+    "Resolução espontânea da obstrução por bridas.",
+    "Ascite sem infecção como causa dos sintomas.",
+    "Cólica funcional sem risco de necrose intestinal."
+   ],
+   "correta": 0,
+   "comentario": "Dor contínua, alterações sistêmicas, acidose e defesa durante uma obstrução sugerem isquemia ou estrangulamento de alça. O quadro exige avaliação cirúrgica urgente.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; ACR Appropriateness Criteria (suspeita de obstrução do intestino delgado)"
+  },
+  {
+   "id": "q-aa-27",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Angiotomografia mostra isquemia mesentérica em paciente que evolui com defesa difusa e suspeita de necrose intestinal. Qual abordagem é indicada?",
+   "alternativas": [
+    "Alta com anticoagulação oral e revisão tardia.",
+    "Apenas repetição do lactato após algumas horas.",
+    "Cirurgia urgente em conjunto com equipe vascular.",
+    "Paracentese terapêutica para aliviar a dor."
+   ],
+   "correta": 2,
+   "comentario": "Peritonite ou suspeita de necrose na isquemia mesentérica indica exploração urgente para avaliar o intestino e restaurar fluxo quando possível. Cirurgia e equipe vascular devem atuar juntas.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; WSES 2022"
+  },
+  {
+   "id": "q-aa-28",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Mulher de 27 anos apresenta dor abdominal e tontura; está hipotensa e não sabe informar a data da última menstruação. Qual exame deve ser colhido logo, em paralelo à reanimação?",
+   "alternativas": [
+    "Lipase para excluir pancreatite aguda.",
+    "Lactato para excluir isquemia mesentérica.",
+    "PCR para excluir apendicite aguda.",
+    "β-hCG para investigar gravidez ectópica."
+   ],
+   "correta": 3,
+   "comentario": "Toda mulher em idade fértil com dor abdominal deve ter gestação investigada precocemente. A coleta do β-hCG não pode atrasar reanimação ou avaliação cirúrgica no choque.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; ACR Appropriateness Criteria (dor abdominal aguda não localizada)"
+  },
+  {
+   "id": "q-aa-29",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Gestante estável apresenta dor persistente em fossa ilíaca direita e suspeita de apendicite. O ultrassom inicial não esclareceu o caso. Qual exame é a próxima opção descrita na apostila?",
+   "alternativas": [
+    "Ressonância magnética abdominal sem contraste.",
+    "Radiografia simples diária por três dias.",
+    "Colonoscopia imediata com preparo intestinal.",
+    "Cintilografia óssea da região pélvica."
+   ],
+   "correta": 0,
+   "comentario": "Na gestante, o ultrassom é a primeira opção e a ressonância pode esclarecer o quadro quando ele é inconclusivo. Uma TC necessária não deve ser negada se a avaliação clínica exigir.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; ACR Appropriateness Criteria (dor no quadrante inferior direito)"
+  },
+  {
+   "id": "q-aa-30",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Idoso com dor abdominal progressiva tem temperatura normal e leucograma sem alterações, mas permanece prostrado e doloroso. Qual interpretação evita atraso diagnóstico?",
+   "alternativas": [
+    "O leucograma normal exclui abdome cirúrgico.",
+    "Doença grave ainda é possível e o limiar para TC é baixo.",
+    "A ausência de febre exclui isquemia e perfuração.",
+    "O exame deve ser encerrado se não houver vômitos."
+   ],
+   "correta": 1,
+   "comentario": "Idosos podem ter pouca febre, leucocitose ou dor mesmo em doença abdominal grave. Um leucograma normal não afasta causa cirúrgica e a investigação por imagem pode ser necessária.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; ACR Appropriateness Criteria (dor abdominal aguda não localizada)"
+  },
+  {
+   "id": "q-aa-31",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Paciente em uso prolongado de corticoide relata dor abdominal nova, mas quase não apresenta defesa à palpação. Como esse contexto altera a avaliação?",
+   "alternativas": [
+    "Torna perfuração impossível na ausência de rigidez.",
+    "Permite dispensar sinais vitais e exame seriado.",
+    "Pode atenuar sinais de peritonite e exige vigilância.",
+    "Transforma toda dor abdominal em cólica renal."
+   ],
+   "correta": 2,
+   "comentario": "Corticoide e imunossupressão podem reduzir manifestações típicas de inflamação peritoneal. A decisão deve integrar evolução, sinais vitais e exames, sem depender de defesa exuberante.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; ACR Appropriateness Criteria (dor abdominal aguda não localizada)"
+  },
+  {
+   "id": "q-aa-32",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Homem cardiopata de 65 anos procura atendimento por dor epigástrica e náusea, sem sinais claros de peritonite. Qual exame simples deve integrar a avaliação inicial de um possível mimetizador?",
+   "alternativas": [
+    "Eletrocardiograma para investigar infarto inferior.",
+    "Enema opaco para investigar apendicite aguda.",
+    "Punção ascítica para investigar infarto inferior.",
+    "Radiografia da mão para investigar pneumonia."
+   ],
+   "correta": 0,
+   "comentario": "Infarto da parede inferior pode manifestar-se como dor epigástrica. O eletrocardiograma é apropriado no adulto com dor abdominal alta, sobretudo se houver risco cardíaco.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; ACR Appropriateness Criteria (dor abdominal aguda não localizada)"
+  },
+  {
+   "id": "q-aa-33",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Jovem com diabetes apresenta dor abdominal difusa, respiração profunda, desidratação, hiperglicemia e acidose. Qual diagnóstico clínico pode explicar a dor?",
+   "alternativas": [
+    "Pneumonia basal sem alteração respiratória.",
+    "Cetoacidose diabética com dor abdominal.",
+    "Cólica renal sem achados urinários.",
+    "Apendicite retrocecal sem inflamação."
+   ],
+   "correta": 1,
+   "comentario": "Hiperglicemia, acidose e desidratação em pessoa com diabetes apontam para cetoacidose, que pode causar dor abdominal importante. A avaliação também deve procurar outra causa se a dor persistir após correção metabólica.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; ACR Appropriateness Criteria (dor abdominal aguda não localizada)"
+  },
+  {
+   "id": "q-aa-34",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Paciente febril tem dor no andar superior do abdome, tosse e estertores em base pulmonar direita. Que diagnóstico extra-abdominal deve ser considerado?",
+   "alternativas": [
+    "Isquemia mesentérica aguda.",
+    "Pneumonia de base pulmonar.",
+    "Hérnia femoral encarcerada.",
+    "Ascite quilosa por linfoma."
+   ],
+   "correta": 1,
+   "comentario": "Pneumonia basal pode provocar dor referida ao andar superior abdominal. Tosse e estertores fornecem pistas para examinar o tórax e investigar a hipótese.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; ACR Appropriateness Criteria (dor abdominal aguda não localizada)"
+  },
+  {
+   "id": "q-aa-35",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Radiografia mostra aparente ar entre fígado e diafragma, mas há haustrações dentro da área gasosa; o paciente não tem peritonite. Qual achado explica a imagem?",
+   "alternativas": [
+    "Sinal de Rigler por ar nos dois lados da alça.",
+    "Grão de café por torção do sigmoide.",
+    "Sinal de Chilaiditi por interposição do cólon.",
+    "Empilhamento de moedas no intestino delgado."
+   ],
+   "correta": 2,
+   "comentario": "A interposição de cólon entre fígado e diafragma é o sinal de Chilaiditi e pode simular ar livre. Haustrações no gás e correlação com o exame físico ajudam a diferenciá-lo do pneumoperitônio.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; ACR Appropriateness Criteria (dor abdominal aguda não localizada)"
+  },
+  {
+   "id": "q-aa-36",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Paciente sem diagnóstico prévio apresenta ascite recém-identificada. Qual procedimento é indicado para investigar sua causa e pesquisar infecção?",
+   "alternativas": [
+    "Paracentese diagnóstica com análise do líquido.",
+    "Drenagem cirúrgica sem exame do líquido.",
+    "Paracentese de alívio sem colher amostras.",
+    "Apenas observação até surgir desconforto."
+   ],
+   "correta": 0,
+   "comentario": "Ascite nova é indicação de paracentese diagnóstica. A análise inicial inclui células com diferencial, albumina, proteína total e, quando apropriado, cultura.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; AASLD 2021; EASL 2018"
+  },
+  {
+   "id": "q-aa-37",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Homem com cirrose e ascite é internado por encefalopatia, sem febre nem dor abdominal evidente. Qual conduta em relação à ascite é apropriada?",
+   "alternativas": [
+    "Aguardar febre para então considerar punção.",
+    "Puncionar somente se houver ascite tensa.",
+    "Dispensar punção por ausência de dor focal.",
+    "Realizar paracentese diagnóstica na internação."
+   ],
+   "correta": 3,
+   "comentario": "O cirrótico internado com ascite deve ser submetido a paracentese diagnóstica, mesmo sem sinais clássicos de infecção. Encefalopatia pode ser manifestação de PBE.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; AASLD 2021; EASL 2018"
+  },
+  {
+   "id": "q-aa-38",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Paciente com ascite tensa relata desconforto importante e falta de ar atribuídos ao volume abdominal. Qual finalidade da paracentese atende à necessidade imediata?",
+   "alternativas": [
+    "Biópsia para confirmar cirrose antes de aliviar sintomas.",
+    "Paracentese terapêutica para retirar líquido e aliviar sintomas.",
+    "Punção lombar para reduzir a pressão abdominal.",
+    "Lavagem peritoneal de rotina para prevenir PBE."
+   ],
+   "correta": 1,
+   "comentario": "Ascite tensa ou refratária com desconforto ou dispneia é indicação de paracentese terapêutica. Se houver necessidade diagnóstica, amostras podem ser colhidas durante o procedimento.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; AASLD 2021; EASL 2018"
+  },
+  {
+   "id": "q-aa-39",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Após paracentese de alívio em cirrótico, foram retirados 6 litros de ascite. Qual reposição está indicada segundo a apostila?",
+   "alternativas": [
+    "Cristaloide 1 litro para cada litro retirado.",
+    "Plasma fresco 6 a 8 mL para cada litro retirado.",
+    "Albumina 6 a 8 g para cada litro retirado.",
+    "Concentrado de hemácias para cada 5 litros retirados."
+   ],
+   "correta": 2,
+   "comentario": "Após retirada de mais de 5 litros, deve-se administrar albumina, 6 a 8 g por litro drenado, durante ou logo após o procedimento. A medida reduz disfunção circulatória pós-paracentese.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; AASLD 2021; EASL 2018"
+  },
+  {
+   "id": "q-aa-40",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Cirrótico internado precisa de paracentese diagnóstica; o INR está elevado e há plaquetopenia, sem sangramento ativo nem CIVD clinicamente evidente. Qual conduta é usual?",
+   "alternativas": [
+    "Fazer a paracentese sem plasma ou plaquetas profiláticos de rotina.",
+    "Cancelar a paracentese por causa do INR isoladamente.",
+    "Infundir plasma obrigatoriamente antes de toda punção.",
+    "Adiar até as plaquetas se normalizarem espontaneamente."
+   ],
+   "correta": 0,
+   "comentario": "INR elevado e plaquetopenia na cirrose não contraindicam a paracentese de rotina nem exigem correção profilática habitual. CIVD clinicamente evidente ou fibrinólise exigem cuidado diferente.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; AASLD 2021; EASL 2018"
+  },
+  {
+   "id": "q-aa-41",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Antes de uma paracentese, o ultrassom mostra bolsão de ascite no quadrante inferior esquerdo. Qual planejamento torna o trajeto mais seguro?",
+   "alternativas": [
+    "Puncionar sobre cicatriz para fixar a agulha.",
+    "Puncionar medialmente ao reto, próximo à bexiga.",
+    "Puncionar onde se vê vaso superficial calibroso.",
+    "Escolher trajeto lateral ao reto, sem alças ou vasos."
+   ],
+   "correta": 3,
+   "comentario": "O ponto habitual é no quadrante inferior esquerdo, lateral à borda do reto e longe dos vasos epigástricos. O ultrassom deve confirmar bolsão e trajeto livres de alças e vasos em dois planos; sem trajeto seguro, não se punciona ali.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; AASLD 2021"
+  },
+  {
+   "id": "q-aa-42",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Durante a paracentese, o profissional traciona lateralmente a pele antes de introduzir a agulha e a libera após a punção. Qual é a finalidade da técnica em Z?",
+   "alternativas": [
+    "Aumentar a pressão do líquido dentro da cavidade.",
+    "Reduzir vazamento pelo trajeto após retirar a agulha.",
+    "Substituir a necessidade de antissepsia da pele.",
+    "Dispensar a avaliação ultrassonográfica do bolsão."
+   ],
+   "correta": 1,
+   "comentario": "A tração da pele cria um trajeto em zigue-zague quando ela retorna à posição original. Isso ajuda a diminuir o vazamento persistente pelo orifício de punção.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; AASLD 2021"
+  },
+  {
+   "id": "q-aa-43",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Na paracentese diagnóstica de cirrótico febril, há suspeita de PBE. Como colher o material para aumentar a utilidade da cultura?",
+   "alternativas": [
+    "Guardar apenas uma seringa fechada até o dia seguinte.",
+    "Esperar o antibiótico e depois colher para cultura.",
+    "Inocular líquido em frascos de hemocultura à beira do leito.",
+    "Enviar somente citologia oncótica sem cultura bacteriana."
+   ],
+   "correta": 2,
+   "comentario": "O líquido ascítico para cultura deve ser inoculado em frascos de hemocultura à beira do leito, idealmente antes do antibiótico. A contagem de células com diferencial deve ser solicitada em paralelo.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; AASLD 2021; EASL 2018"
+  },
+  {
+   "id": "q-aa-44",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "A albumina sérica colhida junto da punção é 3,0 g/dL; no líquido ascítico, 1,6 g/dL, com proteína total de 1,8 g/dL. Qual interpretação é a mais compatível?",
+   "alternativas": [
+    "GASA 1,4 g/dL; hipertensão portal com perfil de cirrose.",
+    "GASA 0,4 g/dL; ascite por carcinomatose peritoneal.",
+    "GASA 1,4 g/dL; ausência de hipertensão portal.",
+    "GASA 0,4 g/dL; ascite cardíaca com proteína alta."
+   ],
+   "correta": 0,
+   "comentario": "O GASA é 3,0 menos 1,6, portanto 1,4 g/dL, acima do limiar de 1,1 g/dL para hipertensão portal. Proteína total abaixo de 2,5 g/dL é compatível com o perfil típico da cirrose.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; AASLD 2021; EASL 2018"
+  },
+  {
+   "id": "q-aa-45",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Paciente com edema, congestão sistêmica e ascite tem GASA de 1,5 g/dL e proteína total do líquido de 3,1 g/dL. Qual causa se ajusta melhor ao padrão?",
+   "alternativas": [
+    "Carcinomatose peritoneal sem hipertensão portal.",
+    "Tuberculose peritoneal com GASA baixo.",
+    "Cirrose típica com proteína ascítica baixa.",
+    "Insuficiência cardíaca com hipertensão portal."
+   ],
+   "correta": 3,
+   "comentario": "GASA elevado indica participação da hipertensão portal; proteína ascítica de pelo menos 2,5 g/dL favorece ascite cardíaca ou Budd-Chiari. A congestão sistêmica do caso reforça insuficiência cardíaca.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; AASLD 2021; EASL 2018"
+  },
+  {
+   "id": "q-aa-46",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Paciente com ascite tem albumina sérica de 2,7 g/dL e albumina ascítica de 2,0 g/dL. Qual grupo de causas é favorecido pelo GASA calculado?",
+   "alternativas": [
+    "Cirrose e hepatite alcoólica, por GASA alto.",
+    "Carcinomatose ou tuberculose, por GASA baixo.",
+    "Insuficiência cardíaca, por GASA de 1,7 g/dL.",
+    "Budd-Chiari, por GASA de 1,7 g/dL."
+   ],
+   "correta": 1,
+   "comentario": "O GASA é 0,7 g/dL, abaixo de 1,1 g/dL, o que sugere ascite sem hipertensão portal. Carcinomatose e tuberculose peritoneal são possibilidades nesse padrão.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; AASLD 2021; EASL 2018"
+  },
+  {
+   "id": "q-aa-47",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Cirrótico com ascite, febre e dor abdominal tem 320 neutrófilos/mm³ no líquido; a cultura ainda está pendente. Qual é a interpretação e conduta inicial?",
+   "alternativas": [
+    "Aguardar a cultura antes de tratar qualquer infecção.",
+    "Repetir a punção só após aparecer choque séptico.",
+    "Tratar como PBE e avaliar se há fonte secundária.",
+    "Excluir PBE porque não há resultado microbiológico."
+   ],
+   "correta": 2,
+   "comentario": "Neutrófilos ascíticos em pelo menos 250/mm³ indicam ascite neutrocítica e exigem tratamento imediato como PBE, sem aguardar cultura. Sinais sugestivos de perfuração ou infecção secundária devem ser investigados.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; AASLD 2021; EASL 2018"
+  },
+  {
+   "id": "q-aa-48",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Cirrótico está afebril e sem dor; líquido ascítico tem 120 neutrófilos/mm³, mas a cultura isolou uma bactéria. Qual abordagem inicial corresponde à bacterascite descrita na apostila?",
+   "alternativas": [
+    "Tratar como perfuração intestinal sem nova avaliação.",
+    "Ignorar a cultura e dispensar seguimento clínico.",
+    "Indicar laparotomia apenas pelo resultado da cultura.",
+    "Repetir a punção e tratar se surgirem sintomas."
+   ],
+   "correta": 3,
+   "comentario": "Cultura positiva com menos de 250 neutrófilos/mm³ caracteriza bacterascite. Em paciente assintomático, a apostila orienta repetir a paracentese; se houver sintomas, tratar.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; AASLD 2021; EASL 2018"
+  },
+  {
+   "id": "q-aa-49",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Paciente com ascite e dor intensa tem cultura ascítica com vários germes, glicose baixa e proteína e LDH elevados. Qual hipótese e próximo passo são prioritários?",
+   "alternativas": [
+    "Peritonite secundária; TC e avaliação cirúrgica.",
+    "Bacterascite simples; apenas repetir a cultura.",
+    "Ascite cardíaca; ajustar apenas os diuréticos.",
+    "Ascite quilosa; dosar somente triglicerídeos."
+   ],
+   "correta": 0,
+   "comentario": "Polimicrobismo, glicose baixa e proteína e LDH altos levantam suspeita de peritonite secundária, inclusive por perfuração. A investigação com TC e avaliação cirúrgica busca uma fonte que demande controle.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; AASLD 2021; EASL 2018"
+  },
+  {
+   "id": "q-aa-50",
+   "resumo": "abdome-agudo",
+   "sessao": "s02",
+   "enunciado": "Cirrótico de 70 kg recebe diagnóstico de PBE e antibiótico. Qual esquema de albumina intravenosa corresponde ao descrito na apostila?",
+   "alternativas": [
+    "70 g no primeiro dia e 35 g no terceiro dia.",
+    "105 g no primeiro dia e 70 g no terceiro dia.",
+    "35 g no primeiro dia e 105 g no terceiro dia.",
+    "70 g apenas após o término do antibiótico."
+   ],
+   "correta": 1,
+   "comentario": "Na PBE, a dose descrita é 1,5 g/kg no primeiro dia e 1 g/kg no terceiro: para 70 kg, 105 g e 70 g. A albumina é adjuvante ao antibiótico e foi estudada para reduzir lesão renal e mortalidade.",
+   "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; AASLD 2021; Sort et al. NEJM 1999"
   }
  ]
 }
