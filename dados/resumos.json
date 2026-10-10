@@ -103,5 +103,18 @@
     "paginasApostila": 13,
     "paginasFlash": 2,
     "atualizado": "2026-10-09"
+  },
+  "hernias": {
+    "titulo": "Hérnias e parede abdominal",
+    "subtitulo": "Hérnias da virilha e da parede anterior; small bites, fechamento por planos e tela",
+    "sessoes": [
+      "s06"
+    ],
+    "apostila": "resumos/hernias/apostila.pdf",
+    "flash": "resumos/hernias/revisao-flash.pdf",
+    "capa": "resumos/hernias/capa.jpg",
+    "paginasApostila": 13,
+    "paginasFlash": 2,
+    "atualizado": "2026-10-10"
   }
 }

@@ -2737,6 +2737,206 @@
     }
    ],
    "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; BSG 2019; ACG 2023; HALT-IT 2020"
+  },
+  {
+   "id": "caso-hernia-femoral",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "minutos": 8,
+   "titulo": "Feminino, 78 anos · caroço doloroso na virilha",
+   "local": "Pronto-socorro · sexta, 23h",
+   "enunciado": "Você é o plantonista. Leia o caso e decida.",
+   "historia": [
+    {
+     "rotulo": "Identificação",
+     "texto": "D. A., 78 anos, sexo feminino, aposentada, magra."
+    },
+    {
+     "rotulo": "Queixa principal",
+     "texto": "“Apareceu um caroço na virilha direita que dói muito e não volta.”"
+    },
+    {
+     "rotulo": "História da doença atual",
+     "texto": "Há 10 horas, dor e abaulamento na virilha direita, que não some ao deitar. Desde a tarde vomitou quatro vezes e não elimina gases. Nunca tinha notado o caroço."
+    },
+    {
+     "rotulo": "Antecedentes",
+     "texto": "Hipertensão. Nenhuma cirurgia abdominal."
+    },
+    {
+     "rotulo": "Exame físico",
+     "texto": "FC 112 bpm, PA 128 × 76 mmHg, temperatura 37,9 °C. Abdome distendido, timpânico, com ruídos aumentados. Massa de 3 cm abaixo do ligamento inguinal direito, lateral ao tubérculo púbico, endurecida, muito dolorosa, irredutível, com a pele avermelhada por cima."
+    }
+   ],
+   "etapas": [
+    {
+     "pergunta": "Qual o diagnóstico mais provável?",
+     "unica": true,
+     "opcoes": [
+      {
+       "texto": "Hérnia femoral encarcerada, com sinais de estrangulamento e obstrução intestinal",
+       "certo": true,
+       "porque": "Massa abaixo do ligamento inguinal em idosa, irredutível e dolorosa, com pele vermelha, febre, taquicardia e obstrução."
+      },
+      {
+       "texto": "Hérnia inguinal direta redutível",
+       "certo": false,
+       "porque": "A direta fica acima do ligamento e encarcera pouco; esta está abaixo e irredutível."
+      },
+      {
+       "texto": "Linfonodo inguinal reacional",
+       "certo": false,
+       "porque": "Não explica a obstrução intestinal."
+      },
+      {
+       "texto": "Hérnia umbilical encarcerada",
+       "certo": false,
+       "porque": "A massa está na virilha, não no umbigo."
+      }
+     ],
+     "pontos": [
+      "Abaixo do ligamento inguinal: femoral",
+      "Irredutível, dolorosa, pele vermelha: sofrimento",
+      "Febre, taquicardia, vômitos e parada de gases: obstrução com estrangulamento"
+     ],
+     "resposta": "Hérnia femoral direita encarcerada com sinais de estrangulamento e obstrução intestinal. A femoral é a hérnia que mais estrangula, e é típica da mulher idosa."
+    },
+    {
+     "pergunta": "Qual a conduta?",
+     "opcoes": [
+      {
+       "texto": "Jejum, hidratação venosa, sonda nasogástrica e analgesia",
+       "certo": true,
+       "porque": "Suporte da obstrução."
+      },
+      {
+       "texto": "Antibiótico e cirurgia de urgência",
+       "certo": true,
+       "porque": "Sinais de estrangulamento: a alça pode estar isquêmica."
+      },
+      {
+       "texto": "Redução manual vigorosa com sedação para evitar a cirurgia",
+       "certo": false,
+       "porque": "Com sinais de sofrimento não se força a redução: pode devolver alça necrosada ou reduzir em bloco."
+      },
+      {
+       "texto": "Observar até amanhã e operar se piorar",
+       "certo": false,
+       "porque": "A isquemia avança em horas."
+      },
+      {
+       "texto": "Avaliar a viabilidade da alça na cirurgia e ressecar se estiver inviável",
+       "certo": true,
+       "porque": "Cor, peristalse e pulso no mesentério decidem."
+      }
+     ]
+    },
+    {
+     "pergunta": "Outra paciente, de 65 anos, tem uma hérnia femoral pequena, redutível e sem sintomas, descoberta num exame de rotina. O que fazer?",
+     "unica": true,
+     "opcoes": [
+      {
+       "texto": "Programar a correção cirúrgica sem demora",
+       "certo": true,
+       "porque": "Hérnia femoral deve ser operada mesmo sem sintomas, pelo risco de estrangulamento."
+      },
+      {
+       "texto": "Observação vigiada, como no homem com hérnia inguinal pouco sintomática",
+       "certo": false,
+       "porque": "A observação vale para a inguinal no homem, não para a femoral."
+      },
+      {
+       "texto": "Usar funda (cinta) e reavaliar em 1 ano",
+       "certo": false,
+       "porque": "Não trata e não previne o estrangulamento."
+      }
+     ],
+     "pontos": [
+      "Femoral: sempre operar",
+      "Via posterior (pré-peritoneal ou laparoscópica) preferida",
+      "Na mulher, a laparoscopia mostra hérnias femorais ocultas"
+     ],
+     "resposta": "Hérnia femoral se opera mesmo sem sintomas, de preferência por via posterior (pré-peritoneal ou laparoscópica)."
+    }
+   ],
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; HerniaSurge 2018/2023; EHS/AHS 2022; STITCH 2015"
+  },
+  {
+   "id": "caso-laparotomia",
+   "resumo": "hernias",
+   "sessao": "s06",
+   "minutos": 8,
+   "titulo": "Masculino, 57 anos · fim de uma colectomia",
+   "local": "Centro cirúrgico · terça, 11h",
+   "enunciado": "Você é o residente que vai fechar a parede. Leia o caso e decida.",
+   "historia": [
+    {
+     "rotulo": "Identificação",
+     "texto": "P. R., 57 anos, sexo masculino, IMC 31, tabagista."
+    },
+    {
+     "rotulo": "Cirurgia",
+     "texto": "Colectomia esquerda eletiva por adenocarcinoma de sigmoide, por laparotomia mediana de 18 cm. Sem contaminação da cavidade. Fim do tempo principal."
+    },
+    {
+     "rotulo": "Proposta do colega",
+     "texto": "O interno sugere fechar com pontos separados em X, a 1,5 cm da borda, pegando aponeurose, músculo e gordura, com fio de absorção rápida, “para ir mais rápido”."
+    }
+   ],
+   "etapas": [
+    {
+     "pergunta": "Como fechar a aponeurose?",
+     "opcoes": [
+      {
+       "texto": "Sutura contínua em small bites, só na aponeurose",
+       "certo": true,
+       "porque": "Reduz a hérnia incisional (STITCH: 13% contra 21% em 1 ano)."
+      },
+      {
+       "texto": "Fio monofilamentar de absorção lenta",
+       "certo": true,
+       "porque": "Mantém a força enquanto a aponeurose cicatriza."
+      },
+      {
+       "texto": "Pontos a cerca de 5 mm da borda e 5 mm entre si",
+       "certo": true,
+       "porque": "Referência do small bites."
+      },
+      {
+       "texto": "Relação fio : ferida de pelo menos 4:1",
+       "certo": true,
+       "porque": "Para 18 cm de incisão, usar pelo menos 72 cm de fio."
+      },
+      {
+       "texto": "Pegar músculo e gordura junto para dar mais resistência",
+       "certo": false,
+       "porque": "Tecido mole no ponto necrosa e afrouxa a sutura; fecha-se só a aponeurose."
+      },
+      {
+       "texto": "Fio de absorção rápida",
+       "certo": false,
+       "porque": "Perde a força antes de a aponeurose cicatrizar."
+      }
+     ],
+     "pontos": [
+      "Sutura contínua",
+      "Small bites: só aponeurose, ~5 mm da borda e ~5 mm entre pontos",
+      "Fio monofilamentar de absorção lenta",
+      "Relação fio : ferida ≥ 4:1 (≥ 72 cm para 18 cm)"
+     ],
+     "resposta": "Feche a aponeurose com sutura contínua em small bites, pegando só a aponeurose a cerca de 5 mm da borda e 5 mm entre os pontos, com fio monofilamentar de absorção lenta e relação fio : ferida de pelo menos 4:1 (72 cm ou mais para 18 cm)."
+    },
+    {
+     "pergunta": "Ele é obeso e tabagista. Há outra medida para prevenir hérnia incisional?",
+     "pontos": [
+      "Alto risco (obesidade): tela profilática pode ser considerada",
+      "Onlay ou retromuscular (estudo PRIMA)",
+      "Não é obrigatória para todos"
+     ],
+     "resposta": "Por ser de alto risco (IMC 31), a tela profilática pode ser considerada, em posição onlay ou retromuscular; no estudo PRIMA ela reduziu a hérnia incisional em pacientes com IMC de 27 ou mais. Não é obrigatória, e a decisão considera contaminação e experiência da equipe."
+    }
+   ],
+   "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; HerniaSurge 2018/2023; EHS/AHS 2022; STITCH 2015; PRIMA 2017"
   }
  ]
 }

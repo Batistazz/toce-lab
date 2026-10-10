@@ -183,6 +183,29 @@
     "Registra volume, aspecto e intercorrências"
    ],
    "caso": "caso-paracentese"
+  },
+  {
+   "id": "small-bites",
+   "titulo": "Fechamento da aponeurose em small bites",
+   "sessao": "s06",
+   "resumo": "hernias",
+   "minutos": 8,
+   "cenario": "No modelo de parede abdominal, feche uma laparotomia mediana de 10 cm em paciente eletivo.",
+   "passos": [
+    "Identifica as bordas da aponeurose e confirma que estão viáveis",
+    "Escolhe fio monofilamentar de absorção lenta com agulha pequena",
+    "Monta o porta-agulha a cerca de dois terços da agulha a partir da ponta",
+    "Ancora numa extremidade com nó seguro",
+    "Passa a agulha perpendicular, seguindo a curvatura, pegando só a aponeurose",
+    "Mantém cerca de 5 mm da borda",
+    "Avança cerca de 5 mm por ponto, em sutura contínua",
+    "Ajusta a tensão: bordas encostadas, sem estrangular",
+    "Protege as vísceras e confere que nenhuma alça foi presa",
+    "Confere a relação fio : ferida de pelo menos 4:1",
+    "Termina com nó seguro, sem falhas entre os pontos",
+    "Fecha subcutâneo e pele por planos, separadamente"
+   ],
+   "caso": "caso-laparotomia"
   }
  ]
 }
