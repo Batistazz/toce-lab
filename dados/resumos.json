@@ -116,5 +116,18 @@
     "paginasApostila": 13,
     "paginasFlash": 2,
     "atualizado": "2026-10-10"
+  },
+  "apendicite-colecistite": {
+    "titulo": "Apendicite e colecistite",
+    "subtitulo": "Diagnóstico, imagem e tratamento da apendicite aguda e da colecistite aguda; via biliar",
+    "sessoes": [
+      "s03"
+    ],
+    "apostila": "resumos/apendicite-colecistite/apostila.pdf",
+    "flash": "resumos/apendicite-colecistite/revisao-flash.pdf",
+    "capa": "resumos/apendicite-colecistite/capa.jpg",
+    "paginasApostila": 12,
+    "paginasFlash": 2,
+    "atualizado": "2026-10-10"
   }
 }

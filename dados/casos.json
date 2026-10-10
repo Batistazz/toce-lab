@@ -2937,6 +2937,202 @@
     }
    ],
    "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; HerniaSurge 2018/2023; EHS/AHS 2022; STITCH 2015; PRIMA 2017"
+  },
+  {
+   "id": "caso-apendicite",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "minutos": 10,
+   "titulo": "Masculino, 43 anos · dor na fossa ilíaca direita há 6 dias",
+   "local": "Pronto-socorro · quinta, 20h",
+   "enunciado": "Você é o plantonista. Leia o caso e decida.",
+   "historia": [
+    {
+     "rotulo": "Identificação",
+     "texto": "C. M., 43 anos, sexo masculino, vendedor."
+    },
+    {
+     "rotulo": "Queixa principal",
+     "texto": "“Estou com dor do lado direito da barriga há quase uma semana.”"
+    },
+    {
+     "rotulo": "História da doença atual",
+     "texto": "Há 6 dias, dor em volta do umbigo que passou para a fossa ilíaca direita. Febre de 38 °C nos últimos dias, sem vômitos. Tomou analgésico e esperou melhorar."
+    },
+    {
+     "rotulo": "Antecedentes",
+     "texto": "Sem doenças conhecidas. Nunca fez colonoscopia."
+    },
+    {
+     "rotulo": "Exame físico",
+     "texto": "Bom estado, FC 96 bpm, PA 128 × 80 mmHg, temperatura 37,8 °C. Massa dolorosa e mal delimitada na fossa ilíaca direita, sem defesa difusa. Leucócitos 15.800/mm³, PCR 180 mg/L."
+    }
+   ],
+   "etapas": [
+    {
+     "dado": "TC com contraste: apêndice espessado com coleção de 5 cm ao lado, bem delimitada e acessível por via percutânea; sem ar livre.",
+     "pergunta": "Qual a conduta inicial?",
+     "unica": true,
+     "opcoes": [
+      {
+       "texto": "Antibiótico venoso e drenagem percutânea guiada por imagem",
+       "certo": true,
+       "porque": "Abscesso apendicular localizado e drenável em paciente estável."
+      },
+      {
+       "texto": "Apendicectomia aberta de urgência como única opção",
+       "certo": false,
+       "porque": "A cirurgia por equipe experiente é aceitável, mas não é a única: no estável com abscesso drenável, antibiótico e drenagem são a estratégia inicial habitual."
+      },
+      {
+       "texto": "Alta com antibiótico oral e retorno em 1 mês",
+       "certo": false,
+       "porque": "Abscesso de 5 cm com febre exige internação e controle da fonte."
+      },
+      {
+       "texto": "Colonoscopia de urgência",
+       "certo": false,
+       "porque": "Não na fase aguda; vem depois."
+      }
+     ],
+     "pontos": [
+      "Apendicite complicada com abscesso localizado",
+      "Paciente estável, sem peritonite difusa",
+      "Antibiótico e drenagem percutânea"
+     ],
+     "resposta": "É apendicite complicada com abscesso localizado em paciente estável: antibiótico venoso e drenagem percutânea guiada por imagem. A cirurgia por equipe experiente também é aceitável."
+    },
+    {
+     "dado": "Ele melhora e recebe alta. No retorno, pergunta se precisa operar o apêndice depois.",
+     "pergunta": "Qual a orientação?",
+     "unica": true,
+     "opcoes": [
+      {
+       "texto": "Apendicectomia de intervalo não é rotina; mas por ter mais de 40 anos, fazer colonoscopia e imagem para afastar tumor",
+       "certo": true,
+       "porque": "Tumores do apêndice e do ceco podem se apresentar como abscesso no adulto mais velho."
+      },
+      {
+       "texto": "Apendicectomia de intervalo obrigatória em 6 semanas",
+       "certo": false,
+       "porque": "Não é rotina sem recorrência."
+      },
+      {
+       "texto": "Nenhum seguimento é necessário",
+       "certo": false,
+       "porque": "No adulto acima de cerca de 40 anos, investiga-se neoplasia."
+      }
+     ],
+     "pontos": [
+      "Apendicectomia de intervalo não é rotina",
+      "Acima de cerca de 40 anos: colonoscopia e imagem para afastar neoplasia"
+     ],
+     "resposta": "A apendicectomia de intervalo não é rotina se ele não tiver novos sintomas. Mas, por ter mais de 40 anos, ele deve fazer colonoscopia e imagem para afastar tumor do apêndice ou do ceco."
+    }
+   ],
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; WSES 2020/2025; Tóquio 2018; ASGE 2019; CODA 2020"
+  },
+  {
+   "id": "caso-colecistite",
+   "resumo": "apendicite-colecistite",
+   "sessao": "s03",
+   "minutos": 10,
+   "titulo": "Feminino, 67 anos · dor no lado direito e olhos amarelos",
+   "local": "Pronto-socorro · domingo, 10h",
+   "enunciado": "Você é o plantonista. Leia o caso e decida.",
+   "historia": [
+    {
+     "rotulo": "Identificação",
+     "texto": "A. L., 67 anos, sexo feminino, dona de casa."
+    },
+    {
+     "rotulo": "Queixa principal",
+     "texto": "“Dor forte embaixo das costelas do lado direito há 4 dias, e agora estou amarela.”"
+    },
+    {
+     "rotulo": "História da doença atual",
+     "texto": "Dor contínua no hipocôndrio direito há 4 dias, com febre e calafrios desde ontem. Há 2 dias, urina escura e olhos amarelos. Já teve crises de dor depois de comida gordurosa que passavam em poucas horas."
+    },
+    {
+     "rotulo": "Antecedentes",
+     "texto": "Hipertensão e diabetes. Sabe que tem pedra na vesícula há 3 anos."
+    },
+    {
+     "rotulo": "Exame físico",
+     "texto": "Ictérica, FC 108 bpm, PA 112 × 70 mmHg, temperatura 38,9 °C, lúcida. Dor no hipocôndrio direito com Murphy positivo. Leucócitos 19.000/mm³, bilirrubina total 5,1 mg/dL (direta 4,2), fosfatase alcalina e GGT elevadas."
+    },
+    {
+     "rotulo": "Ultrassom",
+     "texto": "Vesícula com cálculos e parede de 6 mm, líquido em volta; colédoco dilatado (11 mm), sem cálculo visível."
+    }
+   ],
+   "etapas": [
+    {
+     "pergunta": "O que essa paciente tem?",
+     "opcoes": [
+      {
+       "texto": "Colecistite aguda pelo menos grau II de Tóquio (leucócitos acima de 18 mil, mais de 72 horas)",
+       "certo": true,
+       "porque": "Tem A + B + C e critérios de grau II."
+      },
+      {
+       "texto": "Forte suspeita de coledocolitíase com colangite (febre, icterícia e dor)",
+       "certo": true,
+       "porque": "Tríade de Charcot com colédoco dilatado e bilirrubina acima de 4."
+      },
+      {
+       "texto": "Colecistite simples, que explica sozinha a icterícia",
+       "certo": false,
+       "porque": "Icterícia importante pede investigar o colédoco."
+      },
+      {
+       "texto": "Cólica biliar",
+       "certo": false,
+       "porque": "A cólica passa em horas e não tem febre nem leucocitose."
+      }
+     ],
+     "pontos": [
+      "Colecistite Tóquio II",
+      "Tríade de Charcot: colangite",
+      "Alto risco de coledocolitíase (ASGE): bilirrubina > 4 com colédoco dilatado"
+     ],
+     "resposta": "Colecistite aguda grau II de Tóquio associada a colangite por provável coledocolitíase: febre, icterícia e dor (Charcot), com colédoco dilatado e bilirrubina acima de 4 mg/dL, que é alto risco pela ASGE."
+    },
+    {
+     "pergunta": "Qual a sequência do tratamento?",
+     "unica": true,
+     "opcoes": [
+      {
+       "texto": "Hidratação e antibiótico, CPRE precoce para desobstruir o colédoco e depois colecistectomia laparoscópica",
+       "certo": true,
+       "porque": "Colangite moderada pede drenagem biliar precoce; a vesícula é tratada depois."
+      },
+      {
+       "texto": "Colecistectomia imediata, sem tratar o colédoco",
+       "certo": false,
+       "porque": "Deixa a via biliar obstruída e infectada."
+      },
+      {
+       "texto": "Colecistostomia percutânea como tratamento definitivo",
+       "certo": false,
+       "porque": "Ela pode operar; a drenagem da vesícula não desobstrui o colédoco."
+      },
+      {
+       "texto": "Antibiótico por 6 semanas e colecistectomia tardia",
+       "certo": false,
+       "porque": "Não trata a obstrução, e a colecistectomia precoce é melhor."
+      }
+     ],
+     "pontos": [
+      "Reanimação e antibiótico",
+      "CPRE precoce (colangite moderada)",
+      "Colecistectomia laparoscópica depois, na mesma internação se possível",
+      "Na cirurgia: visão crítica de segurança"
+     ],
+     "resposta": "Hidratação e antibiótico, CPRE precoce para retirar o cálculo e drenar a via biliar, e depois colecistectomia laparoscópica, de preferência na mesma internação, com visão crítica de segurança."
+    }
+   ],
+   "fonte": "Apostila Apendicite e Colecistite da monitoria; WSES 2020/2025; Tóquio 2018; ASGE 2019; CHOCOLATE 2018"
   }
  ]
 }
