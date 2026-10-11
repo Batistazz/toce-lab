@@ -34,7 +34,8 @@
       "dataB": "2026-09-03",
       "dataA": "2026-09-04",
       "teoria": "Diverticulite aguda e pancreatite aguda",
-      "pratica": "Discussão de casos clínicos"
+      "pratica": "Discussão de casos clínicos",
+      "resumo": "diverticulite-pancreatite"
     },
     {
       "id": "s05",
@@ -42,7 +43,8 @@
       "dataB": "2026-09-10",
       "dataA": "2026-09-11",
       "teoria": "Abdome agudo vascular e obstrutivo",
-      "pratica": "Casos clínicos e tomada de decisão"
+      "pratica": "Casos clínicos e tomada de decisão",
+      "resumo": "abdome-vascular-obstrutivo"
     },
     {
       "id": "s06",

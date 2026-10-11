@@ -3133,6 +3133,194 @@
     }
    ],
    "fonte": "Apostila Apendicite e Colecistite da monitoria; WSES 2020/2025; Tóquio 2018; ASGE 2019; CHOCOLATE 2018"
+  },
+  {
+   "id": "caso-pancreatite",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "minutos": 10,
+   "titulo": "Feminino, 52 anos · dor em faixa no epigástrio",
+   "local": "Pronto-socorro · sábado, 1h",
+   "enunciado": "Você é o plantonista. Leia o caso e decida.",
+   "historia": [
+    {
+     "rotulo": "Identificação",
+     "texto": "R. S., 52 anos, sexo feminino, costureira, IMC 31."
+    },
+    {
+     "rotulo": "Queixa principal",
+     "texto": "“Uma dor fortíssima no estômago que vai para as costas.”"
+    },
+    {
+     "rotulo": "História da doença atual",
+     "texto": "Há 6 horas, após um jantar, dor epigástrica intensa em faixa, irradiando para o dorso, com vômitos. Já teve crises de dor no lado direito depois de comer gordura. Não bebe álcool."
+    },
+    {
+     "rotulo": "Exame físico",
+     "texto": "FC 112 bpm, PA 118 × 74 mmHg, temperatura 37,6 °C, saturação 96%. Dor epigástrica à palpação, sem peritonite. Lipase 9 vezes o limite superior, TGP 380 U/L, bilirrubina total 1,6 mg/dL, ureia 38 mg/dL, hematócrito 44%."
+    }
+   ],
+   "etapas": [
+    {
+     "pergunta": "Qual o diagnóstico e o exame que deve ser feito agora?",
+     "unica": true,
+     "opcoes": [
+      {
+       "texto": "Pancreatite aguda, provavelmente biliar; ultrassom de abdome",
+       "certo": true,
+       "porque": "Dor típica + lipase ≥ 3 vezes fecham o diagnóstico; TGP alta e crises prévias sugerem causa biliar, e o ultrassom procura o cálculo."
+      },
+      {
+       "texto": "Pancreatite aguda; TC com contraste já, para estadiar",
+       "certo": false,
+       "porque": "A TC não é necessária na admissão quando o diagnóstico já está feito; cedo, subestima a necrose."
+      },
+      {
+       "texto": "Úlcera perfurada; radiografia de tórax e cirurgia",
+       "certo": false,
+       "porque": "Não há peritonite, e a lipase está 9 vezes acima."
+      },
+      {
+       "texto": "Pancreatite aguda; CPRE de urgência",
+       "certo": false,
+       "porque": "Sem colangite ou obstrução persistente, CPRE não é indicada."
+      }
+     ],
+     "pontos": [
+      "Dor típica + lipase ≥ 3×: pancreatite aguda (2 de 3)",
+      "TGP > 150 e história de cólica biliar: causa biliar provável",
+      "Ultrassom para pesquisar cálculo",
+      "TC não é necessária na admissão"
+     ],
+     "resposta": "Pancreatite aguda (dor típica e lipase acima de 3 vezes o limite), provavelmente biliar pela TGP alta e pelas crises prévias. O exame agora é o ultrassom de abdome para procurar cálculos; a TC não é necessária na admissão."
+    },
+    {
+     "dado": "Ultrassom: vesícula com múltiplos cálculos, colédoco de 5 mm. Sem febre nem icterícia.",
+     "pergunta": "Quais condutas você prescreve?",
+     "opcoes": [
+      {
+       "texto": "Ringer lactato em volume moderado, guiado pela resposta",
+       "certo": true,
+       "porque": "Hidratação moderada; a agressiva causou sobrecarga sem benefício (WATERFALL)."
+      },
+      {
+       "texto": "Analgesia adequada, inclusive com opioide",
+       "certo": true,
+       "porque": "Controle da dor é obrigatório."
+      },
+      {
+       "texto": "Dieta oral pobre em gordura assim que tolerar",
+       "certo": true,
+       "porque": "Alimentação precoce na forma leve."
+      },
+      {
+       "texto": "Antibiótico profilático",
+       "certo": false,
+       "porque": "Não há infecção; profilaxia não traz benefício."
+      },
+      {
+       "texto": "CPRE nas próximas 24 horas",
+       "certo": false,
+       "porque": "Sem colangite nem colédoco obstruído."
+      },
+      {
+       "texto": "Colecistectomia na mesma internação, antes da alta",
+       "certo": true,
+       "porque": "Na pancreatite biliar leve, reduz a recorrência (PONCHO)."
+      }
+     ]
+    },
+    {
+     "dado": "Outra paciente, com pancreatite necrosante, piora na 3ª semana: febre de 39 °C, leucócitos 22.000/mm³. TC com gás dentro da necrose. Está estável.",
+     "pergunta": "Qual a conduta?",
+     "pontos": [
+      "Necrose infectada (gás na necrose)",
+      "Antibiótico com boa penetração (carbapenêmico; quinolona + metronidazol se alergia)",
+      "Adiar intervenção até ~4 semanas se estável",
+      "Step-up: drenagem percutânea ou endoscópica; necrosectomia minimamente invasiva se necessário"
+     ],
+     "resposta": "É necrose infectada. Antibiótico com boa penetração na necrose e, estando estável, adiar a intervenção até cerca de 4 semanas para a necrose encapsular. Depois, abordagem step-up: drenagem percutânea ou endoscópica e, se não resolver, necrosectomia minimamente invasiva."
+    }
+   ],
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; Atlanta 2012; ACG 2024; WATERFALL 2022; PONCHO 2015; PANTER 2010"
+  },
+  {
+   "id": "caso-isquemia-mesenterica",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "minutos": 8,
+   "titulo": "Masculino, 79 anos · dor abdominal muito forte",
+   "local": "Pronto-socorro · quarta, 15h",
+   "enunciado": "Você é o plantonista. Leia o caso e decida.",
+   "historia": [
+    {
+     "rotulo": "Identificação",
+     "texto": "J. P., 79 anos, sexo masculino, aposentado."
+    },
+    {
+     "rotulo": "Queixa principal",
+     "texto": "“Uma dor de barriga que não aguento.”"
+    },
+    {
+     "rotulo": "História da doença atual",
+     "texto": "Há 4 horas, dor abdominal súbita, difusa e muito intensa, com um episódio de vômito e uma evacuação diarreica. Parou por conta própria a varfarina há 1 mês."
+    },
+    {
+     "rotulo": "Antecedentes",
+     "texto": "Fibrilação atrial, hipertensão, infarto há 5 anos."
+    },
+    {
+     "rotulo": "Exame físico",
+     "texto": "Agitado pela dor. FC 118 bpm irregular, PA 150 × 90 mmHg. Abdome plano, flácido, levemente doloroso, sem defesa nem descompressão dolorosa. Leucócitos 18.000/mm³, lactato 1,8 mmol/L, creatinina 1,6 mg/dL."
+    }
+   ],
+   "etapas": [
+    {
+     "pergunta": "Qual a principal hipótese e o próximo passo?",
+     "unica": true,
+     "opcoes": [
+      {
+       "texto": "Embolia mesentérica; angiotomografia já, heparina e chamar cirurgia e vascular",
+       "certo": true,
+       "porque": "Dor desproporcional ao exame em paciente com fibrilação atrial sem anticoagulação."
+      },
+      {
+       "texto": "Gastroenterite; hidratação oral e alta",
+       "certo": false,
+       "porque": "Dor desproporcional e arritmia não combinam com gastroenterite."
+      },
+      {
+       "texto": "Lactato normal exclui isquemia; reavaliar amanhã",
+       "certo": false,
+       "porque": "O lactato sobe tarde."
+      },
+      {
+       "texto": "Adiar a angiotomografia pela creatinina",
+       "certo": false,
+       "porque": "O intestino morto mata mais que o contraste."
+      }
+     ],
+     "pontos": [
+      "Dor desproporcional ao exame",
+      "Fibrilação atrial sem anticoagulação: fonte embólica",
+      "Lactato normal não exclui",
+      "Angiotomografia sem atraso, heparina, cirurgia e vascular"
+     ],
+     "resposta": "Embolia da artéria mesentérica superior até prova em contrário: dor desproporcional em paciente com fibrilação atrial que parou a varfarina. Angiotomografia sem atraso (a creatinina não impede), heparina plena, reanimação e chamar cirurgia e vascular juntas."
+    },
+    {
+     "dado": "Angiotomografia: oclusão da artéria mesentérica superior alguns centímetros após a origem; alças de jejuno distal e íleo com parede fina e pouco realce. Na reavaliação, surgiu defesa abdominal.",
+     "pergunta": "Qual a conduta?",
+     "pontos": [
+      "Laparotomia de urgência",
+      "Revascularizar primeiro (embolectomia)",
+      "Depois ressecar o intestino inviável",
+      "Alças duvidosas: reexploração programada em 24–48 h"
+     ],
+     "resposta": "Com peritonite, laparotomia de urgência: primeiro revascularizar (embolectomia da mesentérica superior), depois avaliar a viabilidade e ressecar só o que estiver morto. Alças duvidosas ficam para reexploração programada em 24–48 horas. Depois, anticoagulação e controle da arritmia."
+    }
+   ],
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; ESVS 2017; WSES 2022"
   }
  ]
 }

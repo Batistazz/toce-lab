@@ -7500,6 +7500,1506 @@
    "correta": 2,
    "comentario": "Quando a visão crítica não pode ser obtida, insistir na dissecção aumenta o risco de lesão biliar. Colangiografia, colecistectomia subtotal, conversão ou drenagem são estratégias de resgate conforme o caso.",
    "fonte": "Apostila Apendicite e Colecistite da monitoria; WSES 2020 (colecistite)."
+  },
+  {
+   "id": "q-dp-01",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Mulher de 68 anos tem dor na fossa ilíaca esquerda há 3 dias, febre de 38 °C e leucocitose. Qual exame confirma o diagnóstico e avalia complicações?",
+   "alternativas": [
+    "Colonoscopia de urgência",
+    "Enema opaco",
+    "TC de abdome com contraste",
+    "Radiografia simples de abdome"
+   ],
+   "correta": 2,
+   "comentario": "Na suspeita de diverticulite, a TC com contraste confirma, mostra abscesso, ar livre e fístula, e orienta a conduta. Colonoscopia na fase aguda tem risco de perfurar.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; WSES 2020; ASCRS 2020"
+  },
+  {
+   "id": "q-dp-02",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Por que os divertículos do cólon são chamados de 'falsos'?",
+   "alternativas": [
+    "Contêm todas as camadas da parede",
+    "Contêm só mucosa e submucosa, que herniam pela parede",
+    "São congênitos e ficam no íleo",
+    "São pseudocistos sem revestimento"
+   ],
+   "correta": 1,
+   "comentario": "O divertículo do cólon é de pulsão: mucosa e submucosa saem pelos pontos fracos onde os vasos atravessam a camada muscular. O de Meckel é verdadeiro.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; WSES 2020; ASCRS 2020"
+  },
+  {
+   "id": "q-dp-03",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Na TC de um paciente com diverticulite, há abscesso pericólico de 2 cm. Qual o estágio de Hinchey?",
+   "alternativas": [
+    "I",
+    "II",
+    "III",
+    "IV"
+   ],
+   "correta": 0,
+   "comentario": "Hinchey I é abscesso pericólico, junto ao cólon. II é abscesso distante (pélvico ou retroperitoneal); III e IV são peritonite purulenta e fecal.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; WSES 2020; ASCRS 2020"
+  },
+  {
+   "id": "q-dp-04",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Paciente com diverticulite tem peritonite generalizada com pus na cavidade, sem fezes. Qual o estágio de Hinchey?",
+   "alternativas": [
+    "I",
+    "II",
+    "IV",
+    "III"
+   ],
+   "correta": 3,
+   "comentario": "Hinchey III é peritonite purulenta generalizada; IV é peritonite fecal. Ambas exigem cirurgia de urgência.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; WSES 2020; ASCRS 2020"
+  },
+  {
+   "id": "q-dp-05",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Homem de 55 anos, imunocompetente, com diverticulite não complicada na TC, sem sinais de sepse e tolerando dieta. Qual a conduta mais adequada?",
+   "alternativas": [
+    "Internação e antibiótico venoso por 14 dias",
+    "Sigmoidectomia de urgência",
+    "Tratamento ambulatorial com dieta e analgesia; antibiótico pode ser omitido",
+    "Colonoscopia imediata"
+   ],
+   "correta": 2,
+   "comentario": "Diretrizes atuais permitem tratar em casa, sem antibiótico, a diverticulite não complicada selecionada. Antibiótico fica para comorbidade, imunossupressão, sinais sistêmicos, vômitos, intolerância à dieta ou sintomas que não melhoram.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; WSES 2020; ASCRS 2020"
+  },
+  {
+   "id": "q-dp-06",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Paciente com diverticulite tem abscesso pélvico de 6 cm, está estável e sem peritonite. Qual a conduta?",
+   "alternativas": [
+    "Apenas antibiótico oral em casa",
+    "Antibiótico e drenagem percutânea guiada por imagem",
+    "Laparotomia com Hartmann de urgência",
+    "Colonoscopia para drenar o abscesso"
+   ],
+   "correta": 1,
+   "comentario": "Abscessos grandes em paciente estável são tratados com antibiótico e drenagem percutânea; os pequenos, só com antibiótico. O corte varia entre as diretrizes (cerca de 3 cm na ASCRS, 4–5 cm na WSES): 6 cm está acima de todos.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; WSES 2020; ASCRS 2020"
+  },
+  {
+   "id": "q-dp-07",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Paciente idoso, em choque séptico, com peritonite fecal por diverticulite perfurada do sigmoide. Qual cirurgia é mais adequada?",
+   "alternativas": [
+    "Hartmann: ressecção, colostomia terminal e coto retal fechado",
+    "Ressecção com anastomose primária sem estoma",
+    "Lavagem laparoscópica sem ressecção",
+    "Drenagem percutânea isolada"
+   ],
+   "correta": 0,
+   "comentario": "No instável com peritonite fecal, a anastomose tem alto risco de falha. O Hartmann retira o foco e evita a anastomose.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; WSES 2020; ASCRS 2020"
+  },
+  {
+   "id": "q-dp-08",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Paciente estável, sem comorbidades graves, com peritonite purulenta por diverticulite, operado por cirurgião experiente. Qual opção também é válida além do Hartmann?",
+   "alternativas": [
+    "Colostomia em alça sem ressecção",
+    "Observação com antibiótico oral",
+    "Colectomia total de rotina",
+    "Ressecção com anastomose primária, com ou sem ileostomia de proteção"
+   ],
+   "correta": 3,
+   "comentario": "No paciente estável e selecionado, a anastomose primária é opção válida e aumenta a chance de ficar sem estoma definitivo.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; WSES 2020; ASCRS 2020"
+  },
+  {
+   "id": "q-dp-09",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Homem de 62 anos com infecções urinárias de repetição, pneumatúria e fecalúria, com história de diverticulite. Qual o diagnóstico?",
+   "alternativas": [
+    "Cistite intersticial",
+    "Fístula colovaginal",
+    "Fístula colovesical",
+    "Pielonefrite enfisematosa"
+   ],
+   "correta": 2,
+   "comentario": "A fístula colovesical é a mais comum da diverticulite e se manifesta por pneumatúria, fecalúria e infecções urinárias de repetição. É mais frequente em homens.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; WSES 2020; ASCRS 2020"
+  },
+  {
+   "id": "q-dp-10",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Após tratar uma diverticulite complicada com abscesso, o que deve ser feito depois da resolução?",
+   "alternativas": [
+    "Nenhum exame adicional",
+    "Colonoscopia, em geral em 6 a 8 semanas",
+    "Nova TC a cada mês por um ano",
+    "Sigmoidectomia obrigatória após o primeiro episódio"
+   ],
+   "correta": 1,
+   "comentario": "Um câncer pode se apresentar como diverticulite. Depois da crise, sobretudo na forma complicada ou sem colonoscopia recente, a colonoscopia afasta neoplasia.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; WSES 2020; ASCRS 2020"
+  },
+  {
+   "id": "q-dp-11",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Um paciente teve dois episódios de diverticulite não complicada, sem sintomas entre as crises. Como se decide a sigmoidectomia eletiva hoje?",
+   "alternativas": [
+    "De forma individualizada, conforme sintomas, complicações e qualidade de vida",
+    "Obrigatória depois da 2ª crise",
+    "Obrigatória depois da 1ª crise",
+    "Nunca indicada na diverticulite"
+   ],
+   "correta": 0,
+   "comentario": "A regra antiga de operar depois de duas crises foi abandonada. A cirurgia eletiva considera sintomas persistentes, fístula, estenose e o impacto na vida do paciente.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; WSES 2020; ASCRS 2020"
+  },
+  {
+   "id": "q-dp-12",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Por que não se faz colonoscopia na fase aguda da diverticulite?",
+   "alternativas": [
+    "Porque não mostra divertículos",
+    "Porque exige anestesia geral",
+    "Porque substitui a TC",
+    "Pelo risco de perfurar o cólon inflamado"
+   ],
+   "correta": 3,
+   "comentario": "A insuflação e a manipulação podem perfurar a parede inflamada. A colonoscopia é feita depois da resolução.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; WSES 2020; ASCRS 2020"
+  },
+  {
+   "id": "q-dp-13",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Qual achado sugere hemorragia diverticular, e não diverticulite?",
+   "alternativas": [
+    "Dor na fossa ilíaca esquerda com febre",
+    "Massa dolorosa no flanco esquerdo",
+    "Sangramento retal volumoso e indolor em idoso, sem febre",
+    "Pneumatúria"
+   ],
+   "correta": 2,
+   "comentario": "A diverticulose sangra quando uma artéria do colo do divertículo se rompe: sangramento volumoso e indolor. Sangramento e diverticulite raramente coexistem.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; WSES 2020; ASCRS 2020"
+  },
+  {
+   "id": "q-dp-14",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Paciente com diverticulite e abscesso pericólico de 2 cm, estável. Qual a conduta?",
+   "alternativas": [
+    "Drenagem percutânea obrigatória",
+    "Antibiótico venoso, sem drenagem",
+    "Hartmann de urgência",
+    "Alta sem antibiótico"
+   ],
+   "correta": 1,
+   "comentario": "Abscesso pequeno (abaixo de cerca de 3–5 cm, conforme a diretriz) costuma responder ao antibiótico; drenagem fica para os maiores.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; WSES 2020; ASCRS 2020"
+  },
+  {
+   "id": "q-dp-15",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Qual afirmação sobre a lavagem laparoscópica na diverticulite perfurada está correta?",
+   "alternativas": [
+    "É controversa e restrita a casos selecionados de peritonite purulenta",
+    "É o tratamento de escolha da peritonite fecal",
+    "Substitui a ressecção em todos os casos",
+    "É indicada para abscesso pequeno"
+   ],
+   "correta": 0,
+   "comentario": "Estudos mostraram mais reintervenções e abscessos residuais; a lavagem fica para casos selecionados de peritonite purulenta, nunca fecal.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; WSES 2020; ASCRS 2020"
+  },
+  {
+   "id": "q-dp-16",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Qual é o critério diagnóstico de pancreatite aguda pela classificação de Atlanta?",
+   "alternativas": [
+    "Lipase acima do normal, isoladamente",
+    "TC com necrose, obrigatoriamente",
+    "Dor epigástrica e vômitos",
+    "Dois de três: dor típica, lipase ou amilase ≥ 3 vezes o limite e imagem compatível"
+   ],
+   "correta": 3,
+   "comentario": "O diagnóstico exige dois de três critérios. Com dor típica e lipase três vezes acima do limite, não é preciso imagem para diagnosticar.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; Atlanta 2012; ACG 2024"
+  },
+  {
+   "id": "q-dp-17",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Mulher de 45 anos com dor epigástrica em faixa irradiada para o dorso e lipase 8 vezes o limite superior. Qual exame é obrigatório na admissão?",
+   "alternativas": [
+    "TC com contraste, para estadiar",
+    "Colangiorressonância de rotina",
+    "Ultrassom de abdome, para pesquisar cálculo biliar",
+    "CPRE diagnóstica"
+   ],
+   "correta": 2,
+   "comentario": "Todo paciente com pancreatite deve fazer ultrassom para procurar a causa biliar. A TC não é necessária quando a clínica e a lipase já fecham o diagnóstico.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; Atlanta 2012; ACG 2024"
+  },
+  {
+   "id": "q-dp-18",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Quando está indicada a TC com contraste na pancreatite aguda?",
+   "alternativas": [
+    "Em todos os pacientes na admissão",
+    "Na dúvida diagnóstica ou se não houver melhora em 48–72 horas",
+    "Só quando a lipase passa de 10 vezes o limite",
+    "Nunca, pois o ultrassom basta"
+   ],
+   "correta": 1,
+   "comentario": "Feita cedo, a TC subestima a necrose. Ela é útil na dúvida diagnóstica ou quando o paciente não melhora, para procurar necrose e complicações.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; Atlanta 2012; ACG 2024"
+  },
+  {
+   "id": "q-dp-19",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Qual é a causa mais comum de pancreatite aguda?",
+   "alternativas": [
+    "Litíase biliar",
+    "Álcool",
+    "Hipertrigliceridemia",
+    "Medicamentos"
+   ],
+   "correta": 0,
+   "comentario": "A causa biliar é a mais comum na maioria das séries, seguida do álcool. Por isso o ultrassom é feito em todos.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; Atlanta 2012; ACG 2024"
+  },
+  {
+   "id": "q-dp-20",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Paciente com pancreatite aguda e TGP de 420 U/L na admissão. O que esse achado sugere?",
+   "alternativas": [
+    "Causa alcoólica",
+    "Hipertrigliceridemia",
+    "Pancreatite autoimune",
+    "Causa biliar"
+   ],
+   "correta": 3,
+   "comentario": "Elevação da TGP acima de cerca de 150 U/L nas primeiras horas sugere obstrução biliar transitória como causa.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; Atlanta 2012; ACG 2024"
+  },
+  {
+   "id": "q-dp-21",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Paciente com pancreatite e triglicerídeos de 2.300 mg/dL. Qual a causa provável?",
+   "alternativas": [
+    "Litíase biliar",
+    "Hipercalcemia",
+    "Hipertrigliceridemia",
+    "Pós-CPRE"
+   ],
+   "correta": 2,
+   "comentario": "Triglicerídeos acima de cerca de 1.000 mg/dL tornam a hipertrigliceridemia a causa provável. A amilase pode vir falsamente normal nesse contexto.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; Atlanta 2012; ACG 2024"
+  },
+  {
+   "id": "q-dp-22",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Pela classificação de Atlanta revisada, o que define a pancreatite grave?",
+   "alternativas": [
+    "Lipase acima de 10 vezes o limite",
+    "Falência de órgão persistente por mais de 48 horas",
+    "Presença de necrose na TC",
+    "Dor que exige opioide"
+   ],
+   "correta": 1,
+   "comentario": "A gravidade é definida pela falência orgânica persistente. Falência transitória e/ou complicação local ou sistêmica, sem falência persistente, definem a forma moderadamente grave; necrose sozinha não classifica.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; Atlanta 2012; ACG 2024"
+  },
+  {
+   "id": "q-dp-23",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Paciente com pancreatite teve hipoxemia que se resolveu em 24 horas e uma coleção peripancreática. Como se classifica?",
+   "alternativas": [
+    "Moderadamente grave",
+    "Leve",
+    "Grave",
+    "Crítica"
+   ],
+   "correta": 0,
+   "comentario": "Falência de órgão transitória (menos de 48 horas) e/ou complicação local definem a forma moderadamente grave.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; Atlanta 2012; ACG 2024"
+  },
+  {
+   "id": "q-dp-24",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Qual destes itens faz parte do escore BISAP?",
+   "alternativas": [
+    "Lipase acima de 3 vezes",
+    "Glicemia acima de 200",
+    "Hematócrito abaixo de 30%",
+    "Derrame pleural"
+   ],
+   "correta": 3,
+   "comentario": "BISAP: BUN acima de 25 mg/dL, alteração do estado mental, SIRS, idade acima de 60 anos e derrame pleural (pleural effusion).",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; Atlanta 2012; ACG 2024"
+  },
+  {
+   "id": "q-dp-25",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Qual afirmação sobre o valor da lipase na pancreatite está correta?",
+   "alternativas": [
+    "Quanto maior, mais grave a pancreatite",
+    "Deve ser repetida diariamente para guiar o tratamento",
+    "Não se relaciona com a gravidade",
+    "Acima de 10 vezes indica necrose"
+   ],
+   "correta": 2,
+   "comentario": "A lipase faz o diagnóstico, mas sua magnitude não prediz gravidade. A gravidade se avalia pela falência de órgão.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; Atlanta 2012; ACG 2024"
+  },
+  {
+   "id": "q-dp-26",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Na hidratação inicial da pancreatite aguda, qual é a estratégia recomendada?",
+   "alternativas": [
+    "Soro fisiológico em volume vigoroso fixo de 20 mL/kg/h",
+    "Ringer lactato em volume moderado, guiado pela resposta",
+    "Restrição hídrica para evitar edema pancreático",
+    "Albumina como primeira escolha"
+   ],
+   "correta": 1,
+   "comentario": "O estudo WATERFALL (2022) mostrou que a hidratação agressiva causou mais sobrecarga de volume sem benefício. Usa-se Ringer lactato moderado, reavaliando a resposta.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; Atlanta 2012; ACG 2024; WATERFALL 2022"
+  },
+  {
+   "id": "q-dp-27",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Paciente com pancreatite leve, sem náusea, pede para comer no 2º dia. Qual a conduta?",
+   "alternativas": [
+    "Liberar dieta oral pobre em gordura, conforme tolerância",
+    "Manter jejum até a lipase normalizar",
+    "Iniciar nutrição parenteral total",
+    "Passar sonda nasojejunal obrigatoriamente"
+   ],
+   "correta": 0,
+   "comentario": "Na forma leve, a alimentação oral precoce é segura e reduz complicações. O jejum para 'descansar o pâncreas' não é necessário.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; Atlanta 2012; ACG 2024"
+  },
+  {
+   "id": "q-dp-28",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Paciente com pancreatite grave não consegue comer no 4º dia. Qual via de nutrição é preferida?",
+   "alternativas": [
+    "Parenteral total",
+    "Nenhuma até a alta da UTI",
+    "Somente soro glicosado",
+    "Enteral, inclusive por sonda nasogástrica"
+   ],
+   "correta": 3,
+   "comentario": "A nutrição enteral mantém a barreira intestinal e reduz infecção em relação à parenteral. A sonda nasogástrica é aceitável.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; Atlanta 2012; ACG 2024"
+  },
+  {
+   "id": "q-dp-29",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Paciente com pancreatite necrosante estéril na TC. Qual a conduta em relação ao antibiótico?",
+   "alternativas": [
+    "Carbapenêmico profilático por 14 dias",
+    "Antibiótico até a necrose desaparecer",
+    "Não usar antibiótico profilático",
+    "Antifúngico profilático"
+   ],
+   "correta": 2,
+   "comentario": "Antibiótico profilático não reduz infecção nem mortalidade na necrose estéril. Usa-se antibiótico apenas quando há infecção.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; Atlanta 2012; ACG 2024"
+  },
+  {
+   "id": "q-dp-30",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Paciente com pancreatite biliar, febre, icterícia e dor no hipocôndrio direito. Qual a conduta para a via biliar?",
+   "alternativas": [
+    "Colecistectomia imediata sem CPRE",
+    "CPRE em até 24 horas",
+    "Observar e repetir a bilirrubina em 7 dias",
+    "CPRE só após 6 semanas"
+   ],
+   "correta": 1,
+   "comentario": "Pancreatite biliar com colangite exige desobstrução da via biliar por CPRE em até 24 horas.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; Atlanta 2012; ACG 2024"
+  },
+  {
+   "id": "q-dp-31",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Paciente com pancreatite biliar sem colangite, com bilirrubina discretamente elevada que cai no 2º dia. Está indicada CPRE?",
+   "alternativas": [
+    "Não; CPRE de rotina não é indicada sem colangite ou obstrução persistente",
+    "Sim, em todos os casos de pancreatite biliar",
+    "Sim, se a lipase for alta",
+    "Sim, antes da alimentação"
+   ],
+   "correta": 0,
+   "comentario": "A CPRE de rotina não melhora o desfecho na pancreatite biliar sem colangite ou obstrução persistente, e tem riscos.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; Atlanta 2012; ACG 2024"
+  },
+  {
+   "id": "q-dp-32",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Paciente com pancreatite biliar leve, já sem dor e comendo. Quando fazer a colecistectomia?",
+   "alternativas": [
+    "Após 6 meses",
+    "Só se houver nova crise",
+    "Não é necessária",
+    "Na mesma internação, antes da alta"
+   ],
+   "correta": 3,
+   "comentario": "O estudo PONCHO mostrou que esperar aumenta a recorrência de eventos biliares. Na forma leve, opera-se na mesma internação.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; Atlanta 2012; ACG 2024; PONCHO 2015"
+  },
+  {
+   "id": "q-dp-33",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Paciente com pancreatite biliar necrosante e coleções. Quando operar a vesícula?",
+   "alternativas": [
+    "Na mesma internação, nos primeiros dias",
+    "Nunca",
+    "Adiar até as coleções regredirem e a inflamação melhorar",
+    "Antes de iniciar a dieta"
+   ],
+   "correta": 2,
+   "comentario": "Com necrose ou coleções, a colecistectomia precoce é difícil e arriscada; adia-se até as coleções regredirem e a inflamação melhorar. Se persistirem depois de cerca de 6 semanas, decide-se caso a caso.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; Atlanta 2012; ACG 2024"
+  },
+  {
+   "id": "q-dp-34",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Coleção líquida homogênea, sem necrose, com parede definida, surgida 6 semanas depois de uma pancreatite edematosa. Como se chama?",
+   "alternativas": [
+    "Coleção líquida peripancreática aguda",
+    "Pseudocisto",
+    "Necrose encapsulada",
+    "Coleção necrótica aguda"
+   ],
+   "correta": 1,
+   "comentario": "Se a coleção líquida da pancreatite edematosa persiste e forma parede definida, em geral após 4 semanas, passa a ser pseudocisto. Muitas regridem antes. A necrose encapsulada vem da forma necrosante e tem restos de tecido.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; Atlanta 2012; ACG 2024"
+  },
+  {
+   "id": "q-dp-35",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Coleção com líquido e restos necróticos, com parede, 5 semanas após uma pancreatite necrosante. Como se chama?",
+   "alternativas": [
+    "Necrose encapsulada (walled-off)",
+    "Pseudocisto",
+    "Coleção líquida peripancreática aguda",
+    "Abscesso pancreático"
+   ],
+   "correta": 0,
+   "comentario": "Na pancreatite necrosante, a coleção necrótica aguda que persiste e forma parede definida, em geral após cerca de 4 semanas, passa a ser necrose encapsulada.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; Atlanta 2012; ACG 2024"
+  },
+  {
+   "id": "q-dp-36",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Paciente com pseudocisto de 7 cm, assintomático, 2 meses após pancreatite. Qual a conduta?",
+   "alternativas": [
+    "Drenagem endoscópica imediata",
+    "Ressecção cirúrgica",
+    "Punção percutânea mensal",
+    "Observar"
+   ],
+   "correta": 3,
+   "comentario": "Coleções estéreis e assintomáticas são observadas, mesmo grandes. Drena-se se houver sintoma, infecção ou compressão.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; Atlanta 2012; ACG 2024"
+  },
+  {
+   "id": "q-dp-37",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Paciente com pancreatite necrosante piora na 3ª semana, com febre e leucocitose. A TC mostra gás dentro da necrose. Qual o diagnóstico?",
+   "alternativas": [
+    "Pseudocisto não complicado",
+    "Recidiva da pancreatite",
+    "Necrose infectada",
+    "Perfuração gástrica"
+   ],
+   "correta": 2,
+   "comentario": "Gás dentro da necrose na TC, ou piora clínica com febre na 2ª–3ª semana, sugere necrose infectada.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; Atlanta 2012; ACG 2024"
+  },
+  {
+   "id": "q-dp-38",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Paciente estável com necrose infectada na 3ª semana. Qual a estratégia?",
+   "alternativas": [
+    "Necrosectomia aberta imediata",
+    "Antibiótico e, se possível, adiar a intervenção até cerca de 4 semanas, com abordagem step-up",
+    "Apenas observação sem antibiótico",
+    "Pancreatectomia total"
+   ],
+   "correta": 1,
+   "comentario": "Inicia-se antibiótico e acompanha-se: parte dos pacientes melhora sem intervenção. Se for preciso intervir, a abordagem step-up começa pela drenagem (percutânea ou endoscópica) e avança para necrosectomia minimamente invasiva. Esperar o encapsulamento reduz a mortalidade.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; Atlanta 2012; ACG 2024; PANTER 2010"
+  },
+  {
+   "id": "q-dp-39",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Na abordagem step-up da necrose infectada, qual é o primeiro passo invasivo?",
+   "alternativas": [
+    "Drenagem percutânea ou endoscópica",
+    "Necrosectomia aberta",
+    "Laparotomia exploradora",
+    "Pancreatectomia distal"
+   ],
+   "correta": 0,
+   "comentario": "O estudo PANTER mostrou que começar com drenagem e escalar só se necessário reduz complicações em relação à necrosectomia aberta.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; Atlanta 2012; ACG 2024; PANTER 2010"
+  },
+  {
+   "id": "q-dp-40",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Paciente com pancreatite grave na UTI. Qual é o melhor marcador para acompanhar a evolução nas primeiras 48 horas?",
+   "alternativas": [
+    "Dosagem diária de lipase",
+    "TC diária",
+    "Dosagem diária de amilase",
+    "Reavaliação seriada de sinais vitais, diurese, ureia e hematócrito"
+   ],
+   "correta": 3,
+   "comentario": "A evolução se mede pela perfusão e pela função de órgãos. Lipase e amilase não acompanham a gravidade.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; Atlanta 2012; ACG 2024"
+  },
+  {
+   "id": "q-dp-41",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Qual sinal clínico indica sangue no retroperitônio na pancreatite grave?",
+   "alternativas": [
+    "Murphy",
+    "Blumberg",
+    "Grey Turner, equimose nos flancos",
+    "Rovsing"
+   ],
+   "correta": 2,
+   "comentario": "Cullen (periumbilical) e Grey Turner (flancos) indicam hemorragia retroperitoneal, típica de pancreatite grave.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; Atlanta 2012; ACG 2024"
+  },
+  {
+   "id": "q-dp-42",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Qual é a complicação mais comum da CPRE?",
+   "alternativas": [
+    "Perfuração duodenal",
+    "Pancreatite pós-CPRE",
+    "Hemorragia",
+    "Colangite"
+   ],
+   "correta": 1,
+   "comentario": "A pancreatite é a complicação mais comum da CPRE. Indometacina retal, hidratação e stent pancreático reduzem o risco em pacientes selecionados.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; Atlanta 2012; ACG 2024"
+  },
+  {
+   "id": "q-dp-43",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Por que a amilase pode estar normal em alguns pacientes com pancreatite?",
+   "alternativas": [
+    "Porque cai antes da lipase e pode ser falsamente normal na hipertrigliceridemia",
+    "Porque a amilase não sobe na pancreatite biliar",
+    "Porque só sobe na pancreatite crônica",
+    "Porque depende da idade"
+   ],
+   "correta": 0,
+   "comentario": "A amilase normaliza em poucos dias e pode sofrer interferência dos triglicerídeos; por isso a lipase é preferida.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; Atlanta 2012; ACG 2024"
+  },
+  {
+   "id": "q-dp-44",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Na TC de uma pancreatite, o índice de Balthazar (CTSI) leva em conta:",
+   "alternativas": [
+    "Valor da lipase e idade",
+    "Leucócitos e glicemia",
+    "Bilirrubina e TGP",
+    "Grau de inflamação e porcentagem de necrose"
+   ],
+   "correta": 3,
+   "comentario": "O índice de gravidade tomográfico soma o grau de inflamação peripancreática e a extensão da necrose; é mais útil após 72 horas.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; Atlanta 2012; ACG 2024"
+  },
+  {
+   "id": "q-dp-45",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Paciente com pancreatite alcoólica leve, hidratado e comendo. Qual orientação é essencial na alta?",
+   "alternativas": [
+    "Evitar qualquer gordura para sempre",
+    "Colecistectomia profilática",
+    "Abstinência de álcool, com apoio para isso",
+    "Antibiótico por 7 dias"
+   ],
+   "correta": 2,
+   "comentario": "Sem a suspensão do álcool, a recorrência é alta e pode evoluir para pancreatite crônica. A intervenção breve sobre o uso de álcool faz parte do tratamento.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; Atlanta 2012; ACG 2024"
+  },
+  {
+   "id": "q-dp-46",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Mulher de 30 anos com dor epigástrica típica, lipase 1,5 vez o limite e amilase normal. Qual afirmação é correta?",
+   "alternativas": [
+    "Confirma pancreatite leve",
+    "Lipase abaixo de 3 vezes não basta; precisa de imagem compatível para o diagnóstico",
+    "Indica CPRE",
+    "Exclui pancreatite de vez"
+   ],
+   "correta": 1,
+   "comentario": "O critério enzimático exige 3 vezes o limite (lipase ou amilase). Sem ele, o diagnóstico depende da dor típica e de imagem compatível.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; Atlanta 2012; ACG 2024"
+  },
+  {
+   "id": "q-dp-47",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Paciente com diverticulite e sinais urinários (disúria) sem pneumatúria. O que explica?",
+   "alternativas": [
+    "Inflamação do sigmoide junto à bexiga",
+    "Fístula colovesical confirmada",
+    "Pielonefrite associada obrigatoriamente",
+    "Câncer de bexiga"
+   ],
+   "correta": 0,
+   "comentario": "A inflamação pericólica junto à bexiga causa sintomas urinários. A fístula se suspeita com pneumatúria ou fecalúria.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; WSES 2020; ASCRS 2020"
+  },
+  {
+   "id": "q-dp-48",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Qual é a localização mais comum dos divertículos do cólon no Ocidente?",
+   "alternativas": [
+    "Ceco",
+    "Cólon transverso",
+    "Reto",
+    "Sigmoide"
+   ],
+   "correta": 3,
+   "comentario": "No Ocidente, a doença diverticular predomina no sigmoide; no Oriente, no cólon direito.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; WSES 2020; ASCRS 2020"
+  },
+  {
+   "id": "q-dp-49",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Paciente com diverticulite não complicada, imunossuprimido por transplante renal. Qual a conduta?",
+   "alternativas": [
+    "Tratamento sem antibiótico em casa",
+    "Cirurgia de urgência obrigatória",
+    "Antibiótico, com internação conforme o quadro",
+    "Apenas dieta zero"
+   ],
+   "correta": 2,
+   "comentario": "Imunossupressão é critério para usar antibiótico e ter limiar baixo para internar; o paciente pode evoluir mal com poucos sinais.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; WSES 2020; ASCRS 2020"
+  },
+  {
+   "id": "q-dp-50",
+   "resumo": "diverticulite-pancreatite",
+   "sessao": "s04",
+   "enunciado": "Por que muitos pacientes do Hartmann ficam com estoma definitivo?",
+   "alternativas": [
+    "Porque o reto é sempre retirado",
+    "Porque a reconstrução do trânsito é uma cirurgia grande e muitos não têm condição ou não a fazem",
+    "Porque a colostomia não pode ser revertida tecnicamente",
+    "Porque a lei proíbe a reversão"
+   ],
+   "correta": 1,
+   "comentario": "A reversão do Hartmann é uma nova operação, muitas vezes complexa, com anastomose colorretal (por via aberta ou laparoscópica); idosos e doentes graves muitas vezes não chegam a fazê-la.",
+   "fonte": "Apostila Diverticulite e Pancreatite da monitoria; WSES 2020; ASCRS 2020"
+  },
+  {
+   "id": "q-vo-01",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Homem de 78 anos com fibrilação atrial sem anticoagulação tem dor abdominal súbita e muito intensa há 3 horas. O abdome está flácido e pouco doloroso. Qual a principal hipótese?",
+   "alternativas": [
+    "Embolia da artéria mesentérica superior",
+    "Cólica renal",
+    "Gastroenterite aguda",
+    "Pancreatite aguda leve"
+   ],
+   "correta": 0,
+   "comentario": "Dor desproporcional ao exame em paciente com arritmia é embolia mesentérica até prova em contrário; o exame pobre é a pista inicial, não um sinal tranquilizador.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; ESVS 2017; WSES 2022"
+  },
+  {
+   "id": "q-vo-02",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Na suspeita de isquemia mesentérica aguda, qual é o exame de escolha?",
+   "alternativas": [
+    "Radiografia simples de abdome",
+    "Ultrassom com Doppler como único exame",
+    "Colonoscopia",
+    "Angiotomografia com fases arterial e venosa"
+   ],
+   "correta": 3,
+   "comentario": "A angiotomografia mostra a oclusão, a parede das alças, a pneumatose e o gás no sistema porta, e não deve ser adiada.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; ESVS 2017; WSES 2022"
+  },
+  {
+   "id": "q-vo-03",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Paciente com suspeita forte de isquemia mesentérica tem lactato normal. Como interpretar?",
+   "alternativas": [
+    "Exclui a isquemia",
+    "Indica isquemia venosa",
+    "Lactato normal não exclui a isquemia",
+    "Dispensa a angiotomografia"
+   ],
+   "correta": 2,
+   "comentario": "Lactato normal não exclui isquemia; lactato alto é inespecífico e não separa isquemia reversível de necrose. Não serve para excluir o diagnóstico.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; ESVS 2017; WSES 2022"
+  },
+  {
+   "id": "q-vo-04",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Paciente com suspeita de isquemia mesentérica e creatinina de 2,1 mg/dL. O que fazer quanto à angiotomografia?",
+   "alternativas": [
+    "Adiar até a creatinina normalizar",
+    "Fazer o exame sem atraso",
+    "Trocar por ressonância sem contraste em 48 h",
+    "Fazer só radiografia"
+   ],
+   "correta": 1,
+   "comentario": "O risco do intestino necrosado supera o risco do contraste; a função renal não deve atrasar o diagnóstico.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; ESVS 2017; WSES 2022"
+  },
+  {
+   "id": "q-vo-05",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Idoso com fibrilação atrial tem dor abdominal súbita, muito intensa, desproporcional ao exame. Qual é o mecanismo mais provável de isquemia mesentérica?",
+   "alternativas": [
+    "Embolia arterial",
+    "Trombose venosa",
+    "Isquemia não oclusiva",
+    "Dissecção da aorta"
+   ],
+   "correta": 0,
+   "comentario": "Fibrilação atrial e início súbito apontam para embolia de origem cardíaca para a artéria mesentérica superior.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; ESVS 2017; WSES 2022"
+  },
+  {
+   "id": "q-vo-06",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Idoso com perda de peso, medo de comer e dor abdominal 30 minutos após as refeições há meses. Qual o diagnóstico?",
+   "alternativas": [
+    "Úlcera duodenal",
+    "Pancreatite crônica",
+    "Câncer gástrico",
+    "Isquemia mesentérica crônica (angina intestinal)"
+   ],
+   "correta": 3,
+   "comentario": "A angina intestinal é a dor pós-prandial por aterosclerose das artérias mesentéricas; pode evoluir para trombose aguda.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; ESVS 2017; WSES 2022"
+  },
+  {
+   "id": "q-vo-07",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Paciente em choque séptico na UTI, com noradrenalina em dose alta, passa a ter distensão e acidose. A angiotomografia não mostra oclusão. Qual o diagnóstico?",
+   "alternativas": [
+    "Embolia mesentérica",
+    "Trombose venosa mesentérica",
+    "Isquemia mesentérica não oclusiva",
+    "Colite pseudomembranosa"
+   ],
+   "correta": 2,
+   "comentario": "A vasoconstrição por baixo débito e vasopressores reduz o fluxo sem oclusão; o tratamento é corrigir a causa.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; ESVS 2017; WSES 2022"
+  },
+  {
+   "id": "q-vo-08",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Mulher de 35 anos com trombofilia tem dor abdominal há 4 dias. A angiotomografia mostra trombose da veia mesentérica superior, sem sinais de necrose. Qual o tratamento?",
+   "alternativas": [
+    "Laparotomia imediata",
+    "Anticoagulação",
+    "Embolectomia arterial",
+    "Apenas observação sem anticoagulante"
+   ],
+   "correta": 1,
+   "comentario": "Na trombose venosa mesentérica sem necrose nem peritonite, o tratamento é anticoagular; peritonite ou piora apesar da anticoagulação exigem avaliação cirúrgica urgente.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; ESVS 2017; WSES 2022"
+  },
+  {
+   "id": "q-vo-09",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Na suspeita de isquemia mesentérica aguda, qual medida deve começar logo, antes da cirurgia, se não houver contraindicação?",
+   "alternativas": [
+    "Heparina plena",
+    "Ácido tranexâmico",
+    "Vasopressor em dose alta",
+    "Laxativo"
+   ],
+   "correta": 0,
+   "comentario": "A heparina limita a propagação do trombo; começa assim que a suspeita é feita.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; ESVS 2017; WSES 2022"
+  },
+  {
+   "id": "q-vo-10",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Paciente com embolia mesentérica e peritonite. Na laparotomia, qual a sequência correta?",
+   "alternativas": [
+    "Ressecar todo o intestino isquêmico antes de revascularizar",
+    "Fechar o abdome e anticoagular",
+    "Apenas drenar a cavidade",
+    "Revascularizar primeiro e depois ressecar o intestino morto"
+   ],
+   "correta": 3,
+   "comentario": "Revascularizar antes permite que alças duvidosas se recuperem e evita ressecções desnecessárias.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; ESVS 2017; WSES 2022"
+  },
+  {
+   "id": "q-vo-11",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Durante a cirurgia de isquemia mesentérica, várias alças têm viabilidade duvidosa. Qual a conduta?",
+   "alternativas": [
+    "Ressecar todo o delgado",
+    "Fechar e não reoperar",
+    "Deixar as alças e programar reexploração (second look) em 24–48 horas",
+    "Fazer ileostomia de todas as alças"
+   ],
+   "correta": 2,
+   "comentario": "A reexploração programada evita ressecar alças que podem sobreviver e permite reavaliar a viabilidade.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; ESVS 2017; WSES 2022"
+  },
+  {
+   "id": "q-vo-12",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Na TC de um paciente com isquemia mesentérica, há gás nos ramos da veia porta. O que isso indica?",
+   "alternativas": [
+    "Achado normal",
+    "Sinal de alto risco de isquemia avançada, com suspeita de necrose",
+    "Colecistite enfisematosa",
+    "Pneumoperitônio benigno"
+   ],
+   "correta": 1,
+   "comentario": "Gás no sistema porta, assim como pneumatose, sugere isquemia avançada e pior prognóstico. Sozinho não prova necrose: interpretar com a clínica e o restante da TC.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; ESVS 2017; WSES 2022"
+  },
+  {
+   "id": "q-vo-13",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Na embolia da artéria mesentérica superior, por que o jejuno proximal costuma ser poupado?",
+   "alternativas": [
+    "O êmbolo costuma parar depois da saída da artéria cólica média",
+    "Porque o jejuno é irrigado pela aorta diretamente",
+    "Porque o jejuno tem fluxo venoso duplo",
+    "Porque o êmbolo para na origem da artéria"
+   ],
+   "correta": 0,
+   "comentario": "O êmbolo tende a impactar alguns centímetros depois da origem, poupando os primeiros ramos jejunais. A trombose atinge a origem e é mais extensa.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; ESVS 2017; WSES 2022"
+  },
+  {
+   "id": "q-vo-14",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Idosa vasculopata tem dor abdominal em cólica seguida, em horas, de diarreia com sangue. Está estável. Qual o diagnóstico mais provável?",
+   "alternativas": [
+    "Isquemia mesentérica aguda por embolia",
+    "Diverticulite",
+    "Hemorroida trombosada",
+    "Colite isquêmica"
+   ],
+   "correta": 3,
+   "comentario": "A colite isquêmica é a forma mais comum de isquemia intestinal: dor seguida de diarreia sanguinolenta em idoso estável.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; ESVS 2017; WSES 2022; ACG 2015"
+  },
+  {
+   "id": "q-vo-15",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Quais áreas do cólon são mais vulneráveis à colite isquêmica?",
+   "alternativas": [
+    "Ceco e apêndice",
+    "Reto inferior",
+    "Ângulo esplênico e transição retossigmoide",
+    "Cólon ascendente proximal"
+   ],
+   "correta": 2,
+   "comentario": "São as áreas de irrigação limítrofe: pontos de Griffiths e de Sudeck. O reto costuma ser poupado pela irrigação dupla.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; ESVS 2017; WSES 2022; ACG 2015"
+  },
+  {
+   "id": "q-vo-16",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Paciente estável, sem peritonite, com suspeita de colite isquêmica. Qual exame confirma o diagnóstico?",
+   "alternativas": [
+    "Angiografia mesentérica de rotina",
+    "Colonoscopia",
+    "Enema opaco",
+    "Cintilografia"
+   ],
+   "correta": 1,
+   "comentario": "A colonoscopia precoce, com pouca insuflação, mostra mucosa edemaciada, hemorrágica e ulcerada no segmento acometido. Não se faz na peritonite.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; ESVS 2017; WSES 2022; ACG 2015"
+  },
+  {
+   "id": "q-vo-17",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Paciente com colite isquêmica evolui com peritonite e gangrena do cólon. Qual a conduta?",
+   "alternativas": [
+    "Cirurgia com ressecção do segmento",
+    "Manter apenas hidratação",
+    "Colonoscopia diária",
+    "Anticoagulação isolada"
+   ],
+   "correta": 0,
+   "comentario": "A maioria melhora com suporte, mas gangrena, peritonite ou perfuração exigem ressecção.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; ESVS 2017; WSES 2022; ACG 2015"
+  },
+  {
+   "id": "q-vo-18",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Homem de 74 anos com dor lombar súbita, massa pulsátil no abdome e PA 70 × 40 mmHg, piorando apesar da reposição e sem condições de ir à tomografia. Qual a conduta?",
+   "alternativas": [
+    "Fazer urografia excretora",
+    "Tratar como cólica renal",
+    "Hidratar até a pressão normalizar e depois investigar",
+    "Levar direto ao centro cirúrgico para controle da aorta"
+   ],
+   "correta": 3,
+   "comentario": "A tríade de dor, hipotensão e massa pulsátil indica aneurisma roto. Se der tempo, a angiotomografia rápida ajuda a planejar o reparo endovascular; instável demais para a TC vai direto à cirurgia, com hipotensão permissiva.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria"
+  },
+  {
+   "id": "q-vo-19",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "No aneurisma de aorta roto, até o controle do sangramento, qual estratégia de pressão é recomendada?",
+   "alternativas": [
+    "Normalizar a pressão com cristaloide",
+    "Vasopressor para PA sistólica acima de 140",
+    "Hipotensão permissiva",
+    "Nitroprussiato para reduzir ao mínimo"
+   ],
+   "correta": 2,
+   "comentario": "Elevar a pressão antes do controle aumenta o sangramento; aceita-se pressão mais baixa se o paciente mantém perfusão cerebral.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria"
+  },
+  {
+   "id": "q-vo-20",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Paciente com laparotomia prévia tem cólicas, vômitos, distensão e parada de gases. Qual a causa mais provável da obstrução?",
+   "alternativas": [
+    "Hérnia femoral",
+    "Bridas (aderências)",
+    "Volvo de ceco",
+    "Íleo biliar"
+   ],
+   "correta": 1,
+   "comentario": "Bridas são a principal causa de obstrução do delgado, sobretudo em quem já foi operado.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; Bolonha/WSES 2017"
+  },
+  {
+   "id": "q-vo-21",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Paciente de 70 anos, nunca operado, com obstrução do delgado. O que procurar no exame físico?",
+   "alternativas": [
+    "Hérnias em todas as regiões, inclusive a femoral",
+    "Sinal de Murphy",
+    "Sinal de Giordano",
+    "Sinal de Cullen"
+   ],
+   "correta": 0,
+   "comentario": "Sem cirurgia prévia, hérnia encarcerada é causa clássica que passa despercebida, sobretudo a femoral. Bridas também ocorrem em quem nunca operou, e tumor entra na lista.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; Bolonha/WSES 2017"
+  },
+  {
+   "id": "q-vo-22",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Na radiografia de abdome, qual achado sugere obstrução do intestino delgado?",
+   "alternativas": [
+    "Alças periféricas com haustrações",
+    "Ar livre sob o diafragma",
+    "Grão de café",
+    "Alças centrais dilatadas com pregas que cruzam toda a alça e níveis hidroaéreos"
+   ],
+   "correta": 3,
+   "comentario": "O delgado fica central e as válvulas coniventes cruzam toda a alça ('empilhamento de moedas'). O cólon é periférico, com haustrações.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; Bolonha/WSES 2017"
+  },
+  {
+   "id": "q-vo-23",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Qual exame é o de escolha para avaliar obstrução do delgado e sinais de sofrimento?",
+   "alternativas": [
+    "Radiografia seriada",
+    "Colonoscopia",
+    "TC com contraste",
+    "Ultrassom endoscópico"
+   ],
+   "correta": 2,
+   "comentario": "A TC mostra o ponto de transição, a causa e sinais de isquemia (alça fechada, parede sem realce, líquido, pneumatose).",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; Bolonha/WSES 2017"
+  },
+  {
+   "id": "q-vo-24",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Paciente com obstrução por bridas tinha cólica e agora tem dor contínua, febre, taquicardia e defesa. O que isso indica?",
+   "alternativas": [
+    "Melhora espontânea",
+    "Estrangulamento: cirurgia de urgência",
+    "Necessidade de mais 72 horas de observação",
+    "Íleo paralítico"
+   ],
+   "correta": 1,
+   "comentario": "A mudança de cólica para dor contínua com sinais sistêmicos e peritonite indica sofrimento da alça.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; Bolonha/WSES 2017"
+  },
+  {
+   "id": "q-vo-25",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Qual é a conduta inicial em obstrução por bridas sem sinais de sofrimento?",
+   "alternativas": [
+    "Jejum, sonda nasogástrica, hidratação e correção de eletrólitos",
+    "Laparotomia imediata em todos",
+    "Laxativo oral e alta",
+    "Colonoscopia descompressiva"
+   ],
+   "correta": 0,
+   "comentario": "Sem sofrimento, a maioria resolve com tratamento clínico, com reavaliação seriada.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; Bolonha/WSES 2017"
+  },
+  {
+   "id": "q-vo-26",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Em obstrução por bridas tratada clinicamente, para que serve o contraste hidrossolúvel (gastrografina)?",
+   "alternativas": [
+    "Substitui a sonda nasogástrica",
+    "Diagnostica perfuração do cólon",
+    "Trata a isquemia",
+    "Se chega ao cólon em 24 horas, prevê resolução sem cirurgia"
+   ],
+   "correta": 3,
+   "comentario": "A passagem do contraste para o cólon em 24 horas indica que a obstrução tende a resolver. O efeito terapêutico é incerto nos estudos.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; Bolonha/WSES 2017"
+  },
+  {
+   "id": "q-vo-27",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Obstrução por bridas sem sofrimento não melhora após 72 horas de tratamento clínico. Qual a conduta?",
+   "alternativas": [
+    "Manter tratamento clínico por mais 2 semanas",
+    "Alta com dieta",
+    "Cirurgia",
+    "Colonoscopia"
+   ],
+   "correta": 2,
+   "comentario": "A falha do tratamento clínico em cerca de 72 horas indica cirurgia, pelo risco de complicação.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; Bolonha/WSES 2017"
+  },
+  {
+   "id": "q-vo-28",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Na TC, uma alça de delgado aparece obstruída nos dois extremos, com mesentério convergente. Qual o significado?",
+   "alternativas": [
+    "Obstrução parcial benigna",
+    "Obstrução em alça fechada: risco alto de estrangulamento; cirurgia",
+    "Íleo paralítico",
+    "Achado sem importância"
+   ],
+   "correta": 1,
+   "comentario": "A alça fechada não descomprime e evolui rapidamente para isquemia; é indicação cirúrgica.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; Bolonha/WSES 2017"
+  },
+  {
+   "id": "q-vo-29",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Idosa com obstrução do delgado; a TC mostra ar nas vias biliares e um cálculo no íleo terminal. Qual o diagnóstico?",
+   "alternativas": [
+    "Íleo biliar",
+    "Colangite",
+    "Volvo de ceco",
+    "Câncer de vesícula"
+   ],
+   "correta": 0,
+   "comentario": "A tríade de Rigler (aerobilia, obstrução do delgado e cálculo ectópico) caracteriza o íleo biliar, por fístula colecistoduodenal.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; Bolonha/WSES 2017"
+  },
+  {
+   "id": "q-vo-30",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Qual o tratamento cirúrgico habitual do íleo biliar?",
+   "alternativas": [
+    "Colecistectomia e correção da fístula no mesmo tempo em todos",
+    "Ressecção de todo o íleo",
+    "CPRE",
+    "Enterotomia e retirada do cálculo; a fístula costuma ficar para depois"
+   ],
+   "correta": 3,
+   "comentario": "Na urgência, resolve-se a obstrução; a correção da fístula fica para casos selecionados, pela gravidade desses pacientes.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; Bolonha/WSES 2017"
+  },
+  {
+   "id": "q-vo-31",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Adulto com obstrução persistente do delgado por intussuscepção. O que costuma estar por trás?",
+   "alternativas": [
+    "Virose",
+    "Hiperplasia linfoide",
+    "Um tumor como ponto de tração",
+    "Causa idiopática, sem necessidade de cirurgia"
+   ],
+   "correta": 2,
+   "comentario": "No adulto, a intussuscepção que obstrui costuma ter um ponto guia orgânico, muitas vezes tumoral, e o tratamento é em geral cirúrgico. Há formas transitórias, achadas por acaso, que não exigem cirurgia.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; Bolonha/WSES 2017"
+  },
+  {
+   "id": "q-vo-32",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Como diferenciar íleo paralítico de obstrução mecânica na TC?",
+   "alternativas": [
+    "No íleo, há ponto de transição nítido",
+    "No íleo, há ar no delgado e no cólon, sem ponto de transição",
+    "No íleo, há pneumoperitônio",
+    "Não há diferença na TC"
+   ],
+   "correta": 1,
+   "comentario": "O íleo paralítico distende todo o intestino sem um ponto de mudança de calibre; a obstrução mecânica tem ponto de transição.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; Bolonha/WSES 2017"
+  },
+  {
+   "id": "q-vo-33",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Qual é a causa mais comum de obstrução do intestino grosso no adulto?",
+   "alternativas": [
+    "Câncer colorretal",
+    "Volvo de sigmoide",
+    "Bridas",
+    "Hérnia inguinal"
+   ],
+   "correta": 0,
+   "comentario": "O câncer, sobretudo do cólon esquerdo, é a causa mais comum de obstrução do cólon.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; ASCRS 2021"
+  },
+  {
+   "id": "q-vo-34",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Idoso acamado e constipado crônico, com distensão abdominal enorme. A radiografia mostra alça em 'grão de café'. Qual o diagnóstico?",
+   "alternativas": [
+    "Volvo de ceco",
+    "Obstrução do delgado por bridas",
+    "Pseudo-obstrução intestinal",
+    "Volvo de sigmoide"
+   ],
+   "correta": 3,
+   "comentario": "O grão de café é a alça de sigmoide torcida e dilatada. É comum em idosos institucionalizados e, no Brasil, no megacólon chagásico.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; ASCRS 2021"
+  },
+  {
+   "id": "q-vo-35",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Paciente com volvo de sigmoide, sem peritonite e com mucosa rosada na endoscopia. Qual a conduta inicial?",
+   "alternativas": [
+    "Hartmann de urgência",
+    "Apenas laxativo",
+    "Destorção por retossigmoidoscopia e sonda retal",
+    "Colectomia total"
+   ],
+   "correta": 2,
+   "comentario": "Sem sofrimento, a destorção endoscópica resolve o quadro agudo; a sonda retal ajuda a manter descomprimido.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; ASCRS 2021"
+  },
+  {
+   "id": "q-vo-36",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Após destorção bem-sucedida de um volvo de sigmoide, o que fazer?",
+   "alternativas": [
+    "Alta sem cirurgia",
+    "Sigmoidectomia eletiva na mesma internação, se houver condições",
+    "Nova endoscopia anual",
+    "Colostomia definitiva em todos"
+   ],
+   "correta": 1,
+   "comentario": "A recorrência após destorção é muito alta; a ressecção na mesma internação previne nova torção. No megacólon chagásico difuso, a cirurgia precisa tratar o megacólon.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; ASCRS 2021"
+  },
+  {
+   "id": "q-vo-37",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Paciente com volvo de sigmoide, febre, peritonite e mucosa escura na endoscopia. Qual a conduta?",
+   "alternativas": [
+    "Cirurgia de urgência, com ressecção (em geral Hartmann)",
+    "Nova tentativa de destorção endoscópica",
+    "Sonda retal e observação",
+    "Neostigmina"
+   ],
+   "correta": 0,
+   "comentario": "Sinais de gangrena contraindicam a destorção e exigem ressecção de urgência; com peritonite e febre, o Hartmann é o mais usado.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; ASCRS 2021"
+  },
+  {
+   "id": "q-vo-38",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Qual é o tratamento do volvo de ceco?",
+   "alternativas": [
+    "Destorção por colonoscopia como padrão",
+    "Neostigmina",
+    "Observação",
+    "Cirurgia (colectomia direita)"
+   ],
+   "correta": 3,
+   "comentario": "A destorção endoscópica raramente funciona no volvo de ceco; o tratamento é cirúrgico.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; ASCRS 2021"
+  },
+  {
+   "id": "q-vo-39",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "No Brasil, que doença infecciosa se associa a megacólon e volvo de sigmoide?",
+   "alternativas": [
+    "Esquistossomose",
+    "Tuberculose",
+    "Doença de Chagas",
+    "Leishmaniose"
+   ],
+   "correta": 2,
+   "comentario": "O Trypanosoma cruzi destrói os plexos nervosos do cólon, causando megacólon, fecaloma e volvo.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; ASCRS 2021"
+  },
+  {
+   "id": "q-vo-40",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Idosa no 3º dia de pós-operatório de prótese de quadril, em uso de opioide, com cólon muito distendido na TC e sem obstrução mecânica. Qual o diagnóstico?",
+   "alternativas": [
+    "Volvo de sigmoide",
+    "Pseudo-obstrução colônica aguda (síndrome de Ogilvie)",
+    "Câncer de cólon obstrutivo",
+    "Megacólon tóxico"
+   ],
+   "correta": 1,
+   "comentario": "A síndrome de Ogilvie é a dilatação do cólon sem obstrução mecânica, em pacientes internados com fatores como cirurgia, opioide e distúrbio eletrolítico.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; ASCRS 2021"
+  },
+  {
+   "id": "q-vo-41",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Paciente com síndrome de Ogilvie, sem sinais de isquemia ou peritonite e sem contraindicação à neostigmina, não melhora com suporte, e o ceco mede 12 cm. Qual a próxima medida?",
+   "alternativas": [
+    "Neostigmina venosa com monitorização",
+    "Laparotomia imediata",
+    "Laxativo osmótico em dose alta",
+    "Ignorar até 15 cm"
+   ],
+   "correta": 0,
+   "comentario": "Após suporte, a neostigmina é o tratamento farmacológico; exige monitorização pelo risco de bradicardia. Se falhar ou for contraindicada, descompressão colonoscópica.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; ASCRS 2021"
+  },
+  {
+   "id": "q-vo-42",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Qual efeito adverso exige monitorização ao usar neostigmina na síndrome de Ogilvie?",
+   "alternativas": [
+    "Hipertensão grave",
+    "Hiperglicemia",
+    "Hipercalemia",
+    "Bradicardia"
+   ],
+   "correta": 3,
+   "comentario": "A neostigmina é um anticolinesterásico: pode causar bradicardia e broncoespasmo; deixa-se atropina disponível.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; ASCRS 2021"
+  },
+  {
+   "id": "q-vo-43",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Na obstrução do cólon com válvula ileocecal competente, qual segmento tem maior risco de perfurar?",
+   "alternativas": [
+    "Sigmoide",
+    "Reto",
+    "Ceco",
+    "Íleo terminal"
+   ],
+   "correta": 2,
+   "comentario": "Com a válvula competente forma-se alça fechada; o ceco, por ter maior diâmetro, sofre a maior tensão (lei de Laplace).",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; ASCRS 2021"
+  },
+  {
+   "id": "q-vo-44",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Pela 'regra 3-6-9', a partir de que diâmetro o ceco é considerado dilatado?",
+   "alternativas": [
+    "3 cm",
+    "9 cm",
+    "6 cm",
+    "15 cm"
+   ],
+   "correta": 1,
+   "comentario": "Delgado acima de 3 cm, cólon acima de 6 cm e ceco acima de 9 cm são considerados dilatados; acima de 12 cm, o ceco tem risco de perfuração.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; ASCRS 2021"
+  },
+  {
+   "id": "q-vo-45",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Paciente com retocolite ulcerativa grave tem febre, taquicardia, hipotensão e cólon transverso de 8 cm na radiografia. Qual o diagnóstico?",
+   "alternativas": [
+    "Megacólon tóxico",
+    "Síndrome de Ogilvie",
+    "Volvo de sigmoide",
+    "Colite isquêmica leve"
+   ],
+   "correta": 0,
+   "comentario": "Megacólon tóxico é a dilatação do cólon acima de 6 cm com toxemia na colite grave (retocolite, C. difficile); é uma emergência.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria"
+  },
+  {
+   "id": "q-vo-46",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Na obstrução intestinal, qual distúrbio eletrolítico é frequente e deve ser corrigido?",
+   "alternativas": [
+    "Hipercalemia isolada",
+    "Hipercalcemia",
+    "Hipernatremia grave sempre",
+    "Hipopotassemia"
+   ],
+   "correta": 3,
+   "comentario": "Vômitos e sequestro de líquido levam a hipopotassemia e alcalose ou desidratação; a correção faz parte do suporte.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; Bolonha/WSES 2017"
+  },
+  {
+   "id": "q-vo-47",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Na obstrução alta do delgado, qual é o padrão clínico típico?",
+   "alternativas": [
+    "Distensão enorme e vômitos tardios",
+    "Diarreia volumosa",
+    "Vômitos precoces e pouca distensão",
+    "Parada de gases sem vômitos"
+   ],
+   "correta": 2,
+   "comentario": "Na obstrução alta os vômitos aparecem cedo e a distensão é pequena; na baixa, a distensão é grande e os vômitos tardios, às vezes fecaloides.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; Bolonha/WSES 2017"
+  },
+  {
+   "id": "q-vo-48",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Paciente com obstrução do delgado no 5º dia de pós-operatório de colectomia, sem sinais de sofrimento. Qual a conduta mais provável?",
+   "alternativas": [
+    "Reoperação imediata em todos",
+    "Tratamento clínico, diferenciando de íleo paralítico",
+    "Colonoscopia",
+    "Alta hospitalar"
+   ],
+   "correta": 1,
+   "comentario": "No pós-operatório recente, a maioria resolve clinicamente; diferencia-se do íleo paralítico pela TC.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; Bolonha/WSES 2017"
+  },
+  {
+   "id": "q-vo-49",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Isquemia mesentérica aguda e colite isquêmica diferem principalmente porque:",
+   "alternativas": [
+    "A isquemia mesentérica atinge o delgado e é grave; a colite atinge o cólon e costuma ser leve",
+    "A colite tem mortalidade maior",
+    "A isquemia mesentérica nunca tem dor",
+    "Ambas exigem sempre laparotomia"
+   ],
+   "correta": 0,
+   "comentario": "A isquemia mesentérica aguda acomete o território da mesentérica superior, com dor desproporcional e alta mortalidade; a colite isquêmica tem bom prognóstico na maioria.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; ESVS 2017; WSES 2022"
+  },
+  {
+   "id": "q-vo-50",
+   "resumo": "abdome-vascular-obstrutivo",
+   "sessao": "s05",
+   "enunciado": "Paciente com angina intestinal antiga evolui com isquemia aguda por trombose na origem da artéria mesentérica superior, sem peritonite. Qual o tratamento da causa?",
+   "alternativas": [
+    "Apenas anticoagulação oral ambulatorial",
+    "Embolectomia isolada do ramo distal",
+    "Vasodilatador intra-arterial como único tratamento",
+    "Revascularização (angioplastia com stent ou ponte)"
+   ],
+   "correta": 3,
+   "comentario": "Na trombose arterial sobre placa, é preciso tratar a estenose: angioplastia com stent ou ponte. A embolectomia é o tratamento da embolia.",
+   "fonte": "Apostila Abdome Vascular e Obstrutivo da monitoria; ESVS 2017; WSES 2022"
   }
  ]
 }

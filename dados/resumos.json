@@ -129,5 +129,27 @@
     "paginasApostila": 12,
     "paginasFlash": 2,
     "atualizado": "2026-10-10"
+  },
+  "diverticulite-pancreatite": {
+    "titulo": "Diverticulite e Pancreatite",
+    "subtitulo": "",
+    "sessoes": [],
+    "apostila": "resumos/diverticulite-pancreatite/apostila.pdf",
+    "flash": "resumos/diverticulite-pancreatite/revisao-flash.pdf",
+    "capa": "resumos/diverticulite-pancreatite/capa.jpg",
+    "paginasApostila": 12,
+    "paginasFlash": 2,
+    "atualizado": "2026-10-10"
+  },
+  "abdome-vascular-obstrutivo": {
+    "titulo": "Abdome Vascular e Obstrutivo",
+    "subtitulo": "",
+    "sessoes": [],
+    "apostila": "resumos/abdome-vascular-obstrutivo/apostila.pdf",
+    "flash": "resumos/abdome-vascular-obstrutivo/revisao-flash.pdf",
+    "capa": "resumos/abdome-vascular-obstrutivo/capa.jpg",
+    "paginasApostila": 12,
+    "paginasFlash": 2,
+    "atualizado": "2026-10-10"
   }
 }
