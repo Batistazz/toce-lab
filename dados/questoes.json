@@ -3080,7 +3080,7 @@
    "id": "q-neo-06",
    "resumo": "neoplasias-gi",
    "sessao": "s07",
-   "enunciado": "Carcinoma escamoso do esôfago cervical, sem metástases. Qual é o tratamento de escolha?",
+   "enunciado": "Carcinoma escamoso do esôfago cervical, localmente avançado, sem metástases. Qual é o tratamento de escolha?",
    "alternativas": [
     "Quimiorradioterapia definitiva",
     "Esofagectomia trans-hiatal",
@@ -3088,7 +3088,7 @@
     "Ressecção endoscópica"
    ],
    "correta": 0,
-   "comentario": "No esôfago cervical, a cirurgia exigiria retirar a laringe; por isso o padrão é a quimiorradioterapia definitiva, com intenção curativa.",
+   "comentario": "No esôfago cervical, a quimiorradioterapia definitiva tem intenção curativa e preserva o órgão; a cirurgia, nessa localização, muitas vezes exigiria retirar a laringe.",
    "fonte": "Apostila Neoplasias Digestivas e Ostomias da monitoria; van Hagen et al., NEJM 2012 (CROSS); Hoeppner et al., NEJM 2025 (ESOPEC)"
   },
   {
@@ -3110,7 +3110,7 @@
    "id": "q-neo-08",
    "resumo": "neoplasias-gi",
    "sessao": "s07",
-   "enunciado": "Lesão de 1,5 cm no esôfago distal, restrita à mucosa (T1a), bem diferenciada e sem invasão linfovascular. Qual é a conduta?",
+   "enunciado": "Adenocarcinoma sobre esôfago de Barrett, de 1,5 cm, restrito à mucosa (T1a), bem diferenciado e sem invasão linfovascular. Qual é a conduta?",
    "alternativas": [
     "Esofagectomia com linfadenectomia",
     "Quimiorradioterapia definitiva",
@@ -3118,7 +3118,7 @@
     "Quimioterapia perioperatória e cirurgia"
    ],
    "correta": 2,
-   "comentario": "Tumor restrito à mucosa, pequeno e sem invasão linfovascular tem risco muito baixo de linfonodo e pode ser tratado por mucosectomia ou dissecção submucosa.",
+   "comentario": "Adenocarcinoma de Barrett restrito à mucosa, pequeno e sem invasão linfovascular tem risco muito baixo de linfonodo e pode ser tratado por mucosectomia ou dissecção submucosa.",
    "fonte": "Apostila Neoplasias Digestivas e Ostomias da monitoria; van Hagen et al., NEJM 2012 (CROSS); Hoeppner et al., NEJM 2025 (ESOPEC)"
   },
   {
@@ -3133,7 +3133,7 @@
     "Linfadenectomia D2"
    ],
    "correta": 1,
-   "comentario": "Na doença metastática, o objetivo é aliviar a disfagia: prótese, radioterapia ou via alimentar alternativa (gastrostomia ou jejunostomia). A esofagectomia paliativa não é indicada.",
+   "comentario": "Na doença metastática, o objetivo é aliviar a disfagia: prótese ou radioterapia. Gastrostomia ou jejunostomia alimentam quando a via oral não basta, mas não desobstruem o esôfago. A esofagectomia paliativa não é indicada.",
    "fonte": "Apostila Neoplasias Digestivas e Ostomias da monitoria; van Hagen et al., NEJM 2012 (CROSS); Hoeppner et al., NEJM 2025 (ESOPEC)"
   },
   {
@@ -3238,7 +3238,7 @@
     "30"
    ],
    "correta": 2,
-   "comentario": "Examinar pelo menos 16 linfonodos permite estadiar o N com segurança, inclusive o N3, que exige mais de 15 linfonodos comprometidos.",
+   "comentario": "Recomenda-se examinar pelo menos 16 linfonodos para estadiar o N com segurança. O N3a corresponde a 7 a 15 linfonodos positivos; o N3b, a 16 ou mais.",
    "fonte": "Apostila Neoplasias Digestivas e Ostomias da monitoria; JGCA 2025 (7ª ed.)"
   },
   {
@@ -3298,7 +3298,7 @@
     "Tumor neuroendócrino; erradicação do H. pylori"
    ],
    "correta": 2,
-   "comentario": "O GIST vem das células intersticiais de Cajal, marcador CD117 (KIT). Raramente dá metástase linfonodal, por isso não exige linfadenectomia. Imatinibe no alto risco ou metastático.",
+   "comentario": "O GIST vem das células intersticiais de Cajal, marcador CD117 (KIT). Raramente dá metástase linfonodal, por isso não exige linfadenectomia. Imatinibe no alto risco ou metastático, guiado pela pesquisa de mutação: algumas (como PDGFRA D842V) não respondem.",
    "fonte": "Apostila Neoplasias Digestivas e Ostomias da monitoria; JGCA 2025 (7ª ed.)"
   },
   {
@@ -3313,7 +3313,7 @@
     "Gastrojejunostomia de derivação"
    ],
    "correta": 1,
-   "comentario": "Quando a margem proximal não é suficiente, faz-se gastrectomia total, reconstruída em Y de Roux. A subtotal é reservada aos tumores distais com margem adequada.",
+   "comentario": "Quando a margem proximal não é suficiente, faz-se gastrectomia total, reconstruída em Y de Roux. A subtotal é preferida nos tumores distais, desde que a margem seja adequada.",
    "fonte": "Apostila Neoplasias Digestivas e Ostomias da monitoria; JGCA 2025 (7ª ed.)"
   },
   {
@@ -3418,7 +3418,7 @@
     "Excisão local transanal"
    ],
    "correta": 2,
-   "comentario": "Reto médio e baixo com T3–T4 ou linfonodo positivo recebe tratamento antes da cirurgia. A cirurgia inclui a excisão total do mesorreto. Tratar como cólon é erro clássico.",
+   "comentario": "Reto médio e baixo com T3–T4 ou linfonodo positivo recebe tratamento antes da cirurgia, com reavaliação da resposta e excisão total do mesorreto quando indicada. Resposta clínica completa pode permitir vigilância em centro experiente; tumor com instabilidade de microssatélites (dMMR) muda a conduta. Tratar como cólon é erro clássico.",
    "fonte": "Apostila Neoplasias Digestivas e Ostomias da monitoria; ASCRS 2022 (cólon) e 2023 (reto)"
   },
   {
@@ -3455,7 +3455,7 @@
    "id": "q-neo-31",
    "resumo": "neoplasias-gi",
    "sessao": "s07",
-   "enunciado": "Tumor de reto baixo que invade o esfíncter anal. Qual é a cirurgia indicada e qual a consequência para o paciente?",
+   "enunciado": "Tumor de reto baixo que invade o esfíncter anal externo e os elevadores. Qual é a cirurgia indicada e qual a consequência para o paciente?",
    "alternativas": [
     "Ressecção anterior baixa, com anastomose coloanal",
     "Colectomia total com ileostomia temporária",
@@ -3463,7 +3463,7 @@
     "Amputação abdominoperineal (Miles), com colostomia definitiva"
    ],
    "correta": 3,
-   "comentario": "Quando o tumor invade o esfíncter ou não há margem distal, retira-se reto e ânus, e a colostomia é definitiva. A ressecção anterior baixa preserva o esfíncter.",
+   "comentario": "Quando o tumor invade o esfíncter externo ou os elevadores, ou não há margem distal, retira-se reto e ânus, e a colostomia é definitiva. A ressecção anterior baixa preserva o esfíncter.",
    "fonte": "Apostila Neoplasias Digestivas e Ostomias da monitoria; ASCRS 2022 (cólon) e 2023 (reto)"
   },
   {
@@ -3613,7 +3613,7 @@
     "Lateral ao músculo reto abdominal, sobre a crista ilíaca"
    ],
    "correta": 1,
-   "comentario": "Atravessar o reto abdominal reduz hérnia e prolapso; área plana e visível permite o autocuidado. Pregas, cicatrizes, cintura e ossos impedem a vedação da placa.",
+   "comentario": "A demarcação sobre o reto abdominal é a recomendação padrão, embora o benefício contra hérnia e prolapso não esteja provado; área plana e visível permite o autocuidado. Pregas, cicatrizes, cintura e ossos impedem a vedação da placa.",
    "fonte": "Apostila Neoplasias Digestivas e Ostomias da monitoria; WOCN/ASCRS 2015; Portaria SAS/MS nº 400/2009"
   },
   {
@@ -3643,7 +3643,7 @@
     "Vermelho ou rosado, úmido e brilhante"
    ],
    "correta": 3,
-   "comentario": "A mucosa normal parece a da boca: vermelha, úmida e brilhante, indolor e um pouco sangrante ao toque. Cor escura indica isquemia.",
+   "comentario": "A mucosa normal parece a da boca: vermelha, úmida e brilhante, indolor e um pouco sangrante ao toque. Cor escura exige avaliação urgente.",
    "fonte": "Apostila Neoplasias Digestivas e Ostomias da monitoria; WOCN/ASCRS 2015; Portaria SAS/MS nº 400/2009"
   },
   {
@@ -3658,7 +3658,7 @@
     "Aplicar pomada cicatrizante no estoma"
    ],
    "correta": 2,
-   "comentario": "Estoma escuro é isquemia. Se a necrose passar da fáscia há risco de perfuração e peritonite, e a conduta é reoperar; se for superficial, observa-se de perto.",
+   "comentario": "Estoma escuro exige avaliação urgente para distinguir congestão venosa de isquemia e ver até onde vai. Se a necrose passar da fáscia, há risco de perfuração e peritonite, e a conduta é reoperar; se for superficial, observa-se de perto.",
    "fonte": "Apostila Neoplasias Digestivas e Ostomias da monitoria; WOCN/ASCRS 2015; Portaria SAS/MS nº 400/2009"
   },
   {
