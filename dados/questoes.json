@@ -38,12 +38,12 @@
    "enunciado": "Vítima de incêndio em apartamento fechado chega confusa, com cefaleia e oximetria de pulso de 99%. Qual é a conduta mais adequada?",
    "alternativas": [
     "Tranquilizar: a oximetria normal exclui intoxicação por monóxido de carbono",
-    "Oxigênio a 100% e dosagem de carboxi-hemoglobina na gasometria",
+    "Oxigênio a 100% e dosagem de carboxi-hemoglobina por co-oximetria",
     "Oxigênio por cateter nasal a 2 L/min e observação",
     "Câmara hiperbárica antes da avaliação primária"
    ],
    "correta": 1,
-   "comentario": "O oxímetro lê a carboxi-hemoglobina como oxi-hemoglobina e pode marcar 98–100%. O diagnóstico vem da carboxi-hemoglobina na gasometria, e o O₂ a 100% reduz a meia-vida do CO de cerca de 4 h para 40–50 min. O ATLS 11 não indica oxigenoterapia hiperbárica na ressuscitação primária.",
+   "comentario": "O oxímetro lê a carboxi-hemoglobina como oxi-hemoglobina e pode marcar 98–100%. O diagnóstico vem da carboxi-hemoglobina por co-oximetria, e o O₂ a 100% reduz a meia-vida do CO de cerca de 4 h para 40–50 min. O ATLS 11 não indica oxigenoterapia hiperbárica na ressuscitação primária.",
    "fonte": "ATLS 11, cap. 9"
   },
   {
@@ -118,7 +118,7 @@
     "Anti-inflamatório e gelo local"
    ],
    "correta": 2,
-   "comentario": "Quadro típico de torção testicular, emergência com janela crítica de cerca de 4 a 6 horas. O diagnóstico é clínico; o Doppler ajuda, mas não pode atrasar a cirurgia. A ausência do reflexo cremastérico tem sensibilidade de 100% para torção.",
+   "comentario": "Quadro típico de torção testicular, emergência com janela crítica de cerca de 4 a 6 horas. O diagnóstico é clínico; o Doppler ajuda, mas não pode atrasar a cirurgia. O reflexo cremastérico costuma estar ausente na torção, mas sua presença não a exclui.",
    "fonte": "EAU Guidelines on Paediatric Urology, 2026, cap. 8"
   },
   {
@@ -144,11 +144,11 @@
    "alternativas": [
     "Assim que a sonda passa pelo meato",
     "Ao sentir resistência na uretra prostática",
-    "Somente depois da saída de urina pela sonda",
+    "Depois de avançar até a bifurcação e ver urina sair pela sonda",
     "Antes de introduzir a sonda, para testá-la dentro da uretra"
    ],
    "correta": 2,
-   "comentario": "O balão só é insuflado depois que a urina drena, confirmando que a ponta está na bexiga. Insuflar na uretra pode rompê-la; dor intensa ao insuflar sugere balão mal posicionado.",
+   "comentario": "A saída de urina, sozinha, não garante que o balão já passou da uretra: avance até a bifurcação e só então insufle. Insuflar na uretra pode rompê-la; dor intensa ao insuflar sugere balão mal posicionado.",
    "fonte": "Apostila da monitoria · Sondagem vesical"
   },
   {
@@ -178,7 +178,7 @@
     "Na borda inferior da costela, para evitar o pulmão"
    ],
    "correta": 1,
-   "comentario": "O ATLS 11 aceita dois pontos: 5º EIC entre as linhas axilares anterior e média (altura da prega inframamária) e 2º EIC na linha hemiclavicular, com cateter de 14 G ou maior. Entra-se pela borda superior da costela, porque o feixe vasculonervoso corre pela inferior.",
+   "comentario": "O ATLS 11 aceita dois pontos: 5º EIC entre as linhas axilares anterior e média (altura da prega inframamária) e 2º EIC na linha hemiclavicular, com cateter calibroso (14 G ou mais grosso). Entra-se pela borda superior da costela, porque o feixe vasculonervoso corre pela inferior.",
    "fonte": "ATLS 11, cap. 5"
   },
   {
@@ -193,7 +193,7 @@
     "É contraindicado no atendimento pré-hospitalar"
    ],
    "correta": 1,
-   "comentario": "O TXA reduz mortalidade quando dado até 3 h do trauma: 1 g em bolus + 1 g em 8 h, ou 2 g em dose única. Depois de 3 h não é recomendado, salvo hiperfibrinólise. Não substitui a hemostasia.",
+   "comentario": "O TXA reduz mortalidade quando dado até 3 h do trauma: 1 g IV em 10 minutos + 1 g em 8 h, ou 2 g em dose única. Depois de 3 h não é recomendado, salvo hiperfibrinólise. Não substitui a hemostasia.",
    "fonte": "ATLS 11, cap. 6"
   },
   {
@@ -223,7 +223,7 @@
     "Faixa compressiva ao redor do tórax"
    ],
    "correta": 1,
-   "comentario": "Não se intuba só pelo movimento paradoxal. A base é analgesia multimodal e higiene pulmonar; intuba-se se o paciente não ventila, se a contusão causa hipóxia ou se a sedação exigir.",
+   "comentario": "Não se intuba só pelo movimento paradoxal. A base é analgesia multimodal e higiene pulmonar; intuba-se se houver falência ventilatória, hipoxemia que persiste apesar do suporte, exaustão ou se a sedação exigir.",
    "fonte": "ATLS 11, cap. 5; aula da disciplina"
   },
   {
@@ -283,7 +283,7 @@
     "Resposta normal à dor"
    ],
    "correta": 1,
-   "comentario": "O respondedor transitório é o perfil de maior risco: a melhora não significa hemostasia. Acelere o sangue e o controle da fonte e reavalie diagnósticos alternativos.",
+   "comentario": "O respondedor transitório é um perfil de alto risco e enganoso: a melhora não significa hemostasia. Acelere o sangue e o controle da fonte e reavalie diagnósticos alternativos.",
    "fonte": "ATLS 11, cap. 6; aula da disciplina"
   },
   {
@@ -463,7 +463,7 @@
     "Corticosteroide isolado"
    ],
    "correta": 0,
-   "comentario": "A EAU 2026 recomenda oferecer um alfa-bloqueador como opção para cálculo distal maior que 5 mm quando não há indicação de retirada ativa. A terapia deve ser interrompida se surgirem infecção, dor refratária ou piora renal. EAU, Urolithiasis, seções 3.4.3 e 3.4.9.",
+   "comentario": "A EAU 2026 recomenda oferecer um alfa-bloqueador como opção para cálculo do ureter distal de 5 a 10 mm quando não há indicação de retirada ativa. A terapia deve ser interrompida se surgirem infecção, dor refratária ou piora renal. EAU, Urolithiasis, seções 3.4.3 e 3.4.9.",
    "fonte": "EAU Guidelines on Urolithiasis, 2026, seções 3.4.3 e 3.4.9"
   },
   {
@@ -980,7 +980,7 @@
    "id": "q-queim-21",
    "resumo": "queimaduras",
    "sessao": "s08",
-   "enunciado": "Qual vazão inicial de Ringer lactato por idade é indicada para queimados de 6 a 12 anos enquanto se calcula a SCQ, segundo o ATLS 11 na apostila?",
+   "enunciado": "Criança de 8 anos com queimadura aparentemente extensa (cerca de 20% ou mais da SCQ). Qual vazão inicial de Ringer lactato por idade é indicada enquanto se calcula a SCQ, segundo o ATLS 11 na apostila?",
    "alternativas": [
     "125 mL/h",
     "500 mL/h",
@@ -1670,7 +1670,7 @@
    "id": "q-atls-c2",
    "resumo": "politraumatizado",
    "sessao": "s10",
-   "enunciado": "A partir de que tamanho o defeito da parede torácica faz o ar entrar preferencialmente pela ferida, caracterizando o pneumotórax aberto?",
+   "enunciado": "Em um pneumotórax aberto, a partir de que tamanho do defeito torácico o ar tende a entrar preferencialmente pela ferida durante a inspiração?",
    "alternativas": [
     "Qualquer orifício de bala",
     "Pelo menos dois terços do diâmetro da traqueia",
@@ -1678,7 +1678,7 @@
     "Somente quando há fratura de costela associada"
    ],
    "correta": 1,
-   "comentario": "Como o ar segue o caminho de menor resistência, quando a abertura tem pelo menos dois terços do diâmetro da traqueia ele entra pela ferida a cada inspiração, com o som característico.",
+   "comentario": "O pneumotórax aberto é a comunicação entre a pleura e o exterior. Como o ar segue o caminho de menor resistência, quando a abertura tem pelo menos dois terços do diâmetro da traqueia ele entra pela ferida a cada inspiração, com o som característico.",
    "fonte": "ATLS 11, cap. 5"
   },
   {
@@ -1693,7 +1693,7 @@
     "Toracocentese repetida a cada 6 horas"
    ],
    "correta": 1,
-   "comentario": "O ATLS 11 recomenda drenar hemotórax estimado acima de 300 mL, para que o sangue não coagule e encarcere o pulmão. O dreno de 14 Fr é tão eficaz quanto os calibrosos, exceto no hemotórax maciço.",
+   "comentario": "O ATLS 11 recomenda drenar hemotórax estimado acima de 300 mL, para que o sangue não coagule e encarcere o pulmão. No paciente estável, o dreno de 14 Fr é tão eficaz quanto os calibrosos; no instável ou no maciço, prefere-se 24 Fr ou mais.",
    "fonte": "ATLS 11, cap. 5"
   },
   {
@@ -1852,13 +1852,13 @@
    "sessao": "s11",
    "enunciado": "Na ruptura extraperitoneal de bexiga não complicada, sem suspeita de lesão uretral, qual tratamento geral consta da apostila?",
    "alternativas": [
-    "Drenagem vesical por sonda por cerca de 10 a 14 dias",
+    "Drenagem vesical por sonda (em geral 10 a 14 dias), retirada após cistografia mostrar cicatrização",
     "Laparotomia obrigatória para toda ruptura extraperitoneal",
     "Proibir drenagem urinária",
     "Litotripsia imediata"
    ],
    "correta": 0,
-   "comentario": "Na ruptura extraperitoneal não complicada, a apostila descreve drenagem por sonda por cerca de 10 a 14 dias. Suspeita de lesão uretral exige avaliação antes da sondagem.",
+   "comentario": "Na ruptura extraperitoneal não complicada, trata-se com drenagem por sonda, em geral por 10 a 14 dias, e a sonda só sai depois que a cistografia mostra cicatrização. Suspeita de lesão uretral exige avaliação antes da sondagem.",
    "fonte": "ATLS 11, cap. 21; aula da disciplina, sessão 11"
   },
   {
@@ -1903,7 +1903,7 @@
     "Alta após analgesia, sem investigação adicional"
    ],
    "correta": 0,
-   "comentario": "Trajeto transperitoneal de arma de fogo integra as indicações de laparotomia no trauma penetrante descritas na apostila.",
+   "comentario": "Pelo ATLS, trajeto transperitoneal de arma de fogo integra as indicações de laparotomia no trauma penetrante. O manejo não operatório desses casos é exceção, restrita a centros especializados.",
    "fonte": "ATLS 11, cap. 21; aula da disciplina, sessão 11"
   },
   {
@@ -2195,7 +2195,7 @@
    "id": "q-queim-43",
    "resumo": "queimaduras",
    "sessao": "s08",
-   "enunciado": "Adulto tem queimadura de segundo grau em todo o dorso, na metade posterior de uma perna e no períneo; há eritema de primeiro grau no braço. Pela regra dos nove, qual SCQ entra no cálculo?",
+   "enunciado": "Adulto tem queimadura de segundo grau em todo o dorso, em toda a face posterior de um membro inferior (coxa, perna e pé) e no períneo; há eritema de primeiro grau no braço. Pela regra dos nove, qual SCQ entra no cálculo?",
    "alternativas": [
     "28%",
     "37%",
@@ -2203,7 +2203,7 @@
     "19%"
    ],
    "correta": 0,
-   "comentario": "Dorso inteiro = 18%; metade posterior de um membro inferior = 9%; períneo = 1%. Somam 28%. O eritema isolado de primeiro grau do braço não entra na SCQ para reposição.",
+   "comentario": "Dorso inteiro = 18%; face posterior de um membro inferior = 9%; períneo = 1%. Somam 28%. O eritema isolado de primeiro grau do braço não entra na SCQ para reposição.",
    "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 9, Thermal Injuries"
   },
   {
@@ -2443,7 +2443,7 @@
     "Jato fraco e esforço miccional"
    ],
    "correta": 2,
-   "comentario": "Noctúria, urgência e polaciúria são sintomas de armazenamento. Jato fraco, hesitação, esforço e esvaziamento incompleto pertencem à fase de esvaziamento; a distinção organiza a avaliação clínica.",
+   "comentario": "Noctúria, urgência e polaciúria são sintomas de armazenamento. Jato fraco, hesitação e esforço são de esvaziamento; esvaziamento incompleto e gotejamento são pós-miccionais.",
    "fonte": "European Association of Urology. EAU Guidelines on Management of Non-neurogenic Male LUTS (2026)"
   },
   {
@@ -2623,7 +2623,7 @@
     "24 Fr ou maior"
    ],
    "correta": 3,
-   "comentario": "A apostila descreve boa eficácia de 14 Fr em pneumotórax e hemotórax em geral, mas prefere 24 Fr ou maior no hemotórax maciço, com avaliação contínua do sangramento e da fisiologia.",
+   "comentario": "A apostila descreve boa eficácia de 14 Fr em pneumotórax e hemotórax do paciente estável, mas prefere 24 Fr ou maior no instável e no hemotórax maciço, com avaliação contínua do sangramento e da fisiologia.",
    "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 21, Thoracic, Abdominopelvic and Genitourinary Trauma"
   },
   {
@@ -2694,11 +2694,11 @@
    "alternativas": [
     "2 g a cada hora por 8 horas",
     "Iniciar somente após 4 horas do trauma",
-    "1 g em bolus seguido de 1 g em 8 horas",
+    "1 g IV em 10 minutos seguido de 1 g em 8 horas",
     "Substituir cirurgia por 1 g de TXA"
    ],
    "correta": 2,
-   "comentario": "Até 3 horas do trauma, uma opção descrita é 1 g de TXA em bolus seguido de 1 g em 8 horas; a apostila também cita 2 g em dose única. O fármaco não substitui hemostasia.",
+   "comentario": "Até 3 horas do trauma, uma opção é 1 g de TXA IV em 10 minutos seguido de 1 g em 8 horas; a apostila também cita 2 g em dose única. O fármaco não substitui hemostasia.",
    "fonte": "American College of Surgeons. ATLS 11 (2025), cap. 6, Circulation"
   },
   {
@@ -3969,7 +3969,7 @@
    "alternativas": [
     "Ultrassom do piloro para medir o canal gástrico.",
     "Cintilografia hepatobiliar para pesquisar colestase.",
-    "Imagem do períneo para medir a distância do reto à pele.",
+    "Radiografia em perfil ou ultrassom do períneo para medir a distância do reto à pele.",
     "Doppler escrotal para excluir torção testicular."
    ],
    "correta": 2,
@@ -4175,7 +4175,7 @@
    "id": "q-ped-29",
    "resumo": "cirurgia-pediatrica",
    "sessao": "s12",
-   "enunciado": "Foi confirmado cisto de colédoco em uma criança após episódio de colangite. Qual tratamento definitivo é indicado?",
+   "enunciado": "Foi confirmado cisto de colédoco tipo I de Todani em uma criança após episódio de colangite. Qual tratamento definitivo é indicado?",
    "alternativas": [
     "Ressecção do cisto e reconstrução com hepaticojejunostomia em Y de Roux.",
     "Drenagem externa do cisto como tratamento definitivo isolado.",
@@ -4588,7 +4588,7 @@
     "Prescrever ácido tranexâmico por 72 horas no lugar da avaliação endoscópica."
    ],
    "correta": 0,
-   "comentario": "Forrest IIb corresponde a coágulo aderido; pode-se considerar sua remoção para tratar o estigma subjacente. Se não houver tratamento endoscópico, o IBP em dose alta continua indicado.",
+   "comentario": "Forrest IIb corresponde a coágulo aderido; sugere-se removê-lo e tratar o estigma subjacente, se o endoscopista puder controlar um sangramento provocado. Se não houver tratamento endoscópico, o IBP em dose alta continua indicado.",
    "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; ESGE 2021"
   },
   {
@@ -4688,7 +4688,7 @@
    "enunciado": "Uma mulher em uso de AAS em baixa dose após infarto apresenta hemorragia digestiva alta não varicosa. Qual é a orientação geral para a antiagregação usada em prevenção secundária?",
    "alternativas": [
     "Suspender definitivamente o AAS após qualquer hemorragia digestiva.",
-    "Manter o AAS; se suspenso, reiniciá-lo cedo após controlar a hemorragia.",
+    "Não suspender o AAS de rotina; se for suspenso, reiniciá-lo cedo após controlar a hemorragia.",
     "Dobrar a dose de AAS até a endoscopia para evitar trombose.",
     "Trocar AAS por anticoagulação plena durante a internação."
    ],
@@ -4768,7 +4768,7 @@
     "Apenas se houver novo episódio de hematêmese."
    ],
    "correta": 0,
-   "comentario": "Na suspeita de hemorragia varicosa, a endoscopia deve ocorrer em até 12 horas após a reanimação; instabilidade persistente exige avaliação tão logo seja seguro. Completar o curso do vasoativo antes do exame atrasaria o controle da fonte.",
+   "comentario": "Na suspeita de hemorragia varicosa, a endoscopia deve ocorrer em até 12 horas da chegada, depois da reanimação inicial; instabilidade persistente exige o exame tão logo seja seguro. Completar o curso do vasoativo antes do exame atrasaria o controle da fonte.",
    "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria; Baveno VII 2022"
   },
   {
@@ -5724,7 +5724,7 @@
    "alternativas": [
     "Eletrocardiograma para investigar infarto inferior.",
     "Enema opaco para investigar apendicite aguda.",
-    "Punção ascítica para investigar infarto inferior.",
+    "Punção ascítica para investigar peritonite bacteriana espontânea.",
     "Radiografia da mão para investigar pneumonia."
    ],
    "correta": 0,
@@ -5965,10 +5965,10 @@
     "Tratar como perfuração intestinal sem nova avaliação.",
     "Ignorar a cultura e dispensar seguimento clínico.",
     "Indicar laparotomia apenas pelo resultado da cultura.",
-    "Repetir a punção e tratar se surgirem sintomas."
+    "Repetir a paracentese e decidir o tratamento pela clínica, pelos neutrófilos e pela nova cultura."
    ],
    "correta": 3,
-   "comentario": "Cultura positiva com menos de 250 neutrófilos/mm³ caracteriza bacterascite. Em paciente assintomático, a apostila orienta repetir a paracentese; se houver sintomas, tratar.",
+   "comentario": "Cultura positiva com menos de 250 neutrófilos/mm³ caracteriza bacterascite. No assintomático, repete-se a paracentese; trata-se se houver sintomas, neutrófilos ≥ 250/mm³ ou cultura novamente positiva.",
    "fonte": "Apostila Abdome Agudo e Paracentese da monitoria; AASLD 2021; EASL 2018"
   },
   {
@@ -6623,12 +6623,12 @@
    "enunciado": "Ao terminar o fechamento fascial, o cirurgião pede que o interno explique 'fechar por planos'. Qual resposta é adequada?",
    "alternativas": [
     "Passar um único ponto por todas as camadas",
-    "Fechar cada camada separadamente",
+    "Suturar a aponeurose separada do subcutâneo e da pele",
     "Deixar o subcutâneo sempre aberto",
     "Incluir pele na sutura aponeurótica"
    ],
    "correta": 1,
-   "comentario": "Fechar por planos significa tratar separadamente aponeurose, subcutâneo e pele. A sutura da aponeurose não deve englobar as outras camadas.",
+   "comentario": "Fechar por planos significa suturar a aponeurose separadamente e tratar subcutâneo e pele à parte. A sutura da aponeurose não deve englobar as outras camadas; o peritônio não precisa de sutura própria.",
    "fonte": "Apostila Hérnias e Parede Abdominal da monitoria; EHS/AHS 2022."
   },
   {
@@ -6639,7 +6639,7 @@
    "alternativas": [
     "Redução vigorosa sem analgesia",
     "Alta imediata sem reavaliação",
-    "Analgesia, taxis delicada e observação",
+    "Analgesia, Trendelenburg, taxis delicada e observação",
     "Ressecção intestinal imediata sem avaliação"
    ],
    "correta": 2,
@@ -6680,7 +6680,7 @@
    "id": "q-her-46",
    "resumo": "hernias",
    "sessao": "s06",
-   "enunciado": "Idosa com hérnia encarcerada apresenta dor localizada e sinais inflamatórios, mas ainda elimina gases. Qual tipo especial pode necrosar sem obstrução intestinal completa?",
+   "enunciado": "Na exploração de uma hérnia dolorosa e irredutível, encontra-se apenas parte da circunferência da parede intestinal presa no anel, com o restante do lúmen pérvio. Qual tipo especial de hérnia corresponde ao achado?",
    "alternativas": [
     "Hérnia em pantalona",
     "Hérnia de Richter",
@@ -6935,7 +6935,7 @@
    "id": "q-ac-13",
    "resumo": "apendicite-colecistite",
    "sessao": "s03",
-   "enunciado": "Homem estável com apendicite não complicada confirmada chega à noite; a equipe programa apendicectomia para a manhã seguinte, dentro de 24 horas, com antibiótico. Como avaliar essa programação?",
+   "enunciado": "Homem estável com apendicite não complicada confirmada chega à noite; a equipe programa apendicectomia para a manhã seguinte, dentro de 24 horas da admissão. Como avaliar essa programação?",
    "alternativas": [
     "É insegura mesmo com paciente estável e tratamento iniciado.",
     "Só é aceitável se houver abscesso drenável na TC.",
@@ -6943,7 +6943,7 @@
     "É aceitável se a cirurgia ocorrer dentro de 24 horas."
    ],
    "correta": 3,
-   "comentario": "As diretrizes WSES aceitam adiamento hospitalar de até 24 horas na apendicite não complicada em paciente estável. A condição clínica deve continuar sendo monitorada nesse intervalo.",
+   "comentario": "As diretrizes WSES aceitam adiar a cirurgia até 24 horas da admissão na apendicite não complicada em paciente estável. A condição clínica deve continuar sendo monitorada nesse intervalo.",
    "fonte": "Apostila Apendicite e Colecistite da monitoria; WSES 2025 (apendicite)."
   },
   {
@@ -7048,7 +7048,7 @@
     "Dosagem seriada de amilase como único controle."
    ],
    "correta": 2,
-   "comentario": "Após tratamento não operatório de apendicite complicada, adultos a partir de cerca de 40 anos devem ser investigados para neoplasia apendicular ou cecal. Colonoscopia e imagem compõem essa avaliação.",
+   "comentario": "Após tratamento não operatório de apendicite complicada, o adulto mais velho deve ser investigado para neoplasia apendicular ou cecal com colonoscopia e imagem; nessa idade, considera-se também a apendicectomia de intervalo.",
    "fonte": "Apostila Apendicite e Colecistite da monitoria; WSES 2020 (apendicite); WSES 2025 (apendicite)."
   },
   {
@@ -7314,7 +7314,7 @@
    "alternativas": [
     "Drenagem é obrigatória para todo paciente idoso.",
     "As duas estratégias têm idêntica taxa de complicações.",
-    "Colecistectomia pode resultar em menos complicações que drenagem.",
+    "Colecistectomia resulta em menos complicações que a drenagem.",
     "Cirurgia está contraindicada sempre que houver grau III."
    ],
    "correta": 2,
@@ -7370,7 +7370,7 @@
    "id": "q-ac-42",
    "resumo": "apendicite-colecistite",
    "sessao": "s03",
-   "enunciado": "Homem de 59 anos com cálculos vesiculares não tem colangite nem cálculo ductal visível, mas apresenta colédoco dilatado. Qual investigação corresponde ao risco intermediário da ASGE?",
+   "enunciado": "Homem de 59 anos com cálculos vesiculares tem bilirrubina normal, não tem colangite nem cálculo ductal visível, mas apresenta colédoco dilatado. Qual investigação corresponde ao risco intermediário da ASGE?",
    "alternativas": [
     "CPRE obrigatória sem outra confirmação em todo caso.",
     "Apendicectomia para inspecionar a via biliar.",
@@ -7434,7 +7434,7 @@
    "alternativas": [
     "Grau I, pois a febre não entra na classificação.",
     "Grau III, pois a bilirrubina isolada prova falência orgânica.",
-    "Grau II, por preencher dois critérios de moderação.",
+    "Grau II, por preencher dois critérios de gravidade moderada.",
     "Não classificável sem ultrassom da vesícula."
    ],
    "correta": 2,
