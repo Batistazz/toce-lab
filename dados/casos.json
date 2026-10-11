@@ -16,7 +16,7 @@
       "Acesso periférico difícil ou insuficiente",
       "Outras: drogas irritantes ou vesicantes, monitorização hemodinâmica, nutrição parenteral, hemodiálise, coleta frequente"
      ],
-     "resposta": "Vasopressores são administrados de preferência por via central, pelo risco de lesão no sítio periférico (ATLS 11, cap. 6), e ela tem acesso periférico precário. Outras indicações: drogas irritantes, monitorização hemodinâmica, nutrição parenteral, hemodiálise e acesso periférico impossível."
+     "resposta": "Vasopressores são administrados de preferência por via central, pelo risco de lesão no sítio periférico (ATLS 11, cap. 6), e ela tem acesso periférico precário. A noradrenalina não espera o acesso central: começa por um periférico funcionante, vigiado. Outras indicações: drogas irritantes, monitorização hemodinâmica, nutrição parenteral, hemodiálise e acesso periférico impossível."
     },
     {
      "dado": "Ela está sem coagulopatia e há ultrassom disponível. Os sítios possíveis são jugular interna, subclávia e femoral.",
@@ -35,7 +35,7 @@
       "Jugular interna: ápice do triângulo entre as cabeças esternal e clavicular do esternocleidomastoideo, com a cabeça virada para o lado oposto",
       "Jugular interna: veia lateral à artéria carótida",
       "Subclávia (infraclavicular): cerca de 1 cm abaixo da junção dos terços medial e médio da clavícula, agulha em direção à fúrcula esternal",
-      "Femoral: no ponto médio entre a espinha ilíaca anterossuperior e o tubérculo púbico, abaixo do ligamento inguinal; a veia é medial à artéria"
+      "Femoral: abaixo do ligamento inguinal, cerca de 1 cm medial ao pulso femoral (a veia é medial à artéria), de preferência guiado por ultrassom"
      ],
      "resposta": "Jugular interna: com a cabeça virada para o lado oposto, punciona-se no ápice do triângulo formado pelas cabeças esternal e clavicular do esternocleidomastoideo; a veia fica lateral à carótida. Subclávia infraclavicular: cerca de 1 cm abaixo da junção dos terços medial e médio da clavícula, com a agulha dirigida à fúrcula esternal. Femoral: no ponto médio entre a espinha ilíaca anterossuperior e o tubérculo púbico, logo abaixo do ligamento inguinal; a veia é medial à artéria femoral. Com ultrassom, essas referências são confirmadas em tempo real."
     },
@@ -63,7 +63,7 @@
      "credito": "MrCarbohydrate · Wikimedia Commons · CC BY-SA 3.0",
      "pergunta": "O que você confere na radiografia e quais complicações deve conhecer?",
      "pontos": [
-      "Ponta do cateter na veia cava superior baixa, junto ao átrio direito, de preferência acima da carina",
+      "Ponta do cateter no terço inferior da veia cava superior ou na junção com o átrio direito (cerca de dois corpos vertebrais abaixo da carina)",
       "Excluir pneumotórax (ultrassom à beira do leito também detecta)",
       "Ponta dentro do átrio pode causar arritmia; o fio-guia também",
       "Punção arterial: retirar e comprimir; canulação arterial com cateter: não retirar, chamar cirurgia vascular ou radiologia intervencionista",
@@ -154,11 +154,11 @@
      "pontos": [
       "A ventilação com pressão positiva converteu o pneumotórax em hipertensivo",
       "Descompressão imediata, sem esperar imagem",
-      "Agulha 14 G ou mais no 5º EIC (axilares anterior/média) ou 2º EIC hemiclavicular, ou toracostomia digital",
+      "Agulha 14 G ou mais grossa no 5º EIC (axilares anterior/média) ou 2º EIC hemiclavicular, ou toracostomia digital",
       "Seguir com dreno de tórax",
       "Conferir também a posição do tubo (intubação seletiva)"
      ],
-     "resposta": "A pressão positiva transformou o pneumotórax em hipertensivo. Descompressão imediata (agulha de 14 G ou maior no 5º EIC entre as axilares anterior e média, ou 2º EIC na hemiclavicular, ou toracostomia digital), seguida de dreno. Conferir o tubo, porque intubação seletiva também abole o murmúrio."
+     "resposta": "A pressão positiva transformou o pneumotórax em hipertensivo. Descompressão imediata (agulha de 14 G ou mais grossa no 5º EIC entre as axilares anterior e média, ou 2º EIC na hemiclavicular, ou toracostomia digital), seguida de dreno. Conferir o tubo, porque intubação seletiva também abole o murmúrio. Lição: pneumotórax conhecido se drena antes da ventilação com pressão positiva, sempre que possível."
     }
    ],
    "fonte": "ATLS 11, caps. 1 e 5; aula da disciplina (caso 4)",
@@ -195,7 +195,7 @@
      "pontos": [
       "Hemotórax à esquerda com choque hemorrágico inicial",
       "Macicez e jugulares colabadas favorecem hemotórax",
-      "Pneumotórax hipertensivo: timpanismo e jugulares túrgidas",
+      "Pneumotórax hipertensivo: timpanismo e, em geral, jugulares túrgidas (podem faltar na hipovolemia)",
       "Tamponamento: murmúrio preservado e jugulares túrgidas"
      ],
      "resposta": "Hemotórax à esquerda com sinais de choque. Macicez com jugulares colabadas favorece sangue; o pneumotórax hipertensivo daria timpanismo e jugulares túrgidas; o tamponamento, murmúrio preservado com jugulares túrgidas."
@@ -350,9 +350,9 @@
      "pergunta": "Interprete o exame.",
      "pontos": [
       "Líquido ao redor do coração",
-      "Confirma tamponamento traumático"
+      "Com choque e ferimento precordial, tamponamento traumático"
      ],
-     "resposta": "Líquido pericárdico: tamponamento traumático."
+     "resposta": "Líquido pericárdico (hemopericárdio); com choque e ferimento precordial, é tamponamento traumático até prova em contrário."
     },
     {
      "pergunta": "Qual é a conduta?",
@@ -429,7 +429,7 @@
       "Aquecer; corrigir cálcio",
       "Hipotensão permissiva aceitável (sem TCE)"
      ],
-     "resposta": "Controle da fonte por laparotomia, sem TC. Em paralelo: sangue precoce (próximo de 1:1:1), pouco cristaloide, TXA até 3 h, aquecimento, correção do cálcio e hipotensão permissiva por não haver TCE."
+     "resposta": "Controle da fonte por laparotomia, sem TC. Em paralelo: sangue precoce (próximo de 1:1:1), pouco cristaloide, TXA até 3 h, aquecimento, correção do cálcio e hipotensão permissiva com cautela, porque com Glasgow 14 o TCE não está afastado."
     },
     {
      "dado": "Na cirurgia: temperatura 34,5 °C, pH 7,15, sangramento difuso, coagulopatia. FC 146 bpm, PA 70 × 40 mmHg.",
@@ -640,9 +640,9 @@
      "pergunta": "Interprete o exame.",
      "pontos": [
       "Hidronefrose: cálices dilatados",
-      "Confirma obstrução"
+      "Com o cálculo conhecido e a infecção, indica obstrução"
      ],
-     "resposta": "Cálices dilatados: hidronefrose, confirmando a obstrução."
+     "resposta": "Cálices dilatados: hidronefrose; com o cálculo ureteral conhecido, é pielonefrite obstrutiva."
     },
     {
      "pergunta": "Qual é a conduta?",
@@ -728,7 +728,7 @@
       "Destorção, avaliação da viabilidade, orquidopexia e fixação do contralateral",
       "Destorção manual para fora pode ser tentada enquanto aguarda, sem atrasar a cirurgia"
      ],
-     "resposta": "Exploração cirúrgica imediata, com destorção, avaliação da viabilidade e fixação dos dois testículos. A destorção manual (girando para fora) pode ser tentada enquanto se aguarda, sem atrasar."
+     "resposta": "Exploração cirúrgica imediata, com destorção, avaliação da viabilidade e fixação dos dois testículos. A destorção manual (girando para fora; se a dor piorar, no sentido contrário) pode ser tentada enquanto se aguarda, sem atrasar."
     },
     {
      "pergunta": "Se o Doppler tivesse mostrado fluxo, você mudaria a conduta?",
@@ -810,7 +810,7 @@
       "Cobertura limpa e seca, sem antibiótico profilático, tétano, analgesia com opioide EV",
       "Transferir para centro de queimados (3º grau, mais de 10%, lesão inalatória)"
      ],
-     "resposta": "A escara rígida com edema causa síndrome compartimental: escarotomia nas faces medial e lateral, sem esperar a perda do pulso. Cobertura limpa e seca, tétano, analgesia com opioide EV, sem antibiótico profilático. Encaminhar a centro de queimados (3º grau, mais de 10% e lesão inalatória)."
+     "resposta": "A escara rígida com o edema embaixo comprime o membro: escarotomia nas faces medial e lateral, sem esperar a perda do pulso. Se a compressão persistir depois (síndrome compartimental muscular), fasciotomia. Cobertura limpa e seca, tétano, analgesia com opioide EV, sem antibiótico profilático. Encaminhar a centro de queimados (3º grau, mais de 10% e lesão inalatória)."
     }
    ],
    "fonte": "ATLS 11, cap. 9; aula da disciplina (Profa. Fernanda Parreiras)",
@@ -910,7 +910,7 @@
        "porque": "Três vias e calibre grosso são para hematúria com coágulos, que precisa de irrigação."
       },
       {
-       "texto": "Seringa de 10 mL com água destilada",
+       "texto": "Seringa de 10 mL com água estéril (volume conforme o fabricante)",
        "certo": true,
        "porque": "Para insuflar o balão; soro fisiológico pode cristalizar e impedir a desinsuflação."
       },
@@ -1166,10 +1166,10 @@
       "Dreno dobrado, clampeado ou com o tubo de extensão obstruído",
       "Coágulo obstruindo o dreno",
       "Dreno fora da cavidade ou com orifício para fora (subcutâneo)",
-      "Conferir o sistema do paciente ao frasco, ordenhar o tubo e pedir radiografia",
-      "Hemotórax retido persistente: considerar novo dreno ou videotoracoscopia precoce"
+      "Conferir o sistema do paciente ao frasco, procurar dobras, conexões e coágulos (sem ordenha vigorosa) e pedir radiografia",
+      "Dreno mal posicionado: corrigir; hemotórax retido apesar de dreno funcionante: videotoracoscopia precoce"
      ],
-     "resposta": "Sem oscilação, o sistema não está ligado à pleura: dreno dobrado ou clampeado, coágulo no tubo, ou dreno fora da cavidade. Percorrer o sistema do paciente ao frasco, desobstruir e pedir radiografia. Hemotórax retido que persiste pede novo dreno ou videotoracoscopia precoce."
+     "resposta": "Sem oscilação, ou o pulmão reexpandiu, ou o sistema não está ligado à pleura: dreno dobrado ou clampeado, coágulo no tubo, ou dreno fora da cavidade. Percorrer o sistema do paciente ao frasco, desobstruir e pedir radiografia. Hemotórax retido que persiste pede novo dreno ou videotoracoscopia precoce."
     }
    ],
    "fonte": "ATLS 11, cap. 5 e apêndice de procedimentos; apostila ATLS e Trauma Torácico da monitoria",
@@ -1474,7 +1474,7 @@
       "Nova punção em outro osso (a outra tíbia), nunca no mesmo osso já furado",
       "Outras complicações: osteomielite, fratura, lesão da placa de crescimento"
      ],
-     "resposta": "Extravasamento: a agulha saiu da medula ou transfixou o osso. Parar, retirar a agulha e vigiar síndrome compartimental. Nova punção em outro osso, porque o líquido sairia pelo furo anterior. Outras complicações: osteomielite, fratura e lesão da placa de crescimento."
+     "resposta": "Extravasamento: a agulha saiu da medula ou transfixou o osso. Parar, retirar a agulha e avaliar já a síndrome compartimental (dor, tensão, pulsos, sensibilidade), com o cirurgião. Nova punção em outro osso, porque o líquido sairia pelo furo anterior. Outras complicações: osteomielite, fratura e lesão da placa de crescimento."
     }
    ],
    "fonte": "ATLS 11, caps. 1 e 11 (acesso intraósseo; 18 G no lactente e 15 G na criança pequena); American Heart Association, suporte avançado de vida em pediatria (bolus de 10 a 20 mL/kg)"
@@ -1913,9 +1913,9 @@
       "Passa o tubo entre as cordas vocais até o balonete passar",
       "Insufla o balonete; confirma com capnografia, ausculta e expansão",
       "Fixa (cerca de 21 a 23 cm na rima labial) e pede radiografia",
-      "Cormack-Lehane: I glote toda; II parte posterior; III só epiglote; IV nem epiglote (III e IV: bougie, videolaringoscópio, plano B)"
+      "Cormack-Lehane: I glote toda; II parte posterior; III só epiglote; IV nem epiglote (III e IV: videolaringoscópio, bougie se houver alguma visão, plano B)"
      ],
-     "resposta": "Preparar e testar o material, pré-oxigenar, fazer indutor e bloqueador, abrir a frente do colar com estabilização alinhada. Lâmina pela direita, ponta na valécula, tração para cima e para frente; passar o tubo pelas cordas até o balonete sumir, insuflar e confirmar com capnografia, ausculta e expansão. Fixar e pedir radiografia. Cormack-Lehane: I glote inteira, II só a parte posterior, III só a epiglote, IV nem a epiglote; nas classes III e IV, usar bougie, videolaringoscópio e o plano B."
+     "resposta": "Preparar e testar o material, pré-oxigenar, fazer indutor e bloqueador, abrir a frente do colar com estabilização alinhada. Lâmina pela direita, ponta na valécula, tração para cima e para frente; passar o tubo pelas cordas até o balonete sumir, insuflar e confirmar com capnografia, ausculta e expansão. Fixar, iniciar sedação e analgesia de manutenção, capnografia contínua e pedir radiografia. Cormack-Lehane: I glote inteira, II só a parte posterior, III só a epiglote, IV nem a epiglote; nas classes III e IV, usar videolaringoscópio e bougie (sem introduzi-lo às cegas), videolaringoscópio e o plano B."
     },
     {
      "dado": "Cinco minutos depois, a saturação cai. O murmúrio só é ouvido à direita, e o tubo está marcado em 27 cm na rima labial. SpO₂ 88%, FC 104 bpm, PA 132 × 80 mmHg.",
@@ -2051,7 +2051,7 @@
       "Ressecção com excisão total do mesorreto",
       "Se houver resposta clínica completa, vigilância rigorosa em centro preparado é opção"
      ],
-     "resposta": "O tumor é localmente avançado e sem metástase (cT3N1M0). A sequência é tratamento neoadjuvante (quimiorradioterapia ou terapia neoadjuvante total) e depois a ressecção com excisão total do mesorreto. Com resposta clínica completa, alguns centros oferecem vigilância rigorosa sem cirurgia."
+     "resposta": "O tumor é localmente avançado e sem metástase (cT3N1M0). A sequência, após pesquisar MMR/MSI na biópsia, é tratamento neoadjuvante (quimiorradioterapia ou terapia neoadjuvante total) e depois a ressecção com excisão total do mesorreto. Com resposta clínica completa, alguns centros oferecem vigilância rigorosa sem cirurgia."
     },
     {
      "dado": "A cirurgia prevista é ressecção anterior baixa com ileostomia de proteção.",
@@ -2225,7 +2225,7 @@
       "Ileostomia de alto débito (acima de cerca de 1,5 L/dia)",
       "Perda de água, sódio e magnésio: desidratação e insuficiência renal",
       "Repor volume e eletrólitos; balanço hídrico rigoroso",
-      "Afastar causa infecciosa ou obstrução parcial; reduzir o débito (antidiarreico, solução de reidratação oral no lugar de água pura)"
+      "Afastar causa infecciosa ou obstrução parcial; reduzir o débito (antidiarreico, solução oral rica em sódio no lugar de água pura e outros líquidos hipotônicos)"
      ],
      "resposta": "É uma ileostomia de alto débito com hipovolemia. Reponha volume e eletrólitos por via venosa, dose potássio, magnésio e creatinina, e faça balanço hídrico. Investigue causa infecciosa ou suboclusão. Reduza o débito com antidiarreico e troque a água pura por solução de reidratação oral."
     },
@@ -2320,9 +2320,9 @@
        "porque": "Descomprime o estômago e reduz o risco de aspiração."
       },
       {
-       "texto": "Acesso venoso, bolus de cristaloide por peso e glicose na manutenção",
+       "texto": "Acesso venoso, bolus de cristaloide por peso, glicose na manutenção e antibiótico venoso",
        "certo": true,
-       "porque": "Tratar a hipovolemia e evitar hipoglicemia."
+       "porque": "Tratar a hipovolemia, evitar hipoglicemia e cobrir infecção pela isquemia intestinal."
       },
       {
        "texto": "Aquecer e monitorizar",
@@ -2481,7 +2481,7 @@
       {
        "texto": "Redução por enema (ar ou líquido) guiada por imagem, com o cirurgião avisado",
        "certo": true,
-       "porque": "Criança estável e sem peritonite: a redução não cirúrgica resolve a maioria."
+       "porque": "Depois de repor volume e com a criança estável e sem peritonite, a redução não cirúrgica resolve a maioria."
       },
       {
        "texto": "Laparotomia imediata",
@@ -2682,7 +2682,7 @@
       {
        "texto": "Transfundir pela clínica de choque, com alvo restritivo depois de estabilizar",
        "certo": true,
-       "porque": "No choque ativo a transfusão segue a clínica; estável, alvo de 7 g/dL."
+       "porque": "No choque ativo a transfusão segue a clínica; estável, transfundir abaixo de cerca de 7 g/dL (individualizar na doença cardiovascular)."
       },
       {
        "texto": "Suspender a apixabana e considerar reversão pelo sangramento grave",
@@ -3008,7 +3008,7 @@
      "unica": true,
      "opcoes": [
       {
-       "texto": "Apendicectomia de intervalo não é rotina; mas por ter mais de 40 anos, fazer colonoscopia e imagem para afastar tumor",
+       "texto": "Por ter mais de 40 anos: colonoscopia e imagem para afastar tumor, e considerar apendicectomia de intervalo",
        "certo": true,
        "porque": "Tumores do apêndice e do ceco podem se apresentar como abscesso no adulto mais velho."
       },
@@ -3239,7 +3239,7 @@
       "Adiar intervenção até ~4 semanas se estável",
       "Step-up: drenagem percutânea ou endoscópica; necrosectomia minimamente invasiva se necessário"
      ],
-     "resposta": "É necrose infectada. Antibiótico com boa penetração na necrose e, estando estável, adiar a intervenção até cerca de 4 semanas para a necrose encapsular. Depois, abordagem step-up: drenagem percutânea ou endoscópica e, se não resolver, necrosectomia minimamente invasiva."
+     "resposta": "É necrose infectada. Antibiótico com boa penetração na necrose e, estando estável, adiar a intervenção até cerca de 4 semanas para a necrose encapsular. Se não melhorar com antibiótico, abordagem step-up: drenagem percutânea ou endoscópica e, se não resolver, necrosectomia minimamente invasiva."
     }
    ],
    "fonte": "Apostila Diverticulite e Pancreatite da monitoria; Atlanta 2012; ACG 2024; WATERFALL 2022; PONCHO 2015; PANTER 2010"
@@ -3306,7 +3306,7 @@
       "Lactato normal não exclui",
       "Angiotomografia sem atraso, heparina, cirurgia e vascular"
      ],
-     "resposta": "Embolia da artéria mesentérica superior até prova em contrário: dor desproporcional em paciente com fibrilação atrial que parou a varfarina. Angiotomografia sem atraso (a creatinina não impede), heparina plena, reanimação e chamar cirurgia e vascular juntas."
+     "resposta": "Embolia da artéria mesentérica superior até prova em contrário: dor desproporcional em paciente com fibrilação atrial que parou a varfarina. Angiotomografia sem atraso (a creatinina não impede), heparina plena, reanimação, antibiótico de amplo espectro e chamar cirurgia e vascular juntas."
     },
     {
      "dado": "Angiotomografia: oclusão da artéria mesentérica superior alguns centímetros após a origem; alças de jejuno distal e íleo com parede fina e pouco realce. Na reavaliação, surgiu defesa abdominal.",
