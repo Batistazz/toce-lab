@@ -16,7 +16,7 @@ const dataBR = (iso) => { const [, m, d] = iso.split("-"); return `${d}/${m}`; }
 const dataCompleta = (iso) => { const [a, m, d] = iso.split("-"); return `${d}/${m}/${a}`; };
 const rotuloSessao = (s) => (s.numero === "Revisão" ? "Revisão" : `Sessão ${s.numero}`);
 const sessaoPorId = (id) => estado.sessoes.find((s) => s.id === id);
-const temaDaSessao = (s) => (s.teoria.startsWith("Sem aula") ? `${s.pratica} (só prática)` : s.teoria);
+const temaDaSessao = (s) => s.titulo || (s.teoria.startsWith("Sem aula") ? `${s.pratica} (só prática)` : s.teoria);
 const tituloTema = (id) => estado.resumos[id]?.titulo ?? id;
 const mmss = (seg) => `${String(Math.floor(Math.max(seg, 0) / 60)).padStart(2, "0")}:${String(Math.max(seg, 0) % 60).padStart(2, "0")}`;
 const pct = (a, b) => (b ? Math.round((a / b) * 100) : 0);
