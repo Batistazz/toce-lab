@@ -1,15 +1,15 @@
 /* TOCE Lab · 8º período — mesmo estilo "livro antigo" das apostilas */
 :root {
-  --papel: #dfcca6; --papel-2: #d3bc93; --tinta: #2e2318; --tinta-2: #54412f; --fraco: #5f4c37;
-  --filete: #6f5b43; --linha: #bfa77e; --vinho: #74291f; --oliva: #5f5629; --tom: rgba(110, 78, 38, .10);
-  --cartao: rgba(240, 226, 196, .45); --topo: rgba(223, 204, 166, .96);
+  --papel: #ece3cf; --papel-2: #e3d7bd; --tinta: #2f2419; --tinta-2: #55432f; --fraco: #6a5741;
+  --filete: #7a6549; --linha: #cfbf9e; --vinho: #7a2e25; --oliva: #6b6233; --tom: rgba(120,88,45,.08);
+  --cartao: #f4eddd; --topo: rgba(236,227,207,.95);
   --certo: #3f5f3a; --errado: #7a2e25;
 }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body {
   margin: 0; color: var(--tinta); font-family: "EB Garamond", Garamond, Georgia, serif; font-size: 18px; line-height: 1.5;
-  background: var(--papel);
+  background: linear-gradient(180deg, #efe7d5 0%, #e8ddc5 100%) fixed, var(--papel);
 }
 a { color: var(--vinho); }
 h1, h2, h3 { font-weight: 500; line-height: 1.15; margin: 0; }
