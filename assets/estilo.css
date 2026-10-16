@@ -46,6 +46,15 @@ main { max-width: 1040px; margin: 0 auto; padding: 28px 16px 48px; outline: none
 .botao:disabled { opacity: .45; cursor: default; }
 .acoes { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
 
+/* aviso do monitor (pedido da professora) */
+.aviso-monitor { text-align: center; max-width: 640px; margin: -10px auto 30px; }
+.aviso-monitor p { margin: 10px 0 0; font-style: italic; font-size: 16px; color: var(--tinta-2); }
+.aviso-monitor b, .aviso-curto b { font-style: normal; font-weight: 500; font-variant: small-caps; letter-spacing: .05em; color: var(--tinta); }
+.selo-prof { display: inline-block; padding: 4px 18px; border-top: 3px double var(--filete); border-bottom: 3px double var(--filete);
+  font-variant: small-caps; letter-spacing: .1em; font-size: 16px; color: var(--tinta-2); }
+@media (max-width: 480px) { .selo-prof { font-size: 14px; letter-spacing: .04em; padding: 4px 6px; } }
+.aviso-curto { text-align: center; max-width: 640px; margin: -14px auto 26px; font-style: italic; font-size: 15px; color: var(--fraco); }
+
 /* início */
 .proxima { display: grid; grid-template-columns: 1fr auto; gap: 14px 24px; align-items: center; margin-bottom: 30px; }
 .proxima h2 { font-size: 26px; margin: 4px 0; }

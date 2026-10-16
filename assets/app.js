@@ -43,6 +43,15 @@ function botoesResumo(id, compacto = false) {
 const abertura = (rotulo, titulo, texto) => `
   <section class="abertura"><span class="rotulo">${rotulo}</span><h1>${titulo}</h1>${texto ? `<p>${texto}</p>` : ""}<div class="filete"></div></section>`;
 
+/* aviso pedido pela professora: resumo do monitor, não referência bibliográfica */
+const PROFESSORA = "Profa. Fernanda Parreiras";
+const avisoCompleto = `
+  <section class="aviso-monitor">
+    <span class="selo-prof">Revisado pela ${PROFESSORA}</span>
+    <p>Resumos elaborados pelo monitor para orientar o estudo. <b>Não são referência bibliográfica</b> e podem conter erros: para estudo, prova e recursos, valem as aulas, as diretrizes e as fontes indicadas pela disciplina.</p>
+  </section>`;
+const avisoCurto = `<p class="aviso-curto">Material do monitor, revisado pela ${PROFESSORA}. <b>Não é referência bibliográfica:</b> para prova e recursos, valem as aulas e as diretrizes.</p>`;
+
 /* ---------- início ---------- */
 function telaInicio() {
   const p = proximaSessao();
@@ -57,6 +66,7 @@ function telaInicio() {
     </section>` : "";
   return `
     ${abertura("Habilidades Cirúrgicas · TOCE", "Monitoria do 8º período", "Apostilas de estudo, revisões flash, treino de procedimentos e questões comentadas, sessão por sessão.")}
+    ${avisoCompleto}
     ${proxima}
     <section class="portas">
       <a class="porta" href="#/resumos"><span class="num">${Object.keys(estado.resumos).length}</span><h3>Resumos</h3><p>Apostila de Estudo e Revisão Flash de cada sessão, para ler ou baixar.</p></a>
@@ -91,6 +101,7 @@ function telaResumos() {
     </li>`).join("");
   return `
     ${abertura("Resumos", "Apostilas e revisões", "Cada tema tem uma Apostila de Estudo completa e uma Revisão Flash de uma página.")}
+    ${avisoCurto}
     ${cards}
     <section style="margin-top:34px"><span class="rotulo">Cronograma 2026.2</span><ul class="sessoes">${sessoes}</ul></section>`;
 }
@@ -128,6 +139,7 @@ function telaQuestoes(filtro) {
   const itens = lista.map((q, i) => blocoQuestao(q, i, respostas[q.id], q.id in respostas, "q")).join("");
   return `
     ${abertura("Questões", "Questões comentadas", "No modo estudo, a correção e a fonte aparecem assim que você responde. Suas respostas ficam só neste aparelho.")}
+    ${avisoCurto}
     ${abasQuestoes("estudo")}
     <div class="filtros">${filtros}</div>
     <p class="placar">${feitas.length} de ${lista.length} respondidas · ${acertos} acerto${acertos === 1 ? "" : "s"}${feitas.length ? ` · <a href="#" data-zerar="1">recomeçar</a>` : ""}</p>
@@ -148,6 +160,7 @@ function telaSimuladoConfig() {
     <li><span>${dataCompleta(h.data)}</span><span>${h.acertos}/${h.n} · <b>${pct(h.acertos, h.n)}%</b></span><span class="fraco">${esc(h.temas.map(tituloTema).join(", "))}</span></li>`).join("");
   return `
     ${abertura("Questões", "Monte seu simulado", "Você escolhe os temas e a quantidade. Sem gabarito durante a prova: a correção comentada aparece só no final.")}
+    ${avisoCurto}
     ${abasQuestoes("simulado")}
     <div class="acoes" style="justify-content:center;margin:-4px 0 22px">
       <button class="botao claro" data-mini="10">Mini prova rápida · 10 questões de todos os temas</button>
@@ -246,6 +259,7 @@ function telaOsce() {
   }).join("");
   return `
     ${abertura("OSCE", "Estações de OSCE", "Estações práticas, com checklist e cronômetro, e estações escritas, com caso em etapas e exames de imagem. Sorteie uma ou escolha.")}
+    ${avisoCurto}
     <div class="acoes" style="justify-content:center;margin-bottom:14px">
       <button class="botao" data-sortear="todas">⤨ Sortear qualquer estação</button>
       <button class="botao claro" data-sortear="pratica">Sortear prática</button>
