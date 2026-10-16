@@ -48,9 +48,9 @@ const PROFESSORA = "Profa. Fernanda Parreiras";
 const avisoCompleto = `
   <section class="aviso-monitor">
     <span class="selo-prof">Revisado pela ${PROFESSORA}</span>
-    <p>Resumos elaborados pelo monitor para orientar o estudo. <b>Não são referência bibliográfica</b> e podem conter erros: para estudo, prova e recursos, valem as aulas, as diretrizes e as fontes indicadas pela disciplina.</p>
+    <p><b>Não é referência bibliográfica</b>Não serve como material para recurso: a fonte original deve ser consultada.</p>
   </section>`;
-const avisoCurto = `<p class="aviso-curto">Material do monitor, revisado pela ${PROFESSORA}. <b>Não é referência bibliográfica:</b> para prova e recursos, valem as aulas e as diretrizes.</p>`;
+const avisoCurto = `<p class="aviso-curto"><b>Não é referência bibliográfica.</b> Não serve como material para recurso: a fonte original deve ser consultada.</p>`;
 
 /* ---------- início ---------- */
 function telaInicio() {
