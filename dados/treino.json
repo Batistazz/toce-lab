@@ -47,7 +47,38 @@
     "Fixa a sonda no abdome e mantém a bolsa abaixo do nível da bexiga, em sistema fechado",
     "Registra o volume drenado e orienta o paciente"
    ],
-   "caso": "caso-sondagem"
+   "caso": "caso-sondagem",
+   "virtual": {
+    "caso": "Homem de 68 anos, gripado, tomou um antigripal com descongestionante e anti-histamínico. Não urina desde ontem à noite e tem dor no baixo ventre que piora a cada hora. Há 2 anos tem jato fraco e acorda três vezes à noite para urinar. Exame: massa suprapúbica arredondada, maciça e dolorosa; meato uretral sem sangue, períneo e escroto sem equimose.",
+    "pergunta": "Qual é a conduta imediata?",
+    "opcoes": [
+     {
+      "texto": "Sondagem vesical pela uretra",
+      "certo": true,
+      "porque": "Retenção urinária aguda (bexigoma), provavelmente por hiperplasia prostática descompensada pelo antigripal: a bexiga precisa ser drenada já."
+     },
+     {
+      "texto": "Cistostomia suprapúbica como primeira opção",
+      "certo": false,
+      "porque": "Fica para quando a via uretral é contraindicada (suspeita de lesão de uretra) ou falha."
+     },
+     {
+      "texto": "Furosemida e reavaliar em 2 horas",
+      "certo": false,
+      "porque": "O problema é a saída da urina, não a produção; diurético piora o bexigoma."
+     }
+    ],
+    "indicacoes": [
+     "Retenção urinária",
+     "Controle rigoroso da diurese no paciente grave (choque, trauma, queimado)",
+     "Cirurgias longas ou urológicas",
+     "Irrigação vesical na hematúria com coágulos (sonda de três vias)"
+    ],
+    "contraindicacoes": [
+     "Suspeita de lesão de uretra: sangue no meato uretral, equimose perineal ou escrotal, ou incapacidade de urinar no trauma. Antes, uretrografia retrógrada (ATLS 11)."
+    ],
+    "fonte": "Apostila Afecções Urológicas da monitoria (cap. V); ATLS 11"
+   }
   },
   {
    "id": "descompressao-dreno",

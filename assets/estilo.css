@@ -210,3 +210,8 @@ main { max-width: 1040px; margin: 0 auto; padding: 28px 16px 48px; outline: none
   .resumo-card { grid-template-columns: 96px 1fr; gap: 16px; }
   .resumo-card h2 { font-size: 22px; }
 }
+
+/* estação prática adaptada ao virtual */
+.como-funciona { margin-bottom: 22px; }
+.como-funciona ol { margin: 6px 0 0; padding-left: 22px; }
+.como-funciona li { margin: 2px 0; }

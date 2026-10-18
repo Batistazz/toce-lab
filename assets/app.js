@@ -299,10 +299,11 @@ function telaEstacao(id) {
   return `
     <a class="voltar" href="#/osce">← Todas as estações</a>
     ${abertura(`Estação · ${e.minutos} minutos`, esc(e.titulo), "")}
+    ${e.virtual ? partesVirtuais(e) : ""}
     <div class="abas">${Object.entries(MODOS).map(([k, m]) => `<button class="${o.modo === k ? "ativo" : ""}" data-modo="${k}">${m.nome}</button>`).join("")}</div>
     <p class="fraco" style="text-align:center;font-style:italic;margin:-6px 0 16px">${MODOS[o.modo].ajuda}</p>
     <div class="caixa"><span class="rotulo">Instrução de porta</span><p style="margin:4px 0 0">${esc(e.cenario)}</p></div>
-    ${e.caso ? `<p style="text-align:center;margin:12px 0 0"><a href="#/osce/${esc(e.caso)}">Antes da prática: faça o caso clínico desta estação (decisão, material e técnica) →</a></p>` : ""}
+    ${e.caso ? `<p style="text-align:center;margin:12px 0 0"><a href="#/osce/${esc(e.caso)}">${e.virtual ? "Quer ir além? Faça o caso clínico completo desta estação →" : "Antes da prática: faça o caso clínico desta estação (decisão, material e técnica) →"}</a></p>` : ""}
     <div style="margin:22px 0 6px">
       <div class="relogio ${o.fase === "fim" ? "fim" : ""}" id="relogio">${visor}</div>
       <div class="acoes" style="justify-content:center">
@@ -317,6 +318,28 @@ function telaEstacao(id) {
          <p class="placar" id="progresso">0 de ${e.passos.length} itens</p>
          ${o.modo !== "treino" ? `<div class="acoes" style="justify-content:center;margin-bottom:14px"><button class="botao" data-osce="salvar">Salvar resultado</button></div>` : ""}`}
     <div class="acoes" style="justify-content:center">${botoesResumo(e.resumo)}</div>`;
+}
+
+// Estação prática adaptada ao ambiente virtual: 1) decisão com 3 alternativas, 2) resposta escrita, 3) bancada.
+function partesVirtuais(e) {
+  const v = e.virtual, textos = ler("toce-casos-texto", {});
+  const kDec = `${e.id}:decisao`, kEsc = `${e.id}:escrita`;
+  const abDec = estado.casoAberto[kDec], abEsc = estado.casoAberto[kEsc];
+  const lista = (titulo, itens) => `<span class="rotulo" style="display:block;margin-top:10px">${titulo}</span><ul class="pontos">${itens.map((i) => `<li>${esc(i)}</li>`).join("")}</ul>`;
+  return `
+    <div class="caixa como-funciona"><span class="rotulo">Como funciona</span>
+      <ol><li><b>Decisão:</b> leia o caso e escolha a conduta.</li><li><b>Escrita:</b> descreva indicações, contraindicações e passos; depois compare com a correção.</li><li><b>Bancada:</b> com manequim ou um colega, faça o procedimento no tempo e confira o checklist.</li></ol></div>
+    <section class="pergunta-caso"><span class="rotulo">Parte 1 de 3 · Decisão</span>
+      <p>${esc(v.caso)}</p><p class="enunciado">${esc(v.pergunta)}</p>
+      ${blocoOpcoes({ unica: true, opcoes: v.opcoes }, kDec, abDec, textos)}
+      ${abDec ? "" : `<div class="acoes"><button class="botao" data-abrir-caso="${esc(kDec)}">Corrigir</button></div>`}</section>
+    ${abDec ? `<section class="pergunta-caso"><span class="rotulo">Parte 2 de 3 · Escrita</span>
+      <p class="enunciado">Descreva as indicações, as contraindicações e os passos do procedimento.</p>
+      <textarea data-texto="${esc(kEsc)}" rows="7" placeholder="Indicações…  Contraindicações…  Passos…">${esc(textos[kEsc] ?? "")}</textarea>
+      ${abEsc ? `<div class="caixa gabarito">${lista("Indicações", v.indicacoes)}${lista("Contraindicações", v.contraindicacoes)}${lista("Passos", e.passos)}
+        <p class="fraco" style="margin:10px 0 0;font-size:15px">Fonte: ${esc(v.fonte)}</p></div>`
+      : `<div class="acoes"><button class="botao" data-abrir-caso="${esc(kEsc)}">Ver a correção</button></div>`}</section>` : ""}
+    ${abEsc ? `<h2 class="titulo-perguntas">Parte 3 de 3 · Bancada</h2>` : `<p class="fraco" style="text-align:center;font-style:italic">A parte 3 (bancada, com cronômetro e checklist) fica logo abaixo.</p>`}`;
 }
 
 function pararRelogio() { if (estado.timer) { clearInterval(estado.timer); estado.timer = null; } }
