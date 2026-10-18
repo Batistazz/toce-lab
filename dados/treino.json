@@ -24,7 +24,40 @@
     "Pede radiografia de tórax: ponta na junção da veia cava superior com o átrio direito e ausência de pneumotórax",
     "Descarta perfurocortantes e registra o procedimento"
    ],
-   "caso": "caso-acesso-central"
+   "caso": "caso-acesso-central",
+   "virtual": {
+    "caso": "Mulher de 64 anos com pielonefrite e choque séptico: PA 82 × 46 mmHg, lactato 5 mmol/L, veias periféricas finas e difíceis. Precisa de noradrenalina. INR 1,1, plaquetas normais e ultrassom disponível.",
+    "pergunta": "Onde e como você passa o acesso venoso central?",
+    "opcoes": [
+     {
+      "texto": "Jugular interna direita, guiada por ultrassom",
+      "certo": true,
+      "porque": "Com ultrassom e sem coagulopatia, é uma escolha excelente: a veia é compressível, lateral à carótida e fácil de ver. O sítio se escolhe pela anatomia, pela urgência, pelos riscos e pela experiência."
+     },
+     {
+      "texto": "Subclávia às cegas, por ser o sítio com menos infecção",
+      "certo": false,
+      "porque": "Tem menos infecção e trombose, mas mais pneumotórax e é difícil de comprimir se sangrar; com ultrassom disponível, a jugular interna é a primeira escolha."
+     },
+     {
+      "texto": "Femoral, porque não tem risco de pneumotórax",
+      "certo": false,
+      "porque": "É rápida e sem pneumotórax, útil na emergência extrema, mas tem mais infecção e trombose; aqui, com ultrassom e tempo, não há motivo para preferi-la."
+     }
+    ],
+    "indicacoes": [
+     "Vasopressores (como a noradrenalina deste caso)",
+     "Nutrição parenteral, drogas irritantes ou quimioterapia",
+     "Impossibilidade de acesso periférico",
+     "Hemodiálise e monitorização hemodinâmica",
+     "Não é o melhor acesso para correr volume no choque: periféricos curtos e calibrosos correm mais"
+    ],
+    "contraindicacoes": [
+     "Infecção, queimadura ou trombose da veia-alvo no local da punção: escolher outro sítio, de preferência em pele íntegra",
+     "Coagulopatia grave é contraindicação relativa: preferir sítio compressível, guiado por ultrassom, com avaliação individual"
+    ],
+    "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria (cap. IV); ASA 2020; ISCCM 2020"
+   }
   },
   {
    "id": "sondagem-masculina",
@@ -100,7 +133,40 @@
     "Fixa o dreno com sutura, conecta ao selo d'água abaixo do tórax e confirma oscilação e drenagem",
     "Reavalia com radiografia e reexame"
    ],
-   "caso": "caso-dreno-torax"
+   "caso": "caso-dreno-torax",
+   "virtual": {
+    "caso": "Homem de 34 anos caiu de um andaime de 3 metros e bateu o lado direito do tórax. FC 108, PA 112 × 72, SpO₂ 93% com O₂. Traqueia central, jugulares planas, macicez e murmúrio diminuído na base direita. Radiografia: velamento do terço inferior do hemitórax direito.",
+    "pergunta": "Qual é o diagnóstico e qual é a conduta?",
+    "opcoes": [
+     {
+      "texto": "Hemotórax à direita: drenagem torácica",
+      "certo": true,
+      "porque": "Velamento da base com macicez no trauma é hemotórax; o ATLS 11 indica drenar hemotórax acima de 300 mL."
+     },
+     {
+      "texto": "Toracocentese de alívio com agulha no 2º espaço intercostal",
+      "certo": false,
+      "porque": "Agulha descomprime ar no pneumotórax hipertensivo; não drena sangue."
+     },
+     {
+      "texto": "Toracotomia de emergência",
+      "certo": false,
+      "porque": "Ele está estável; a toracotomia entra se drenar muito sangue de início ou mantiver choque."
+     }
+    ],
+    "indicacoes": [
+     "Pneumotórax ou hemotórax com repercussão (tratamento definitivo)",
+     "Hemotórax estimado acima de 300 mL",
+     "Depois de descomprimir um pneumotórax hipertensivo (a tensão pode voltar)",
+     "Pneumotórax aberto: dreno por outra incisão, depois do curativo fixado em três lados",
+     "Pneumotórax pequeno e assintomático pode ser observado; ventilação com pressão positiva e transporte aéreo pesam a favor do dreno"
+    ],
+    "contraindicacoes": [
+     "Em emergência com ameaça à vida, não há contraindicação absoluta à drenagem indicada",
+     "Aderências pleurais, hérnia diafragmática e coagulopatia são situações de risco: individualizar técnica, imagem e apoio cirúrgico; a exploração digital faz parte da inserção por dissecção romba"
+    ],
+    "fonte": "Apostila ATLS e Trauma Torácico da monitoria (cap. II e III); ATLS 11; BTS 2023"
+   }
   },
   {
    "id": "cricotireoidostomia",
@@ -122,7 +188,37 @@
     "Confirma com CO₂ expirado sustentado na capnografia",
     "Fixa o tubo e reavalia ventilação e oxigenação"
    ],
-   "caso": "caso-crico"
+   "caso": "caso-crico",
+   "virtual": {
+    "caso": "Homem de 42 anos, colisão frontal, Glasgow 7, fraturas faciais extensas e muito sangue na boca e no nariz. Três laringoscopias falharam, a máscara laríngea não veda e a ventilação com bolsa-válvula-máscara a quatro mãos não melhora a saturação. SpO₂ 72% e caindo.",
+    "pergunta": "Qual é a situação e o que fazer agora?",
+    "opcoes": [
+     {
+      "texto": "Declarar “não intubo, não oxigeno” e fazer cricotireoidostomia cirúrgica",
+      "certo": true,
+      "porque": "Falharam a intubação, o supraglótico e a máscara: a saída é a via aérea cirúrgica, sem demora."
+     },
+     {
+      "texto": "Quarta tentativa de laringoscopia com outro laringoscópio",
+      "certo": false,
+      "porque": "Tentativas repetidas pioram o trauma e a hipóxia; o algoritmo manda parar e ir para o pescoço."
+     },
+     {
+      "texto": "Traqueostomia de urgência",
+      "certo": false,
+      "porque": "É mais demorada e sangra mais; na emergência a escolha é a cricotireoidostomia."
+     }
+    ],
+    "indicacoes": [
+     "“Não intubo, não oxigeno”: falha de intubação e de oxigenação com máscara e dispositivo supraglótico",
+     "Trauma facial extenso ou sangramento que impedem ver a glote, quando a oxigenação não se mantém"
+    ],
+    "contraindicacoes": [
+     "Lactentes e crianças pequenas: a técnica cirúrgica raramente é feita; pode ser feita em crianças maiores com a membrana palpável (em geral aos 12 anos). A punção cricotireóidea é só ponte para oxigenar, com ventilação limitada e risco de hipercapnia",
+     "Lesão laringotraqueal importante ou anatomia inviável: a via aérea mais segura pode ser a traqueostomia por cirurgião, sem atrasar o resgate da oxigenação"
+    ],
+    "fonte": "Apostila Trauma Abdominal, Pélvico e Choque da monitoria (cap. V); ATLS 11"
+   }
   },
   {
    "id": "queimado-inicial",
@@ -144,7 +240,44 @@
     "Avalia necessidade de escarotomia em queimadura circunferencial profunda",
     "Aplica os critérios de transferência para centro de queimados"
    ],
-   "caso": "caso-queimado"
+   "caso": "caso-queimado",
+   "virtual": {
+    "caso": "Homem de 45 anos, 80 kg, ficou 10 minutos num quarto em chamas, com fumaça. Chega 2 horas depois, consciente, dizendo que a voz está diferente. FC 116, SpO₂ 98% em ar ambiente. Voz rouca, vibrissas chamuscadas, fuligem na orofaringe e escarro escurecido. Queimaduras de 2º e 3º graus no tronco anterior e no membro superior direito.",
+    "pergunta": "Qual é a prioridade agora?",
+    "opcoes": [
+     {
+      "texto": "Intubação precoce pelo profissional mais experiente, com tubo de 7,0 mm ou maior",
+      "certo": true,
+      "porque": "Rouquidão é sinal de obstrução: com lesão inalatória o edema progride, e a intubação pode ficar impossível depois."
+     },
+     {
+      "texto": "Calcular a SCQ e iniciar a reposição antes de decidir a via aérea",
+      "certo": false,
+      "porque": "A via aérea vem primeiro no ABCDE; a reposição começa junto, mas não adia a intubação."
+     },
+     {
+      "texto": "Saturação de 98%: manter em observação com O₂ por cateter nasal",
+      "certo": false,
+      "porque": "Oximetria normal não exclui intoxicação por CO, e a rouquidão já indica intubação; o O₂ é a 100%."
+     }
+    ],
+    "rotulos": [
+     "Quando intubar",
+     "Quando encaminhar a um centro de queimados"
+    ],
+    "indicacoes": [
+     "Imediata: sinais de obstrução (rouquidão, estridor, musculatura acessória, retração esternal), comprometimento respiratório ou perda dos reflexos de proteção",
+     "Considerar: queimadura muito extensa (em geral acima de 40–50% da SCQ), queimadura facial extensa e profunda ou dentro da boca",
+     "Sinais de lesão inalatória (vibrissas chamuscadas, fuligem, escarro escurecido, ambiente fechado) pedem exame da orofaringe e reavaliação frequente; isolados, não obrigam a intubar"
+    ],
+    "contraindicacoes": [
+     "Espessura total, ou espessura parcial com 10% da SCQ ou mais",
+     "2º grau profundo ou 3º grau em face, mãos, pés, genitália, períneo ou articulações",
+     "Lesão inalatória, queimadura química, elétrica de alta voltagem (1.000 V ou mais) ou por raio",
+     "Comorbidades, trauma associado ou dor mal controlada"
+    ],
+    "fonte": "Apostila Queimaduras da monitoria (exame primário e cap. VI); ATLS 11 e critérios da ABA"
+   }
   },
   {
    "id": "troca-bolsa-colostomia",
@@ -167,7 +300,43 @@
     "Descarta o material, retira as luvas, higieniza as mãos e registra o aspecto do estoma, da pele e do efluente",
     "Orienta: esvaziar com um terço a metade da bolsa cheia; trocar se vazar ou arder; procurar ajuda se o estoma escurecer, doer muito ou parar de funcionar com distensão"
    ],
-   "caso": "caso-colostomia"
+   "caso": "caso-colostomia",
+   "virtual": {
+    "caso": "Homem de 63 anos, 4º dia de amputação abdominoperineal, com colostomia terminal na fossa ilíaca esquerda. A placa descola em poucas horas e a pele arde. Estoma de 32 mm, vermelho vivo, úmido, brilhante e edemaciado. Pele em volta com faixa vermelha e úmida de 5 mm. A placa retirada foi recortada com 45 mm e tem fezes por baixo.",
+    "pergunta": "Qual é a causa do vazamento e da dermatite?",
+    "opcoes": [
+     {
+      "texto": "Recorte da placa largo demais (45 mm para um estoma de 32 mm)",
+      "certo": true,
+      "porque": "A folga deixa pele exposta ao efluente, e o vazamento descola a placa. A pele exposta às fezes é a principal causa de dermatite."
+     },
+     {
+      "texto": "Isquemia do estoma: é preciso reoperar",
+      "certo": false,
+      "porque": "Isquemia deixa a mucosa escura, arroxeada ou preta, e não vermelha e brilhante."
+     },
+     {
+      "texto": "Alergia ao adesivo: trocar a placa por outra marca",
+      "certo": false,
+      "porque": "Alergia tem o formato da placa inteira; aqui a lesão é a faixa exposta em volta do estoma."
+     }
+    ],
+    "rotulos": [
+     "Quando trocar e esvaziar",
+     "Sinais de alerta: chamar o cirurgião"
+    ],
+    "indicacoes": [
+     "Esvaziar a bolsa quando estiver entre um terço e metade cheia",
+     "Trocar a placa no intervalo do fabricante",
+     "Trocar na hora se houver vazamento, ardor ou coceira (fita por cima não resolve)"
+    ],
+    "contraindicacoes": [
+     "Estoma escuro, arroxeado ou preto: congestão ou isquemia, avaliar com urgência",
+     "Estoma afundado ou pele descolada (retração, separação mucocutânea)",
+     "Dor forte, ou estoma que parou de funcionar com distensão"
+    ],
+    "fonte": "Apostila Neoplasias Digestivas e Ostomias da monitoria (cap. IV)"
+   }
   },
   {
    "id": "intraossea-tibia",
@@ -190,7 +359,41 @@
     "Vigia extravasamento e síndrome compartimental",
     "Troca por acesso venoso assim que possível e registra"
    ],
-   "caso": "caso-intraossea"
+   "caso": "caso-intraossea",
+   "virtual": {
+    "caso": "Menina de 2 anos, 12 kg, com diarreia e vômitos há 3 dias. Só responde à dor, extremidades frias e moteadas, enchimento capilar de 5 s, FC 178, PA 68 × 40. A enfermeira mais experiente tentou duas veias periféricas em 90 segundos, sem sucesso.",
+    "pergunta": "Como você consegue o acesso agora?",
+    "opcoes": [
+     {
+      "texto": "Punção intraóssea",
+      "certo": true,
+      "porque": "Criança em choque com acesso periférico difícil: a via intraóssea é rápida e aceita líquidos, sangue e drogas como uma veia."
+     },
+     {
+      "texto": "Mais duas tentativas de acesso periférico",
+      "certo": false,
+      "porque": "Cada minuto de choque conta; se a periférica falhou, passa-se à intraóssea."
+     },
+     {
+      "texto": "Dissecção de veia safena no tornozelo",
+      "certo": false,
+      "porque": "É alternativa, mas demora e exige experiência."
+     }
+    ],
+    "indicacoes": [
+     "Acesso venoso que não sai rápido na criança grave, no trauma e no choque",
+     "Serve para qualquer droga, fluido ou sangue",
+     "Na parada cardíaca do adulto, as diretrizes de 2025 preferem tentar o venoso primeiro e passar à intraóssea se ele não for obtido rápido",
+     "É provisória: trocar por acesso venoso assim que possível"
+    ],
+    "contraindicacoes": [
+     "Osso fraturado",
+     "Osso já puncionado, inclusive por tentativa, nas últimas 48 horas",
+     "Prótese ou cirurgia no local",
+     "Infecção ou queimadura sobre o ponto de punção"
+    ],
+    "fonte": "Apostila Hemorragia Digestiva e Acessos da monitoria (cap. IV); AHA/ILCOR 2025; guia do fabricante (EZ-IO)"
+   }
   },
   {
    "id": "paracentese",
@@ -213,7 +416,43 @@
     "Prescreve albumina 6–8 g por litro se retirar mais de 5 litros",
     "Registra volume, aspecto e intercorrências"
    ],
-   "caso": "caso-paracentese"
+   "caso": "caso-paracentese",
+   "virtual": {
+    "caso": "Homem de 61 anos, cirrótico por álcool, com ascite tensa, falta de ar ao deitar, dor abdominal difusa e febre de 37,9 °C. Plaquetas 78.000/mm³ e INR 1,8.",
+    "pergunta": "Qual é a conduta agora?",
+    "opcoes": [
+     {
+      "texto": "Paracentese diagnóstica e de alívio",
+      "certo": true,
+      "porque": "Cirrótico com ascite, febre e dor: é preciso excluir peritonite bacteriana espontânea; a ascite tensa com falta de ar justifica o alívio."
+     },
+     {
+      "texto": "Corrigir antes o INR com plasma e as plaquetas com transfusão",
+      "certo": false,
+      "porque": "A coagulopatia do cirrótico não contraindica a paracentese; transfusão profilática não é recomendada."
+     },
+     {
+      "texto": "Antibiótico empírico, sem puncionar",
+      "certo": false,
+      "porque": "Colher o líquido antes do antibiótico é o que confirma o diagnóstico."
+     }
+    ],
+    "rotulos": [
+     "Indicações",
+     "Contraindicações e cuidados"
+    ],
+    "indicacoes": [
+     "Diagnóstica: toda ascite nova e todo cirrótico com ascite internado",
+     "Suspeita de peritonite bacteriana espontânea: febre, dor, encefalopatia, piora renal, sangramento digestivo",
+     "De alívio: ascite tensa ou refratária, com desconforto ou falta de ar"
+    ],
+    "contraindicacoes": [
+     "INR alto e plaquetas baixas da cirrose não contraindicam; não se transfunde de rotina",
+     "Evitar cicatrizes (alças aderidas) e a borda lateral do reto (vasos epigástricos); usar ultrassom",
+     "Retirando mais de 5 L: albumina 6–8 g por litro retirado"
+    ],
+    "fonte": "Apostila Abdome Agudo e Paracentese da monitoria (cap. IV)"
+   }
   },
   {
    "id": "small-bites",
@@ -236,7 +475,44 @@
     "Termina com nó seguro, sem falhas entre os pontos",
     "Fecha subcutâneo e pele por planos, separadamente"
    ],
-   "caso": "caso-laparotomia"
+   "caso": "caso-laparotomia",
+   "virtual": {
+    "caso": "Homem de 57 anos, IMC 31, tabagista, em colectomia esquerda eletiva por laparotomia mediana de 18 cm, sem contaminação. O interno sugere fechar com pontos separados em X, a 1,5 cm da borda, pegando aponeurose, músculo e gordura, com fio de absorção rápida, “para ir mais rápido”.",
+    "pergunta": "Como você fecha a aponeurose?",
+    "opcoes": [
+     {
+      "texto": "Sutura contínua em small bites, só na aponeurose, com fio monofilamentar de absorção lenta e relação fio : ferida de pelo menos 4:1",
+      "certo": true,
+      "porque": "Reduz a hérnia incisional (STITCH: 13% contra 21% em 1 ano)."
+     },
+     {
+      "texto": "Pontos separados em X pegando aponeurose, músculo e gordura, para dar mais resistência",
+      "certo": false,
+      "porque": "Tecido mole no ponto necrosa e afrouxa a sutura; fecha-se só a aponeurose."
+     },
+     {
+      "texto": "Sutura contínua com fio de absorção rápida, para ir mais rápido",
+      "certo": false,
+      "porque": "Perde a força antes de a aponeurose cicatrizar."
+     }
+    ],
+    "rotulos": [
+     "Como fechar",
+     "Atenção"
+    ],
+    "indicacoes": [
+     "Laparotomia mediana eletiva: sutura contínua em small bites",
+     "Só a aponeurose, cerca de 5 mm da borda e 5 mm entre os pontos",
+     "Fio monofilamentar de absorção lenta; relação fio : ferida de pelo menos 4:1 (72 cm ou mais para 18 cm)",
+     "Aproximar sem estrangular o tecido"
+    ],
+    "contraindicacoes": [
+     "Alto risco de hérnia (IMC ≥ 27 ou aneurisma de aorta): considerar tela profilática onlay ou retromuscular (PRIMA); não é obrigatória para todos",
+     "Urgência e cirurgia contaminada: decisão individual",
+     "“Fechar por planos” é suturar a aponeurose separada da pele, não pegar todas as camadas no mesmo ponto"
+    ],
+    "fonte": "Apostila Hérnias e Parede Abdominal da monitoria (cap. IV); EHS/AHS 2022; STITCH 2015; PRIMA 2017"
+   }
   }
  ]
 }

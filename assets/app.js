@@ -325,18 +325,19 @@ function partesVirtuais(e) {
   const v = e.virtual, textos = ler("toce-casos-texto", {});
   const kDec = `${e.id}:decisao`, kEsc = `${e.id}:escrita`;
   const abDec = estado.casoAberto[kDec], abEsc = estado.casoAberto[kEsc];
+  const [r1, r2] = v.rotulos ?? ["Indicações", "Contraindicações"];
   const lista = (titulo, itens) => `<span class="rotulo" style="display:block;margin-top:10px">${titulo}</span><ul class="pontos">${itens.map((i) => `<li>${esc(i)}</li>`).join("")}</ul>`;
   return `
     <div class="caixa como-funciona"><span class="rotulo">Como funciona</span>
-      <ol><li><b>Decisão:</b> leia o caso e escolha a conduta.</li><li><b>Escrita:</b> descreva indicações, contraindicações e passos; depois compare com a correção.</li><li><b>Bancada:</b> com manequim ou um colega, faça o procedimento no tempo e confira o checklist.</li></ol></div>
+      <ol><li><b>Decisão:</b> leia o caso e escolha a conduta.</li><li><b>Escrita:</b> responda por escrito o que se pede e descreva os passos; depois compare com a correção.</li><li><b>Bancada:</b> com manequim ou um colega, faça o procedimento no tempo e confira o checklist.</li></ol></div>
     <section class="pergunta-caso"><span class="rotulo">Parte 1 de 3 · Decisão</span>
       <p>${esc(v.caso)}</p><p class="enunciado">${esc(v.pergunta)}</p>
       ${blocoOpcoes({ unica: true, opcoes: v.opcoes }, kDec, abDec, textos)}
       ${abDec ? "" : `<div class="acoes"><button class="botao" data-abrir-caso="${esc(kDec)}">Corrigir</button></div>`}</section>
     ${abDec ? `<section class="pergunta-caso"><span class="rotulo">Parte 2 de 3 · Escrita</span>
-      <p class="enunciado">Descreva as indicações, as contraindicações e os passos do procedimento.</p>
-      <textarea data-texto="${esc(kEsc)}" rows="7" placeholder="Indicações…  Contraindicações…  Passos…">${esc(textos[kEsc] ?? "")}</textarea>
-      ${abEsc ? `<div class="caixa gabarito">${lista("Indicações", v.indicacoes)}${lista("Contraindicações", v.contraindicacoes)}${lista("Passos", e.passos)}
+      <p class="enunciado">Descreva por escrito: ${esc(r1.toLowerCase())}; ${esc(r2.toLowerCase())}; e os passos do procedimento.</p>
+      <textarea data-texto="${esc(kEsc)}" rows="7" placeholder="${esc(r1)}…  ${esc(r2)}…  Passos…">${esc(textos[kEsc] ?? "")}</textarea>
+      ${abEsc ? `<div class="caixa gabarito">${lista(r1, v.indicacoes)}${lista(r2, v.contraindicacoes)}${lista("Passos", e.passos)}
         <p class="fraco" style="margin:10px 0 0;font-size:15px">Fonte: ${esc(v.fonte)}</p></div>`
       : `<div class="acoes"><button class="botao" data-abrir-caso="${esc(kEsc)}">Ver a correção</button></div>`}</section>` : ""}
     ${abEsc ? `<h2 class="titulo-perguntas">Parte 3 de 3 · Bancada</h2>` : `<p class="fraco" style="text-align:center;font-style:italic">A parte 3 (bancada, com cronômetro e checklist) fica logo abaixo.</p>`}`;
