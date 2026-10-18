@@ -44,10 +44,8 @@ const abertura = (rotulo, titulo, texto) => `
   <section class="abertura"><span class="rotulo">${rotulo}</span><h1>${titulo}</h1>${texto ? `<p>${texto}</p>` : ""}<div class="filete"></div></section>`;
 
 /* aviso pedido pela professora: resumo do monitor, não referência bibliográfica */
-const PROFESSORA = "Profa. Fernanda Parreiras";
 const avisoCompleto = `
   <section class="aviso-monitor">
-    <span class="selo-prof">Revisado pela ${PROFESSORA}</span>
     <p><b>Não é referência bibliográfica</b>Não serve como material para recurso: a fonte original deve ser consultada.</p>
   </section>`;
 const avisoCurto = `<p class="aviso-curto"><b>Não é referência bibliográfica.</b> Não serve como material para recurso: a fonte original deve ser consultada.</p>`;
