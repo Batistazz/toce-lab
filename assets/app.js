@@ -68,7 +68,7 @@ function telaInicio() {
     ${proxima}
     <section class="portas">
       <a class="porta" href="#/resumos"><span class="num">${Object.keys(estado.resumos).length}</span><h3>Resumos</h3><p>Apostila de Estudo e Revisão Flash de cada sessão, para ler ou baixar.</p></a>
-      <a class="porta" href="#/osce"><span class="num">${estado.estacoes.length + estado.casos.length}</span><h3>OSCE</h3><p>Estações práticas com checklist e estações escritas com caso em etapas e exames de imagem. Sorteie uma e treine com o cronômetro.</p></a>
+      <a class="porta" href="#/osce"><span class="num">${estado.estacoes.length + estado.casos.length}</span><h3>OSCE</h3><p>Estações práticas com decisão e resposta escrita, e estações escritas com caso em etapas e exames de imagem.</p></a>
       <a class="porta" href="#/questoes"><span class="num">${estado.questoes.length}</span><h3>Questões</h3><p>Estudo com correção na hora ou simulado montado por você, com nota no final.</p></a>
     </section>
     <p style="text-align:center;margin-top:22px"><a href="#/desempenho">Ver meu desempenho →</a></p>`;
@@ -250,13 +250,13 @@ function telaOsce() {
     const ult = e.tipo === "pratica" ? (resultados[e.id] ?? []).at(-1) : undefined;
     const nota = e.tipo === "escrita" ? (notas[e.id] ?? []).at(-1) : undefined;
     return `<a class="estacao-card caso-card ${e.tipo}" href="#/osce/${esc(e.id)}">
-      <div><span class="rotulo">${e.tipo === "pratica" ? "Prática · checklist" : `Escrita · ${(e.etapas ?? []).length} etapas`} · ${e.minutos} min${s ? ` · ${esc(rotuloSessao(s))}` : ""}</span>
+      <div><span class="rotulo">${e.tipo === "pratica" ? (e.virtual ? "Prática · decisão e escrita" : "Prática · checklist") : `Escrita · ${(e.etapas ?? []).length} etapas`} · ${e.minutos} min${s ? ` · ${esc(rotuloSessao(s))}` : ""}</span>
       <h3>${esc(e.titulo)}</h3>
       ${e.local ? `<small class="local">${esc(e.local)}</small>` : ""}
       ${ult ? `<small class="fraco">Último treino: ${ult.pct}% do checklist</small>` : ""}${nota !== undefined ? `<small class="fraco">Última correção: ${nota}% dos pontos-chave</small>` : ""}</div></a>`;
   }).join("");
   return `
-    ${abertura("OSCE", "Estações de OSCE", "Estações práticas, com checklist e cronômetro, e estações escritas, com caso em etapas e exames de imagem. Sorteie uma ou escolha.")}
+    ${abertura("OSCE", "Estações de OSCE", "Estações práticas, com decisão e resposta escrita, e estações escritas, com caso em etapas e exames de imagem. Sorteie uma ou escolha.")}
     ${avisoCurto}
     <div class="acoes" style="justify-content:center;margin-bottom:14px">
       <button class="botao" data-sortear="todas">⤨ Sortear qualquer estação</button>
@@ -287,9 +287,12 @@ const MODOS = {
   dupla: { nome: "OSCE em dupla", ajuda: "Um faz a estação; o colega lê o checklist e marca o que foi feito. 1 minuto de leitura, depois o tempo da estação." },
 };
 
-function telaEstacao(id) {
-  const e = estado.estacoes.find((x) => x.id === id);
-  if (!e) return telaOsce();
+function linkCaso(e) {
+  return e.caso ? `<p style="text-align:center;margin:18px 0 0"><a href="#/osce/${esc(e.caso)}">Quer ir além? Faça o caso clínico completo desta estação →</a></p>` : "";
+}
+
+// Bancada: modos, cronômetro e checklist (estações práticas sem a parte virtual)
+function blocoBancada(e) {
   const o = estado.osce;
   const oculto = o.modo === "individual" && o.fase !== "fim";
   const passos = e.passos.map((p, i) => `<li><label><input type="checkbox" data-passo="${i}"><span>${esc(p)}</span></label></li>`).join("");
@@ -297,9 +300,6 @@ function telaEstacao(id) {
   const botaoPrincipal = o.fase === "pronto" ? (o.modo === "treino" ? "Iniciar cronômetro" : "Começar (1 min de leitura)")
     : o.fase === "fim" ? "Recomeçar" : estado.timer ? "Pausar" : "Continuar";
   return `
-    <a class="voltar" href="#/osce">← Todas as estações</a>
-    ${abertura(`Estação · ${e.minutos} minutos`, esc(e.titulo), "")}
-    ${e.virtual ? partesVirtuais(e) : ""}
     <div class="abas">${Object.entries(MODOS).map(([k, m]) => `<button class="${o.modo === k ? "ativo" : ""}" data-modo="${k}">${m.nome}</button>`).join("")}</div>
     <p class="fraco" style="text-align:center;font-style:italic;margin:-6px 0 16px">${MODOS[o.modo].ajuda}</p>
     <div class="caixa"><span class="rotulo">Instrução de porta</span><p style="margin:4px 0 0">${esc(e.cenario)}</p></div>
@@ -317,6 +317,16 @@ function telaEstacao(id) {
          <ol class="checklist">${passos}</ol>
          <p class="placar" id="progresso">0 de ${e.passos.length} itens</p>
          ${o.modo !== "treino" ? `<div class="acoes" style="justify-content:center;margin-bottom:14px"><button class="botao" data-osce="salvar">Salvar resultado</button></div>` : ""}`}
+`;
+}
+
+function telaEstacao(id) {
+  const e = estado.estacoes.find((x) => x.id === id);
+  if (!e) return telaOsce();
+  return `
+    <a class="voltar" href="#/osce">← Todas as estações</a>
+    ${abertura(e.virtual ? "Estação prática" : `Estação · ${e.minutos} minutos`, esc(e.titulo), "")}
+    ${e.virtual ? partesVirtuais(e) + linkCaso(e) : blocoBancada(e)}
     <div class="acoes" style="justify-content:center">${botoesResumo(e.resumo)}</div>`;
 }
 
@@ -329,18 +339,18 @@ function partesVirtuais(e) {
   const lista = (titulo, itens) => `<span class="rotulo" style="display:block;margin-top:10px">${titulo}</span><ul class="pontos">${itens.map((i) => `<li>${esc(i)}</li>`).join("")}</ul>`;
   return `
     <div class="caixa como-funciona"><span class="rotulo">Como funciona</span>
-      <ol><li><b>Decisão:</b> leia o caso e escolha a conduta.</li><li><b>Escrita:</b> responda por escrito o que se pede e descreva os passos; depois compare com a correção.</li><li><b>Bancada:</b> com manequim ou um colega, faça o procedimento no tempo e confira o checklist.</li></ol></div>
-    <section class="pergunta-caso"><span class="rotulo">Parte 1 de 3 · Decisão</span>
+      <ol><li><b>Decisão:</b> leia o caso e escolha a conduta.</li><li><b>Escrita:</b> responda por escrito o que se pede e descreva os passos; depois compare com a correção.</li></ol></div>
+    <section class="pergunta-caso"><span class="rotulo">Parte 1 de 2 · Decisão</span>
       <p>${esc(v.caso)}</p><p class="enunciado">${esc(v.pergunta)}</p>
       ${blocoOpcoes({ unica: true, opcoes: v.opcoes }, kDec, abDec, textos)}
       ${abDec ? "" : `<div class="acoes"><button class="botao" data-abrir-caso="${esc(kDec)}">Corrigir</button></div>`}</section>
-    ${abDec ? `<section class="pergunta-caso"><span class="rotulo">Parte 2 de 3 · Escrita</span>
+    ${abDec ? `<section class="pergunta-caso"><span class="rotulo">Parte 2 de 2 · Escrita</span>
       <p class="enunciado">Descreva por escrito: ${esc(r1.toLowerCase())}; ${esc(r2.toLowerCase())}; e os passos do procedimento.</p>
       <textarea data-texto="${esc(kEsc)}" rows="7" placeholder="${esc(r1)}…  ${esc(r2)}…  Passos…">${esc(textos[kEsc] ?? "")}</textarea>
       ${abEsc ? `<div class="caixa gabarito">${lista(r1, v.indicacoes)}${lista(r2, v.contraindicacoes)}${lista("Passos", e.passos)}
         <p class="fraco" style="margin:10px 0 0;font-size:15px">Fonte: ${esc(v.fonte)}</p></div>`
       : `<div class="acoes"><button class="botao" data-abrir-caso="${esc(kEsc)}">Ver a correção</button></div>`}</section>` : ""}
-    ${abEsc ? `<h2 class="titulo-perguntas">Parte 3 de 3 · Bancada</h2>` : `<p class="fraco" style="text-align:center;font-style:italic">A parte 3 (bancada, com cronômetro e checklist) fica logo abaixo.</p>`}`;
+`;
 }
 
 function pararRelogio() { if (estado.timer) { clearInterval(estado.timer); estado.timer = null; } }
