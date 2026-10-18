@@ -4,7 +4,7 @@
 const estado = {
   sessoes: [], resumos: {}, questoes: [], estacoes: [], casos: [], casoAberto: {}, casoEtapa: {}, osceFiltro: "todas",
   timer: null,
-  osce: { modo: "treino", fase: "pronto", resta: 0, leitura: 0 },
+  osce: { modo: "individual", fase: "pronto", resta: 0, leitura: 0 }, // abre em modo prova: checklist oculto até encerrar
   sim: null, // { temas, n, pool, idx, respostas, fim, inicio, fimEm }
   simConfig: { temas: [], n: 10 },
 };
