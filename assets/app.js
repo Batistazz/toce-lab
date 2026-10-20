@@ -579,6 +579,16 @@ conteudo.addEventListener("change", (ev) => {
 
 setInterval(() => { const d = document.getElementById("decorrido"); if (d && estado.sim && !estado.sim.fim) d.textContent = mmss(Math.floor((Date.now() - estado.sim.inicio) / 1000)); }, 1000);
 
+/* ---------- contagem de acessos (GoatCounter, anônima, sem cookies) ---------- */
+function contar(dados) {
+  if (window.goatcounter?.count) window.goatcounter.count(dados);
+  else window.addEventListener("load", () => window.goatcounter?.count?.(dados), { once: true });
+}
+document.addEventListener("click", (ev) => {
+  const a = ev.target.closest('a[href$=".pdf"]');
+  if (a) contar({ path: a.getAttribute("href"), title: "PDF", event: true });
+});
+
 /* ---------- rotas ---------- */
 let rotaAnterior = "";
 function render() {
@@ -587,6 +597,7 @@ function render() {
   if (rota === "treino" || rota === "casos") { location.replace(`#/osce${parametro && parametro !== "tema" ? `/${parametro}` : ""}`); return; }
   if (hash !== rotaAnterior && rota === "osce") { pararRelogio(); estado.osce = { modo: estado.osce.modo, fase: "pronto", resta: 0, leitura: 0 }; }
   if (rota !== "osce") pararRelogio();
+  if (hash !== rotaAnterior) contar({ path: "#" + (hash || "/") });
   rotaAnterior = hash;
   let html;
   if (rota === "resumos") html = telaResumos();
