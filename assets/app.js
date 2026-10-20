@@ -79,7 +79,7 @@ function telaResumos() {
   const cards = Object.entries(estado.resumos).map(([id, r]) => {
     const quando = r.sessoes.map((sid) => sessaoPorId(sid)).filter(Boolean).map(rotuloSessao).join(" · ");
     return `
-    <article class="resumo-card">
+    <article class="resumo-card" id="resumo-${esc(id)}">
       <a href="${esc(r.apostila)}" target="_blank" rel="noopener"><img src="${esc(r.capa)}" alt="Capa: ${esc(r.titulo)}" loading="lazy"></a>
       <div>
         <span class="rotulo">${esc(quando)}</span>
@@ -607,6 +607,7 @@ function render() {
   else if (rota === "desempenho") html = telaDesempenho();
   else html = telaInicio();
   conteudo.innerHTML = html;
+  if (rota === "resumos" && parametro) requestAnimationFrame(() => document.getElementById(`resumo-${parametro}`)?.scrollIntoView());
   const ativa = rota === "simulado" ? "questoes" : rota || "inicio";
   document.querySelectorAll(".menu a").forEach((a) => a.classList.toggle("ativo", a.dataset.rota === ativa));
 }
