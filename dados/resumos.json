@@ -10,7 +10,7 @@
     "capa": "resumos/queimaduras/capa.jpg",
     "paginasApostila": 9,
     "paginasFlash": 2,
-    "atualizado": "2026-10-10"
+    "atualizado": "2026-11-03"
   },
   "afeccoes-urologicas": {
     "titulo": "Afecções urológicas e sondagem vesical",
@@ -24,7 +24,7 @@
     "capa": "resumos/afeccoes-urologicas/capa.jpg",
     "paginasApostila": 11,
     "paginasFlash": 2,
-    "atualizado": "2026-10-10"
+    "atualizado": "2026-11-03"
   },
   "politraumatizado": {
     "titulo": "ATLS e trauma torácico",
@@ -37,7 +37,7 @@
     "capa": "resumos/politraumatizado/capa.jpg",
     "paginasApostila": 12,
     "paginasFlash": 2,
-    "atualizado": "2026-10-16"
+    "atualizado": "2026-11-03"
   },
   "choque-hemorragico": {
     "titulo": "Trauma abdominal, pélvico e choque",
@@ -50,7 +50,7 @@
     "capa": "resumos/choque-hemorragico/capa.jpg",
     "paginasApostila": 13,
     "paginasFlash": 2,
-    "atualizado": "2026-10-10"
+    "atualizado": "2026-11-03"
   },
   "neoplasias-gi": {
     "titulo": "Neoplasias digestivas e ostomias",
@@ -63,7 +63,7 @@
     "capa": "resumos/neoplasias-gi/capa.jpg",
     "paginasApostila": 14,
     "paginasFlash": 2,
-    "atualizado": "2026-10-10"
+    "atualizado": "2026-11-03"
   },
   "cirurgia-pediatrica": {
     "titulo": "Cirurgia pediátrica",
@@ -76,7 +76,7 @@
     "capa": "resumos/cirurgia-pediatrica/capa.jpg",
     "paginasApostila": 14,
     "paginasFlash": 2,
-    "atualizado": "2026-10-10"
+    "atualizado": "2026-11-03"
   },
   "hemorragia-digestiva": {
     "titulo": "Hemorragia digestiva e acessos venosos",
@@ -89,7 +89,7 @@
     "capa": "resumos/hemorragia-digestiva/capa.jpg",
     "paginasApostila": 13,
     "paginasFlash": 2,
-    "atualizado": "2026-10-10"
+    "atualizado": "2026-11-03"
   },
   "abdome-agudo": {
     "titulo": "Abdome agudo e paracentese",
@@ -102,7 +102,7 @@
     "capa": "resumos/abdome-agudo/capa.jpg",
     "paginasApostila": 13,
     "paginasFlash": 2,
-    "atualizado": "2026-10-10"
+    "atualizado": "2026-11-03"
   },
   "hernias": {
     "titulo": "Hérnias e parede abdominal",
@@ -115,7 +115,7 @@
     "capa": "resumos/hernias/capa.jpg",
     "paginasApostila": 13,
     "paginasFlash": 2,
-    "atualizado": "2026-10-10"
+    "atualizado": "2026-11-03"
   },
   "apendicite-colecistite": {
     "titulo": "Apendicite e colecistite",
@@ -128,7 +128,7 @@
     "capa": "resumos/apendicite-colecistite/capa.jpg",
     "paginasApostila": 12,
     "paginasFlash": 2,
-    "atualizado": "2026-10-10"
+    "atualizado": "2026-11-03"
   },
   "diverticulite-pancreatite": {
     "titulo": "Diverticulite e pancreatite",
@@ -139,7 +139,7 @@
     "capa": "resumos/diverticulite-pancreatite/capa.jpg",
     "paginasApostila": 12,
     "paginasFlash": 2,
-    "atualizado": "2026-10-10"
+    "atualizado": "2026-11-03"
   },
   "abdome-vascular-obstrutivo": {
     "titulo": "Abdome vascular e obstrutivo",
@@ -150,6 +150,6 @@
     "capa": "resumos/abdome-vascular-obstrutivo/capa.jpg",
     "paginasApostila": 12,
     "paginasFlash": 2,
-    "atualizado": "2026-10-10"
+    "atualizado": "2026-11-03"
   }
 }
