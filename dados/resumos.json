@@ -24,7 +24,7 @@
     "capa": "resumos/afeccoes-urologicas/capa.jpg",
     "paginasApostila": 11,
     "paginasFlash": 2,
-    "atualizado": "2026-11-03"
+    "atualizado": "2026-11-23"
   },
   "politraumatizado": {
     "titulo": "ATLS e trauma torácico",
@@ -50,7 +50,7 @@
     "capa": "resumos/choque-hemorragico/capa.jpg",
     "paginasApostila": 13,
     "paginasFlash": 2,
-    "atualizado": "2026-11-03"
+    "atualizado": "2026-11-23"
   },
   "neoplasias-gi": {
     "titulo": "Neoplasias digestivas e ostomias",
@@ -63,7 +63,7 @@
     "capa": "resumos/neoplasias-gi/capa.jpg",
     "paginasApostila": 14,
     "paginasFlash": 2,
-    "atualizado": "2026-11-03"
+    "atualizado": "2026-11-23"
   },
   "cirurgia-pediatrica": {
     "titulo": "Cirurgia pediátrica",
@@ -76,7 +76,7 @@
     "capa": "resumos/cirurgia-pediatrica/capa.jpg",
     "paginasApostila": 14,
     "paginasFlash": 2,
-    "atualizado": "2026-11-03"
+    "atualizado": "2026-11-23"
   },
   "hemorragia-digestiva": {
     "titulo": "Hemorragia digestiva e acessos venosos",
@@ -89,7 +89,7 @@
     "capa": "resumos/hemorragia-digestiva/capa.jpg",
     "paginasApostila": 13,
     "paginasFlash": 2,
-    "atualizado": "2026-11-03"
+    "atualizado": "2026-11-23"
   },
   "abdome-agudo": {
     "titulo": "Abdome agudo e paracentese",
@@ -102,7 +102,7 @@
     "capa": "resumos/abdome-agudo/capa.jpg",
     "paginasApostila": 13,
     "paginasFlash": 2,
-    "atualizado": "2026-11-03"
+    "atualizado": "2026-11-23"
   },
   "hernias": {
     "titulo": "Hérnias e parede abdominal",
@@ -115,7 +115,7 @@
     "capa": "resumos/hernias/capa.jpg",
     "paginasApostila": 13,
     "paginasFlash": 2,
-    "atualizado": "2026-11-03"
+    "atualizado": "2026-11-23"
   },
   "apendicite-colecistite": {
     "titulo": "Apendicite e colecistite",
@@ -150,6 +150,6 @@
     "capa": "resumos/abdome-vascular-obstrutivo/capa.jpg",
     "paginasApostila": 12,
     "paginasFlash": 2,
-    "atualizado": "2026-11-03"
+    "atualizado": "2026-11-23"
   }
 }
