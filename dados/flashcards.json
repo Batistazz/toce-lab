@@ -1,0 +1,2756 @@
+{
+ "baralhos": {
+  "queimaduras": [
+   {
+    "f": "Um paciente chega com queimadura térmica recente no braço. Como você resfria a ferida?",
+    "v": "Com água corrente em temperatura ambiente, por 20 minutos. Nunca use gelo. O resfriamento ainda ajuda se começar até 3 horas depois da queimadura."
+   },
+   {
+    "f": "Um trabalhador teve queimadura química por um pó seco na pele. Qual é o primeiro passo, antes de lavar?",
+    "v": "Escovar e retirar o pó seco. Só depois irrigar com bastante água, por pelo menos 20 a 30 minutos. Não use neutralizante."
+   },
+   {
+    "f": "Vítima de incêndio em casa fechada está com saturação de 99% no oxímetro. Isso afasta intoxicação por monóxido de carbono?",
+    "v": "Não. O oxímetro confunde a carboxi-hemoglobina com oxi-hemoglobina e mostra um valor falsamente normal. Peça a dosagem de carboxi-hemoglobina na gasometria."
+   },
+   {
+    "f": "Por que todo queimado recebe oxigênio a 100% logo no exame primário?",
+    "v": "Porque o oxigênio a 100% acelera a eliminação do monóxido de carbono: a meia-vida cai de cerca de 4 horas para 40 a 50 minutos."
+   },
+   {
+    "f": "Vítima de incêndio em local fechado tem hipotensão e acidose metabólica grave sem outra explicação. Qual intoxicação você suspeita?",
+    "v": "Intoxicação por cianeto."
+   },
+   {
+    "f": "Qual é o antídoto da intoxicação por cianeto no queimado?",
+    "v": "Hidroxocobalamina."
+   },
+   {
+    "f": "Um queimado está rouco e com estridor. O que fazer com a via aérea?",
+    "v": "Intubar imediatamente. Rouquidão e estridor são sinais de obstrução da via aérea pelo edema, que só tende a piorar."
+   },
+   {
+    "f": "Quais achados no exame fazem suspeitar de lesão inalatória?",
+    "v": "Pelos do rosto e do nariz chamuscados, escarro com fuligem e história de incêndio em ambiente fechado."
+   },
+   {
+    "f": "Ao intubar um adulto queimado, qual o calibre mínimo do tubo e por quê?",
+    "v": "7,0 mm ou maior. Esse calibre permite fazer broncoscopia depois para avaliar a lesão inalatória."
+   },
+   {
+    "f": "Um adulto (13 anos ou mais) queimado chega e você ainda não calculou a área queimada. Qual vazão de Ringer lactato iniciar?",
+    "v": "500 mL por hora. Depois de calcular a área queimada, essa vazão é substituída pela da fórmula."
+   },
+   {
+    "f": "Uma criança de 8 anos queimada chega e você ainda não calculou a área queimada. Qual vazão de Ringer lactato iniciar?",
+    "v": "250 mL por hora (6 a 12 anos). Até 5 anos, a vazão inicial é 125 mL por hora."
+   },
+   {
+    "f": "Queimadura com bolhas, fundo rosado e úmido, que fica branca ao apertar e dói muito. Qual o grau?",
+    "v": "Segundo grau superficial. Costuma cicatrizar em 2 a 3 semanas, em geral sem deixar cicatriz."
+   },
+   {
+    "f": "Queimadura seca, com aspecto de couro, branca como cera, que não dói e não fica branca ao apertar. Qual o grau?",
+    "v": "Terceiro grau (espessura total da pele). Não cicatriza sozinha: precisa de enxerto."
+   },
+   {
+    "f": "Ao calcular a superfície corporal queimada, a área de primeiro grau entra na conta?",
+    "v": "Não. Só entram as áreas de segundo e terceiro graus. Por isso uma queimadura de sol extensa não recebe reposição pela fórmula."
+   },
+   {
+    "f": "Na regra dos nove do adulto, quanto vale cada membro inferior?",
+    "v": "18% (frente e costas somadas)."
+   },
+   {
+    "f": "Na regra dos nove do adulto, quanto vale o tronco?",
+    "v": "36% no total: 18% na frente e 18% nas costas."
+   },
+   {
+    "f": "Na regra dos nove, quanto vale a cabeça de uma criança pequena, comparada à do adulto?",
+    "v": "18% na criança pequena, o dobro do adulto (9%). Em troca, cada membro inferior da criança vale 14% em vez de 18%."
+   },
+   {
+    "f": "Para medir uma queimadura pequena e irregular, quanto vale a mão do paciente?",
+    "v": "A palma com os dedos juntos vale cerca de 1% da superfície corporal."
+   },
+   {
+    "f": "A partir de quantos por cento de área queimada (segundo e terceiro graus) está indicada a reposição volêmica pela fórmula, segundo o ATLS 11?",
+    "v": "A partir de 20%, em qualquer idade. Todo paciente em reposição formal precisa de sonda vesical para medir a diurese."
+   },
+   {
+    "f": "Qual é a fórmula de reposição do ATLS 11 para o adulto queimado?",
+    "v": "2 mL × peso (kg) × % de área queimada = volume de 24 horas. Esse volume dividido por 16 dá a vazão em mL por hora. Depois, quem ajusta a vazão é a diurese."
+   },
+   {
+    "f": "Adulto de 70 kg com 40% de área queimada. Qual a vazão inicial pelo ATLS 11?",
+    "v": "350 mL por hora. A conta é 2 × 70 × 40 = 5.600 mL em 24 horas, e 5.600 ÷ 16 = 350."
+   },
+   {
+    "f": "Qual é a fórmula de Parkland e como o volume é dividido?",
+    "v": "4 mL × peso (kg) × % de área queimada em 24 horas. Metade nas primeiras 8 horas e a outra metade nas 16 horas seguintes."
+   },
+   {
+    "f": "Pela fórmula de Parkland, as primeiras 8 horas contam a partir de quando?",
+    "v": "Da hora da queimadura, não da chegada ao hospital."
+   },
+   {
+    "f": "Um queimado chega 2 horas depois do acidente, sem ter recebido volume. Pela fórmula de Parkland, em quanto tempo corre a primeira metade?",
+    "v": "Nas 6 horas que restam. As 8 horas já começaram a contar na hora da queimadura."
+   },
+   {
+    "f": "Qual é a diurese-alvo do adulto queimado em reposição?",
+    "v": "0,5 mL/kg por hora, o que dá cerca de 30 a 50 mL por hora."
+   },
+   {
+    "f": "Qual é a diurese-alvo da criança queimada (menor de 13 anos)?",
+    "v": "1 mL/kg por hora."
+   },
+   {
+    "f": "Qual é a diurese-alvo na queimadura elétrica?",
+    "v": "1 a 1,5 mL/kg por hora, mantida até a urina clarear."
+   },
+   {
+    "f": "Um adulto queimado em reposição está urinando abaixo da meta. O que fazer?",
+    "v": "Aumentar a vazão do soro em 10 a 30% e reavaliar a cada hora. Bolus só se houver hipotensão."
+   },
+   {
+    "f": "Na queimadura elétrica, quantos mL por kg por % de área queimada o ATLS 11 manda repor?",
+    "v": "4 mL × peso (kg) × % de área queimada, em qualquer idade. Em menores de 13 anos, soma-se soro de manutenção com glicose."
+   },
+   {
+    "f": "Queimadura circular de terceiro grau na perna, com dor intensa ao esticar o pé e parestesia. Qual o diagnóstico e o que fazer?",
+    "v": "Síndrome compartimental pela escara que não estica: indicar escarotomia. Não espere o pulso sumir, porque esse é um sinal tardio."
+   },
+   {
+    "f": "Um queimado chega em choque logo na primeira hora. Por que não se deve atribuir o choque à queimadura?",
+    "v": "Porque a queimadura aguda não causa hemorragia que ameace a vida. Choque precoce no queimado obriga a procurar outra lesão, como um trauma associado."
+   },
+   {
+    "f": "Pela extensão, quais queimaduras devem ser discutidas com um centro de queimados?",
+    "v": "Qualquer queimadura de terceiro grau, ou de segundo grau com 10% ou mais da superfície corporal."
+   },
+   {
+    "f": "Uma queimadura de segundo grau profundo na mão deve ser transferida para centro de queimados, mesmo pequena?",
+    "v": "Sim. Queimaduras profundas em face, mãos, pés, genitália, períneo ou sobre articulações são critério de transferência, qualquer que seja o tamanho."
+   },
+   {
+    "f": "Quais mecanismos de queimadura são critério de transferência para centro de queimados, qualquer que seja o tamanho?",
+    "v": "Lesão inalatória, toda queimadura química e toda lesão elétrica de alta voltagem (1.000 V ou mais) ou por raio."
+   },
+   {
+    "f": "No primeiro atendimento do queimado, devo romper as bolhas?",
+    "v": "Não. Cubra com lençol limpo e seco. O cuidado das bolhas fica para o centro de referência."
+   },
+   {
+    "f": "O queimado deve receber antibiótico profilático no primeiro atendimento?",
+    "v": "Não. O que se faz é atualizar a profilaxia antitetânica."
+   }
+  ],
+  "afeccoes-urologicas": [
+   {
+    "f": "Em quais pontos do ureter um cálculo pode ficar impactado?",
+    "v": "Na junção ureteropélvica, no cruzamento dos vasos ilíacos e na junção ureterovesical. São os três estreitamentos fisiológicos do ureter."
+   },
+   {
+    "f": "Qual é o ponto mais estreito do ureter?",
+    "v": "É a junção ureterovesical. Ela é um dos locais de impactação dos cálculos."
+   },
+   {
+    "f": "Um paciente chega com cólica renal. Qual exame de imagem você pede primeiro?",
+    "v": "Peça ultrassonografia. É o exame inicial na investigação da cólica renal."
+   },
+   {
+    "f": "Qual exame confirma o cálculo em um paciente com cólica renal?",
+    "v": "A tomografia computadorizada sem contraste confirma o cálculo."
+   },
+   {
+    "f": "Uma gestante tem cólica renal. Qual exame de imagem você pede primeiro?",
+    "v": "Peça ultrassonografia. É a primeira opção de imagem na gestante."
+   },
+   {
+    "f": "Uma gestante com suspeita de cálculo precisa de investigação após a ultrassonografia. Qual é o próximo exame?",
+    "v": "Peça ressonância magnética. A tomografia computadorizada de baixa dose fica por último."
+   },
+   {
+    "f": "Um paciente tem cólica renal. Qual é a primeira escolha para analgesia?",
+    "v": "Use um anti-inflamatório não esteroide, respeitando o risco cardiovascular e a função renal. O opioide é a segunda opção."
+   },
+   {
+    "f": "Qual é a chance de um cálculo ureteral menor que 5 mm sair sozinho?",
+    "v": "É de cerca de 75%."
+   },
+   {
+    "f": "Qual é a chance de um cálculo menor que 5 mm no ureter distal sair sozinho?",
+    "v": "É de 89%."
+   },
+   {
+    "f": "Um paciente tem cálculo de 5 a 10 mm no ureter distal, sem indicação de retirada. Qual medicamento pode ajudar na expulsão?",
+    "v": "A tansulosina, um alfabloqueador, é uma opção. Esse uso é fora da bula."
+   },
+   {
+    "f": "Um paciente tem cálculo obstrutivo com febre ou sepse. O que fazer imediatamente?",
+    "v": "Descomprima com cateter duplo J ou nefrostomia percutânea. Colha urocultura e inicie antibiótico. É uma urgência."
+   },
+   {
+    "f": "Um paciente teve o rim descomprimido por cálculo obstrutivo com sepse. Quando tratar o cálculo?",
+    "v": "Trate o cálculo depois que a sepse resolver."
+   },
+   {
+    "f": "Um paciente tem cálculo com baixa chance de eliminação espontânea. Deve continuar apenas esperando?",
+    "v": "Não. A baixa chance de eliminação é indicação de retirada do cálculo."
+   },
+   {
+    "f": "Um paciente com cálculo ureteral mantém dor apesar da analgesia adequada. O que fazer?",
+    "v": "Intervir: descomprimir o rim ou retirar o cálculo por ureteroscopia. Dor refratária é indicação de intervenção."
+   },
+   {
+    "f": "Um paciente tem cálculo com insuficiência renal por obstrução bilateral ou em rim único. O que fazer?",
+    "v": "Indique a retirada do cálculo. A insuficiência renal nessas situações impede manter apenas a espera."
+   },
+   {
+    "f": "Qual é a causa mais comum de retenção urinária aguda no homem idoso?",
+    "v": "É a hiperplasia prostática benigna."
+   },
+   {
+    "f": "Quais classes de medicamentos podem precipitar retenção urinária?",
+    "v": "Anticolinérgicos, descongestionantes e opioides podem precipitar retenção urinária."
+   },
+   {
+    "f": "Além dos medicamentos, quais fatores podem precipitar retenção urinária?",
+    "v": "Anestesia recente, constipação, álcool e infecção urinária podem precipitar retenção."
+   },
+   {
+    "f": "Um paciente tem retenção urinária aguda e a sonda uretral não progride. O que fazer?",
+    "v": "Não force a passagem. A alternativa é a cistostomia suprapúbica."
+   },
+   {
+    "f": "Como o bloqueador alfa-1 atua nos sintomas da hiperplasia prostática benigna?",
+    "v": "Alivia os sintomas rapidamente. Ele não reduz o tamanho da próstata."
+   },
+   {
+    "f": "Um paciente com hiperplasia prostática benigna tem próstata maior que 40 mL e risco de progressão. Qual classe de medicamento é indicada para esse risco?",
+    "v": "Use um inibidor da 5-alfa-redutase. O efeito é lento, com uso por anos."
+   },
+   {
+    "f": "Um paciente com hiperplasia prostática benigna e próstata de 30 a 80 mL tem indicação de cirurgia. Qual é a cirurgia padrão?",
+    "v": "É a ressecção transuretral da próstata."
+   },
+   {
+    "f": "Qual diagnóstico deve ser considerado em toda dor escrotal aguda até prova em contrário?",
+    "v": "É a torção testicular. A dor escrotal aguda exige excluir essa emergência."
+   },
+   {
+    "f": "Qual é a janela crítica de tempo na torção testicular?",
+    "v": "É de cerca de 4 a 6 horas."
+   },
+   {
+    "f": "Como costuma estar o reflexo cremastérico na torção testicular?",
+    "v": "Em geral está ausente. A presença do reflexo não exclui torção."
+   },
+   {
+    "f": "Qual é o achado típico do Doppler na torção testicular?",
+    "v": "O fluxo está ausente ou reduzido."
+   },
+   {
+    "f": "Um Doppler com fluxo normal exclui torção testicular?",
+    "v": "Não. Em estudo multicêntrico, 24% dos meninos com torção tinham fluxo normal ou aumentado. O diagnóstico é clínico."
+   },
+   {
+    "f": "Um adolescente tem torção testicular. O que fazer?",
+    "v": "Exploração cirúrgica urgente com destorção. Se o testículo estiver viável, fixe; se inviável, orquiectomia. Fixe também o contralateral no mesmo ato."
+   },
+   {
+    "f": "Um paciente com torção testicular aguarda cirurgia. Em que sentido tentar a destorção manual?",
+    "v": "Gire o testículo para fora, como quem abre um livro. Se a dor piorar, tente o sentido contrário."
+   },
+   {
+    "f": "Um paciente teve alívio com destorção manual do testículo. Isso dispensa a cirurgia?",
+    "v": "Não. A destorção manual não substitui a cirurgia. Em uma série, 17 de 53 pacientes ainda tinham torção residual."
+   },
+   {
+    "f": "Uma criança tem dor no polo superior do testículo, ponto azul e reflexo cremastérico presente. Qual é o diagnóstico?",
+    "v": "É torção do apêndice testicular."
+   },
+   {
+    "f": "Uma criança tem torção do apêndice testicular. Como tratar?",
+    "v": "Trate com anti-inflamatório. Opere apenas se houver dúvida diagnóstica ou se a dor persistir."
+   },
+   {
+    "f": "Um paciente tem dor escrotal gradual, febre e alívio ao elevar o escroto. Qual é o diagnóstico provável?",
+    "v": "É epididimite. O Doppler mostra fluxo aumentado."
+   },
+   {
+    "f": "Uma criança tem epididimite. Qual é o tratamento?",
+    "v": "Ofereça suporte. Use antibiótico se houver infecção."
+   },
+   {
+    "f": "Um adulto tem epididimite. O que fazer antes de iniciar o antibiótico empírico?",
+    "v": "Colha urocultura e faça pesquisa de gonococo e clamídia. Depois, inicie o antibiótico empírico."
+   },
+   {
+    "f": "Um lactente tem hidrocele, sem hérnia associada nem dúvida diagnóstica. Qual é a conduta inicial?",
+    "v": "Observe pelo menos no primeiro ano. A resolução chega a 92% antes de 1 ano."
+   },
+   {
+    "f": "Uma criança com possível hidrocele tem massa duvidosa ou testículo não palpável. Qual exame pedir?",
+    "v": "Peça ultrassonografia."
+   },
+   {
+    "f": "O que define priapismo?",
+    "v": "É uma ereção por mais de 4 horas, sem relação com estímulo sexual."
+   },
+   {
+    "f": "Como é o sangue na gasometria cavernosa do priapismo isquêmico?",
+    "v": "É escuro, com hipóxia e acidose."
+   },
+   {
+    "f": "Como é o sangue na gasometria cavernosa do priapismo não isquêmico?",
+    "v": "É vermelho vivo, semelhante ao sangue arterial."
+   },
+   {
+    "f": "Qual doença hematológica é uma causa típica de priapismo isquêmico?",
+    "v": "É a anemia falciforme."
+   },
+   {
+    "f": "Quais medicamentos e drogas são causas típicas de priapismo isquêmico?",
+    "v": "Injeção intracavernosa, antipsicóticos, trazodona e cocaína são causas típicas."
+   },
+   {
+    "f": "Um paciente tem priapismo isquêmico. Qual é o tratamento de primeira linha?",
+    "v": "Faça aspiração dos corpos cavernosos, com ou sem irrigação, e fenilefrina intracavernosa. Monitore pressão arterial e frequência cardíaca."
+   },
+   {
+    "f": "Um paciente mantém priapismo isquêmico após aspiração e fenilefrina. Qual é a próxima etapa?",
+    "v": "Faça um shunt distal entre o corpo cavernoso e a glande."
+   },
+   {
+    "f": "Em um paciente traumatizado, quais sinais levantam suspeita de lesão uretral e contraindicam a sondagem antes da investigação?",
+    "v": "Sangue no meato, equimose perineal ou escrotal e incapacidade de urinar levantam essa suspeita."
+   },
+   {
+    "f": "Um paciente traumatizado tem suspeita de lesão uretral. Qual exame deve preceder a sondagem, segundo o ATLS 11?",
+    "v": "Faça uretrografia retrógrada antes de passar a sonda uretral."
+   },
+   {
+    "f": "Um homem está sendo sondado. Quando é seguro insuflar o balão?",
+    "v": "Avance a sonda até a bifurcação e só insufle depois que a urina drenar. Insuflar antes pode romper a uretra."
+   },
+   {
+    "f": "Um homem acabou de ser sondado. O que fazer com o prepúcio ao terminar?",
+    "v": "Recoloque o prepúcio sobre a glande. Esquecer esse passo causa parafimose."
+   },
+   {
+    "f": "Durante a sondagem de uma mulher, a sonda entrou na vagina. O que fazer?",
+    "v": "Deixe a sonda ali como referência e use outra sonda estéril."
+   },
+   {
+    "f": "Por que a bolsa coletora de urina deve ficar abaixo da bexiga?",
+    "v": "Para evitar refluxo de urina. A bolsa acima da bexiga aumenta o risco de infecção."
+   }
+  ],
+  "politraumatizado": [
+   {
+    "f": "Qual ameaça deve ser controlada antes da avaliação da via aérea no atendimento inicial do trauma?",
+    "v": "É a hemorragia externa exsanguinante. Ela corresponde à primeira etapa da avaliação primária."
+   },
+   {
+    "f": "Um traumatizado tem hemorragia externa exsanguinante. Como controlar o sangramento?",
+    "v": "Use compressão, empacotamento ou hemostático e torniquete conforme necessário. Anote o horário do torniquete."
+   },
+   {
+    "f": "Um traumatizado está falando. Isso garante que a via aérea esteja protegida?",
+    "v": "Não. Falar mostra fluxo de ar naquele instante, mas não garante proteção nem que a via aérea continuará pérvia."
+   },
+   {
+    "f": "Um traumatizado não consegue manter ou proteger a via aérea, tem falha de oxigenação ou ventilação, ou deterioração previsível. O que fazer?",
+    "v": "Estabeleça uma via aérea definitiva."
+   },
+   {
+    "f": "Quais são as três ameaças torácicas que podem matar em minutos após um trauma?",
+    "v": "São pneumotórax hipertensivo, hemotórax maciço e tamponamento cardíaco."
+   },
+   {
+    "f": "Como é feito o diagnóstico de pneumotórax hipertensivo no trauma?",
+    "v": "O diagnóstico é clínico. O mecanismo, o murmúrio abolido e a hipotensão sustentam a suspeita."
+   },
+   {
+    "f": "Um traumatizado tem suspeita clínica de pneumotórax hipertensivo. Deve aguardar imagem para descomprimir?",
+    "v": "Não. Descomprima imediatamente, sem esperar radiografia ou ultrassom."
+   },
+   {
+    "f": "Desvio de traqueia e turgência jugular são sinais confiáveis de pneumotórax hipertensivo?",
+    "v": "Não. São tardios e inconstantes. A turgência pode faltar se houver hemorragia associada."
+   },
+   {
+    "f": "Como podem estar as jugulares e a percussão no pneumotórax hipertensivo?",
+    "v": "As jugulares podem estar túrgidas, e a percussão pode ser hipertimpânica."
+   },
+   {
+    "f": "Como ficam as jugulares e a percussão no hemotórax maciço?",
+    "v": "As jugulares ficam colabadas, e a percussão é maciça."
+   },
+   {
+    "f": "Um recém-intubado apresenta dessaturação, hipotensão, pressão inspiratória alta e murmúrio abolido à esquerda. Qual é a principal suspeita?",
+    "v": "É pneumotórax convertido em hipertensivo pela pressão positiva. A intubação seletiva também pode abolir o murmúrio."
+   },
+   {
+    "f": "Um recém-intubado tem sinais de pneumotórax hipertensivo e murmúrio abolido à esquerda. O que fazer?",
+    "v": "Trate a tensão e revise a posição do tubo. A intubação seletiva também pode abolir o murmúrio."
+   },
+   {
+    "f": "Um traumatizado precisa de descompressão torácica por agulha. Quais locais o ATLS 11 permite?",
+    "v": "Use o 5º espaço intercostal, entre as linhas axilares anterior e média, ou o 2º espaço intercostal, na linha hemiclavicular."
+   },
+   {
+    "f": "Um traumatizado precisa de descompressão torácica por agulha. Qual calibre de cateter usar pelo ATLS 11?",
+    "v": "Use cateter de 14 G ou mais grosso. Um número menor corresponde a um cateter mais grosso."
+   },
+   {
+    "f": "Um paciente precisa de descompressão ou drenagem torácica. Por qual borda da costela entrar?",
+    "v": "Entre pela borda superior. O feixe vasculonervoso corre pela borda inferior."
+   },
+   {
+    "f": "Uma gestante a termo precisa de descompressão torácica. Como ajustar o ponto de entrada?",
+    "v": "Suba 1 a 2 espaços intercostais."
+   },
+   {
+    "f": "Um paciente obeso precisa de descompressão torácica. Como adaptar o procedimento?",
+    "v": "Use cateter longo ou faça toracostomia digital."
+   },
+   {
+    "f": "Quais são os limites do triângulo de segurança para inserir o dreno de tórax?",
+    "v": "São a borda lateral do peitoral maior, a borda anterior do latíssimo do dorso e a linha do 5º espaço intercostal."
+   },
+   {
+    "f": "Um traumatizado estável precisa de dreno de tórax. Qual calibre pode ser usado pelo ATLS 11?",
+    "v": "Pode ser usado dreno de 14 Fr. No paciente estável, ele é tão eficaz quanto os mais calibrosos e dói menos."
+   },
+   {
+    "f": "Um traumatizado instável ou com hemotórax maciço precisa de dreno. Qual calibre preferir?",
+    "v": "Prefira dreno de 24 Fr ou mais."
+   },
+   {
+    "f": "Um traumatizado tem hemotórax estimado acima de 300 mL. O que fazer?",
+    "v": "Drene o hemotórax. Isso evita que o sangue coagule e encarcere o pulmão."
+   },
+   {
+    "f": "Quais débitos do dreno são critérios clássicos de toracotomia no hemotórax?",
+    "v": "Cerca de 1.500 mL na drenagem inicial ou 200 mL/h por 2 a 4 horas. Esses valores ajudam na decisão."
+   },
+   {
+    "f": "O que determina a decisão de toracotomia no hemotórax pelo ATLS 11?",
+    "v": "A fisiologia determina a decisão. Considere choque, sangramento contínuo e necessidade de transfusão, além do débito do dreno."
+   },
+   {
+    "f": "Um traumatizado tem pneumotórax aberto. Qual curativo inicial fazer?",
+    "v": "Cubra com curativo estéril maior que a ferida, fixado em três lados, ou use selo torácico com válvula. Depois, passe dreno por outra incisão."
+   },
+   {
+    "f": "Qual é o critério radiográfico de tórax instável?",
+    "v": "É a fratura de 2 ou mais costelas adjacentes em 2 ou mais pontos."
+   },
+   {
+    "f": "Qual achado define tórax instável clínico?",
+    "v": "É o movimento paradoxal da parede torácica."
+   },
+   {
+    "f": "Qual é a principal causa de hipoxemia grave no tórax instável?",
+    "v": "É a contusão pulmonar subjacente. Ela piora entre 24 e 72 horas."
+   },
+   {
+    "f": "Um paciente com tórax instável apresenta apenas movimento paradoxal. Isso indica intubação?",
+    "v": "Não. O movimento paradoxal isolado não indica intubação."
+   },
+   {
+    "f": "Um paciente com tórax instável tem falência ventilatória, hipoxemia persistente apesar do suporte ou exaustão. O que fazer?",
+    "v": "Intube o paciente. A intubação também é indicada se a sedação necessária para a analgesia exigir."
+   },
+   {
+    "f": "Quais achados compõem a tríade de Beck no tamponamento cardíaco?",
+    "v": "São hipotensão, turgência jugular e abafamento de bulhas. A tríade é clássica, mas pouco sensível no trauma."
+   },
+   {
+    "f": "Qual exame é a ferramenta central na avaliação do traumatizado instável com suspeita de tamponamento cardíaco?",
+    "v": "É a avaliação ultrassonográfica focada estendida no trauma. Ela permite identificar líquido pericárdico."
+   },
+   {
+    "f": "Qual paciente tem maior chance de benefício com a toracotomia de reanimação?",
+    "v": "É o paciente com trauma penetrante torácico e sinais de vida recentes."
+   },
+   {
+    "f": "Qual causa deve ser presumida no choque após trauma até prova em contrário?",
+    "v": "Presuma hemorragia. Considere também pneumotórax hipertensivo e tamponamento cardíaco."
+   },
+   {
+    "f": "Como se calcula o índice de choque?",
+    "v": "Divida a frequência cardíaca pela pressão arterial sistólica."
+   },
+   {
+    "f": "A partir de que faixa o índice de choque aumenta a preocupação no trauma?",
+    "v": "Quando sobe para perto ou acima de 0,9–1,0. A tendência deve ser interpretada com o quadro clínico."
+   },
+   {
+    "f": "Como o ATLS 11 apresenta a gravidade da hemorragia no lugar das classes I a IV?",
+    "v": "Como um contínuo de gravidade, da hemorragia menor à moderada e à maior."
+   },
+   {
+    "f": "Qual frequência cardíaca caracteriza a hemorragia maior na tabela do ATLS 11?",
+    "v": "É uma frequência cardíaca > 120."
+   },
+   {
+    "f": "Qual pressão arterial sistólica caracteriza a hemorragia maior na tabela do ATLS 11?",
+    "v": "É uma pressão arterial sistólica < 90."
+   },
+   {
+    "f": "Qual déficit de base caracteriza a hemorragia maior na tabela do ATLS 11?",
+    "v": "É um déficit de base de −10 ou menos."
+   },
+   {
+    "f": "Um traumatizado apresenta hemorragia maior pelo ATLS 11. Qual protocolo transfusional é indicado?",
+    "v": "Ative o protocolo de transfusão maciça."
+   },
+   {
+    "f": "Um traumatizado melhora com a ressuscitação, mas volta a piorar. O que fazer?",
+    "v": "Presuma sangramento ativo e acelere o controle da fonte. Essa é uma resposta transitória à ressuscitação."
+   },
+   {
+    "f": "Um paciente tem trauma penetrante de tronco e hemostasia definitiva próxima. Em que condições cabe hipotensão permissiva?",
+    "v": "Cabe com consciência preservada e pulso radial palpável. Esses achados indicam o equilíbrio de perfusão buscado."
+   },
+   {
+    "f": "Um traumatizado tem traumatismo cranioencefálico significativo ou lesão medular. Cabe hipotensão permissiva?",
+    "v": "Não. Nesses pacientes, a hipotensão permissiva não deve ser aplicada."
+   },
+   {
+    "f": "Um traumatizado tem choque hemorrágico grave. Até quando administrar ácido tranexâmico?",
+    "v": "Administre até 3 horas após o trauma."
+   },
+   {
+    "f": "Um traumatizado com choque hemorrágico grave está dentro de 3 horas do trauma. Qual esquema de ácido tranexâmico usar?",
+    "v": "Use 1 g intravenoso em 10 minutos, seguido de 1 g em 8 horas. A alternativa é 2 g em dose única."
+   },
+   {
+    "f": "Um traumatizado está em ressuscitação de controle de danos. Quais alterações fisiológicas corrigir?",
+    "v": "Corrija hipotermia, acidose e hipocalcemia. Monitore o cálcio ionizado."
+   },
+   {
+    "f": "Um traumatizado precisa de reposição durante o controle de danos. Qual é a prioridade de fluidos?",
+    "v": "Use hemoderivados precocemente. Cristaloide só deve ser usado se não houver sangue disponível."
+   },
+   {
+    "f": "Qual queda na escala de coma de Glasgow representa deterioração relevante no trauma?",
+    "v": "Uma queda de 2 pontos ou mais representa deterioração relevante."
+   },
+   {
+    "f": "Um traumatizado perde 2 pontos ou mais na escala de coma de Glasgow. O que fazer?",
+    "v": "Repita a avaliação primária completa e busque a causa da deterioração."
+   },
+   {
+    "f": "Um politraumatizado está instável. Deve ser levado à TC?",
+    "v": "Não. A tomografia computadorizada exige fisiologia compatível com o transporte. No instável, ela é perigosa quando substitui a ressuscitação."
+   }
+  ],
+  "choque-hemorragico": [
+   {
+    "f": "Que tipo de lesão causa choque neurogênico no trauma?",
+    "v": "É uma lesão medular cervical ou torácica alta. Ela causa perda do tônus simpático."
+   },
+   {
+    "f": "Qual é o quadro hemodinâmico típico do choque neurogênico?",
+    "v": "Há hipotensão com bradicardia e pele quente. É uma alteração hemodinâmica."
+   },
+   {
+    "f": "O que caracteriza o choque medular?",
+    "v": "É a perda transitória dos reflexos e do tônus abaixo da lesão. É uma alteração neurológica."
+   },
+   {
+    "f": "Qual choque deve ser presumido no traumatizado com lesão medular e hipotensão?",
+    "v": "Presuma choque hemorrágico até prova em contrário. A lesão medular não afasta hemorragia."
+   },
+   {
+    "f": "Quais câmaras cardíacas são mais atingidas pela contusão cardíaca?",
+    "v": "São o átrio e o ventrículo direitos."
+   },
+   {
+    "f": "Por que a resposta transitória à ressuscitação é perigosa?",
+    "v": "Porque a melhora não significa hemostasia. O paciente melhora e volta a piorar, sugerindo sangramento persistente."
+   },
+   {
+    "f": "Um traumatizado melhora com a ressuscitação, mas volta a piorar. O que fazer?",
+    "v": "Acelere a administração de sangue e o controle da fonte. A resposta transitória é um perfil de alto risco."
+   },
+   {
+    "f": "Um paciente tem choque hemorrágico e ainda não há sangue disponível. Como usar cristaloide?",
+    "v": "Use bolus pequenos e titulados de cristaloide balanceado. O exemplo da aula é de 250–500 mL, com reavaliação após cada bolus."
+   },
+   {
+    "f": "Quais alterações compõem a espiral letal do trauma?",
+    "v": "São acidose, coagulopatia, hipotermia e hipocalcemia. A hipoperfusão gera essas alterações, e cada uma piora as outras."
+   },
+   {
+    "f": "Um paciente tem choque hemorrágico. Qual acesso vascular obter inicialmente?",
+    "v": "Obtenha dois acessos periféricos calibrosos. Se o acesso venoso demorar, use acesso intraósseo."
+   },
+   {
+    "f": "Um traumatizado recebe fluidos e sangue na ressuscitação. Desde quando eles devem ser aquecidos?",
+    "v": "Aqueça fluidos e sangue desde o início. O aquecimento faz parte do controle de danos."
+   },
+   {
+    "f": "Um paciente precisa de ressuscitação hemostática. Qual proporção de hemocomponentes usar?",
+    "v": "Concentrado de hemácias, plasma e plaquetas em proporção perto de 1:1:1, conforme o protocolo. Sangue total O de baixo título é uma alternativa."
+   },
+   {
+    "f": "Um traumatizado selecionado, sem traumatismo cranioencefálico significativo nem lesão medular, recebe hipotensão permissiva. Qual é o alvo de pressão sistólica?",
+    "v": "Mantenha a pressão arterial sistólica em torno de 80–90 mmHg até o controle da fonte."
+   },
+   {
+    "f": "Quais órgãos são mais lesados no trauma abdominal contuso?",
+    "v": "São o fígado, o baço e o rim."
+   },
+   {
+    "f": "Qual lesão do mesentério está associada à marca do cinto no abdome?",
+    "v": "É a lesão em alça de balde."
+   },
+   {
+    "f": "Quais lesões intestinais devem ser procuradas diante da marca do cinto no abdome?",
+    "v": "Procure lesões de delgado ou cólon e de duodeno."
+   },
+   {
+    "f": "Além das lesões intestinais e mesentéricas, quais lesões devem ser procuradas diante da marca do cinto no abdome?",
+    "v": "Procure lesão de pâncreas e fratura de Chance lombar."
+   },
+   {
+    "f": "Qual é o órgão mais lesado nos ferimentos abdominais por arma branca?",
+    "v": "É o fígado, atingido em 40%."
+   },
+   {
+    "f": "Qual é o órgão mais lesado nos ferimentos abdominais por arma de fogo?",
+    "v": "É o intestino delgado, atingido em 50%."
+   },
+   {
+    "f": "Quais são as janelas da avaliação ultrassonográfica focada no trauma?",
+    "v": "São as janelas hepatorrenal, ou de Morison, esplenorrenal, suprapúbica e pericárdica."
+   },
+   {
+    "f": "Qual região é mal avaliada pela ultrassonografia focada no trauma?",
+    "v": "É o retroperitônio. Um exame negativo não exclui sangramento nessa região."
+   },
+   {
+    "f": "Um traumatizado instável tem líquido livre intraperitoneal na ultrassonografia focada. O que fazer?",
+    "v": "Controle imediatamente a fonte intraperitoneal. Não atrase a intervenção para fazer tomografia computadorizada."
+   },
+   {
+    "f": "Um traumatizado está instável e a ultrassonografia focada é negativa. O que fazer?",
+    "v": "Procure sangramento no tórax, na pelve e no retroperitônio e repita a avaliação. O exame negativo não significa ausência de lesão."
+   },
+   {
+    "f": "Um traumatizado instável precisa de investigação abdominal e não há ultrassom disponível. Qual é a alternativa?",
+    "v": "Faça lavado peritoneal diagnóstico."
+   },
+   {
+    "f": "Um paciente tem trauma abdominal penetrante com instabilidade, peritonite ou evisceração. O que fazer?",
+    "v": "Indique laparotomia. Cada um desses achados é indicação cirúrgica no trauma penetrante."
+   },
+   {
+    "f": "Um paciente tem ferimento abdominal por arma de fogo com trajeto transperitoneal. O que fazer?",
+    "v": "Indique laparotomia."
+   },
+   {
+    "f": "Um paciente tem lesão de fígado, baço ou rim. Em quais condições cabe tratamento não operatório?",
+    "v": "Cabe se estiver hemodinamicamente normal, sem peritonite nem outra lesão que exija cirurgia. Exige internação e avaliação pelo cirurgião, com vigilância ativa."
+   },
+   {
+    "f": "Qual mecanismo causa a fratura pélvica em livro aberto?",
+    "v": "É a compressão anteroposterior. Ela aumenta o volume pélvico."
+   },
+   {
+    "f": "Qual é o risco hemorrágico da fratura pélvica em livro aberto?",
+    "v": "Há risco de sangramento grave do plexo venoso posterior. O aumento do volume pélvico favorece a hemorragia."
+   },
+   {
+    "f": "Qual é o mecanismo mais comum de fratura pélvica em colisão de carro?",
+    "v": "É a compressão lateral, com rotação interna. Há risco de lesão de bexiga e uretra."
+   },
+   {
+    "f": "Um traumatizado precisa de cinta pélvica. Onde posicioná-la?",
+    "v": "Centralize a cinta nos grandes trocânteres. Nunca a coloque sobre as cristas ilíacas."
+   },
+   {
+    "f": "Um traumatizado tem hipotensão, ultrassonografia focada negativa e fratura na radiografia de pelve. Qual é a principal suspeita?",
+    "v": "É hemorragia pélvica maior."
+   },
+   {
+    "f": "Um traumatizado com hematoma pélvico precisa de laparotomia. Qual incisão usar?",
+    "v": "Use incisão supraumbilical. Ela evita abrir o hematoma pré-peritoneal."
+   },
+   {
+    "f": "Qual é a origem predominante do sangramento pélvico no trauma?",
+    "v": "É venosa e óssea. Cerca de 15% do sangramento é arterial."
+   },
+   {
+    "f": "O que significa extravasamento de contraste na fase arterial da TC, chamado de blush?",
+    "v": "Significa sangramento ativo."
+   },
+   {
+    "f": "Um traumatizado estável tem extravasamento de contraste na fase arterial da TC. Qual intervenção esse achado orienta?",
+    "v": "Orienta a angioembolização. O extravasamento indica sangramento ativo."
+   },
+   {
+    "f": "O que define uma via aérea definitiva?",
+    "v": "Um tubo na traqueia, com o balonete insuflado abaixo das cordas vocais, fixado e conectado à ventilação assistida com oxigênio."
+   },
+   {
+    "f": "Um traumatizado não pode ser oxigenado com máscara ou dispositivo supraglótico. O que fazer pelo ATLS 11?",
+    "v": "Intube imediatamente. A incapacidade de oxigenar por esses meios é indicação absoluta."
+   },
+   {
+    "f": "Um traumatizado está sendo intubado em sequência rápida. Qual é o máximo de laringoscopias?",
+    "v": "Faça no máximo 3 laringoscopias."
+   },
+   {
+    "f": "Um traumatizado será intubado em sequência rápida. A pressão cricoide deve ser usada de rotina?",
+    "v": "Não. A pressão cricoide não é rotina."
+   },
+   {
+    "f": "Qual é o padrão para confirmar a intubação traqueal?",
+    "v": "É o dióxido de carbono expirado sustentado na capnografia. A ausculta isolada não basta."
+   },
+   {
+    "f": "Um traumatizado precisa de cricotireoidostomia cirúrgica. Em qual direção fazer a incisão da pele?",
+    "v": "Faça a incisão vertical na pele."
+   },
+   {
+    "f": "Um traumatizado precisa de cricotireoidostomia cirúrgica. Em qual direção abrir a membrana?",
+    "v": "Incise a membrana horizontalmente, ou seja, de forma transversal."
+   },
+   {
+    "f": "Uma criança menor de 12 anos precisa de acesso emergencial pela membrana cricotireóidea. Qual opção clássica utilizar?",
+    "v": "Use a punção. A cricotireoidostomia cirúrgica é classicamente contraindicada em menores de 12 anos."
+   },
+   {
+    "f": "Por quanto tempo a cricotireoidostomia por punção oferece uma via aérea temporária na criança?",
+    "v": "Por cerca de 30–45 minutos, até estabelecer a via aérea definitiva."
+   },
+   {
+    "f": "Qual valor de pressão intra-abdominal define hipertensão intra-abdominal?",
+    "v": "Pressão intra-abdominal ≥ 12 mmHg, sustentada ou repetida (no adulto)."
+   },
+   {
+    "f": "Qual critério define síndrome compartimental abdominal?",
+    "v": "Pressão intra-abdominal sustentada > 20 mmHg com nova disfunção orgânica."
+   },
+   {
+    "f": "Um traumatizado tem ruptura extraperitoneal não complicada da bexiga. Como tratar?",
+    "v": "Use sonda vesical por cerca de 10–14 dias. Retire a sonda após a cistografia mostrar cicatrização."
+   },
+   {
+    "f": "Um traumatizado tem ruptura intraperitoneal da bexiga. Como tratar?",
+    "v": "Faça reparo cirúrgico."
+   }
+  ],
+  "neoplasias-gi": [
+   {
+    "f": "Em que região do esôfago o carcinoma escamoso costuma surgir?",
+    "v": "Costuma surgir nos terços superior e médio."
+   },
+   {
+    "f": "Quais são os principais fatores de risco do carcinoma escamoso do esôfago?",
+    "v": "São tabaco e álcool. Seus efeitos são sinérgicos."
+   },
+   {
+    "f": "Em que região costuma surgir o adenocarcinoma do esôfago?",
+    "v": "Costuma surgir no terço distal e na junção esofagogástrica."
+   },
+   {
+    "f": "Quais condições estão associadas ao adenocarcinoma do esôfago?",
+    "v": "Refluxo crônico, esôfago de Barrett e obesidade estão associados a esse tumor."
+   },
+   {
+    "f": "Qual tipo histológico de câncer de esôfago ainda é o mais comum no Brasil?",
+    "v": "É o carcinoma escamoso."
+   },
+   {
+    "f": "O que a rouquidão sugere em um paciente com câncer de esôfago?",
+    "v": "Sugere invasão do nervo laríngeo recorrente."
+   },
+   {
+    "f": "Um paciente com câncer de esôfago tem tosse ao engolir e pneumonias de repetição. Qual complicação é sugerida?",
+    "v": "É sugerida fístula traqueoesofágica. Ela caracteriza doença irressecável."
+   },
+   {
+    "f": "Qual exame confirma câncer de esôfago?",
+    "v": "É a endoscopia digestiva alta com biópsia. A confirmação depende da histologia."
+   },
+   {
+    "f": "Qual é o melhor exame para avaliar a profundidade do câncer de esôfago e os linfonodos regionais?",
+    "v": "É a ecoendoscopia. Ela avalia a profundidade do tumor e os linfonodos regionais."
+   },
+   {
+    "f": "Um paciente tem carcinoma escamoso do esôfago localmente avançado, ressecável e sem metástases. Qual tratamento deve preceder a cirurgia?",
+    "v": "Faça quimiorradioterapia neoadjuvante, no esquema CROSS. Depois, realiza-se a esofagectomia."
+   },
+   {
+    "f": "Um paciente tem adenocarcinoma do esôfago localmente avançado, ressecável e sem metástases. Qual estratégia é preferida?",
+    "v": "Prefira quimioterapia perioperatória, no esquema FLOT. O estudo ESOPEC de 2025 mostrou maior sobrevida com essa estratégia."
+   },
+   {
+    "f": "Um paciente tem carcinoma escamoso do esôfago cervical. Como tratar?",
+    "v": "Faça quimiorradioterapia definitiva. A cirurgia exigiria retirar a laringe."
+   },
+   {
+    "f": "Onde fica a anastomose na esofagectomia de Ivor Lewis?",
+    "v": "Fica no tórax. Uma fístula nessa anastomose causa mediastinite."
+   },
+   {
+    "f": "Qual é o principal fator de risco do câncer gástrico?",
+    "v": "É a infecção por Helicobacter pylori."
+   },
+   {
+    "f": "Qual sequência de alterações liga a infecção por Helicobacter pylori ao câncer gástrico?",
+    "v": "A gastrite evolui para atrofia, metaplasia intestinal, displasia e câncer."
+   },
+   {
+    "f": "Qual tipo de câncer gástrico na classificação de Lauren está ligado ao Helicobacter pylori e costuma ocorrer em idosos?",
+    "v": "É o tipo intestinal. Ele passa pela metaplasia intestinal."
+   },
+   {
+    "f": "Qual é o aspecto microscópico do câncer gástrico intestinal na classificação de Lauren?",
+    "v": "Forma glândulas. O tipo de Lauren, sozinho, não define o grau de diferenciação."
+   },
+   {
+    "f": "Como costuma se disseminar o câncer gástrico intestinal da classificação de Lauren?",
+    "v": "Costuma se disseminar por via hematogênica para o fígado. Seu prognóstico é melhor que o do tipo difuso."
+   },
+   {
+    "f": "Qual tipo de câncer gástrico de Lauren tem componente genético e costuma ocorrer em pacientes mais jovens?",
+    "v": "É o tipo difuso. Ele se associa ao gene CDH1."
+   },
+   {
+    "f": "Qual aspecto celular é característico do câncer gástrico difuso?",
+    "v": "São células pouco coesas, muitas vezes em anel de sinete."
+   },
+   {
+    "f": "Como costuma se disseminar o câncer gástrico difuso?",
+    "v": "Dissemina-se pela parede e pelo peritônio, podendo causar linite plástica. Seu prognóstico é pior que o do tipo intestinal."
+   },
+   {
+    "f": "Onde fica o linfonodo de Virchow?",
+    "v": "Fica na região supraclavicular esquerda. Seu acometimento sugere doença disseminada."
+   },
+   {
+    "f": "Onde fica o linfonodo de Irish?",
+    "v": "Fica na axila esquerda. Seu acometimento sugere doença disseminada."
+   },
+   {
+    "f": "O que é o nódulo da Irmã Maria José?",
+    "v": "Uma metástase no umbigo. Sugere neoplasia disseminada."
+   },
+   {
+    "f": "O que é a prateleira de Blumer?",
+    "v": "É um implante no fundo de saco, palpável ao toque retal."
+   },
+   {
+    "f": "O que é o tumor de Krukenberg?",
+    "v": "É uma metástase ovariana com células em anel de sinete. A origem mais comum é o estômago."
+   },
+   {
+    "f": "Um paciente com câncer gástrico tem citologia positiva no lavado peritoneal, sem implante visível. Qual é a classificação de metástase?",
+    "v": "Já é doença metastática, classificada como M1. Não é necessário haver implante visível."
+   },
+   {
+    "f": "Um paciente tem adenocarcinoma gástrico diferenciado, restrito à mucosa, com até 2 cm e sem úlcera. Qual tratamento cabe pelo critério clássico?",
+    "v": "Cabe ressecção endoscópica. Esses são os critérios clássicos para tratar o tumor por endoscopia."
+   },
+   {
+    "f": "Um paciente será operado por câncer gástrico restrito à mucosa ou submucosa. Qual margem proximal macroscópica usar pela diretriz japonesa?",
+    "v": "Use margem de 2 cm. Esse é o valor para tumores T1."
+   },
+   {
+    "f": "Um paciente será operado por câncer gástrico expansivo, além do estádio T1. Qual margem proximal macroscópica usar?",
+    "v": "Use margem de 3 cm. É o valor para tumores expansivos dos tipos I e II de Borrmann."
+   },
+   {
+    "f": "Um paciente será operado por câncer gástrico infiltrativo, além do estádio T1. Qual margem proximal macroscópica usar?",
+    "v": "Use margem de 5 cm. É o valor para os tipos III e IV de Borrmann. A regra genérica de 6 cm está desatualizada."
+   },
+   {
+    "f": "Quais cadeias linfonodais são retiradas na linfadenectomia de segundo nível do câncer gástrico?",
+    "v": "São retirados os linfonodos perigástricos e os do tronco celíaco e seus ramos. Essa é a linfadenectomia D2."
+   },
+   {
+    "f": "Qual é o número mínimo de linfonodos a examinar no câncer gástrico?",
+    "v": "Examine pelo menos 16 linfonodos."
+   },
+   {
+    "f": "Um paciente fará linfadenectomia de segundo nível por câncer gástrico. O baço deve ser retirado de rotina?",
+    "v": "Não. A retirada do baço não é rotina."
+   },
+   {
+    "f": "Qual tipo de Borrmann é o mais comum no câncer gástrico avançado?",
+    "v": "É o tipo III, ulcerado e infiltrativo."
+   },
+   {
+    "f": "Qual tipo de Borrmann tem o pior prognóstico?",
+    "v": "É o tipo IV, que corresponde à linite plástica."
+   },
+   {
+    "f": "Um paciente tem linfoma gástrico do tecido linfoide associado à mucosa. Qual é o primeiro tratamento?",
+    "v": "Erradique o Helicobacter pylori. O tratamento inicial não é cirúrgico."
+   },
+   {
+    "f": "Qual é o marcador do tumor estromal gastrointestinal?",
+    "v": "É o CD117, também chamado KIT."
+   },
+   {
+    "f": "Um paciente tem tumor estromal gastrointestinal ressecável. Como deve ser a cirurgia?",
+    "v": "Faça ressecção com margem livre, sem linfadenectomia."
+   },
+   {
+    "f": "Um paciente tem tumor estromal gastrointestinal de alto risco ou metastático. Qual medicamento é indicado conforme a mutação?",
+    "v": "O imatinibe é indicado, guiado pela pesquisa de mutação. A mutação PDGFRA D842V não responde."
+   },
+   {
+    "f": "Qual exame foi adotado em maio de 2026 para rastreamento colorretal no Sistema Único de Saúde, em pessoas de risco habitual?",
+    "v": "Foi adotado o teste imunoquímico fecal para assintomáticos de 50 a 75 anos."
+   },
+   {
+    "f": "Uma pessoa tem teste imunoquímico fecal positivo no rastreamento colorretal. O que fazer?",
+    "v": "Faça colonoscopia."
+   },
+   {
+    "f": "Um paciente tem sangramento retal ou anemia. Qual exame pedir para investigar câncer colorretal?",
+    "v": "Peça colonoscopia diagnóstica. O teste imunoquímico fecal é usado no rastreamento de assintomáticos."
+   },
+   {
+    "f": "Qual é a apresentação típica do câncer de cólon direito?",
+    "v": "É anemia ferropriva e massa palpável. Esse tumor raramente obstrui."
+   },
+   {
+    "f": "Qual é a apresentação típica do câncer de cólon esquerdo?",
+    "v": "É mudança do hábito intestinal, fezes afiladas, sangue nas fezes e obstrução."
+   },
+   {
+    "f": "Qual exame orienta a neoadjuvância no câncer de reto?",
+    "v": "É a ressonância da pelve. Ela avalia invasão local, linfonodos e margem circunferencial."
+   },
+   {
+    "f": "A dosagem do antígeno carcinoembrionário confirma câncer colorretal?",
+    "v": "Não. O antígeno carcinoembrionário serve para prognóstico e seguimento."
+   },
+   {
+    "f": "Um paciente tem câncer de cólon localizado, sem indicação de neoadjuvância. Qual é o primeiro tratamento?",
+    "v": "Cirurgia com ressecção oncológica."
+   },
+   {
+    "f": "Um paciente tem câncer de reto médio ou baixo T3–T4 ou com linfonodo positivo. Qual é o primeiro tratamento?",
+    "v": "Faça neoadjuvância antes da cirurgia."
+   },
+   {
+    "f": "Um paciente fará ressecção de câncer de cólon. Qual margem deve ser obtida?",
+    "v": "Obtenha cerca de 5 cm de cada lado do tumor."
+   },
+   {
+    "f": "Qual é o número mínimo de linfonodos a examinar no câncer de cólon?",
+    "v": "Examine pelo menos 12 linfonodos."
+   },
+   {
+    "f": "Um paciente com câncer de reto tem invasão do esfíncter externo ou dos elevadores, ou não há margem distal. Qual operação indicar?",
+    "v": "Indique amputação abdominoperineal, ou cirurgia de Miles. Ela deixa colostomia definitiva."
+   },
+   {
+    "f": "Por que o câncer de reto distal pode causar metástase diretamente no pulmão?",
+    "v": "Porque as veias retais inferiores drenam na cava. Esse sangue não passa primeiro pelo fígado."
+   },
+   {
+    "f": "Um paciente tem obstrução do cólon esquerdo com instabilidade, peritonite ou alça sem condição. Qual operação é indicada?",
+    "v": "Indique cirurgia de Hartmann."
+   },
+   {
+    "f": "Um paciente estável tem obstrução do cólon esquerdo. Quais opções evitam tornar Hartmann uma escolha automática?",
+    "v": "Podem ser feitas ressecção com anastomose ou colocação de prótese como ponte para cirurgia."
+   },
+   {
+    "f": "Um paciente tem tumor de reto médio ou baixo obstruído, sem perfuração. O que fazer na urgência?",
+    "v": "Faça colostomia em alça derivativa, sem ressecar o tumor. Depois, faça estadiamento e neoadjuvância."
+   },
+   {
+    "f": "Qual segmento tem maior risco de romper na obstrução do cólon com válvula ileocecal competente?",
+    "v": "É o ceco. A obstrução forma uma alça fechada, e ele é o segmento que mais distende."
+   },
+   {
+    "f": "Um paciente com obstrução de cólon tem ceco acima de 12 cm e dor na fossa ilíaca direita. O que fazer?",
+    "v": "Faça descompressão urgente. Essa combinação indica risco de perfuração do ceco."
+   },
+   {
+    "f": "Qual alteração genética está na base da síndrome de Lynch?",
+    "v": "Há alteração nos genes de reparo do material genético. A pesquisa tumoral avalia deficiência de reparo e instabilidade de microssatélites."
+   },
+   {
+    "f": "Qual é o perfil do câncer colorretal associado à síndrome de Lynch?",
+    "v": "Surge em pacientes mais jovens e mais à direita. A síndrome também se associa a câncer de endométrio."
+   },
+   {
+    "f": "Como costuma ser o efluente de uma colostomia descendente ou sigmoide?",
+    "v": "É composto de fezes pastosas a formadas."
+   },
+   {
+    "f": "A que altura da pele fica a colostomia?",
+    "v": "Fica pouco acima da pele."
+   },
+   {
+    "f": "Como é o efluente da ileostomia?",
+    "v": "É líquido e rico em enzimas."
+   },
+   {
+    "f": "Qual deve ser a altura da ileostomia em relação à pele?",
+    "v": "Ela deve ser protrusa, com 2–3 cm. Isso permite que o líquido caia longe da pele."
+   },
+   {
+    "f": "Um paciente tem estoma escuro ou preto. O que fazer?",
+    "v": "Solicite avaliação urgente do cirurgião por suspeita de isquemia. Edema inicial é normal, mas cor escura não é."
+   },
+   {
+    "f": "Qual é a complicação precoce mais frequente das estomias?",
+    "v": "É a dermatite periestomal. Quase sempre decorre de vazamento ou de placa recortada larga demais."
+   },
+   {
+    "f": "A partir de qual volume a ileostomia é considerada de alto débito?",
+    "v": "Acima de cerca de 1,5 L/dia."
+   },
+   {
+    "f": "Quais são os riscos da ileostomia de alto débito?",
+    "v": "Há perda de água, sódio e magnésio. Isso pode causar desidratação e insuficiência renal."
+   },
+   {
+    "f": "Um paciente vai trocar a bolsa de estomia. Como recortar a placa?",
+    "v": "Recorte no tamanho do estoma medido, com folga mínima. Não aperte a mucosa nem deixe pele exposta."
+   },
+   {
+    "f": "Um paciente vai trocar a bolsa de estomia. Como limpar a pele sob a placa?",
+    "v": "Limpe com água morna e sabão neutro e seque bem. Não use álcool, éter, óleo ou creme sob a placa."
+   },
+   {
+    "f": "Um paciente usa bolsa de estomia. Em que momento deve esvaziá-la?",
+    "v": "Esvazie quando estiver entre um terço e metade cheia."
+   }
+  ],
+  "cirurgia-pediatrica": [
+   {
+    "f": "Um recém-nascido apresenta vômito bilioso. Qual problema deve ser considerado até prova em contrário?",
+    "v": "É obstrução abaixo da papila. A má rotação com volvo não pode esperar, pois pode causar isquemia intestinal em poucas horas."
+   },
+   {
+    "f": "Um bebê de 2–8 semanas tem vômitos não biliosos em jato e continua faminto. Qual é o diagnóstico?",
+    "v": "É estenose hipertrófica do piloro."
+   },
+   {
+    "f": "Qual distúrbio metabólico é típico da estenose hipertrófica do piloro?",
+    "v": "É alcalose metabólica hipoclorêmica e hipocalêmica. Ela decorre da perda de suco gástrico."
+   },
+   {
+    "f": "Qual exame confirma a estenose hipertrófica do piloro?",
+    "v": "É a ultrassonografia. Ela mede a espessura do músculo pilórico e o comprimento do canal."
+   },
+   {
+    "f": "Na ultrassonografia, a partir de qual espessura do músculo pilórico se sugere estenose hipertrófica?",
+    "v": "≥ 3–4 mm. Interprete junto com o comprimento do canal e o quadro clínico."
+   },
+   {
+    "f": "Na ultrassonografia, a partir de qual comprimento do canal pilórico se sugere estenose hipertrófica?",
+    "v": "≥ 15–18 mm. Interprete junto com a espessura do músculo e o quadro clínico."
+   },
+   {
+    "f": "Um bebê desidratado tem estenose hipertrófica do piloro e alcalose. O que fazer antes de operar?",
+    "v": "Corrija água, cloreto e potássio primeiro. A estenose é uma urgência clínica, e operar com alcalose aumenta o risco de apneia na anestesia."
+   },
+   {
+    "f": "Um bebê com estenose hipertrófica do piloro já teve os distúrbios clínicos corrigidos. Qual cirurgia realizar?",
+    "v": "Faça piloromiotomia de Fredet-Ramstedt."
+   },
+   {
+    "f": "Um recém-nascido tem saliva espumosa, engasgo na primeira mamada e a sonda não desce. Qual é o diagnóstico?",
+    "v": "É atresia de esôfago."
+   },
+   {
+    "f": "O que significa ar no estômago de um recém-nascido com atresia de esôfago?",
+    "v": "Indica fístula traqueoesofágica distal, do tipo C. É o tipo mais comum, com cerca de 85% dos casos."
+   },
+   {
+    "f": "Um recém-nascido tem atresia de esôfago. Como reduzir o risco de aspirar saliva inicialmente?",
+    "v": "Não alimente, eleve a cabeceira e mantenha sonda de Replogle em aspiração no coto superior."
+   },
+   {
+    "f": "Um recém-nascido tem atresia de esôfago. Qual exame cardíaco deve ser feito inicialmente?",
+    "v": "Faça ecocardiograma. O arco aórtico define o lado da toracotomia."
+   },
+   {
+    "f": "Um recém-nascido tem atresia de esôfago. Quais anomalias esqueléticas associadas devem ser investigadas?",
+    "v": "Investigue anomalias das vértebras e dos membros. Elas podem acompanhar as alterações da traqueia e do esôfago."
+   },
+   {
+    "f": "Um recém-nascido com atresia de esôfago já foi avaliado quanto às anomalias esqueléticas e traqueoesofágicas. Quais outros órgãos devem ser investigados?",
+    "v": "Investigue ânus, coração e rins. As alterações vertebrais, anais, cardíacas, traqueoesofágicas, renais e dos membros compõem a associação VACTERL."
+   },
+   {
+    "f": "Qual é o diagnóstico clássico diante do sinal da dupla bolha em um recém-nascido?",
+    "v": "É atresia duodenal. Cerca de um terço dos casos tem síndrome de Down."
+   },
+   {
+    "f": "Além da atresia duodenal, quais alterações podem causar o sinal da dupla bolha?",
+    "v": "Pâncreas anular e membrana duodenal também podem causar esse sinal."
+   },
+   {
+    "f": "Uma criança estável tem suspeita de má rotação intestinal com volvo. Qual exame pedir?",
+    "v": "Peça seriografia gastroduodenal. O duodeno não cruza a linha média, e o volvo pode ter aspecto de saca-rolhas."
+   },
+   {
+    "f": "Uma criança instável tem suspeita de má rotação intestinal com volvo. O que fazer?",
+    "v": "Leve diretamente para cirurgia de Ladd. Não espere um exame demorado."
+   },
+   {
+    "f": "Em quanto tempo o recém-nascido a termo normalmente elimina o mecônio?",
+    "v": "Quase todos eliminam nas primeiras 24 horas, e praticamente todos até 48 horas."
+   },
+   {
+    "f": "Qual exame confirma a doença de Hirschsprung?",
+    "v": "É a biópsia retal por sucção, que mostra ausência de células ganglionares. O enema contrastado apenas sugere o diagnóstico."
+   },
+   {
+    "f": "Qual é a principal causa de morte na doença de Hirschsprung?",
+    "v": "É a enterocolite. Ela se apresenta com febre, distensão e diarreia explosiva e fétida."
+   },
+   {
+    "f": "Uma criança com Hirschsprung tem febre, distensão e diarreia explosiva e fétida. Como tratar essa complicação?",
+    "v": "Faça hidratação, antibiótico e irrigações retais. O quadro é de enterocolite associada ao Hirschsprung."
+   },
+   {
+    "f": "Um recém-nascido estável tem anomalia anorretal sem fístula visível. Por quanto tempo observar antes de decidir?",
+    "v": "Até 24 horas, procurando mecônio no períneo ou na urina. Mecônio na urina indica fístula urinária."
+   },
+   {
+    "f": "Um recém-nascido com anomalia anorretal continua sem fístula visível após 24 horas. O que avaliar para decidir a cirurgia?",
+    "v": "Meça a distância entre o reto e a pele. Ela orienta a escolha entre correção primária e colostomia."
+   },
+   {
+    "f": "Um recém-nascido com anomalia anorretal sem fístula tem distância reto-pele < 1 cm e nenhuma outra anomalia. Qual conduta cabe?",
+    "v": "Cabe correção primária. Sem essas condições, faça colostomia e correção posterior."
+   },
+   {
+    "f": "Qual é a urgência cirúrgica mais comum do prematuro?",
+    "v": "É a enterocolite necrosante."
+   },
+   {
+    "f": "Qual é o achado radiográfico característico da enterocolite necrosante?",
+    "v": "É a pneumatose intestinal, com ar na parede das alças. Nos casos graves, há gás na veia porta e pneumoperitônio."
+   },
+   {
+    "f": "Um prematuro com enterocolite necrosante tem pneumoperitônio ou piora apesar do tratamento clínico. O que fazer?",
+    "v": "Indique cirurgia. O pneumoperitônio indica perfuração."
+   },
+   {
+    "f": "Qual é a faixa etária típica da intussuscepção?",
+    "v": "É de 3 meses a 3 anos."
+   },
+   {
+    "f": "Uma criança tem crises de choro com pernas encolhidas, intercaladas com calma, além de vômitos e massa em salsicha. Qual é o diagnóstico?",
+    "v": "É intussuscepção."
+   },
+   {
+    "f": "É preciso esperar fezes em geleia de framboesa para diagnosticar intussuscepção?",
+    "v": "Não. Esse é um sinal tardio."
+   },
+   {
+    "f": "Qual exame diagnostica intussuscepção na criança?",
+    "v": "É a ultrassonografia. O achado típico é o sinal do alvo."
+   },
+   {
+    "f": "Uma criança com intussuscepção está estável e sem peritonite. Como tratar?",
+    "v": "Faça redução por enema guiado por imagem."
+   },
+   {
+    "f": "Uma criança com intussuscepção tem peritonite, perfuração ou choque. Como tratar?",
+    "v": "Indique cirurgia. Essas condições contraindicam a redução por enema."
+   },
+   {
+    "f": "Uma criança acima de 3 anos tem intussuscepção, ou apresenta recorrência. O que deve ser investigado?",
+    "v": "Investigue uma causa orgânica, como divertículo de Meckel, pólipo ou linfoma."
+   },
+   {
+    "f": "Por que a apendicite perfura com mais frequência em crianças abaixo de 5 anos?",
+    "v": "Porque a criança não localiza a dor e o omento é curto."
+   },
+   {
+    "f": "Um bebê tem icterícia que persiste além de 2 semanas ou voltou após melhorar. Qual exame pedir?",
+    "v": "Dose a bilirrubina direta. A icterícia persistente ou recorrente exige investigação de colestase."
+   },
+   {
+    "f": "Um bebê amamentado está bem, sem fezes claras nem urina escura e com seguimento garantido. Até quando se pode esperar para dosar bilirrubina direta pela icterícia?",
+    "v": "Pode-se esperar até 3 semanas."
+   },
+   {
+    "f": "Um bebê apresenta fezes claras. Quando avaliar a bilirrubina direta?",
+    "v": "Avalie imediatamente. Fezes claras exigem investigação na hora, em qualquer idade."
+   },
+   {
+    "f": "Um bebê de 1 mês tem icterícia e fezes claras. Qual diagnóstico considerar até prova em contrário?",
+    "v": "Considere atresia de vias biliares. Esse quadro não deve ser atribuído à icterícia do leite materno."
+   },
+   {
+    "f": "Um bebê tem atresia de vias biliares. Qual cirurgia deve ser realizada?",
+    "v": "Faça portoenterostomia de Kasai."
+   },
+   {
+    "f": "Um bebê com atresia de vias biliares precisa de portoenterostomia de Kasai. Qual é o prazo preferencial?",
+    "v": "Opere de preferência antes de 30–45 dias. O tempo até a cirurgia influencia o resultado."
+   },
+   {
+    "f": "Um bebê com atresia de vias biliares não melhorou após a cirurgia de Kasai. Qual é a próxima opção?",
+    "v": "É o transplante hepático."
+   },
+   {
+    "f": "Por que os cistos de colédoco dos tipos I e IV devem ser ressecados?",
+    "v": "Porque deixar o cisto aumenta o risco de colangiocarcinoma."
+   },
+   {
+    "f": "Uma criança tem cisto de colédoco do tipo I ou IV. Qual tratamento cirúrgico realizar?",
+    "v": "Ressecção do cisto e da vesícula, com hepaticojejunostomia em Y de Roux."
+   },
+   {
+    "f": "Como é o defeito da parede abdominal na gastrosquise?",
+    "v": "Fica ao lado do cordão, quase sempre à direita, sem membrana cobrindo as alças."
+   },
+   {
+    "f": "Como é o defeito da parede abdominal na onfalocele?",
+    "v": "É central, com um saco de membrana. O cordão umbilical sai desse saco."
+   },
+   {
+    "f": "Qual defeito da parede abdominal tem mais anomalias associadas: gastrosquise ou onfalocele?",
+    "v": "É a onfalocele. Anomalias associadas são frequentes nessa condição."
+   },
+   {
+    "f": "Quais anomalias cromossômicas estão associadas à onfalocele?",
+    "v": "São as trissomias 13, 18 e 21."
+   },
+   {
+    "f": "Além das trissomias, quais anomalias estão associadas à onfalocele?",
+    "v": "Há associação com anomalias cardíacas e síndrome de Beckwith-Wiedemann."
+   },
+   {
+    "f": "Qual é a principal anomalia associada à gastrosquise?",
+    "v": "É a atresia intestinal. A gastrosquise tem poucas anomalias associadas."
+   },
+   {
+    "f": "Um recém-nascido tem gastrosquise na sala de parto. Como proteger e posicionar as alças inicialmente?",
+    "v": "Envolva as alças em cobertura estéril e saco plástico, com a criança de lado. Não tente reduzir à força."
+   },
+   {
+    "f": "Um recém-nascido com gastrosquise já teve as alças protegidas. Que suporte inicial deve receber?",
+    "v": "Passe sonda gástrica e faça hidratação e aquecimento. A proteção das alças reduz a perda de água e calor."
+   },
+   {
+    "f": "Um recém-nascido tem onfalocele, macroglossia e hipoglicemia. Qual é a síndrome?",
+    "v": "É a síndrome de Beckwith-Wiedemann."
+   },
+   {
+    "f": "Uma criança tem síndrome de Beckwith-Wiedemann. Quais tumores devem ser rastreados?",
+    "v": "Rastreie tumor de Wilms e hepatoblastoma."
+   },
+   {
+    "f": "O que define o prognóstico na hérnia diafragmática congênita?",
+    "v": "São a hipoplasia pulmonar e a hipertensão pulmonar. A gravidade depende dessas alterações."
+   },
+   {
+    "f": "Um recém-nascido tem hérnia diafragmática congênita e desconforto respiratório. Como oferecer suporte respiratório inicial?",
+    "v": "Intube logo e faça ventilação gentil, com sonda gástrica. Não use máscara e bolsa, pois o ar distende as alças no tórax."
+   },
+   {
+    "f": "Um recém-nascido tem hérnia diafragmática congênita. Quando corrigir o defeito?",
+    "v": "Faça a correção de forma eletiva, depois da estabilização."
+   },
+   {
+    "f": "Onde fica a hérnia diafragmática de Bochdalek?",
+    "v": "Na região posterolateral do diafragma, geralmente à esquerda. É a forma mais comum."
+   },
+   {
+    "f": "Onde fica a hérnia diafragmática de Morgagni?",
+    "v": "Fica na região anterior. É uma forma rara."
+   },
+   {
+    "f": "Uma criança tem hérnia inguinal. Qual é a conduta?",
+    "v": "Opere de forma programada e sem demora. A hérnia não regride, e a cirurgia é a ligadura alta do saco."
+   },
+   {
+    "f": "Uma menina tem hérnia inguinal encarcerada. Qual cuidado tomar antes de tentar reduzir?",
+    "v": "Chame o cirurgião pediátrico e não reduza às cegas. A massa pode ser o ovário, que torce sem sinais intestinais."
+   },
+   {
+    "f": "Uma criança tem hérnia umbilical sem complicações. Até quando observar?",
+    "v": "Observe até os 5 anos. Cerca de 88,6% fecham sozinhas até essa idade."
+   },
+   {
+    "f": "Uma criança tem hérnia umbilical persistente após os 5 anos, encarcerada ou muito grande. Qual é a conduta?",
+    "v": "Indique cirurgia."
+   },
+   {
+    "f": "Um bebê tem testículo que não desceu. Quando encaminhar por criptorquidia?",
+    "v": "Encaminhe se não tiver descido aos 6 meses. No prematuro, use a idade corrigida."
+   },
+   {
+    "f": "Um bebê com criptorquidia será operado. Qual é o prazo para orquidopexia?",
+    "v": "Faça de preferência até os 12 meses e, no máximo, até os 18 meses."
+   },
+   {
+    "f": "Um bebê com criptorquidia será encaminhado ao cirurgião. Deve fazer ultrassom antes?",
+    "v": "Não. O ultrassom não muda a conduta e atrasa o encaminhamento."
+   },
+   {
+    "f": "Uma criança com criptorquidia tem testículo não palpável. Qual procedimento é indicado?",
+    "v": "Faça laparoscopia."
+   },
+   {
+    "f": "Um menino tem fimose com sintomas. Qual é o primeiro tratamento?",
+    "v": "Use corticoide tópico, como betametasona, por 4 a 8 semanas. Nunca retraia o prepúcio à força."
+   },
+   {
+    "f": "Um menino tem parafimose. O que fazer?",
+    "v": "Faça redução manual imediata. É uma urgência. Se a redução falhar, faça incisão dorsal."
+   },
+   {
+    "f": "Um menino tem hipospádia. Pode ser feita postectomia antes da correção?",
+    "v": "Não. O prepúcio pode ser usado na correção da hipospádia."
+   },
+   {
+    "f": "Um menino tem hipospádia. Em qual faixa etária fazer a correção?",
+    "v": "Faça a correção entre 6 e 18 meses."
+   },
+   {
+    "f": "Qual é a causa mais comum de escroto agudo entre 7 e 12 anos?",
+    "v": "É a torção do apêndice testicular. O tratamento é clínico."
+   },
+   {
+    "f": "Qual é a frequência do divertículo de Meckel pela regra dos 2?",
+    "v": "Ocorre em 2% da população."
+   },
+   {
+    "f": "A que distância da válvula ileocecal fica o divertículo de Meckel pela regra dos 2?",
+    "v": "Fica a 2 pés da válvula ileocecal."
+   },
+   {
+    "f": "No divertículo de Meckel, quantos tipos de mucosa ectópica a regra clássica lembra?",
+    "v": "São 2 tipos de mucosa ectópica."
+   },
+   {
+    "f": "Uma criança tem sangramento intestinal indolor e suspeita de divertículo de Meckel. Qual exame pedir?",
+    "v": "Peça cintilografia com tecnécio."
+   }
+  ],
+  "hemorragia-digestiva": [
+   {
+    "f": "Qual estrutura marca o limite entre hemorragia digestiva alta e baixa?",
+    "v": "O ângulo de Treitz."
+   },
+   {
+    "f": "Qual é a causa mais comum de hemorragia digestiva alta?",
+    "v": "Úlcera péptica. As principais associações são Helicobacter pylori e uso de anti-inflamatórios."
+   },
+   {
+    "f": "Um paciente instável elimina sangue vivo pelo ânus. Isso exclui hemorragia digestiva alta?",
+    "v": "Não. Um sangramento alto volumoso também pode causar hematoquezia, geralmente com instabilidade."
+   },
+   {
+    "f": "Paciente com hemorragia digestiva alta está em atendimento inicial. Deve receber sonda nasogástrica de rotina?",
+    "v": "Não. A sonda não muda a conduta, e um aspirado limpo não exclui sangramento duodenal."
+   },
+   {
+    "f": "Paciente com hemorragia digestiva alta está em atendimento inicial. Deve receber ácido tranexâmico?",
+    "v": "Não. O ácido tranexâmico não reduziu a mortalidade e aumentou a trombose venosa."
+   },
+   {
+    "f": "Paciente com hemorragia digestiva alta tem Glasgow-Blatchford de 0 ou 1. Onde pode fazer a endoscopia?",
+    "v": "Ambulatorialmente. Essa pontuação identifica risco muito baixo."
+   },
+   {
+    "f": "Em que momento da investigação da hemorragia digestiva se calcula o Glasgow-Blatchford?",
+    "v": "Antes da endoscopia."
+   },
+   {
+    "f": "Em que momento se calcula o escore de Rockall completo?",
+    "v": "Depois da endoscopia. Ele inclui os achados endoscópicos."
+   },
+   {
+    "f": "Paciente estável com hemorragia digestiva, sem doença cardiovascular, tem anemia. Abaixo de qual hemoglobina se indica transfusão?",
+    "v": "Abaixo de 7 g/dL."
+   },
+   {
+    "f": "Paciente estável com hemorragia digestiva e doença cardiovascular tem anemia. Qual limiar de hemoglobina pode ser usado para transfundir?",
+    "v": "Abaixo de 8 g/dL."
+   },
+   {
+    "f": "Paciente com hemorragia digestiva está em choque ativo. Qual critério orienta a transfusão?",
+    "v": "A condição clínica. No choque ativo, não se deve esperar um valor de hemoglobina para transfundir."
+   },
+   {
+    "f": "Qual é a finalidade da eritromicina antes da endoscopia na hemorragia digestiva alta?",
+    "v": "Esvaziar o estômago e melhorar a visualização. É administrada por via venosa 30 a 120 minutos antes do exame."
+   },
+   {
+    "f": "Paciente com suspeita de úlcera sangrante foi reanimado. Em quanto tempo deve fazer endoscopia?",
+    "v": "Em até 24 horas, depois da reanimação. Fazer de rotina nas primeiras 12 horas não melhorou os desfechos."
+   },
+   {
+    "f": "Paciente tem úlcera com sangramento em jato, classificada como Forrest Ia. Qual tratamento local indicar?",
+    "v": "Hemostasia endoscópica. Pode ser feita com clipe ou método térmico."
+   },
+   {
+    "f": "Paciente tem úlcera com sangramento em babação, classificada como Forrest Ib. Qual tratamento local indicar?",
+    "v": "Hemostasia endoscópica. O sangramento ativo precisa ser tratado."
+   },
+   {
+    "f": "Paciente tem úlcera com vaso visível sem sangramento, classificada como Forrest IIa. Qual tratamento local indicar?",
+    "v": "Hemostasia endoscópica. O vaso visível mantém o risco de ressangramento."
+   },
+   {
+    "f": "Paciente tem úlcera com pontos de hematina, classificada como Forrest IIc. Como tratar?",
+    "v": "Usar inibidor da bomba de prótons por via oral e considerar alta precoce. Não é necessário tratamento endoscópico."
+   },
+   {
+    "f": "Paciente tem úlcera de base limpa, classificada como Forrest III. Como tratar?",
+    "v": "Usar inibidor da bomba de prótons por via oral e considerar alta precoce. Não é necessário tratamento endoscópico."
+   },
+   {
+    "f": "Paciente com úlcera sangrante recebeu adrenalina na endoscopia. É suficiente como método isolado?",
+    "v": "Não. A adrenalina deve ser combinada a um segundo método, como clipe ou tratamento térmico."
+   },
+   {
+    "f": "Paciente teve hemostasia de úlcera de alto risco. Qual esquema de IBP usar depois?",
+    "v": "Inibidor da bomba de prótons (IBP) em dose alta por 72 horas. Depois, via oral duas vezes ao dia por 2 semanas."
+   },
+   {
+    "f": "Paciente foi tratado por úlcera sangrante. Qual bactéria deve ser pesquisada e erradicada?",
+    "v": "Helicobacter pylori. Sua pesquisa e erradicação fazem parte do cuidado após a hemostasia."
+   },
+   {
+    "f": "Paciente com úlcera voltou a sangrar após hemostasia endoscópica. Qual é o próximo passo?",
+    "v": "Repetir a endoscopia. Se ela falhar, o próximo recurso é a embolização arterial."
+   },
+   {
+    "f": "Paciente com úlcera continua sangrando após nova endoscopia e embolização arterial. Qual é o próximo passo?",
+    "v": "Cirurgia. Ela vem após a falha da nova endoscopia e da embolização."
+   },
+   {
+    "f": "Por que uma úlcera da parede posterior do bulbo duodenal pode causar sangramento grave?",
+    "v": "Porque pode erodir a artéria gastroduodenal."
+   },
+   {
+    "f": "Qual complicação é típica da úlcera da parede anterior do bulbo duodenal?",
+    "v": "Perfuração. A úlcera posterior é a que pode erodir a artéria gastroduodenal."
+   },
+   {
+    "f": "Um paciente sangra após vômitos repetidos e tem laceração na junção esofagogástrica. Qual é o diagnóstico?",
+    "v": "Síndrome de Mallory-Weiss. O sangramento geralmente para sozinho."
+   },
+   {
+    "f": "Um paciente tem ruptura do esôfago após vômitos. Qual é o diagnóstico?",
+    "v": "Síndrome de Boerhaave. Trata-se de perfuração e de uma emergência cirúrgica."
+   },
+   {
+    "f": "Um paciente apresenta dor torácica, vômitos e enfisema subcutâneo. Qual síndrome é sugerida pela tríade de Mackler?",
+    "v": "Síndrome de Boerhaave. A tríade sugere ruptura do esôfago."
+   },
+   {
+    "f": "Qual lesão causa sangramento súbito e volumoso por uma artéria calibrosa sob mucosa normal?",
+    "v": "Lesão de Dieulafoy."
+   },
+   {
+    "f": "Um paciente com prótese de aorta apresenta sangramento digestivo sentinela. Qual diagnóstico deve ser suspeitado?",
+    "v": "Fístula aortoentérica. O sangramento sentinela pode preceder uma hemorragia maciça."
+   },
+   {
+    "f": "Um paciente tem sangramento pela papila, dor e icterícia, formando a tríade de Sandblom. Qual é o diagnóstico?",
+    "v": "Hemobilia."
+   },
+   {
+    "f": "Um paciente apresenta varizes apenas no fundo gástrico após pancreatite. Qual alteração vascular explica esse achado?",
+    "v": "Trombose isolada da veia esplênica."
+   },
+   {
+    "f": "Paciente com cirrose chega com hematêmese. Qual classe de medicamento para reduzir o sangramento deve começar antes da endoscopia?",
+    "v": "Um vasoativo, como terlipressina, octreotide ou somatostatina. O início é na admissão, sem esperar a endoscopia."
+   },
+   {
+    "f": "Paciente com cirrose chega com hematêmese. Qual profilaxia medicamentosa deve começar na admissão?",
+    "v": "Antibiótico profilático, como ceftriaxona. Ele deve começar sem esperar a endoscopia."
+   },
+   {
+    "f": "Paciente com suspeita de hemorragia varicosa recebeu reanimação inicial. Qual é o prazo da endoscopia?",
+    "v": "Até 12 horas da chegada, depois da reanimação inicial."
+   },
+   {
+    "f": "Paciente tem variz esofágica sangrante identificada na endoscopia. Qual tratamento endoscópico indicar?",
+    "v": "Ligadura elástica."
+   },
+   {
+    "f": "Paciente tem variz do fundo gástrico sangrante. Qual tratamento endoscópico indicar?",
+    "v": "Adesivo tecidual, como cianoacrilato."
+   },
+   {
+    "f": "Paciente com hemorragia varicosa precisa de transfusão. Qual é a hemoglobina-alvo?",
+    "v": "7 a 8 g/dL. O excesso de volume aumenta a pressão portal e favorece o ressangramento."
+   },
+   {
+    "f": "Qual é o papel do balão de Sengstaken-Blakemore na hemorragia varicosa?",
+    "v": "Servir de ponte até o tratamento definitivo. O sangramento pode voltar ao desinsuflar o balão."
+   },
+   {
+    "f": "Paciente com hemorragia varicosa precisa de balão de Sengstaken-Blakemore. Por quanto tempo ele pode permanecer?",
+    "v": "No máximo cerca de 24 horas, com o paciente intubado. O balão é uma medida temporária."
+   },
+   {
+    "f": "Paciente com sangramento varicoso é Child C até 13 pontos. Qual intervenção precoce considerar pelo Baveno VII?",
+    "v": "Derivação portossistêmica intra-hepática transjugular. Deve ser feita em até 72 horas, de preferência nas primeiras 24 horas."
+   },
+   {
+    "f": "Paciente Child B acima de 7 pontos tem sangramento ativo na endoscopia. Qual intervenção precoce considerar pelo Baveno VII?",
+    "v": "Derivação portossistêmica intra-hepática transjugular. Deve ser feita em até 72 horas, de preferência nas primeiras 24 horas."
+   },
+   {
+    "f": "Paciente com indicação de prevenir o primeiro sangramento de varizes pode usar betabloqueador. Qual é o preferido?",
+    "v": "Carvedilol, um betabloqueador não seletivo."
+   },
+   {
+    "f": "Paciente com indicação de prevenir o primeiro sangramento de varizes não tolera betabloqueador. Qual alternativa usar?",
+    "v": "Ligadura elástica. É a alternativa em caso de contraindicação ou intolerância ao betabloqueador."
+   },
+   {
+    "f": "Paciente teve sangramento de varizes esofágicas, controlado sem TIPS. Como prevenir um novo episódio?",
+    "v": "Associar betabloqueador não seletivo a ligaduras seriadas. Quem já sangrou precisa de profilaxia secundária."
+   },
+   {
+    "f": "Paciente já sangrou de variz do fundo gástrico. Como definir a profilaxia secundária?",
+    "v": "Individualizar a profilaxia. A variz gástrica de fundo exige uma decisão específica."
+   },
+   {
+    "f": "Qual é a causa mais comum de hemorragia digestiva baixa no adulto?",
+    "v": "Doença diverticular. Costuma causar sangramento volumoso e indolor em idosos, que para sozinho na maioria dos casos."
+   },
+   {
+    "f": "Um idoso tem sangramento intestinal intermitente, anemia ferropriva e lesões no cólon direito ou delgado. Qual causa é típica?",
+    "v": "Angiodisplasia."
+   },
+   {
+    "f": "Paciente com hemorragia digestiva baixa tem Oakland ≤ 8 e parou de sangrar. Quando pode receber alta?",
+    "v": "Quando não houver outro motivo para internar e o seguimento estiver garantido. A investigação pode ser ambulatorial."
+   },
+   {
+    "f": "Paciente com hemorragia digestiva baixa tem sangramento ativo importante. Qual exame solicitar primeiro?",
+    "v": "Angiotomografia. Ela procura o local do sangramento ativo."
+   },
+   {
+    "f": "Paciente com hemorragia digestiva baixa teve a fonte localizada na angiotomografia. Qual é o próximo procedimento?",
+    "v": "Arteriografia com embolização."
+   },
+   {
+    "f": "Paciente estável com hemorragia digestiva baixa precisa investigar a fonte. Qual exame indicar?",
+    "v": "Colonoscopia com preparo. Ela permite diagnosticar e tratar a fonte."
+   },
+   {
+    "f": "Por que dois cateteres periféricos de 14–16 G permitem mais fluxo que um cateter central longo?",
+    "v": "Pela lei de Poiseuille. O fluxo aumenta com o calibre e diminui com o comprimento do cateter."
+   },
+   {
+    "f": "Paciente precisa de acesso venoso central guiado por ultrassom. Qual veia é a primeira escolha?",
+    "v": "Jugular interna. É compressível e fica lateral à carótida."
+   },
+   {
+    "f": "Qual é a principal troca de riscos ao escolher a veia subclávia para acesso central?",
+    "v": "Menos infecção, mas mais pneumotórax. Também é difícil comprimir o local se houver sangramento."
+   },
+   {
+    "f": "Qual é o perfil de riscos e vantagens do acesso central femoral na emergência?",
+    "v": "É rápido e não causa pneumotórax. Porém, tem mais infecção e trombose que o acesso subclávio."
+   },
+   {
+    "f": "Paciente teve dilatador ou cateter central introduzido em uma artéria. O que fazer?",
+    "v": "Deixar no lugar e chamar a cirurgia vascular. Não retirar o dilatador ou o cateter."
+   },
+   {
+    "f": "Paciente teve apenas a agulha de punção venosa introduzida em uma artéria. O que fazer?",
+    "v": "Retirar a agulha e comprimir o local."
+   },
+   {
+    "f": "Paciente está recebendo acesso central e o fio-guia já foi passado. O que confirmar antes de dilatar?",
+    "v": "Confirmar o fio-guia dentro da veia pelo ultrassom. Sangue escuro não prova que a punção foi venosa."
+   },
+   {
+    "f": "Onde deve ficar a ponta de um cateter venoso central introduzido pela região superior do corpo?",
+    "v": "No terço inferior da veia cava superior, junto ao átrio."
+   },
+   {
+    "f": "Paciente vai receber ou retirar um acesso central. Como prevenir embolia gasosa?",
+    "v": "Usar a posição de Trendelenburg na inserção e na retirada e manter as vias sempre fechadas."
+   },
+   {
+    "f": "Qual é o ponto de punção intraóssea na tíbia proximal?",
+    "v": "A face anteromedial plana, 1–2 cm abaixo e medial à tuberosidade da tíbia. O ponto deve ficar longe da placa de crescimento."
+   },
+   {
+    "f": "Paciente precisa de acesso intraósseo, mas o osso escolhido está fraturado ou foi puncionado nas últimas 48 horas. Pode usá-lo?",
+    "v": "Não. Escolha outro osso."
+   },
+   {
+    "f": "Paciente precisa de acesso intraósseo e tem prótese ou cirurgia no local escolhido. Pode puncionar ali?",
+    "v": "Não. Prótese ou cirurgia no local contraindicam essa punção."
+   },
+   {
+    "f": "Paciente precisa de acesso intraósseo, mas há infecção ou queimadura sobre o ponto escolhido. Pode puncionar ali?",
+    "v": "Não. Infecção ou queimadura sobre o ponto contraindicam a punção naquele local."
+   },
+   {
+    "f": "Paciente consciente recebeu acesso intraósseo. O que administrar antes da primeira lavagem com soro?",
+    "v": "Lidocaína sem vasoconstritor pela agulha. Ela fornece analgesia antes da lavagem."
+   },
+   {
+    "f": "Paciente está com acesso intraósseo funcionando. Quando substituí-lo?",
+    "v": "Por acesso venoso assim que possível, em geral em até 24 horas."
+   }
+  ],
+  "abdome-agudo": [
+   {
+    "f": "Qual tipo de abdome agudo costuma causar dor inicialmente vaga que se localiza em horas, com febre e leucocitose?",
+    "v": "Abdome agudo inflamatório. Apendicite, colecistite, diverticulite e pancreatite são exemplos."
+   },
+   {
+    "f": "Qual tipo de abdome agudo causa cólica, vômitos, distensão e parada de gases e fezes?",
+    "v": "Abdome agudo obstrutivo. O problema é a interrupção da passagem do conteúdo intestinal."
+   },
+   {
+    "f": "Um paciente tem dor abdominal súbita, muito intensa, e abdome em tábua. Qual tipo de abdome agudo é sugerido?",
+    "v": "Abdome agudo perfurativo. A dor pode se espalhar após a perfuração de uma víscera."
+   },
+   {
+    "f": "Um idoso com arritmia tem dor abdominal muito forte, mas abdome flácido e pouco doloroso. Qual diagnóstico é sugerido?",
+    "v": "Isquemia mesentérica, um abdome agudo vascular. A dor é desproporcional ao exame físico."
+   },
+   {
+    "f": "Qual tipo de abdome agudo combina dor súbita, choque e anemia?",
+    "v": "Abdome agudo hemorrágico. Gravidez ectópica rota e ruptura de aneurisma são exemplos."
+   },
+   {
+    "f": "Uma mulher em idade fértil apresenta dor abdominal e choque. Qual diagnóstico deve ser considerado até prova em contrário?",
+    "v": "Gravidez ectópica rota. É uma causa de hemorragia que pode imitar qualquer abdome agudo."
+   },
+   {
+    "f": "Paciente em idade fértil chega com dor abdominal e choque. Qual exame para gravidez colher logo na chegada?",
+    "v": "A fração beta da gonadotrofina coriônica humana. A coleta não deve atrasar a reanimação nem a chamada do cirurgião."
+   },
+   {
+    "f": "Como é a dor abdominal de origem visceral?",
+    "v": "É mal localizada, geralmente na linha média e acompanhada de náusea. Pode ser em cólica ou surda."
+   },
+   {
+    "f": "Como é a dor abdominal de origem parietal?",
+    "v": "É bem localizada e contínua, piorando ao mover ou tossir. Reflete irritação do peritônio parietal."
+   },
+   {
+    "f": "O que explica a dor no ombro esquerdo chamada de sinal de Kehr?",
+    "v": "Irritação do diafragma, como na ruptura do baço. É uma dor referida, sentida longe do órgão afetado."
+   },
+   {
+    "f": "O que indica dor à descompressão brusca no ponto de McBurney, chamada de sinal de Blumberg?",
+    "v": "Peritonite localizada, como na apendicite."
+   },
+   {
+    "f": "Um paciente sente dor à direita quando se comprime a fossa ilíaca esquerda. Qual doença o sinal de Rovsing sugere?",
+    "v": "Apendicite."
+   },
+   {
+    "f": "Na suspeita de apendicite, qual posição do apêndice é sugerida pelo sinal do psoas?",
+    "v": "Posição retrocecal. O sinal é dor ao estender o quadril."
+   },
+   {
+    "f": "Na suspeita de apendicite, qual posição do apêndice é sugerida pelo sinal do obturador?",
+    "v": "Posição pélvica. O sinal é dor ao rodar para dentro a coxa fletida."
+   },
+   {
+    "f": "Um paciente interrompe a inspiração quando se palpa o ponto cístico. Qual diagnóstico o sinal de Murphy sugere?",
+    "v": "Colecistite aguda."
+   },
+   {
+    "f": "O que sugere timpanismo no local da macicez hepática, chamado de sinal de Jobert?",
+    "v": "Pneumoperitônio."
+   },
+   {
+    "f": "Onde aparece a equimose do sinal de Cullen no abdome agudo?",
+    "v": "Em volta do umbigo. Pode indicar hemorragia intra-abdominal ou retroperitoneal, como na pancreatite grave ou gravidez ectópica rota."
+   },
+   {
+    "f": "Onde aparece a equimose do sinal de Grey Turner no abdome agudo?",
+    "v": "Nos flancos. Pode indicar hemorragia intra-abdominal ou retroperitoneal, como na pancreatite grave ou gravidez ectópica rota."
+   },
+   {
+    "f": "Paciente idosa tem obstrução intestinal e nunca operou o abdome. Que regiões precisam ser examinadas?",
+    "v": "Todas as regiões herniárias. Uma hérnia femoral encarcerada pode passar despercebida."
+   },
+   {
+    "f": "Por que o abdome agudo pode parecer menos grave do que realmente é no idoso?",
+    "v": "Porque pode haver pouca febre, pouca leucocitose e dor menos intensa, mesmo com perfuração ou isquemia. O limiar para tomografia deve ser baixo."
+   },
+   {
+    "f": "Qual doença cardíaca pode imitar abdome agudo com dor epigástrica e exige ECG?",
+    "v": "Infarto de parede inferior. O eletrocardiograma ajuda a investigar essa causa de dor epigástrica."
+   },
+   {
+    "f": "Um leucograma normal exclui doença cirúrgica em um paciente com dor abdominal aguda?",
+    "v": "Não. Isso é especialmente importante no idoso e no imunossuprimido."
+   },
+   {
+    "f": "Paciente com abdome agudo tem dor intensa. Pode receber opioide antes de fechar o diagnóstico?",
+    "v": "Sim. A analgesia com opioide não mascara o diagnóstico e não deve ser negada."
+   },
+   {
+    "f": "Paciente adulto tem dor abdominal aguda não localizada. Qual é o exame de imagem mais completo?",
+    "v": "Tomografia computadorizada com contraste."
+   },
+   {
+    "f": "Uma radiografia normal exclui abdome agudo?",
+    "v": "Não. A radiografia é pouco sensível e não deve atrasar uma tomografia indicada."
+   },
+   {
+    "f": "Qual é o significado de ver os dois lados da parede intestinal na radiografia de abdome deitado, o sinal de Rigler?",
+    "v": "Pneumoperitônio. O ar dentro e fora da alça permite ver as duas faces da parede."
+   },
+   {
+    "f": "Qual diagnóstico é sugerido pelo sinal do grão de café na radiografia abdominal?",
+    "v": "Volvo de sigmoide. A alça muito dilatada fica dobrada sobre si."
+   },
+   {
+    "f": "Por que o sinal de Chilaiditi pode ser confundido com pneumoperitônio?",
+    "v": "Porque o cólon fica entre o fígado e o diafragma. As haustrações no interior do ar mostram que ele está dentro do intestino."
+   },
+   {
+    "f": "Ar livre no abdome após laparotomia ou laparoscopia sempre significa perfuração?",
+    "v": "Não. O ar pode persistir por dias após a cirurgia. O achado deve ser correlacionado com o exame físico."
+   },
+   {
+    "f": "Paciente com obstrução intestinal passa a ter dor contínua, febre, taquicardia e defesa abdominal. O que fazer?",
+    "v": "Cirurgia de urgência. Esses achados sugerem sofrimento ou estrangulamento da alça."
+   },
+   {
+    "f": "Um paciente tem aerobilia, obstrução intestinal e cálculo ectópico na imagem. Qual é o diagnóstico indicado pela tríade de Rigler?",
+    "v": "Íleo biliar."
+   },
+   {
+    "f": "Um paciente ictérico tem vesícula palpável e indolor. Qual causa o sinal de Courvoisier-Terrier sugere?",
+    "v": "Tumor periampular."
+   },
+   {
+    "f": "Qual é o ponto preferido para paracentese?",
+    "v": "Quadrante inferior esquerdo, cerca de 3 cm medial e acima da espinha ilíaca anterossuperior, lateral ao reto abdominal. O trajeto deve evitar os vasos epigástricos."
+   },
+   {
+    "f": "Paciente cirrótico precisa de paracentese e tem razão normalizada internacional elevada. Isso contraindica o procedimento de rotina?",
+    "v": "Não. A alteração isolada não contraindica a paracentese nem exige plasma antes do procedimento."
+   },
+   {
+    "f": "Paciente cirrótico precisa de paracentese e tem plaquetas baixas. Deve receber plaquetas antes de rotina?",
+    "v": "Não. Plaquetas baixas não contraindicam de rotina a paracentese nem exigem transfusão preventiva."
+   },
+   {
+    "f": "Quais alterações da coagulação contraindicam a paracentese segundo a apostila?",
+    "v": "Coagulação intravascular disseminada clinicamente evidente ou fibrinólise."
+   },
+   {
+    "f": "Para que serve puxar a pele cerca de 2 cm antes da punção na técnica em Z da paracentese?",
+    "v": "Reduzir o vazamento de líquido. Ao soltar a pele, o trajeto fica em zigue-zague."
+   },
+   {
+    "f": "Paciente retirou mais de 5 L em paracentese de alívio. Qual reposição de albumina indicar?",
+    "v": "6 a 8 g de albumina por litro retirado. A reposição previne disfunção circulatória após a drenagem."
+   },
+   {
+    "f": "Como se calcula o gradiente soro-ascite de albumina?",
+    "v": "Subtraindo a albumina do líquido ascítico da albumina do soro. As amostras devem ser colhidas ao mesmo tempo."
+   },
+   {
+    "f": "O que significa gradiente soro-ascite de albumina ≥ 1,1 g/dL?",
+    "v": "Hipertensão portal."
+   },
+   {
+    "f": "Quais causas são sugeridas por gradiente soro-ascite de albumina ≥ 1,1 g/dL com proteína do líquido ≥ 2,5 g/dL?",
+    "v": "Insuficiência cardíaca ou síndrome de Budd-Chiari. Há hipertensão portal com líquido rico em proteína."
+   },
+   {
+    "f": "Qual causa neoplásica pode produzir gradiente soro-ascite de albumina < 1,1 g/dL?",
+    "v": "Carcinomatose peritoneal. Esse gradiente sugere causa sem hipertensão portal."
+   },
+   {
+    "f": "Qual causa infecciosa pode produzir gradiente soro-ascite de albumina < 1,1 g/dL?",
+    "v": "Tuberculose peritoneal."
+   },
+   {
+    "f": "A ascite associada à pancreatite pode apresentar qual faixa de gradiente soro-ascite de albumina?",
+    "v": "Abaixo de 1,1 g/dL."
+   },
+   {
+    "f": "A ascite associada à síndrome nefrótica pode apresentar qual faixa de gradiente soro-ascite de albumina?",
+    "v": "Abaixo de 1,1 g/dL."
+   },
+   {
+    "f": "Qual contagem de neutrófilos no líquido ascítico permite tratar como peritonite bacteriana espontânea?",
+    "v": "Neutrófilos ≥ 250/mm³. Não é preciso esperar a cultura para começar o tratamento."
+   },
+   {
+    "f": "Paciente tem peritonite bacteriana espontânea comunitária. Qual classe de antibiótico usar?",
+    "v": "Cefalosporina de 3ª geração, como ceftriaxona ou cefotaxima. A escolha deve considerar a resistência local."
+   },
+   {
+    "f": "Paciente está em tratamento de peritonite bacteriana espontânea. Qual esquema de albumina usar?",
+    "v": "1,5 g/kg no 1º dia e 1 g/kg no 3º dia."
+   },
+   {
+    "f": "O líquido ascítico contém vários germes, glicose baixa, proteína e desidrogenase lática altas. Qual diagnóstico é sugerido?",
+    "v": "Peritonite secundária, como por perfuração."
+   },
+   {
+    "f": "Paciente tem líquido ascítico com vários germes e alterações sugestivas de peritonite secundária. O que fazer?",
+    "v": "Solicitar tomografia computadorizada e avaliação cirúrgica. É preciso procurar uma fonte, como perfuração."
+   },
+   {
+    "f": "Como se chama a presença de cultura positiva no líquido ascítico com neutrófilos < 250/mm³?",
+    "v": "Bacterascite."
+   },
+   {
+    "f": "Paciente tem bacterascite, com neutrófilos < 250/mm³ e cultura positiva. Qual é o próximo passo?",
+    "v": "Se houver sinais de infecção, iniciar antibiótico sem esperar nova punção. Se assintomático, repetir a paracentese e tratar se neutrófilos ≥ 250/mm³ ou cultura de novo positiva."
+   }
+  ],
+  "hernias": [
+   {
+    "f": "O que é o anel de uma hérnia?",
+    "v": "É o defeito da parede por onde a estrutura sai."
+   },
+   {
+    "f": "De que tecido é formado o saco de uma hérnia?",
+    "v": "De peritônio. Ele envolve o conteúdo herniado."
+   },
+   {
+    "f": "Como se chama a estrutura que atravessa o defeito e fica dentro do saco de uma hérnia?",
+    "v": "Conteúdo da hérnia. Anel, saco e conteúdo são suas três partes."
+   },
+   {
+    "f": "O que caracteriza uma hérnia irredutível aguda, também chamada de encarcerada?",
+    "v": "O conteúdo deixou de voltar à cavidade recentemente, com dor. Isso não significa, por si só, isquemia confirmada."
+   },
+   {
+    "f": "O que caracteriza uma hérnia estrangulada?",
+    "v": "O anel comprometeu a irrigação do conteúdo, causando isquemia. É uma urgência cirúrgica."
+   },
+   {
+    "f": "Qual estrutura anatômica é a referência para distinguir a hérnia inguinal direta da indireta?",
+    "v": "Os vasos epigástricos inferiores."
+   },
+   {
+    "f": "De que lado dos vasos epigástricos inferiores sai a hérnia inguinal direta?",
+    "v": "Medial aos vasos. Ela atravessa a parede posterior no triângulo de Hesselbach."
+   },
+   {
+    "f": "De que lado dos vasos epigástricos inferiores sai a hérnia inguinal indireta?",
+    "v": "Lateral aos vasos, pelo anel inguinal profundo."
+   },
+   {
+    "f": "Quais são os limites do triângulo de Hesselbach?",
+    "v": "Vasos epigástricos inferiores, borda lateral do reto abdominal e ligamento inguinal. É a região de saída da hérnia direta."
+   },
+   {
+    "f": "Qual estrutura forma a parede posterior do canal inguinal?",
+    "v": "A fáscia transversal. É onde nasce a hérnia direta."
+   },
+   {
+    "f": "Qual é o tipo de hérnia mais comum, inclusive em mulheres e crianças?",
+    "v": "Hérnia inguinal indireta."
+   },
+   {
+    "f": "Qual hérnia da virilha tem maior risco de encarceramento e estrangulamento?",
+    "v": "A hérnia femoral. Seu anel é estreito e rígido, e ela é típica de mulheres idosas."
+   },
+   {
+    "f": "Onde aparece o abaulamento da hérnia femoral em relação ao ligamento inguinal e ao tubérculo púbico?",
+    "v": "Abaixo do ligamento inguinal e lateral ao tubérculo púbico. O canal femoral fica medial à veia femoral."
+   },
+   {
+    "f": "Paciente tem hérnia femoral sem sinais atuais de estrangulamento. Pode apenas observar?",
+    "v": "Não. Deve operar sem demora pelo alto risco de estrangulamento, preferindo via posterior, pré-peritoneal ou laparoscópica."
+   },
+   {
+    "f": "Paciente homem tem hérnia inguinal sem sintomas. Qual alternativa à cirurgia imediata pode ser adotada?",
+    "v": "Observação vigiada. Muitos acabam operando nos anos seguintes por surgimento de sintomas."
+   },
+   {
+    "f": "Paciente mulher vai operar uma hérnia inguinal. Qual via deve ser preferida?",
+    "v": "A via laparoscópica. Ela permite identificar uma hérnia femoral escondida."
+   },
+   {
+    "f": "Paciente terá reparo inguinal sem tela. Qual técnica é recomendada?",
+    "v": "Shouldice, por equipe experiente. Bassini e McVay ficam para situações especiais."
+   },
+   {
+    "f": "Em que consiste a técnica de Lichtenstein para hérnia inguinal?",
+    "v": "É uma correção aberta por via anterior, com tela sobre a parede posterior do canal inguinal."
+   },
+   {
+    "f": "Por que a técnica de Lichtenstein é uma boa opção para pacientes com risco anestésico?",
+    "v": "Porque pode ser feita com anestesia local."
+   },
+   {
+    "f": "Na técnica de Lichtenstein, quanto a tela deve ultrapassar o tubérculo púbico?",
+    "v": "Cerca de 2 cm. A tela não deve ser fixada no periósteo."
+   },
+   {
+    "f": "Na técnica de Lichtenstein, onde se fixa a borda inferior da tela?",
+    "v": "No ligamento inguinal."
+   },
+   {
+    "f": "Na técnica de Lichtenstein, onde se fixa a borda superior da tela?",
+    "v": "Na aponeurose do oblíquo interno e na bainha do reto. Os pontos não devem pegar músculo nem nervos."
+   },
+   {
+    "f": "Qual vantagem das correções laparoscópicas de hérnia inguinal está relacionada à dor e à recuperação?",
+    "v": "Menos dor crônica e retorno mais rápido. Isso vale para as técnicas transabdominal pré-peritoneal e totalmente extraperitoneal."
+   },
+   {
+    "f": "Paciente tem hérnia inguinal bilateral. Qual via de correção é uma boa opção?",
+    "v": "A via laparoscópica. Ela permite tratar os dois lados pela abordagem posterior."
+   },
+   {
+    "f": "Qual é a complicação mais importante a longo prazo da correção de hérnia inguinal?",
+    "v": "Dor crônica, chamada de inguinodinia. Pode decorrer de lesão ou aprisionamento de nervos."
+   },
+   {
+    "f": "Paciente teve recidiva de hérnia inguinal após correção por via anterior. Qual via usar no novo reparo?",
+    "v": "A via posterior. A recomendação é trocar o plano do reparo anterior."
+   },
+   {
+    "f": "Paciente teve recidiva de hérnia inguinal após correção por via posterior. Qual via usar no novo reparo?",
+    "v": "A via anterior. A recomendação é trocar o plano do reparo anterior."
+   },
+   {
+    "f": "Paciente adulto vai corrigir hérnia umbilical. A partir de qual tamanho do defeito se indica tela?",
+    "v": "Quando o defeito é maior que 1 cm. A posição preferida é a pré-peritoneal."
+   },
+   {
+    "f": "Onde fica a hérnia de Spiegel?",
+    "v": "Na linha semilunar, em geral abaixo do umbigo. Fica sob a aponeurose do oblíquo externo e pode não ser palpável."
+   },
+   {
+    "f": "Paciente tem suspeita de hérnia de Spiegel, mas o exame físico é duvidoso. Como confirmar?",
+    "v": "Com tomografia computadorizada ou ultrassom. A hérnia pode estar escondida sob a aponeurose do oblíquo externo."
+   },
+   {
+    "f": "Qual é o principal fator de risco para hérnia incisional?",
+    "v": "Infecção da ferida. A técnica de fechamento também tem grande influência."
+   },
+   {
+    "f": "Qual posição de tela apresenta maior recidiva na correção de hérnia da parede anterior?",
+    "v": "Inlay. A tela é costurada nas bordas sem fechar o defeito, por isso essa posição deve ser evitada."
+   },
+   {
+    "f": "Paciente vai corrigir hérnia incisional eletivamente. Qual é a posição preferida para a tela?",
+    "v": "Retromuscular, também chamada de sublay. A tela fica atrás do reto abdominal e à frente da bainha posterior."
+   },
+   {
+    "f": "Paciente receberá tela intraperitoneal, em contato com as alças. Qual cuidado é necessário na escolha do material?",
+    "v": "Usar tela própria para contato com vísceras. Essa posição tem risco de aderência e fístula."
+   },
+   {
+    "f": "Na sutura da aponeurose com pequenos pontos, a que distância da borda deve passar cada ponto?",
+    "v": "Cerca de 5 mm da borda. Os pontos devem pegar apenas a aponeurose."
+   },
+   {
+    "f": "Na sutura da aponeurose com pequenos pontos, qual deve ser a distância entre os pontos?",
+    "v": "Cerca de 5 mm."
+   },
+   {
+    "f": "Paciente terá fechamento de laparotomia mediana eletiva. Qual tipo de fio usar na aponeurose?",
+    "v": "Monofilamentar de absorção lenta, como polidioxanona."
+   },
+   {
+    "f": "Paciente terá fechamento de laparotomia mediana eletiva. Qual padrão de sutura usar na aponeurose?",
+    "v": "Sutura contínua com pequenos pontos. Eles devem pegar só a aponeurose."
+   },
+   {
+    "f": "No fechamento da laparotomia, qual deve ser a relação entre comprimento do fio usado e comprimento da incisão?",
+    "v": "Pelo menos 4:1. O fio usado deve medir no mínimo 4 vezes o comprimento da incisão."
+   },
+   {
+    "f": "Qual foi a redução da hérnia incisional em 1 ano ao usar pequenos pontos em vez de pontos grandes no fechamento da laparotomia?",
+    "v": "De 21% para 13%."
+   },
+   {
+    "f": "Paciente com aneurisma de aorta ou obesidade terá laparotomia mediana eletiva. Deve receber tela profilática obrigatoriamente?",
+    "v": "Não é obrigatória, mas pode ser considerada. O benefício é maior nos pacientes de alto risco."
+   },
+   {
+    "f": "Paciente tem hérnia encarcerada sem suspeita de isquemia. Qual tentativa de tratamento inicial pode ser feita?",
+    "v": "Analgesia, posição de Trendelenburg e redução manual delicada, chamada de taxis. A manobra não deve ser forçada."
+   },
+   {
+    "f": "Paciente teve uma hérnia encarcerada reduzida, sem suspeita de isquemia. Qual é o próximo passo?",
+    "v": "Observar até passar a analgesia e programar a cirurgia."
+   },
+   {
+    "f": "Paciente tem hérnia dolorosa com sinais de sofrimento do conteúdo. Deve-se forçar a redução?",
+    "v": "Não. É preciso cirurgia de urgência, pois a manobra pode devolver uma alça necrosada ou causar redução em bloco."
+   },
+   {
+    "f": "O que acontece na redução em bloco de uma hérnia?",
+    "v": "Saco e alça vão juntos para o espaço pré-peritoneal, mas a alça continua presa no colo do saco. O abaulamento some, a obstrução e o risco de isquemia continuam."
+   },
+   {
+    "f": "Paciente precisou de ressecção intestinal durante correção de hérnia. Isso proíbe o uso de tela?",
+    "v": "Não por si só. A decisão depende do grau de contaminação."
+   },
+   {
+    "f": "Qual é a característica da hérnia de Richter?",
+    "v": "Só parte da parede da alça fica presa. Ela pode necrosar e perfurar sem causar obstrução completa."
+   },
+   {
+    "f": "Qual é o conteúdo da hérnia de Littré?",
+    "v": "O divertículo de Meckel."
+   },
+   {
+    "f": "Qual é o conteúdo da hérnia de Amyand?",
+    "v": "O apêndice dentro de uma hérnia inguinal."
+   },
+   {
+    "f": "Qual é o conteúdo da hérnia de Garengeot?",
+    "v": "O apêndice dentro de uma hérnia femoral."
+   },
+   {
+    "f": "O que caracteriza uma hérnia em pantalona?",
+    "v": "Hérnia inguinal direta e indireta ao mesmo tempo. Elas ficam dos dois lados dos vasos epigástricos inferiores."
+   },
+   {
+    "f": "Uma mulher idosa e magra tem obstrução intestinal sem abaulamento e dor na face medial da coxa. Qual hérnia é sugerida?",
+    "v": "Hérnia obturadora. A dor na face medial da coxa é o sinal de Howship-Romberg."
+   },
+   {
+    "f": "Em qual triângulo ocorre a hérnia lombar superior?",
+    "v": "No triângulo de Grynfeltt."
+   },
+   {
+    "f": "Em qual triângulo ocorre a hérnia lombar inferior?",
+    "v": "No triângulo de Petit."
+   }
+  ],
+  "apendicite-colecistite": [
+   {
+    "f": "Como a dor costuma migrar na apendicite aguda?",
+    "v": "Começa vaga no epigástrio ou em volta do umbigo e, em horas, fixa-se na fossa ilíaca direita. A dor passa de visceral a parietal."
+   },
+   {
+    "f": "Na apendicite aguda, náuseas e vômitos costumam aparecer em que momento em relação à dor?",
+    "v": "Depois da dor, em geral."
+   },
+   {
+    "f": "Um paciente com apendicite apresenta febre alta. Qual complicação deve ser suspeitada?",
+    "v": "Perfuração. A febre da apresentação típica costuma ser baixa."
+   },
+   {
+    "f": "Onde fica o ponto de McBurney?",
+    "v": "Entre o terço lateral e os dois terços mediais da linha que liga a espinha ilíaca anterossuperior ao umbigo."
+   },
+   {
+    "f": "Qual é a principal utilidade do escore de Alvarado na suspeita de apendicite?",
+    "v": "Identificar pacientes de baixo risco. Ele não confirma a doença, e um escore alto isolado não indica cirurgia."
+   },
+   {
+    "f": "Qual é a pontuação máxima do escore de Alvarado?",
+    "v": "10 pontos."
+   },
+   {
+    "f": "Qual mudança da localização da dor faz parte do escore de Alvarado?",
+    "v": "Migração da dor. Na história típica, ela se fixa na fossa ilíaca direita."
+   },
+   {
+    "f": "Qual alteração do apetite faz parte do escore de Alvarado?",
+    "v": "Anorexia, isto é, perda do apetite."
+   },
+   {
+    "f": "Em que região a dor à palpação é um critério do escore de Alvarado?",
+    "v": "Na fossa ilíaca direita."
+   },
+   {
+    "f": "Qual achado após retirar bruscamente a mão da palpação abdominal faz parte do escore de Alvarado?",
+    "v": "Dor à descompressão."
+   },
+   {
+    "f": "Qual alteração da temperatura faz parte do escore de Alvarado?",
+    "v": "Febre."
+   },
+   {
+    "f": "Qual alteração da contagem de leucócitos faz parte do escore de Alvarado?",
+    "v": "Leucocitose."
+   },
+   {
+    "f": "Qual alteração da distribuição dos leucócitos faz parte do escore de Alvarado?",
+    "v": "Desvio à esquerda."
+   },
+   {
+    "f": "Paciente tem risco intermediário de apendicite. Qual sequência de imagem usar?",
+    "v": "Ultrassom primeiro. Se for inconclusivo, complementar com tomografia computadorizada de baixa dose."
+   },
+   {
+    "f": "Paciente gestante tem suspeita de apendicite. Qual sequência de imagem usar?",
+    "v": "Ultrassom primeiro. Se for inconclusivo, fazer ressonância sem contraste."
+   },
+   {
+    "f": "Paciente idoso tem suspeita de apendicite. Qual exame de imagem preferir?",
+    "v": "Tomografia computadorizada. Nesse grupo há mais complicações e diagnósticos diferenciais, inclusive tumor."
+   },
+   {
+    "f": "Acima de qual diâmetro o apêndice é considerado aumentado no ultrassom de suspeita de apendicite?",
+    "v": "Acima de 6 mm."
+   },
+   {
+    "f": "Como o apêndice inflamado costuma se comportar à compressão pelo transdutor no ultrassom?",
+    "v": "Não se comprime. Esse é um achado sugestivo de apendicite."
+   },
+   {
+    "f": "Além do aumento de diâmetro e da falta de compressibilidade, que alterações locais apoiam apendicite no ultrassom?",
+    "v": "Parede espessa e gordura inflamada em volta. Às vezes também há fecalito."
+   },
+   {
+    "f": "Paciente tem apendicite não complicada. Qual é o tratamento padrão?",
+    "v": "Apendicectomia laparoscópica."
+   },
+   {
+    "f": "Paciente estável tem apendicite não complicada e será operado. Até quando é seguro adiar a cirurgia com monitorização?",
+    "v": "Até 24 horas da admissão."
+   },
+   {
+    "f": "Entre os pacientes tratados só com antibiótico para apendicite, quantos foram operados em 90 dias?",
+    "v": "Cerca de 3 em cada 10."
+   },
+   {
+    "f": "Entre os pacientes com fecalito tratados só com antibiótico para apendicite, quantos foram operados em 90 dias?",
+    "v": "Cerca de 4 em cada 10. O fecalito aumenta o risco de falha do tratamento só com antibiótico."
+   },
+   {
+    "f": "Entre os pacientes tratados só com antibiótico para apendicite, quantos já tinham sido operados em 3–4 anos?",
+    "v": "Cerca de metade."
+   },
+   {
+    "f": "Paciente fez apendicectomia por apendicite não complicada. Precisa de antibiótico depois?",
+    "v": "Não. Basta a dose antes da incisão."
+   },
+   {
+    "f": "Paciente fez apendicectomia por apendicite complicada e a fonte foi controlada. Quanto tempo de antibiótico indicar?",
+    "v": "Um curso curto de 2 a 3 dias."
+   },
+   {
+    "f": "Paciente estável tem plastrão ou abscesso apendicular localizado. Qual tratamento pode ser adotado?",
+    "v": "Antibiótico e drenagem percutânea se o abscesso for drenável."
+   },
+   {
+    "f": "Paciente a partir de cerca de 35–40 anos tratou plastrão apendicular sem cirurgia. Qual investigação deve ser feita depois?",
+    "v": "Investigar neoplasia com colonoscopia e imagem. Também se deve considerar apendicectomia de intervalo."
+   },
+   {
+    "f": "Paciente gestante tem apendicite com indicação cirúrgica. A laparoscopia pode ser feita?",
+    "v": "Sim, em qualquer trimestre. Não se deve adiar, pois a perfuração aumenta a perda fetal."
+   },
+   {
+    "f": "Em quanto tempo costuma melhorar a dor da cólica biliar?",
+    "v": "Em até cerca de 6 horas."
+   },
+   {
+    "f": "Qual duração da dor favorece colecistite aguda em vez de cólica biliar?",
+    "v": "Dor contínua por mais de 6 horas."
+   },
+   {
+    "f": "Pelos critérios de Tóquio, o que basta para suspeitar de colecistite aguda?",
+    "v": "Um sinal de inflamação local associado a um sinal de inflamação sistêmica."
+   },
+   {
+    "f": "Pelos critérios de Tóquio, o que torna definitivo o diagnóstico de colecistite aguda?",
+    "v": "Inflamação local, inflamação sistêmica e imagem compatível. A imagem se soma aos critérios de suspeita."
+   },
+   {
+    "f": "Paciente tem suspeita de colecistite aguda. Qual é o primeiro exame de imagem?",
+    "v": "Ultrassom. Ele procura cálculo com sombra acústica e sinais de inflamação da vesícula."
+   },
+   {
+    "f": "Qual espessura da parede da vesícula é um achado sugestivo de colecistite no ultrassom?",
+    "v": "Acima de 4 mm."
+   },
+   {
+    "f": "Além de cálculo e parede espessa, que alterações da vesícula apoiam colecistite no ultrassom?",
+    "v": "Vesícula distendida e líquido em volta. O sinal de Murphy ultrassonográfico também apoia o diagnóstico."
+   },
+   {
+    "f": "Sem disfunção de órgão, qual contagem de leucócitos já é critério de colecistite grau II de Tóquio?",
+    "v": "Acima de 18.000/mm³. Basta um critério de grau II."
+   },
+   {
+    "f": "Sem disfunção de órgão, qual achado de massa à palpação é critério de colecistite grau II de Tóquio?",
+    "v": "Massa palpável dolorosa no hipocôndrio direito."
+   },
+   {
+    "f": "Sem disfunção de órgão, qual duração dos sintomas é critério de colecistite grau II de Tóquio?",
+    "v": "Mais de 72 horas."
+   },
+   {
+    "f": "Sem disfunção de órgão, uma colecistite com inflamação local marcada pertence a qual grau de Tóquio?",
+    "v": "Grau II. Gangrena, abscesso, peritonite biliar e colecistite enfisematosa são exemplos de inflamação local marcada."
+   },
+   {
+    "f": "O que define colecistite grau III pelos critérios de Tóquio?",
+    "v": "Disfunção de órgão. Pode ser cardiovascular, neurológica, respiratória, renal, hepática ou hematológica."
+   },
+   {
+    "f": "Paciente com colecistite apresenta icterícia importante. Quais causas biliares devem ser investigadas?",
+    "v": "Cálculo no colédoco, colangite ou síndrome de Mirizzi. A icterícia importante não deve ser atribuída a colecistite isolada."
+   },
+   {
+    "f": "Qual é o mecanismo da síndrome de Mirizzi?",
+    "v": "Um cálculo no infundíbulo ou no ducto cístico comprime o ducto hepático comum. Isso causa icterícia e torna a dissecção perigosa."
+   },
+   {
+    "f": "Em qual perfil de paciente costuma ocorrer colecistite alitiásica?",
+    "v": "No paciente crítico, em unidade de terapia intensiva, como queimado ou politraumatizado. Jejum prolongado e nutrição parenteral também são contextos típicos."
+   },
+   {
+    "f": "Paciente crítico tem colecistite alitiásica. Qual tratamento é frequentemente necessário além do antibiótico?",
+    "v": "Drenagem percutânea da vesícula. É uma forma grave, com risco de gangrena e perfuração."
+   },
+   {
+    "f": "Paciente com colecistite pode operar. Qual é o prazo preferido para a colecistectomia?",
+    "v": "O mais cedo possível, em até 7 dias da internação e 10 dias do início dos sintomas. Mesmo após 72 horas, a cirurgia precoce continua sendo melhor que esperar."
+   },
+   {
+    "f": "Paciente com colecistite não pode operar e tem sepse que não melhora. Qual procedimento indicar?",
+    "v": "Colecistostomia, com drenagem da vesícula, associada a antibiótico. Alto risco isolado não basta para escolher drenagem."
+   },
+   {
+    "f": "Paciente tem cálculo visto no colédoco. Como tratar a coledocolitíase de alto risco?",
+    "v": "Com colangiopancreatografia retrógrada endoscópica (CPRE). Cálculo no colédoco já é critério de alto risco."
+   },
+   {
+    "f": "Paciente tem bilirrubina > 4 mg/dL e colédoco dilatado. Qual procedimento está indicado pelo alto risco de coledocolitíase?",
+    "v": "Colangiopancreatografia retrógrada endoscópica (CPRE). A combinação desses achados caracteriza alto risco."
+   },
+   {
+    "f": "Paciente tem risco intermediário de coledocolitíase. Quais exames podem esclarecer a presença de cálculo?",
+    "v": "Ecoendoscopia, colangiorressonância ou colangiografia durante a cirurgia."
+   },
+   {
+    "f": "Um paciente tem febre, icterícia e dor no hipocôndrio direito. Qual diagnóstico a tríade de Charcot sugere?",
+    "v": "Colangite. Ela também caracteriza alto risco de coledocolitíase."
+   },
+   {
+    "f": "Quais achados se somam à tríade de Charcot para formar a pêntade de Reynolds?",
+    "v": "Hipotensão e confusão mental. A pêntade indica uma forma grave de colangite."
+   },
+   {
+    "f": "Paciente tem colangite aguda. Qual é o tratamento inicial e da obstrução?",
+    "v": "Hidratação, antibiótico e drenagem da via biliar, em geral por colangiopancreatografia retrógrada endoscópica. A colecistectomia vem depois."
+   },
+   {
+    "f": "Paciente tem colangite grau III. Quando drenar a via biliar?",
+    "v": "Assim que estabilizar. A drenagem costuma ser feita por colangiopancreatografia retrógrada endoscópica."
+   },
+   {
+    "f": "Na visão crítica de segurança da colecistectomia, como deve estar o triângulo hepatocístico?",
+    "v": "Limpo de gordura e tecido fibroso. Esse é um dos três critérios antes de clipar estruturas."
+   },
+   {
+    "f": "Na visão crítica de segurança da colecistectomia, que parte da vesícula deve ser separada do leito hepático?",
+    "v": "O terço inferior da vesícula. Esse é um dos três critérios antes de clipar estruturas."
+   },
+   {
+    "f": "Na visão crítica de segurança da colecistectomia, quantas estruturas devem entrar na vesícula?",
+    "v": "Somente duas: o ducto cístico e a artéria cística."
+   },
+   {
+    "f": "Paciente está em colecistectomia, mas a anatomia permanece insegura. Deve-se insistir na dissecção?",
+    "v": "Não. Deve-se chamar ajuda e escolher uma saída segura, como colangiografia, colecistectomia subtotal, conversão ou drenagem."
+   },
+   {
+    "f": "Um homem idoso e diabético tem gás na parede da vesícula. Qual diagnóstico é sugerido?",
+    "v": "Colecistite enfisematosa. É associada a clostrídios e tem alto risco de perfuração."
+   },
+   {
+    "f": "Paciente tem mucocele do apêndice durante a cirurgia. Qual cuidado é essencial ao manuseá-la?",
+    "v": "Não romper. Se houver neoplasia mucinosa, a ruptura pode causar pseudomixoma."
+   }
+  ],
+  "diverticulite-pancreatite": [
+   {
+    "f": "Por que os divertículos do cólon são classificados como falsos?",
+    "v": "Porque contêm apenas mucosa e submucosa herniando pela parede. Não incluem todas as camadas intestinais."
+   },
+   {
+    "f": "Por que o divertículo de Meckel é classificado como verdadeiro?",
+    "v": "Porque contém todas as camadas da parede intestinal."
+   },
+   {
+    "f": "Um adulto mais velho apresenta dor na fossa ilíaca esquerda, febre e leucocitose. Qual é o diagnóstico típico?",
+    "v": "Diverticulite aguda. É a apresentação conhecida como apendicite do lado esquerdo."
+   },
+   {
+    "f": "Paciente tem suspeita de diverticulite aguda. Qual é o exame de escolha?",
+    "v": "Tomografia computadorizada com contraste. Ela confirma o diagnóstico e mostra complicações, como abscesso, ar livre e fístula."
+   },
+   {
+    "f": "Paciente está na fase aguda de diverticulite. Deve fazer colonoscopia para confirmar o diagnóstico?",
+    "v": "Não. A colonoscopia na fase aguda tem risco de perfuração."
+   },
+   {
+    "f": "Paciente se recuperou de diverticulite, sobretudo complicada ou sem colonoscopia recente. Quando indicar colonoscopia?",
+    "v": "6 a 8 semanas após a crise. O exame ajuda a afastar câncer, que pode imitar diverticulite."
+   },
+   {
+    "f": "Qual achado define o estágio I da classificação de Hinchey na diverticulite?",
+    "v": "Abscesso pericólico, junto ao cólon."
+   },
+   {
+    "f": "Qual achado define o estágio II da classificação de Hinchey na diverticulite?",
+    "v": "Abscesso distante, como pélvico ou retroperitoneal."
+   },
+   {
+    "f": "Qual achado define o estágio III da classificação de Hinchey na diverticulite?",
+    "v": "Peritonite purulenta generalizada."
+   },
+   {
+    "f": "Qual achado define o estágio IV da classificação de Hinchey na diverticulite?",
+    "v": "Peritonite fecal generalizada."
+   },
+   {
+    "f": "Paciente com diverticulite tem peritonite purulenta generalizada. O que fazer?",
+    "v": "Reanimação, antibiótico e cirurgia de urgência. É uma diverticulite Hinchey III."
+   },
+   {
+    "f": "Paciente com diverticulite tem peritonite fecal generalizada. O que fazer?",
+    "v": "Reanimação, antibiótico e cirurgia de urgência. É uma diverticulite Hinchey IV."
+   },
+   {
+    "f": "Paciente imunocompetente tem diverticulite não complicada, sem sepse nem comorbidade relevante, tolera dieta e tem seguimento. Precisa de antibiótico?",
+    "v": "Pode ser omitido em casos selecionados. O tratamento pode ser ambulatorial, com dieta líquida e analgesia."
+   },
+   {
+    "f": "Paciente com diverticulite tem abscesso grande. Qual tratamento indicar?",
+    "v": "Antibiótico e drenagem percutânea guiada por imagem."
+   },
+   {
+    "f": "Em que consiste a operação de Hartmann na diverticulite?",
+    "v": "Ressecção do sigmoide, colostomia terminal e fechamento do coto retal."
+   },
+   {
+    "f": "Paciente com peritonite diverticular está instável, imunossuprimido ou tem muitas comorbidades. Qual operação costuma ser indicada?",
+    "v": "Operação de Hartmann. É especialmente indicada nesse perfil quando há peritonite fecal."
+   },
+   {
+    "f": "Paciente estável, sem grandes comorbidades, tem peritonite diverticular e cirurgião experiente disponível. Qual alternativa ao Hartmann pode ser usada?",
+    "v": "Ressecção com anastomose primária, com ou sem ileostomia de proteção."
+   },
+   {
+    "f": "Paciente teve 2 crises de diverticulite. A sigmoidectomia eletiva é obrigatória?",
+    "v": "Não. A decisão é individual, considerando sintomas persistentes, fístula, estenose e impacto na vida, sem depender apenas do número de crises."
+   },
+   {
+    "f": "Qual é a fístula mais comum da diverticulite?",
+    "v": "Colovesical. É mais frequente em homens."
+   },
+   {
+    "f": "Um paciente com doença diverticular tem pneumatúria, fecalúria e infecções urinárias repetidas. Qual complicação é sugerida?",
+    "v": "Fístula colovesical. Há comunicação entre o cólon e a bexiga."
+   },
+   {
+    "f": "Quantos critérios são necessários para diagnosticar pancreatite aguda?",
+    "v": "2 de 3: dor típica, lipase ou amilase ≥ 3 vezes o limite superior e imagem compatível."
+   },
+   {
+    "f": "Como é a dor típica usada como critério diagnóstico de pancreatite aguda?",
+    "v": "Dor epigástrica intensa, em faixa, irradiada para o dorso."
+   },
+   {
+    "f": "Qual elevação de lipase ou amilase conta como critério diagnóstico de pancreatite aguda?",
+    "v": "Pelo menos 3 vezes o limite superior. É um dos três critérios, dos quais dois são necessários."
+   },
+   {
+    "f": "Qual enzima é preferida para diagnosticar pancreatite aguda?",
+    "v": "Lipase. É mais específica e permanece elevada por mais tempo que a amilase."
+   },
+   {
+    "f": "Qual é a causa mais comum de pancreatite aguda?",
+    "v": "Biliar, por cálculo ou lama na vesícula."
+   },
+   {
+    "f": "Paciente tem pancreatite aguda. Qual exame deve ser feito em todos para procurar causa biliar?",
+    "v": "Ultrassom."
+   },
+   {
+    "f": "Uma transaminase glutâmico-pirúvica acima de cerca de 150 U/L na pancreatite sugere qual causa?",
+    "v": "Causa biliar."
+   },
+   {
+    "f": "Acima de qual valor os triglicerídeos apontam hipertrigliceridemia como causa da pancreatite?",
+    "v": "Acima de 1.000 mg/dL."
+   },
+   {
+    "f": "Paciente chega com dor e lipase que já confirmam pancreatite aguda. Precisa de TC de rotina na admissão?",
+    "v": "Não. A tomografia precoce pode subestimar a necrose. Ela fica para dúvida diagnóstica ou ausência de melhora em 48–72 horas."
+   },
+   {
+    "f": "O que define pancreatite leve pela classificação de Atlanta de 2012?",
+    "v": "Ausência de falência de órgão e de complicações locais ou sistêmicas."
+   },
+   {
+    "f": "O que define pancreatite moderadamente grave pela classificação de Atlanta de 2012?",
+    "v": "Falência de órgão transitória (resolve em menos de 48 horas) e/ou complicação local ou sistêmica, sem falência persistente."
+   },
+   {
+    "f": "O que define pancreatite grave pela classificação de Atlanta de 2012?",
+    "v": "Falência de órgão persistente por mais de 48 horas. Pode envolver um ou mais órgãos."
+   },
+   {
+    "f": "Uma lipase muito elevada significa que a pancreatite é grave?",
+    "v": "Não. A gravidade é definida por falência de órgão persistente por mais de 48 horas, e não pelo valor da lipase."
+   },
+   {
+    "f": "Qual valor de ureia conta no índice à beira do leito para gravidade da pancreatite aguda?",
+    "v": "Acima de cerca de 54 mg/dL, equivalente a nitrogênio ureico sanguíneo > 25 mg/dL."
+   },
+   {
+    "f": "Qual alteração neurológica conta no índice à beira do leito para gravidade da pancreatite aguda?",
+    "v": "Alteração do estado mental."
+   },
+   {
+    "f": "Qual síndrome inflamatória conta no índice à beira do leito para gravidade da pancreatite aguda?",
+    "v": "Síndrome da resposta inflamatória sistêmica."
+   },
+   {
+    "f": "Qual idade conta no índice à beira do leito para gravidade da pancreatite aguda?",
+    "v": "Idade acima de 60 anos."
+   },
+   {
+    "f": "Qual achado pleural conta no índice à beira do leito para gravidade da pancreatite aguda?",
+    "v": "Derrame pleural."
+   },
+   {
+    "f": "Qual pontuação no índice à beira do leito para gravidade da pancreatite aguda indica maior risco?",
+    "v": "3 ou mais pontos."
+   },
+   {
+    "f": "Paciente com pancreatite aguda precisa de hidratação. Como fazê-la?",
+    "v": "Com Ringer lactato em volume moderado, guiado pela resposta. A hidratação agressiva fixa causou mais sobrecarga sem benefício."
+   },
+   {
+    "f": "Paciente com pancreatite leve tolera alimentação. Quando oferecer dieta oral?",
+    "v": "Precocemente, em 24–48 horas, assim que tolerar. Não é preciso manter jejum para descansar o pâncreas."
+   },
+   {
+    "f": "Paciente com pancreatite não consegue comer. Qual via de nutrição preferir?",
+    "v": "Nutrição enteral, preferida à parenteral. A sonda nasogástrica pode ser usada."
+   },
+   {
+    "f": "Paciente com pancreatite tem necrose estéril. Deve receber antibiótico profilático?",
+    "v": "Não. Antibiótico só está indicado se houver infecção."
+   },
+   {
+    "f": "Paciente tem pancreatite biliar com colangite. Quando fazer CPRE?",
+    "v": "Em até 24 horas. A colangiopancreatografia retrógrada endoscópica permite drenar a via biliar."
+   },
+   {
+    "f": "Paciente tem pancreatite biliar com obstrução persistente do colédoco. Qual procedimento indicar?",
+    "v": "Colangiopancreatografia retrógrada endoscópica (CPRE). A obstrução persistente é uma indicação do procedimento."
+   },
+   {
+    "f": "Paciente tem pancreatite biliar sem colangite nem obstrução persistente do colédoco. Deve fazer CPRE de rotina?",
+    "v": "Não. A colangiopancreatografia retrógrada endoscópica fica indicada quando há colangite ou obstrução persistente."
+   },
+   {
+    "f": "Paciente está se recuperando de pancreatite biliar leve. Quando fazer colecistectomia?",
+    "v": "Na mesma internação, antes da alta. Esperar aumenta a recorrência."
+   },
+   {
+    "f": "Como se chama uma coleção da pancreatite edematosa com menos de 4 semanas?",
+    "v": "Coleção líquida peripancreática aguda."
+   },
+   {
+    "f": "Como se chama uma coleção líquida da pancreatite edematosa com 4 semanas ou mais e parede definida?",
+    "v": "Pseudocisto pancreático."
+   },
+   {
+    "f": "Como se chama uma coleção da pancreatite necrosante com menos de 4 semanas?",
+    "v": "Coleção necrótica aguda."
+   },
+   {
+    "f": "Como se chama uma coleção da pancreatite necrosante com 4 semanas ou mais e parede definida?",
+    "v": "Necrose encapsulada, também chamada de walled-off."
+   },
+   {
+    "f": "Paciente tem pseudocisto pancreático grande, estéril e sem sintomas. Deve drenar?",
+    "v": "Não. Deve observar, mesmo que seja grande. A drenagem fica indicada se houver sintomas ou complicação."
+   },
+   {
+    "f": "Um paciente com pancreatite piora na 2ª ou 3ª semana, com febre e leucocitose. Qual complicação deve ser suspeitada?",
+    "v": "Necrose pancreática infectada. Gás dentro da necrose na tomografia também sugere infecção."
+   },
+   {
+    "f": "Paciente tem necrose pancreática infectada. Que característica deve ter o antibiótico escolhido?",
+    "v": "Deve penetrar na necrose, como um carbapenêmico. A escolha deve considerar cultura e flora local."
+   },
+   {
+    "f": "Paciente estável tem necrose pancreática infectada. Por quanto tempo se tenta adiar a intervenção?",
+    "v": "Por cerca de 4 semanas, até a necrose encapsular. Piora apesar do antibiótico, sepse ou falência de órgão podem exigir drenagem antes."
+   },
+   {
+    "f": "Paciente com necrose pancreática infectada precisa de intervenção. Qual é o primeiro passo da abordagem escalonada?",
+    "v": "Drenagem percutânea ou endoscópica. A necrosectomia minimamente invasiva fica para quando a drenagem não resolve."
+   },
+   {
+    "f": "Qual é a complicação mais comum da CPRE?",
+    "v": "Pancreatite após colangiopancreatografia retrógrada endoscópica."
+   },
+   {
+    "f": "Paciente vai fazer CPRE. Como prevenir pancreatite após o procedimento?",
+    "v": "Com indometacina retal e hidratação. Nos pacientes de alto risco, acrescenta-se stent pancreático."
+   }
+  ],
+  "abdome-vascular-obstrutivo": [
+   {
+    "f": "Qual mecanismo de isquemia mesentérica aguda ocorre quando uma placa aterosclerótica fecha a origem da artéria?",
+    "v": "Trombose arterial."
+   },
+   {
+    "f": "Qual mecanismo venoso de isquemia mesentérica aguda é associado a hipercoagulabilidade, hipertensão portal ou pós-operatório?",
+    "v": "Trombose venosa mesentérica. O quadro costuma ser mais arrastado."
+   },
+   {
+    "f": "Um idoso com fibrilação atrial apresenta dor abdominal súbita e muito forte, mas abdome flácido. Qual é a causa provável?",
+    "v": "Embolia da artéria mesentérica superior. A dor é desproporcional ao exame físico."
+   },
+   {
+    "f": "Um paciente tem dor após comer, medo de comer e perda de peso. Qual diagnóstico é sugerido?",
+    "v": "Angina intestinal, por isquemia mesentérica crônica. Esse quadro pode preceder uma trombose arterial aguda."
+   },
+   {
+    "f": "Um paciente de UTI em uso de vasopressor ou com baixo débito piora com dor abdominal. Qual mecanismo de isquemia é sugerido?",
+    "v": "Isquemia mesentérica não oclusiva. A vasoconstrição reduz a perfusão intestinal."
+   },
+   {
+    "f": "Lactato normal exclui isquemia mesentérica aguda?",
+    "v": "Não. O lactato é inespecífico e sobe tarde."
+   },
+   {
+    "f": "Paciente tem suspeita de isquemia mesentérica aguda. Qual exame solicitar imediatamente?",
+    "v": "Angiotomografia com fases arterial e venosa. É o exame de escolha e não deve ser adiado."
+   },
+   {
+    "f": "Paciente com suspeita de isquemia mesentérica tem creatinina elevada. Deve-se adiar a angiotomografia?",
+    "v": "Não. A função renal ruim não contraindica o exame nessa suspeita, pois o atraso pode permitir necrose intestinal."
+   },
+   {
+    "f": "Paciente tem suspeita de isquemia mesentérica aguda. Que suporte inicial deve receber?",
+    "v": "Reanimação, analgesia e sonda nasogástrica. O atendimento não deve esperar sinais de peritonite."
+   },
+   {
+    "f": "Paciente tem suspeita de isquemia mesentérica aguda. Que tratamento antimicrobiano iniciar?",
+    "v": "Antibiótico de amplo espectro."
+   },
+   {
+    "f": "Paciente tem suspeita de isquemia mesentérica aguda e não tem contraindicação à anticoagulação. Qual medicamento iniciar?",
+    "v": "Heparina em dose plena, logo que houver suspeita."
+   },
+   {
+    "f": "Paciente tem suspeita de isquemia mesentérica aguda. Quais equipes devem ser acionadas juntas?",
+    "v": "Cirurgia e equipe vascular. A avaliação conjunta permite planejar o controle da isquemia e da necrose."
+   },
+   {
+    "f": "Paciente com oclusão arterial mesentérica e peritonite vai à cirurgia. Qual é a ordem do tratamento?",
+    "v": "Revascularizar primeiro e depois ressecar o intestino morto."
+   },
+   {
+    "f": "Paciente operado por isquemia mesentérica tem alças de viabilidade duvidosa. O que fazer?",
+    "v": "Preservar essas alças e programar reexploração em 24–48 horas. A nova avaliação permite decidir o que realmente precisa ser ressecado."
+   },
+   {
+    "f": "Paciente tem trombose venosa mesentérica sem necrose nem peritonite. Qual é o tratamento?",
+    "v": "Anticoagulação. A cirurgia fica para peritonite ou piora apesar do tratamento."
+   },
+   {
+    "f": "Qual segmento intestinal costuma ser poupado na embolia da artéria mesentérica superior?",
+    "v": "O jejuno proximal. O êmbolo costuma parar depois da origem da artéria cólica média."
+   },
+   {
+    "f": "Um idoso vasculopata estável tem dor abdominal em cólica e, horas depois, diarreia com sangue. Qual diagnóstico é típico?",
+    "v": "Colite isquêmica."
+   },
+   {
+    "f": "Onde fica o ponto de Griffiths, área vulnerável à colite isquêmica?",
+    "v": "No ângulo esplênico. É uma área de irrigação limítrofe."
+   },
+   {
+    "f": "Onde fica o ponto de Sudeck, área vulnerável à colite isquêmica?",
+    "v": "Na transição retossigmoide. É uma área de irrigação limítrofe."
+   },
+   {
+    "f": "Qual segmento do intestino costuma ser poupado na colite isquêmica?",
+    "v": "O reto."
+   },
+   {
+    "f": "Paciente tem colite isquêmica sem gangrena, peritonite ou perfuração. Como tratar inicialmente?",
+    "v": "Com hidratação e repouso intestinal. Nos casos moderados ou graves, acrescentar antibiótico."
+   },
+   {
+    "f": "Paciente com colite isquêmica apresenta gangrena, peritonite ou perfuração. O que fazer?",
+    "v": "Cirurgia. Esses achados indicam complicação que não deve ser tratada apenas com suporte clínico."
+   },
+   {
+    "f": "Um idoso tem dor abdominal ou lombar súbita, hipotensão e massa pulsátil. Qual diagnóstico deve ser suspeitado?",
+    "v": "Aneurisma de aorta abdominal roto. Ele pode imitar cólica renal no idoso."
+   },
+   {
+    "f": "Paciente tem aneurisma de aorta abdominal roto e aguarda controle do sangramento. Qual estratégia de pressão usar?",
+    "v": "Hipotensão permissiva. Deve-se evitar normalizar a pressão até o controle do sangramento."
+   },
+   {
+    "f": "Qual é a causa mais comum de obstrução do intestino delgado?",
+    "v": "Bridas, ou aderências. São especialmente frequentes após cirurgia abdominal."
+   },
+   {
+    "f": "Paciente tem obstrução do delgado e nunca operou o abdome. O que procurar na avaliação inicial?",
+    "v": "Hérnias em todas as regiões herniárias e tumor, com tomografia. Bridas também ocorrem sem cirurgia prévia; operar depende da causa, dos sinais de sofrimento e da evolução."
+   },
+   {
+    "f": "Como se apresentam os vômitos e a distensão na obstrução alta do delgado?",
+    "v": "Vômitos precoces e pouca distensão abdominal."
+   },
+   {
+    "f": "Como se apresentam os vômitos e a distensão na obstrução baixa do delgado?",
+    "v": "Distensão importante e vômitos tardios. Os vômitos podem ser fecaloides."
+   },
+   {
+    "f": "Eliminar gases ou fezes exclui obstrução intestinal completa?",
+    "v": "Não, nem mesmo na obstrução completa no início. O grau da obstrução é definido pela imagem e pela evolução."
+   },
+   {
+    "f": "Paciente com obstrução intestinal passa a ter dor contínua, febre e taquicardia. O que fazer?",
+    "v": "Indicar cirurgia de urgência. São sinais de sofrimento da alça."
+   },
+   {
+    "f": "Paciente com obstrução intestinal apresenta hipotensão ou peritonite. O que fazer?",
+    "v": "Indicar cirurgia de urgência. Esses achados sugerem sofrimento intestinal."
+   },
+   {
+    "f": "Que alterações laboratoriais reforçam suspeita de sofrimento da alça na obstrução intestinal?",
+    "v": "Leucocitose e acidose. O lactato também pode estar elevado."
+   },
+   {
+    "f": "Na obstrução intestinal, o que sugere uma parede de alça que não capta contraste na TC?",
+    "v": "Sofrimento isquêmico da alça."
+   },
+   {
+    "f": "Paciente com obstrução tem alça fechada na TC. Qual é a conduta?",
+    "v": "Cirurgia de urgência. A alça fechada é um achado de risco de sofrimento intestinal."
+   },
+   {
+    "f": "Na obstrução intestinal, o que a presença de pneumatose na TC pode indicar?",
+    "v": "Sofrimento da alça. O gás na parede intestinal é um sinal de alerta para isquemia."
+   },
+   {
+    "f": "Paciente tem obstrução por bridas sem sinais de sofrimento. Qual tratamento inicial indicar?",
+    "v": "Jejum, sonda nasogástrica, hidratação e correção dos eletrólitos. É necessária reavaliação seriada."
+   },
+   {
+    "f": "Paciente com obstrução por bridas segue sem melhora durante tratamento clínico, sem piora antes disso. Quando operar?",
+    "v": "Em cerca de 72 horas sem melhora. Piora a qualquer momento indica cirurgia antes desse prazo."
+   },
+   {
+    "f": "Na obstrução por bridas, o contraste hidrossolúvel chegou ao cólon em 24 horas. O que isso indica?",
+    "v": "Maior chance de resolução sem cirurgia. A passagem do contraste tem valor prognóstico."
+   },
+   {
+    "f": "Qual padrão na TC favorece íleo paralítico em vez de obstrução mecânica?",
+    "v": "Ar no delgado e no cólon, sem ponto de transição."
+   },
+   {
+    "f": "Acima de qual calibre o intestino delgado é considerado dilatado pela regra 3-6-9?",
+    "v": "Acima de 3 cm."
+   },
+   {
+    "f": "Acima de qual calibre o cólon é considerado dilatado pela regra 3-6-9?",
+    "v": "Acima de 6 cm."
+   },
+   {
+    "f": "Acima de qual calibre o ceco é considerado dilatado pela regra 3-6-9?",
+    "v": "Acima de 9 cm."
+   },
+   {
+    "f": "Acima de qual calibre a dilatação do ceco indica risco de perfuração?",
+    "v": "Acima de 12 cm."
+   },
+   {
+    "f": "Como reconhecer alças de delgado pela posição e pelas pregas na radiografia?",
+    "v": "São centrais e têm pregas que cruzam toda a alça. O aspecto é de moedas empilhadas."
+   },
+   {
+    "f": "Como reconhecer o cólon pela posição e pelas pregas na radiografia?",
+    "v": "É periférico, formando uma moldura. As haustrações não cruzam toda a alça."
+   },
+   {
+    "f": "Qual é a causa mais comum de obstrução do cólon?",
+    "v": "Câncer colorretal, sobretudo do cólon esquerdo."
+   },
+   {
+    "f": "Paciente tem volvo de sigmoide sem sinais de sofrimento. Qual é o tratamento inicial?",
+    "v": "Destorção endoscópica e sonda retal para descompressão."
+   },
+   {
+    "f": "Paciente teve volvo de sigmoide destorcido por endoscopia. Qual tratamento programar se tiver condições?",
+    "v": "Sigmoidectomia na mesma internação. A recorrência após a destorção isolada é muito alta."
+   },
+   {
+    "f": "No Brasil, qual doença deve ser lembrada diante de volvo de sigmoide?",
+    "v": "Megacólon chagásico."
+   },
+   {
+    "f": "Paciente tem volvo de ceco. Qual é o tratamento?",
+    "v": "Cirurgia, com colectomia direita. A endoscopia raramente resolve."
+   },
+   {
+    "f": "O que é a síndrome de Ogilvie?",
+    "v": "Pseudo-obstrução do cólon. Há grande distensão, mas não há obstrução mecânica."
+   },
+   {
+    "f": "Em qual perfil de paciente ocorre tipicamente a síndrome de Ogilvie?",
+    "v": "Idoso internado. Pós-operatório, sepse, opioides e distúrbios eletrolíticos são contextos típicos."
+   },
+   {
+    "f": "Paciente tem síndrome de Ogilvie sem complicações. Qual é o tratamento inicial?",
+    "v": "Corrigir as causas, usar sonda e suspender opioides."
+   },
+   {
+    "f": "Paciente com síndrome de Ogilvie não melhorou com suporte inicial. Qual medicamento pode ser usado?",
+    "v": "Neostigmina. Deve ser administrada com monitorização e atropina à mão pelo risco de bradicardia."
+   },
+   {
+    "f": "Paciente com síndrome de Ogilvie precisa de descompressão após a etapa medicamentosa. Qual procedimento usar?",
+    "v": "Colonoscopia descompressiva."
+   },
+   {
+    "f": "Paciente com síndrome de Ogilvie apresenta isquemia, perfuração ou falha do tratamento. O que fazer?",
+    "v": "Cirurgia."
+   },
+   {
+    "f": "Qual diagnóstico é sugerido pelo sinal do redemoinho do mesentério na TC?",
+    "v": "Volvo. O sinal corresponde ao mesentério torcido."
+   },
+   {
+    "f": "Um paciente com colite grave tem cólon > 6 cm e toxemia. Qual é o diagnóstico?",
+    "v": "Megacólon tóxico. Pode ocorrer na retocolite ou na colite por Clostridioides difficile."
+   }
+  ]
+ }
+}

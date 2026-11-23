@@ -218,3 +218,29 @@ main { max-width: 1040px; margin: 0 auto; padding: 28px 16px 48px; outline: none
 
 .resumo-card { scroll-margin-top: 96px; }
 @media (max-width: 720px) { .resumo-card { scroll-margin-top: 140px; } }
+
+/* flashcards */
+.fc-lista { display: grid; gap: 12px; max-width: 620px; margin: 0 auto; }
+.fc-baralho { display: block; padding: 16px 20px; background: var(--cartao); border: 1px solid var(--linha); border-left: 3px solid var(--vinho); color: var(--tinta); text-decoration: none; }
+.fc-baralho b { display: block; font-size: 22px; font-weight: 500; }
+.fc-baralho span { color: var(--fraco); font-size: 15px; }
+.fc-topo { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; max-width: 620px; margin: 0 auto 10px; }
+.fc-topo a { text-decoration: none; }
+.fc-barra { max-width: 620px; margin: 0 auto; height: 4px; background: var(--linha); }
+.fc-barra span { display: block; height: 100%; background: var(--vinho); transition: width .25s; }
+.fc-conta { max-width: 620px; margin: 6px auto 14px; text-align: right; color: var(--fraco); font-size: 15px; }
+.fc-card { display: flex; flex-direction: column; justify-content: center; gap: 14px; width: 100%; max-width: 620px; min-height: 300px; margin: 0 auto;
+  padding: 28px 24px; background: var(--cartao); color: var(--tinta); border: 1px solid var(--filete); box-shadow: 0 10px 22px rgba(58,46,34,.14);
+  font: inherit; text-align: center; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+.fc-card.virado { background: #f8f3e7; border-top: 3px solid var(--vinho); }
+.fc-rot { font-variant: small-caps; letter-spacing: .16em; color: var(--vinho); font-size: 15px; }
+.fc-txt { font-size: 24px; line-height: 1.35; }
+.fc-card.virado .fc-txt { font-size: 21px; }
+.fc-dica { font-style: italic; color: var(--fraco); font-size: 15px; }
+.fc-pergunta { font-style: italic; color: var(--fraco); font-size: 15px; border-top: 1px solid var(--linha); padding-top: 10px; }
+.fc-acoes { display: grid; grid-template-columns: 1fr; gap: 10px; max-width: 620px; margin: 16px auto 24px; }
+.fc-acoes:has(> :nth-child(2)) { grid-template-columns: 1fr 1fr; }
+.fc-acoes .botao { justify-content: center; padding: 14px 16px; font-size: 18px; }
+.fc-fim { text-align: center; max-width: 620px; margin: 30px auto; }
+.fc-fim h1 { font-size: 56px; margin: 6px 0; }
+@media (max-width: 720px) { .fc-card { min-height: 260px; padding: 22px 18px; } .fc-txt { font-size: 21px; } .fc-card.virado .fc-txt { font-size: 19px; } }

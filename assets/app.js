@@ -7,6 +7,7 @@ const estado = {
   osce: { modo: "individual", fase: "pronto", resta: 0, leitura: 0 }, // abre em modo prova: checklist oculto até encerrar
   sim: null, // { temas, n, pool, idx, respostas, fim, inicio, fimEm }
   simConfig: { temas: [], n: 10 },
+  baralhos: {}, fc: null, // { id, fila, total, errou, virado }
 };
 const conteudo = document.getElementById("conteudo");
 
@@ -86,7 +87,7 @@ function telaResumos() {
         <h2>${esc(r.titulo)}</h2>
         <p class="sub">${esc(r.subtitulo)}</p>
         ${botoesResumo(id)}
-        <span class="acoes" style="margin-top:8px"><a href="#/questoes/${esc(id)}">Questões deste tema →</a></span>
+        <span class="acoes" style="margin-top:8px"><a href="#/questoes/${esc(id)}">Questões deste tema →</a>${estado.baralhos[id] ? `<a href="#/flashcards/${esc(id)}">Flashcards deste tema →</a>` : ""}</span>
         <small>Atualizado em ${dataCompleta(r.atualizado)}</small>
       </div>
     </article>`;
@@ -465,6 +466,14 @@ conteudo.addEventListener("click", (ev) => {
   const t = (sel) => ev.target.closest(sel);
   let el;
 
+  if (t("[data-fc-virar]") && estado.fc) { estado.fc.virado = !estado.fc.virado; render(); return; }
+  if ((el = t("[data-fc-resp]")) && estado.fc) {
+    const fc = estado.fc; const i = fc.fila.shift();
+    if (el.dataset.fcResp === "errei") { fc.errou.add(i); fc.fila.push(i); }
+    fc.virado = false; render(); return;
+  }
+  if (t("[data-fc-refazer]") && estado.fc) { iniciarBaralho(estado.fc.id); render(); return; }
+
   if ((el = t("[data-q][data-alt]"))) {
     const respostas = ler("toce-respostas", {});
     respostas[el.dataset.q] = Number(el.dataset.alt);
@@ -589,6 +598,55 @@ document.addEventListener("click", (ev) => {
   if (a) contar({ path: a.getAttribute("href"), title: "PDF", event: true });
 });
 
+
+/* ---------- flashcards ---------- */
+function iniciarBaralho(id) {
+  const n = estado.baralhos[id].length;
+  estado.fc = { id, fila: embaralhar([...Array(n).keys()]), total: n, errou: new Set(), virado: false };
+}
+function telaFlashLista() {
+  const feitos = ler("toce-flash", {});
+  const itens = Object.entries(estado.baralhos).map(([id, cards]) => {
+    const f = feitos[id];
+    return `<a class="fc-baralho" href="#/flashcards/${esc(id)}"><b>${esc(tituloTema(id))}</b><span>${cards.length} cards${f ? ` · última vez: ${f.primeira} de ${cards.length} de primeira` : ""}</span></a>`;
+  }).join("");
+  return `
+    ${abertura("Flashcards", "Revisão rápida", "Leia a pergunta, responda de cabeça e toque no card para ver a resposta. O que você errar volta no fim da rodada.")}
+    ${avisoCurto}
+    <section class="fc-lista">${itens}</section>`;
+}
+function telaFlash(id) {
+  if (!estado.baralhos[id]) { location.hash = "#/flashcards"; return ""; }
+  if (!estado.fc || estado.fc.id !== id) iniciarBaralho(id);
+  const fc = estado.fc; const cards = estado.baralhos[id];
+  const feitos = fc.total - new Set(fc.fila).size;
+  const topo = `<div class="fc-topo"><a href="#/flashcards">← Baralhos</a><span class="rotulo">${esc(tituloTema(id))}</span></div>`;
+  if (!fc.fila.length) {
+    const primeira = fc.total - fc.errou.size;
+    const feitosLS = ler("toce-flash", {}); feitosLS[id] = { primeira, em: new Date().toISOString().slice(0, 10) }; guardar("toce-flash", feitosLS);
+    return `${topo}
+      <section class="fc-fim">
+        <span class="rotulo">Baralho concluído</span>
+        <h1>${primeira} de ${fc.total}</h1>
+        <p>acertos de primeira${fc.errou.size ? ` · ${fc.errou.size} precisaram voltar` : " · nenhum erro"}</p>
+        <div class="acoes" style="justify-content:center"><button class="botao" data-fc-refazer="1">Fazer de novo</button><a class="botao claro" href="#/questoes/${esc(id)}">Questões deste tema</a></div>
+      </section>`;
+  }
+  const c = cards[fc.fila[0]];
+  return `${topo}
+    <div class="fc-barra"><span style="width:${pct(feitos, fc.total)}%"></span></div>
+    <p class="fc-conta">${feitos} de ${fc.total} · ${fc.fila.length} na fila</p>
+    <button class="fc-card${fc.virado ? " virado" : ""}" data-fc-virar="1" aria-live="polite">
+      <span class="fc-rot">${fc.virado ? "Resposta" : "Pergunta"}</span>
+      <span class="fc-txt">${esc(fc.virado ? c.v : c.f)}</span>
+      ${fc.virado ? `<span class="fc-pergunta">${esc(c.f)}</span>` : `<span class="fc-dica">toque para virar</span>`}
+    </button>
+    <div class="fc-acoes">${fc.virado
+      ? `<button class="botao claro" data-fc-resp="errei">Errei · volta no fim</button><button class="botao" data-fc-resp="sabia">Sabia</button>`
+      : `<button class="botao" data-fc-virar="1">Ver resposta</button>`}</div>
+    ${avisoCurto}`;
+}
+
 /* ---------- rotas ---------- */
 let rotaAnterior = "";
 function render() {
@@ -597,7 +655,7 @@ function render() {
   if (rota === "treino" || rota === "casos") { location.replace(`#/osce${parametro && parametro !== "tema" ? `/${parametro}` : ""}`); return; }
   if (hash !== rotaAnterior && rota === "osce") { pararRelogio(); estado.osce = { modo: estado.osce.modo, fase: "pronto", resta: 0, leitura: 0 }; }
   if (rota !== "osce") pararRelogio();
-  if (hash !== rotaAnterior) contar({ path: "#" + (hash || "/") });
+  if (hash !== rotaAnterior) { contar({ path: "#" + (hash || "/") }); if (rota === "flashcards" && parametro) estado.fc = null; }
   rotaAnterior = hash;
   let html;
   if (rota === "resumos") html = telaResumos();
@@ -605,6 +663,7 @@ function render() {
   else if (rota === "simulado") html = parametro === "prova" ? telaSimuladoProva() : telaSimuladoConfig();
   else if (rota === "osce") html = !parametro ? telaOsce() : estado.estacoes.some((x) => x.id === parametro) ? telaEstacao(parametro) : telaCaso(parametro);
   else if (rota === "desempenho") html = telaDesempenho();
+  else if (rota === "flashcards") html = parametro ? telaFlash(parametro) : telaFlashLista();
   else html = telaInicio();
   conteudo.innerHTML = html;
   if (rota === "resumos" && parametro) requestAnimationFrame(() => document.getElementById(`resumo-${parametro}`)?.scrollIntoView());
@@ -614,8 +673,9 @@ function render() {
 
 window.addEventListener("hashchange", () => { render(); window.scrollTo(0, 0); });
 
-Promise.all(["sessoes", "resumos", "questoes", "treino", "casos"].map((n) => fetch(`dados/${n}.json`).then((r) => r.json())))
-  .then(([s, r, q, t, c]) => {
+Promise.all(["sessoes", "resumos", "questoes", "treino", "casos", "flashcards"].map((n) => fetch(`dados/${n}.json`).then((r) => r.json())))
+  .then(([s, r, q, t, c, f]) => {
+    estado.baralhos = f.baralhos;
     estado.sessoes = s.sessoes; estado.resumos = r; estado.questoes = q.questoes; estado.estacoes = t.estacoes; estado.casos = c.casos;
     estado.simConfig.temas = Object.keys(r);
     render();
